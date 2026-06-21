@@ -30,7 +30,7 @@ jobs:
       - name: 날씨 스크래퍼 실행
         env:
           API_KEY: ${{ secrets.WEATHER_API_KEY }}
-        run: python weather_scraper.py
+        run: python weather.py
 
       - name: 결과 커밋 & 푸시
         run: |
