@@ -453,7 +453,7 @@
         "start": "01:00",
         "end": "02:00",
         "brand": "",
-        "product": "혈당유산균 HAC01 와이즈바이옴 당큐락",
+        "product": "유한양행 혈당유산균 HAC01 와이즈바이옴 당큐락",
         "price": 0,
         "link": "",
         "category": "건강식품"
@@ -462,7 +462,7 @@
         "start": "02:00",
         "end": "03:00",
         "brand": "",
-        "product": "솔트 스크럽 샴푸 기본 패키지",
+        "product": "스파 샴푸 1등 패키지",
         "price": 0,
         "link": "",
         "category": "미용"
@@ -471,7 +471,7 @@
         "start": "03:10",
         "end": "03:30",
         "brand": "",
-        "product": "올세인츠 판토 선글라스 ALS7022-1",
+        "product": "베라왕 시그니처 SIGNATURE 오벌 선글라스 VW538",
         "price": 0,
         "link": "",
         "category": "잡화/주얼리"
@@ -489,7 +489,7 @@
         "start": "03:50",
         "end": "04:30",
         "brand": "",
-        "product": "쏘울 25FW 핸드메이드 알파카 케이프 코트",
+        "product": "쏘울 25FW 핸드메이드 캐시 숄카라 코트",
         "price": 0,
         "link": "",
         "category": "의류"
@@ -498,7 +498,7 @@
         "start": "04:30",
         "end": "05:30",
         "brand": "",
-        "product": "이시형 박사의 두뇌엔 PS 진 8박스 포스파티딜세린",
+        "product": "이시형 박사의 두뇌엔 PS 진 16박스 포스파티딜세린",
         "price": 0,
         "link": "",
         "category": "건강식품"
@@ -516,7 +516,7 @@
         "start": "06:00",
         "end": "07:15",
         "brand": "",
-        "product": "에버콜라겐 스킨앤헤어 12박스 헤어콜라겐 모발콜라겐",
+        "product": "에버콜라겐 스킨앤헤어 6박스 헤어콜라겐 모발콜라겐",
         "price": 0,
         "link": "",
         "category": "건강식품"
@@ -525,7 +525,7 @@
         "start": "07:15",
         "end": "08:15",
         "brand": "",
-        "product": "최신상 시즌4 기미 앰플 1병",
+        "product": "최신상 시즌4 기미 앰플 3배 패키지",
         "price": 0,
         "link": "",
         "category": "미용"
@@ -534,7 +534,7 @@
         "start": "08:15",
         "end": "09:25",
         "brand": "",
-        "product": "제메이스 SILVER 925 이태리 총 24캐럿 테니스 목걸이 포나인 실버 2종 스네이크 목걸이팔찌 세트",
+        "product": "제메이스 SILVER 925 이태리 총 8캐럿 테니스 팔찌 포나인 실버 2종 스네이크 목걸이팔찌 세트",
         "price": 0,
         "link": "",
         "category": "잡화/주얼리"
@@ -543,7 +543,7 @@
         "start": "09:25",
         "end": "10:25",
         "brand": "",
-        "product": "엘르 ELLE 티타늄 오픈 선글라스 EL3005",
+        "product": "엘르 ELLE 솔텍스 선글라스 EL3006",
         "price": 0,
         "link": "",
         "category": "잡화/주얼리"
@@ -552,7 +552,7 @@
         "start": "10:25",
         "end": "11:35",
         "brand": "",
-        "product": "비에날씬 프로 다이어트 유산균",
+        "product": "비에날씬 프로 다이어트 유산균 9박스 플러스 60포",
         "price": 0,
         "link": "",
         "category": "건강식품"
@@ -561,7 +561,7 @@
         "start": "11:35",
         "end": "12:35",
         "brand": "",
-        "product": "AHC 2026 최신상 마스터즈 썬스틱 더블구성",
+        "product": "AHC 2026 최신상 마스터즈 썬스틱 기본구성",
         "price": 0,
         "link": "",
         "category": "미용"
@@ -597,16 +597,16 @@
         "start": "16:35",
         "end": "17:35",
         "brand": "",
-        "product": "하루틴 리포좀 멀티비타민 미네랄 병 패키지",
+        "product": "하루틴 손흥민 패키지 리포좀 미네랄 멀티 비타민 방송중 더 리포좀 글루타치온 3박스 유산균 알파 1박스",
         "price": 0,
         "link": "",
-        "category": "가전"
+        "category": "건강식품"
       },
       {
         "start": "17:35",
         "end": "18:35",
         "brand": "",
-        "product": "L카사베르디 와인비니거3",
+        "product": "L카사베르디 와인비니거8 디스펜서1",
         "price": 0,
         "link": "",
         "category": "건강식품"
@@ -624,7 +624,7 @@
         "start": "19:35",
         "end": "20:45",
         "brand": "",
-        "product": "코데즈컴바인 26Summer 스킨컬렉션 에어윈드 BB브라팬티 4세트",
+        "product": "코데즈컴바인 BB 라이크라 네모팬티 6종 세트",
         "price": 0,
         "link": "",
         "category": "언더웨어"
@@ -642,7 +642,7 @@
         "start": "22:55",
         "end": "23:55",
         "brand": "",
-        "product": "드리미 T16 올인원 물걸레청소기 25kPa 흡입력 건습식 겸용 9.85cm 초슬림 바디",
+        "product": "드리미 T16 폼워시 T16 Foamwash 폼나는 물걸레청소기 흡입 물걸레 2in1 국내 A/S",
         "price": 0,
         "link": "",
         "category": "가전"
@@ -651,7 +651,7 @@
         "start": "23:55",
         "end": "01:00",
         "brand": "",
-        "product": "팬암 26SS 최신상 반팔 티셔츠 4종 여성용",
+        "product": "팬암 26SS 최신상 반팔티셔츠 4종 남성용",
         "price": 0,
         "link": "",
         "category": "의류"
