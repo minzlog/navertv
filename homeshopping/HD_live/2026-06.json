@@ -194,9 +194,10 @@
         "start": "01:00",
         "end": "02:00",
         "brand": "닥터파이토",
-        "product": "파이토블락 코엔 삼백초 삼백초추출물 (LHF618) 더블구성 (6개월분)",
+        "product": "파이토블락 코엔 삼백초 삼백초추출물 더블구성",
         "price": 289000,
-        "link": "https://www.hmall.com/p/2232855706"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2232855706&preview=true",
+        "category": "건강식품"
       },
       {
         "start": "02:00",
@@ -204,23 +205,26 @@
         "brand": "어반어라운드",
         "product": "26SS 시스루 나일론 점퍼 1종",
         "price": 79000,
-        "link": "https://www.hmall.com/p/2250408819"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250408819&preview=true",
+        "category": "레포츠의류"
       },
       {
         "start": "02:50",
         "end": "03:30",
         "brand": "알레보",
-        "product": "디엣지 플러스 유리 밥용기 1+1세트(12P)_방송에서만",
+        "product": "디엣지 플러스 유리 밥용기 1 1세트_",
         "price": 59800,
-        "link": "https://www.hmall.com/p/2244486431"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244486431&preview=true",
+        "category": "주방용품"
       },
       {
         "start": "03:30",
         "end": "03:50",
         "brand": "라일앤스콧",
-        "product": "26SS 여성 크로셰 가디건 세트 2종 (슬리브리스 탑 + 반팔 가디건)",
+        "product": "26SS 여성 크로셰 가디건 세트 2종",
         "price": 129000,
-        "link": "https://www.hmall.com/p/2250594907"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250594907&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "03:50",
@@ -228,39 +232,44 @@
         "brand": "제이시글램",
         "product": "26SS 페이즐리 쉬폰 셔츠자켓 4종",
         "price": 39900,
-        "link": "https://www.hmall.com/p/2249325986"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249325986&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "04:30",
         "end": "05:20",
         "brand": "그릭데이",
-        "product": "그릭요거트 4종 16팩 패키지(시그니처/유자/피스타치오/무지방)+플레인요거트 900ml",
+        "product": "그릭요거트 4종 16팩 패키지 플레인요거트",
         "price": 53900,
-        "link": "https://www.hmall.com/p/2250420535"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250420535&preview=true",
+        "category": "일반식품"
       },
       {
         "start": "05:20",
         "end": "06:15",
         "brand": "크레송",
-        "product": "에르 블라우스 3종 ",
+        "product": "에르 블라우스 3종",
         "price": 49900,
-        "link": "https://www.hmall.com/p/2236193767"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2236193767&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "05:20",
         "end": "06:15",
         "brand": "오리지날리",
-        "product": "에슬레져 텐셀 에센셜 이지 셋업 [2종]",
+        "product": "에슬레져 텐셀 에센셜 이지 셋업",
         "price": 59900,
-        "link": "https://www.hmall.com/p/2251230860"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251230860&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "06:15",
         "end": "07:15",
         "brand": "신영와코루",
-        "product": "2026 감각미 인견100% 쿨 파자마 2SET(4종) (여성)",
+        "product": "2026 감각미 인견100% 쿨 파자마 2SET",
         "price": 79900,
-        "link": "https://www.hmall.com/p/2250779722"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250779722&preview=true",
+        "category": "언더웨어"
       },
       {
         "start": "07:15",
@@ -268,63 +277,71 @@
         "brand": "비버리힐스폴로클럽",
         "product": "비버리힐즈폴로클럽 26SS 여성 코튼린넨셔츠 2종",
         "price": 69900,
-        "link": "https://www.hmall.com/p/2251226085"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251226085&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "08:15",
         "end": "09:25",
         "brand": "골드라벨",
-        "product": "[NEW] 99.9 24K 순금 행운 볼 쌍반지",
+        "product": "99.9 24K 순금 행운 볼 쌍반지",
         "price": 599000,
-        "link": "https://www.hmall.com/p/2251443708"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251443708&preview=true",
+        "category": "쥬얼리"
       },
       {
         "start": "09:25",
         "end": "10:25",
         "brand": "뉴트리코어",
-        "product": "[18주 관리 프로그램] 뉴트리코어 하이퍼셀 NMN 잔주름케어 앰플 노화 디펜스 패키지(3박스)",
+        "product": "뉴트리코어 하이퍼셀 NMN 잔주름케어 앰플 노화 디펜스 패키지",
         "price": 299000,
-        "link": "https://www.hmall.com/p/2249983925"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249983925&preview=true",
+        "category": "미용"
       },
       {
         "start": "10:25",
         "end": "11:35",
         "brand": "담담",
-        "product": "마시는 하루견과 180ml 80팩",
+        "product": "마시는 하루견과 80팩",
         "price": 177000,
-        "link": "https://www.hmall.com/p/2247740535"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2247740535&preview=true",
+        "category": "건강식품"
       },
       {
         "start": "11:35",
         "end": "12:35",
         "brand": "고비",
-        "product": "[런칭가 299000원] 25SS 고비(GOBI) 실크캐시미어 5부 후드집업",
+        "product": "25SS 고비 실크캐시미어 5부 후드집업",
         "price": 239000,
-        "link": "https://www.hmall.com/p/2225569224"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2225569224&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "12:35",
         "end": "13:35",
         "brand": "동양생명",
-        "product": "(무)우리WON하는실속플러스하나로암보험",
+        "product": "우리WON하는실속플러스하나로암보험",
         "price": 1122330,
-        "link": "https://www.hmall.com/p/2250744876"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250744876&preview=true",
+        "category": "보험"
       },
       {
         "start": "13:35",
         "end": "14:30",
         "brand": "셀폰즈",
-        "product": "[매니아 패키지] 셀폰즈 고래펩타이드 녹는실 리프팅 앰플 3박스 (12회분)",
+        "product": "셀폰즈 고래펩타이드 녹는실 리프팅 앰플 3박스",
         "price": 199800,
-        "link": "https://www.hmall.com/p/2251482738"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251482738&preview=true",
+        "category": "미용"
       },
       {
         "start": "14:30",
         "end": "15:20",
         "brand": "라스튜디오",
-        "product": "[r.a studio] 라스튜디오 시어 크링클 블라우스+슬리브리스 5종",
+        "product": "라스튜디오 시어 크링클 블라우스 슬리브리스 5종",
         "price": 39900,
-        "link": "https://www.hmall.com/p/2249494209"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249494209&preview=true",
+        "category": "레포츠의류"
       },
       {
         "start": "15:20",
@@ -332,7 +349,8 @@
         "brand": "현대해상",
         "product": "두배받는암보험",
         "price": 1426314,
-        "link": "https://www.hmall.com/p/2206929114"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2206929114&preview=true",
+        "category": "보험"
       },
       {
         "start": "16:10",
@@ -340,23 +358,26 @@
         "brand": "이지듀",
         "product": "대웅제약 이지듀 EGF 코어 이펙트 스칼프 패밀리패키지",
         "price": 328000,
-        "link": "https://www.hmall.com/p/2245388793"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2245388793&preview=true",
+        "category": "미용"
       },
       {
         "start": "17:00",
         "end": "18:30",
         "brand": "박정수",
-        "product": "[올바른가] 명품장어 국내산 자포니카 민물장어 6미+소스4팩 (손질 후 1kg)",
+        "product": "명품장어 국내산 자포니카 민물장어 6미 소스4팩",
         "price": 45900,
-        "link": "https://www.hmall.com/p/2248763494"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248763494&preview=true",
+        "category": "일반식품"
       },
       {
         "start": "17:00",
         "end": "18:30",
         "brand": "대상",
-        "product": "[방송에서만]뉴케어 구수한맛 밸런스업 144팩",
+        "product": "뉴케어 구수한맛 밸런스업 144팩",
         "price": 289000,
-        "link": "https://www.hmall.com/p/2214209216"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2214209216&preview=true",
+        "category": "건강식품"
       },
       {
         "start": "18:30",
@@ -364,31 +385,35 @@
         "brand": "DB손해보험",
         "product": "나에게맞춘플러스간편건강보험",
         "price": 1268500,
-        "link": "https://www.hmall.com/p/2232380752"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2232380752&preview=true",
+        "category": "보험"
       },
       {
         "start": "19:30",
         "end": "21:45",
         "brand": "곡물도감",
-        "product": "무가당 서리태 가득 콩물 두유 총 90팩(총 6박스)",
+        "product": "무가당 서리태 가득 콩물 두유 총 90팩",
         "price": 129000,
-        "link": "https://www.hmall.com/p/2230220838"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2230220838&preview=true",
+        "category": "일반식품"
       },
       {
         "start": "19:30",
         "end": "21:45",
         "brand": "오늘설렘",
-        "product": "제주산 애플망고 2kg x 1박스(4∼7과)",
+        "product": "제주산 애플망고 x 1박스",
         "price": 89900,
-        "link": "https://www.hmall.com/p/2238033899"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2238033899&preview=true",
+        "category": "일반식품"
       },
       {
         "start": "19:30",
         "end": "21:45",
         "brand": "LG전자",
-        "product": "[황정민쇼30만원세일] (22+6형) LG 휘센 AI 오브제 뷰2 공기청정 에어컨 2in1 [FQ22GU2EA2] + LG뷰케이스",
+        "product": "LG 휘센 AI 오브제 뷰2 공기청정 에어컨 2in1 LG뷰케이스",
         "price": 3320000,
-        "link": "https://www.hmall.com/p/2251486009"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251486009&preview=true",
+        "category": "대형가전"
       },
       {
         "start": "21:45",
@@ -396,23 +421,26 @@
         "brand": "타파웨어",
         "product": "스마트그릴",
         "price": 159000,
-        "link": "https://www.hmall.com/p/2245424924"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2245424924&preview=true",
+        "category": "주방용품"
       },
       {
         "start": "22:55",
         "end": "23:55",
         "brand": "신영와코루",
-        "product": "2026 로맨틱블룸 레이스 풀커버 브라팬티 10종 (5SET)",
+        "product": "2026 로맨틱블룸 레이스 풀커버 브라팬티 10종",
         "price": 179000,
-        "link": "https://www.hmall.com/p/2247625804"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2247625804&preview=true",
+        "category": "언더웨어"
       },
       {
         "start": "23:55",
         "end": "01:00",
         "brand": "리파",
-        "product": "[기본구성] 리파 카사 M1 (색상선택) + M1 바운싱 크림",
+        "product": "리파 카사 M1 M1 바운싱 크림",
         "price": 135000,
-        "link": "https://www.hmall.com/p/2244972861"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244972861&preview=true",
+        "category": "미용"
       }
     ],
     "2026-06-23": [
@@ -422,79 +450,89 @@
         "brand": "테팔",
         "product": "와이드 플랜차 그릴",
         "price": 258000,
-        "link": "https://www.hmall.com/p/2242441968"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2242441968&preview=true",
+        "category": "소형가전"
       },
       {
         "start": "01:00",
         "end": "02:00",
         "brand": "심플휴먼",
-        "product": "디럭스 와이드 식기건조대 풀세트 ",
+        "product": "디럭스 와이드 식기건조대 풀세트",
         "price": 279000,
-        "link": "https://www.hmall.com/p/2251457127"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251457127&preview=true",
+        "category": ""
       },
       {
         "start": "02:00",
         "end": "03:00",
         "brand": "삼성",
-        "product": "[무이자60개월][세일] 삼성 AI Mini LED TV 85형 [KU85MH80AFXKR] (사은품 : 삼성 사운드바)",
+        "product": "삼성 AI Mini LED TV 85형",
         "price": 3090000,
-        "link": "https://www.hmall.com/p/2251155372"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251155372&preview=true",
+        "category": ""
       },
       {
         "start": "03:00",
         "end": "03:40",
         "brand": "이상봉",
-        "product": "[방송에서만 이구성]이상봉에디션 26SS 벨라 선글라스 + 미니 크로스백",
+        "product": "이상봉에디션 26SS 벨라 선글라스 미니 크로스백",
         "price": 49900,
-        "link": "https://www.hmall.com/p/2250279795"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250279795&preview=true",
+        "category": "패션잡화"
       },
       {
         "start": "03:40",
         "end": "04:10",
         "brand": "베스트하임",
-        "product": "제스톰 보냉 스텐무선텀블러 믹서기 플러스 1+1세트 (동일색상 발송)",
+        "product": "제스톰 보냉 스텐무선텀블러 믹서기 플러스 1 1세트",
         "price": 109000,
-        "link": "https://www.hmall.com/p/2250600859"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250600859&preview=true",
+        "category": "소형가전"
       },
       {
         "start": "04:10",
         "end": "04:50",
         "brand": "셀폰즈",
-        "product": "[매니아 패키지] 셀폰즈 고래펩타이드 녹는실 리프팅 앰플 3BOX (12주분)",
+        "product": "셀폰즈 고래펩타이드 녹는실 리프팅 앰플 3BOX",
         "price": 199800,
-        "link": "https://www.hmall.com/p/2247417447"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2247417447&preview=true",
+        "category": "미용"
       },
       {
         "start": "04:50",
         "end": "05:20",
         "brand": "엘르",
-        "product": "[ELLE] 26SS 엘르 나일론 시어 윈드 점퍼 1종",
+        "product": "26SS 엘르 나일론 시어 윈드 점퍼 1종",
         "price": 39900,
-        "link": "https://www.hmall.com/p/2249387968"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249387968&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "05:20",
         "end": "06:15",
         "brand": "울시",
-        "product": "[26SS최신상][Wolsey] 울시 여성 썸머 가디건 2종 (공통 네이비+선택 컬러)",
+        "product": "울시 여성 썸머 가디건 2종",
         "price": 79900,
-        "link": "https://www.hmall.com/p/2251088287"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251088287&preview=true",
+        "category": "레포츠의류"
       },
       {
         "start": "06:15",
         "end": "07:15",
         "brand": "욕실의여왕",
-        "product": "[욕실의 여왕] 탈취제 더블세트 20개",
+        "product": "탈취제 더블세트 20개",
         "price": 89800,
-        "link": "https://www.hmall.com/p/2235606746"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2235606746&preview=true",
+        "category": "생활용품"
       },
       {
         "start": "07:15",
         "end": "08:15",
         "brand": "리더스",
-        "product": "[론칭방송 전체매진][Leaders]리더스 PDRN 아이백 크림 명품언니 패키지",
+        "product": "리더스 PDRN 아이백 크림 명품언니 패키지",
         "price": 109000,
-        "link": "https://www.hmall.com/p/2251419744"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251419744&preview=true",
+        "category": "미용"
       },
       {
         "start": "08:15",
@@ -502,95 +540,107 @@
         "brand": "이상봉",
         "product": "에디션 26SS 플라워 플리츠 셔츠 자켓",
         "price": 49900,
-        "link": "https://www.hmall.com/p/2250951552"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250951552&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "08:15",
         "end": "10:25",
         "brand": "에바큐브",
-        "product": "[런칭가349000원] 에바큐브 25SS 쉬폰 플리츠 자켓",
+        "product": "에바큐브 25SS 쉬폰 플리츠 자켓",
         "price": 249000,
-        "link": "https://www.hmall.com/p/2229783042"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2229783042&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "10:25",
         "end": "11:35",
         "brand": "루나앤슬립",
-        "product": "[방송에서만 6종] 일상냉감 패드 2장(킹K)+냉감 베개커버 4장",
+        "product": "일상냉감 패드 2장 냉감 베개커버 4장",
         "price": 79900,
-        "link": "https://www.hmall.com/p/2251355553"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251355553&preview=true",
+        "category": "인테리어/침구"
       },
       {
         "start": "11:35",
         "end": "12:35",
         "brand": "엠유스포츠",
-        "product": "[MU SPORTS] 엠유 에센셜 배색 스트라이프 카라니트 1종",
+        "product": "엠유 에센셜 배색 스트라이프 카라니트 1종",
         "price": 89000,
-        "link": "https://www.hmall.com/p/2250621254"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250621254&preview=true",
+        "category": "레포츠의류"
       },
       {
         "start": "12:35",
         "end": "13:25",
         "brand": "삼성",
-        "product": "[무이자60개월] 삼성 비스포크 AI 냉장고 4도어 905L [RM70F90R2W]",
+        "product": "삼성 비스포크 AI 냉장고 4도어",
         "price": 2090000,
-        "link": "https://www.hmall.com/p/2232860509"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2232860509&preview=true",
+        "category": ""
       },
       {
         "start": "13:25",
         "end": "14:05",
         "brand": "AIA생명",
-        "product": "(무)원스톱프리미엄암보험",
+        "product": "원스톱프리미엄암보험",
         "price": 1285270,
-        "link": "https://www.hmall.com/p/2244486170"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244486170&preview=true",
+        "category": "보험"
       },
       {
         "start": "14:05",
         "end": "14:55",
         "brand": "페츠모아",
-        "product": "냄새잡는 요술 배변패드 울트라 표준형 400매 (100매 x 4팩)",
+        "product": "냄새잡는 요술 배변패드 울트라 표준형 400매",
         "price": 59000,
-        "link": "https://www.hmall.com/p/2226506040"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2226506040&preview=true",
+        "category": "문화/스포츠"
       },
       {
         "start": "14:55",
         "end": "15:50",
         "brand": "에스더포뮬러",
-        "product": "여에스더 PS 포스파티딜세린 10박스(20주분) + 블루베리 1박스",
+        "product": "여에스더 PS 포스파티딜세린 10박스 블루베리 1박스",
         "price": 89000,
-        "link": "https://www.hmall.com/p/2249330456"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249330456&preview=true",
+        "category": "건강식품"
       },
       {
         "start": "15:50",
         "end": "16:40",
         "brand": "에이스바이옴",
-        "product": "[현대단독] 패밀리세트 비에날씬 프로 12박스+비에날퀸 1박스+비에날씬 플러스 1박스",
+        "product": "패밀리세트 비에날씬 프로 12박스 비에날퀸 1박스 비에날씬 플러스 1박스",
         "price": 699000,
-        "link": "https://www.hmall.com/p/2248968602"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248968602&preview=true",
+        "category": "건강식품"
       },
       {
         "start": "16:40",
         "end": "17:30",
         "brand": "김도윤셰프",
-        "product": "일품 우리밀 골동면 10인분 세트 (골동면+골동채+특제소스+들기름+김과참깨후레이크)",
+        "product": "일품 우리밀 골동면 10인분 세트",
         "price": 59900,
-        "link": "https://www.hmall.com/p/2251352256"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251352256&preview=true",
+        "category": "일반식품"
       },
       {
         "start": "17:30",
         "end": "18:30",
         "brand": "흥국화재",
-        "product": "(무)흥Good 든든한 3N5 간편종합보험(치료비+생활비플랜)",
+        "product": "흥Good 든든한 3N5 간편종합보험",
         "price": 1304800,
-        "link": "https://www.hmall.com/p/2248871590"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248871590&preview=true",
+        "category": "보험"
       },
       {
         "start": "18:30",
         "end": "19:30",
         "brand": "워터픽",
-        "product": "무선 세트구성 WP-660K+WF-10K (팁케이스 증정)",
+        "product": "무선 세트구성 WP-660K WF-10K",
         "price": 209000,
-        "link": "https://www.hmall.com/p/2249906341"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249906341&preview=true",
+        "category": "소형가전"
       },
       {
         "start": "19:30",
@@ -598,7 +648,8 @@
         "brand": "그라놀로지",
         "product": "저당 프로틴 그래놀라 오감쇼 패키지",
         "price": 79900,
-        "link": "https://www.hmall.com/p/2251424280"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251424280&preview=true",
+        "category": "일반식품"
       },
       {
         "start": "19:30",
@@ -606,15 +657,17 @@
         "brand": "혼다타월",
         "product": "일본 카야행주 10장",
         "price": 69800,
-        "link": "https://www.hmall.com/p/2251085906"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251085906&preview=true",
+        "category": ""
       },
       {
         "start": "19:30",
         "end": "21:45",
         "brand": "베른데스",
-        "product": "[백화점 동일상품/10만원 파워세일] 독일 베른데스 b.smart 블랙라벨 IH 프라이팬 세트 ",
+        "product": "독일 베른데스 b.smart 블랙라벨 IH 프라이팬 세트",
         "price": 179000,
-        "link": "https://www.hmall.com/p/2251524868"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251524868&preview=true",
+        "category": "주방용품"
       },
       {
         "start": "19:30",
@@ -622,31 +675,35 @@
         "brand": "그라놀로지",
         "product": "저당 프로틴 그래놀라 시그니쳐 4박스",
         "price": 79900,
-        "link": "https://www.hmall.com/p/2251507337"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251507337&preview=true",
+        "category": "건강식품"
       },
       {
         "start": "19:30",
         "end": "21:45",
         "brand": "베른데스",
-        "product": "[단품] 독일 베른데스 b.smart 블랙라벨 IH 28cm 궁중팬",
+        "product": "독일 베른데스 b.smart 블랙라벨 IH 28cm 궁중팬",
         "price": 118000,
-        "link": "https://www.hmall.com/p/2250836239"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250836239&preview=true",
+        "category": ""
       },
       {
         "start": "21:45",
         "end": "22:55",
         "brand": "베네통",
-        "product": "[런칭가129900] 베네통 프레시쿨 인견 브라팬티 5세트(10종) ",
+        "product": "베네통 프레시쿨 인견 브라팬티 5세트",
         "price": 129900,
-        "link": "https://www.hmall.com/p/2250343023"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250343023&preview=true",
+        "category": "언더웨어"
       },
       {
         "start": "22:55",
         "end": "23:55",
         "brand": "켈리함",
-        "product": "(총 12박스) 오리진 캐나다 야생 블루베리 100% 10박스+2박스 (30gx15포x12박스)",
+        "product": "오리진 캐나다 야생 블루베리 100% 10박스 2박스",
         "price": 249000,
-        "link": "https://www.hmall.com/p/2249680931"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249680931&preview=true",
+        "category": "건강식품"
       },
       {
         "start": "23:55",
@@ -654,7 +711,8 @@
         "brand": "코이",
         "product": "솔리드 단백질 크림 최대용량패키지",
         "price": 199000,
-        "link": "https://www.hmall.com/p/2251342201"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251342201&preview=true",
+        "category": "미용"
       }
     ],
     "2026-06-24": [
@@ -664,15 +722,17 @@
         "brand": "프리마클라쎄",
         "product": "NEW 페이퍼얀 가디건 1종",
         "price": 129000,
-        "link": "https://www.hmall.com/p/2251029548"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251029548&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "02:00",
         "end": "03:00",
         "brand": "아이그너",
-        "product": "[생방중에만 5만원 세일] 아이그너 26SS 크로쉐 후드 점퍼",
+        "product": "아이그너 26SS 크로쉐 후드 점퍼",
         "price": 199000,
-        "link": "https://www.hmall.com/p/2249663479"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249663479&preview=true",
+        "category": "레포츠의류"
       },
       {
         "start": "03:00",
@@ -680,23 +740,26 @@
         "brand": "서포트라이트",
         "product": "레나 라운드 변색 선글라스",
         "price": 99000,
-        "link": "https://www.hmall.com/p/2248339572"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248339572&preview=true",
+        "category": "패션잡화"
       },
       {
         "start": "03:20",
         "end": "04:20",
         "brand": "렌지프로",
-        "product": "[인기][요즘핫템]렌지프로 히팅 그릴앤팟 전자레인지 조리기 풀세트(방송에서만 멀티팟까지)",
+        "product": "렌지프로 히팅 그릴앤팟 전자레인지 조리기 풀세트",
         "price": 109000,
-        "link": "https://www.hmall.com/p/2251582787"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251582787&preview=true",
+        "category": "주방용품"
       },
       {
         "start": "04:20",
         "end": "05:20",
         "brand": "머티리얼랩",
-        "product": "[살안타템]머티리얼랩 26SS 60수 시어코튼 블라우스",
+        "product": "머티리얼랩 26SS 60수 시어코튼 블라우스",
         "price": 79900,
-        "link": "https://www.hmall.com/p/2249502086"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249502086&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "05:20",
@@ -704,23 +767,26 @@
         "brand": "애플라인드",
         "product": "26SS 여성 인견 썸머 쿨니트 3종",
         "price": 89900,
-        "link": "https://www.hmall.com/p/2250420359"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250420359&preview=true",
+        "category": "레포츠의류"
       },
       {
         "start": "06:15",
         "end": "07:15",
         "brand": "닥터린",
-        "product": "[방송에서만]닥터린 하이퍼셀 대마종자유 12개월+6개월분",
+        "product": "닥터린 하이퍼셀 대마종자유",
         "price": 298000,
-        "link": "https://www.hmall.com/p/2247060956"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2247060956&preview=true",
+        "category": "건강식품"
       },
       {
         "start": "07:15",
         "end": "08:15",
         "brand": "알레보",
-        "product": "디엣지 플러스 유리 밥용기 1+1세트(12P+찜용기)_방송에서만",
+        "product": "디엣지 플러스 유리 밥용기 1 1세트_",
         "price": 59800,
-        "link": "https://www.hmall.com/p/2250158734"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250158734&preview=true",
+        "category": "주방용품"
       },
       {
         "start": "08:15",
@@ -728,7 +794,8 @@
         "brand": "어드림오브씨드",
         "product": "26SS 코튼테리 셋업",
         "price": 215000,
-        "link": "https://www.hmall.com/p/2250572980"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250572980&preview=true",
+        "category": ""
       },
       {
         "start": "08:15",
@@ -736,63 +803,71 @@
         "brand": "머티리얼랩",
         "product": "26SS 이집트GIZA코튼 스트라이프 반팔 니트",
         "price": 79000,
-        "link": "https://www.hmall.com/p/2249194208"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249194208&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "08:15",
         "end": "10:25",
         "brand": "로얄메르",
-        "product": "26SS 스트라이프 + 솔리드 티셔츠 총 2종",
+        "product": "26SS 스트라이프 솔리드 티셔츠 총 2종",
         "price": 89000,
-        "link": "https://www.hmall.com/p/2249510193"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249510193&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "08:15",
         "end": "10:25",
         "brand": "라일앤스콧",
-        "product": "26SS 여성 크로셰 가디건 세트 2종 (슬리브리스 탑 + 반팔 가디건)",
+        "product": "26SS 여성 크로셰 가디건 세트 2종",
         "price": 129000,
-        "link": "https://www.hmall.com/p/2250594907"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250594907&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "10:25",
         "end": "11:35",
         "brand": "",
-        "product": "디아넬로 18K 프리즘 컷팅 쌍지+(방송) 테니스 쌍지+진주목걸이+로마뱅글팔찌+9999실버 2개찬스",
+        "product": "디아넬로 18K 프리즘 컷팅 쌍지 테니스 쌍지 진주목걸이 로마뱅글팔찌 9999실버 2개찬스",
         "price": 868000,
-        "link": "https://www.hmall.com/p/2251578283"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251578283&preview=true",
+        "category": "쥬얼리"
       },
       {
         "start": "11:35",
         "end": "12:35",
         "brand": "에이앤디",
-        "product": "[AnD] 에이앤디 26SS 컴포트핏 나일론 자켓 1종",
+        "product": "에이앤디 26SS 컴포트핏 나일론 자켓 1종",
         "price": 39900,
-        "link": "https://www.hmall.com/p/2248863697"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248863697&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "11:35",
         "end": "12:35",
         "brand": "이상봉",
-        "product": "[론칭가 69900원]이상봉에디션 26SS 소로나 레이어 블라우스",
+        "product": "이상봉에디션 26SS 소로나 레이어 블라우스",
         "price": 49900,
-        "link": "https://www.hmall.com/p/2249534265"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249534265&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "12:35",
         "end": "13:35",
         "brand": "하루틴",
-        "product": "[S][하루틴]프리미엄 리포좀 비타민C 프로 12+3개월분 + 글루타치온스틱 3박스",
+        "product": "프리미엄 리포좀 비타민C 프로 글루타치온스틱 3박스",
         "price": 209000,
-        "link": "https://www.hmall.com/p/2251419693"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251419693&preview=true",
+        "category": "건강식품"
       },
       {
         "start": "13:35",
         "end": "14:35",
         "brand": "뼈엔MBP",
-        "product": "뼈엔 엠비피 MBP 1개월분(130mgX30캡슐X1박스)",
+        "product": "뼈엔 엠비피 MBP",
         "price": 69000,
-        "link": "https://www.hmall.com/p/2147385135"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2147385135&preview=true",
+        "category": "건강식품"
       },
       {
         "start": "14:35",
@@ -800,23 +875,26 @@
         "brand": "플리츠미",
         "product": "26SS 슈링크 코튼 블라우스",
         "price": 89000,
-        "link": "https://www.hmall.com/p/2251046145"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251046145&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "15:30",
         "end": "16:30",
         "brand": "덴프스",
-        "product": "[TV] 덴프스 덴마크 유산균 이야기 6박스(12개월분)",
+        "product": "덴프스 덴마크 유산균 이야기 6박스",
         "price": 198000,
-        "link": "https://www.hmall.com/p/2148994586"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2148994586&preview=true",
+        "category": "건강식품"
       },
       {
         "start": "16:30",
         "end": "17:30",
         "brand": "신한생명",
-        "product": " 신한라이프 케어받는 암보험",
+        "product": "신한라이프 케어받는 암보험",
         "price": 2105960,
-        "link": "https://www.hmall.com/p/2250652443"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250652443&preview=true",
+        "category": "보험"
       },
       {
         "start": "17:30",
@@ -824,55 +902,62 @@
         "brand": "비버리힐스폴로클럽",
         "product": "비버리힐즈폴로클럽 26SS 여성 반팔 케이블니트 3종",
         "price": 89900,
-        "link": "https://www.hmall.com/p/2250290372"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250290372&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "18:30",
         "end": "19:30",
         "brand": "흥국화재",
-        "product": "암진단+비급여항암 3·1·10 플랜 (흥국화재 흥Good 든든한3N5 종합보험)",
+        "product": "암진단 비급여항암 3·1·10 플랜",
         "price": 1524900,
-        "link": "https://www.hmall.com/p/2250757821"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250757821&preview=true",
+        "category": "GA"
       },
       {
         "start": "19:30",
         "end": "20:45",
         "brand": "아이그너",
-        "product": "[빅히트 재입고] 아이그너 26SS 심볼 프린트 티셔츠",
+        "product": "아이그너 26SS 심볼 프린트 티셔츠",
         "price": 99000,
-        "link": "https://www.hmall.com/p/2249206353"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249206353&preview=true",
+        "category": "레포츠의류"
       },
       {
         "start": "20:45",
         "end": "21:45",
         "brand": "에이스바이옴",
-        "product": "[더현대적인] 비에날씬 프로 12박스+비에날퀸 1박스+플러스 1박스(10포)+사은품 라쿠진 미니 제습기",
+        "product": "비에날씬 프로 12박스 비에날퀸 1박스 플러스 1박스",
         "price": 699000,
-        "link": "https://www.hmall.com/p/2244836050"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244836050&preview=true",
+        "category": "건강식품"
       },
       {
         "start": "21:45",
         "end": "22:55",
         "brand": "베라왕",
-        "product": "[방송에서만 이 구성] 베라왕 벨라 변색 선글라스+가방(VW536)",
+        "product": "베라왕 벨라 변색 선글라스 가방",
         "price": 69000,
-        "link": "https://www.hmall.com/p/2250177588"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250177588&preview=true",
+        "category": "패션잡화"
       },
       {
         "start": "22:55",
         "end": "23:55",
         "brand": "구함",
-        "product": "[현대최초공개][구함] 멜팅 버블 클렌저 기본패키지 (클렌저 150ml 4통 + 듀얼핏탄력크림 50ml 1통)",
+        "product": "멜팅 버블 클렌저 기본패키지",
         "price": 105000,
-        "link": "https://www.hmall.com/p/2251453190"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251453190&preview=true",
+        "category": "미용"
       },
       {
         "start": "23:55",
         "end": "01:00",
         "brand": "세포랩",
-        "product": "[6월 중 마지막] 세포랩 바이오제닉 에센스 풀 패키지 (155mlX4+100mlX1+30mlX4)",
+        "product": "세포랩 바이오제닉 에센스 풀 패키지",
         "price": 279000,
-        "link": "https://www.hmall.com/p/2242270399"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2242270399&preview=true",
+        "category": "미용"
       }
     ],
     "2026-06-25": [
@@ -880,9 +965,10 @@
         "start": "01:00",
         "end": "01:50",
         "brand": "엔알랩",
-        "product": "[입문패키지]엔알랩 NR 광노화케어 무기자차 선크림",
+        "product": "엔알랩 NR 광노화케어 무기자차 선크림",
         "price": 99000,
-        "link": "https://www.hmall.com/p/2236094543"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2236094543&preview=true",
+        "category": "미용"
       },
       {
         "start": "01:50",
@@ -890,7 +976,8 @@
         "brand": "V1969",
         "product": "V19.69 ITALIA 마테라 골드버튼 베스트",
         "price": 89000,
-        "link": "https://www.hmall.com/p/2250917693"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250917693&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "02:40",
@@ -898,63 +985,71 @@
         "brand": "디아루체",
         "product": "26 SS 드로우스트링 시어서커 원피스",
         "price": 89900,
-        "link": "https://www.hmall.com/p/2250162287"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250162287&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "03:50",
         "end": "04:40",
         "brand": "안유성명장",
-        "product": "가매 일품 깐새우장 세트 (750gx5통 총100마리)",
+        "product": "가매 일품 깐새우장 세트",
         "price": 59900,
-        "link": "https://www.hmall.com/p/2239817699"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2239817699&preview=true",
+        "category": "일반식품"
       },
       {
         "start": "04:40",
         "end": "05:20",
         "brand": "글랜젠데스 하르",
-        "product": "[상반기 단한번][글랜젠데스하르] 독일산 맥주효모 100000ppm 탈모 샴푸 방송에서만 구성",
+        "product": "독일산 맥주효모 100000ppm 탈모 샴푸 구성",
         "price": 39900,
-        "link": "https://www.hmall.com/p/2251420191"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251420191&preview=true",
+        "category": "미용"
       },
       {
         "start": "05:20",
         "end": "06:15",
         "brand": "닥터오기덤",
-        "product": "[1매당 489원] 닥터오기덤 마스크팩 방송에서만 구매 가능 구성",
+        "product": "닥터오기덤 마스크팩 구매 가능 구성",
         "price": 49900,
-        "link": "https://www.hmall.com/p/2250428016"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250428016&preview=true",
+        "category": "미용"
       },
       {
         "start": "06:15",
         "end": "08:15",
         "brand": "엘르",
-        "product": "[론칭가 79900원][ELLE] 26SS 엘르 자카드 레이온 니트탑 3종",
+        "product": "26SS 엘르 자카드 레이온 니트탑 3종",
         "price": 39900,
-        "link": "https://www.hmall.com/p/2249387119"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249387119&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "08:15",
         "end": "10:25",
         "brand": "신일",
-        "product": "[1등급] 26년형 신일 20L 상부형 제습기 SDH-3G5QP ",
+        "product": "26년형 신일 상부형 제습기 SDH-3G5QP",
         "price": 519000,
-        "link": "https://www.hmall.com/p/2251329642"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251329642&preview=true",
+        "category": "소형가전"
       },
       {
         "start": "08:15",
         "end": "10:25",
         "brand": "농협안심한우",
-        "product": "[황쇼패키지] 농협안심한우 1++ 한우 프리미엄 세트 1kg (꽃갈비살 +등심 +채끝 +업진안살 +불고기)",
+        "product": "농협안심한우 1 한우 프리미엄 세트",
         "price": 119000,
-        "link": "https://www.hmall.com/p/2233153466"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2233153466&preview=true",
+        "category": "일반식품"
       },
       {
         "start": "08:15",
         "end": "10:25",
         "brand": "신일",
-        "product": "26년형 신일 20L 상부형 1등급 제습기 SDH-3G5QP ",
+        "product": "26년형 신일 상부형 1등급 제습기 SDH-3G5QP",
         "price": 519000,
-        "link": "https://www.hmall.com/p/2251337368"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251337368&preview=true",
+        "category": "소형가전"
       },
       {
         "start": "10:25",
@@ -962,7 +1057,8 @@
         "brand": "디아루체",
         "product": "썸머 시스루 스트라이프 시어 셔츠 3종",
         "price": 69900,
-        "link": "https://www.hmall.com/p/2251431465"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251431465&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "12:25",
@@ -970,31 +1066,35 @@
         "brand": "지프",
         "product": "26SS 썸머 벤테라 샌들 스니커즈 여성용",
         "price": 69800,
-        "link": "https://www.hmall.com/p/2251358016"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251358016&preview=true",
+        "category": "패션잡화"
       },
       {
         "start": "14:55",
         "end": "15:45",
         "brand": "나에노",
-        "product": "[총 30L] 나에노 럭스클린 라일락 세탁세제 8통+섬유유연제 2통",
+        "product": "나에노 럭스클린 라일락 세탁세제 8통 섬유유연제 2통",
         "price": 59800,
-        "link": "https://www.hmall.com/p/2244419788"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244419788&preview=true",
+        "category": "생활용품"
       },
       {
         "start": "15:45",
         "end": "16:35",
         "brand": "동양생명",
-        "product": "(무)우리WON하는실속플러스하나로암보험",
+        "product": "우리WON하는실속플러스하나로암보험",
         "price": 1122330,
-        "link": "https://www.hmall.com/p/2250744876"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250744876&preview=true",
+        "category": "보험"
       },
       {
         "start": "17:30",
         "end": "18:30",
         "brand": "신한생명",
-        "product": " 신한라이프 케어받는 암보험",
+        "product": "신한라이프 케어받는 암보험",
         "price": 2105960,
-        "link": "https://www.hmall.com/p/2250652443"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250652443&preview=true",
+        "category": "보험"
       },
       {
         "start": "18:30",
@@ -1002,7 +1102,8 @@
         "brand": "라우라비아조띠",
         "product": "라우라비아조티 26SS 핀턱 러플 블라우스",
         "price": 159000,
-        "link": "https://www.hmall.com/p/2250323676"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250323676&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "19:35",
@@ -1010,31 +1111,35 @@
         "brand": "타파웨어",
         "product": "밀폐용기 2026년 원터치프레시 풀세트 24개 48pcs",
         "price": 189000,
-        "link": "https://www.hmall.com/p/2231286781"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2231286781&preview=true",
+        "category": "주방용품"
       },
       {
         "start": "20:45",
         "end": "21:45",
         "brand": "담담",
-        "product": "마시는 하루견과 180ml 80팩",
+        "product": "마시는 하루견과 80팩",
         "price": 177000,
-        "link": "https://www.hmall.com/p/2247740535"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2247740535&preview=true",
+        "category": "건강식품"
       },
       {
         "start": "22:55",
         "end": "23:55",
         "brand": "흥국화재",
-        "product": "(무)흥Good 든든한 3N5 간편종합보험(치료비+생활비플랜)",
+        "product": "흥Good 든든한 3N5 간편종합보험",
         "price": 1304800,
-        "link": "https://www.hmall.com/p/2248871590"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248871590&preview=true",
+        "category": "보험"
       },
       {
         "start": "23:55",
         "end": "01:00",
         "brand": "이지듀",
-        "product": "HOT신상 무더위 매쉬쿠션 론칭패키지 ",
+        "product": "HOT신상 무더위 매쉬쿠션 론칭패키지",
         "price": 99000,
-        "link": "https://www.hmall.com/p/2251361935"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251361935&preview=true",
+        "category": "미용"
       }
     ],
     "2026-06-26": [
@@ -1042,57 +1147,64 @@
         "start": "03:00",
         "end": "03:30",
         "brand": "베스트하임",
-        "product": "제스톰 보냉 스텐무선텀블러 믹서기 플러스 1+1세트 (동일색상 발송)",
+        "product": "제스톰 보냉 스텐무선텀블러 믹서기 플러스 1 1세트",
         "price": 109000,
-        "link": "https://www.hmall.com/p/2250600859"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250600859&preview=true",
+        "category": "소형가전"
       },
       {
         "start": "03:30",
         "end": "03:50",
         "brand": "디아루체",
-        "product": "[론칭가 69900원] 디아루체 26 SS 리버서블 소가죽 벨트 ",
+        "product": "디아루체 26 SS 리버서블 소가죽 벨트",
         "price": 49900,
-        "link": "https://www.hmall.com/p/2248939086"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248939086&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "03:50",
         "end": "04:30",
         "brand": "앤앤에프",
-        "product": "[Now n Forever] NnF 26SS 여성 슬럽 점퍼 1종[N603W]",
+        "product": "NnF 26SS 여성 슬럽 점퍼 1종",
         "price": 39900,
-        "link": "https://www.hmall.com/p/2250723068"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250723068&preview=true",
+        "category": ""
       },
       {
         "start": "04:30",
         "end": "05:20",
         "brand": "농협",
-        "product": "신비복숭아 3kg (750gx4팩)",
+        "product": "신비복숭아",
         "price": 36900,
-        "link": "https://www.hmall.com/p/2151409916"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2151409916&preview=true",
+        "category": "일반식품"
       },
       {
         "start": "05:20",
         "end": "06:15",
         "brand": "블라우풍트",
-        "product": "[충격 초특가+구성][블라우풍트] 스마트워치 + 톰슨이어폰",
+        "product": "스마트워치 톰슨이어폰",
         "price": 81900,
-        "link": "https://www.hmall.com/p/2251231401"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251231401&preview=true",
+        "category": "소형가전"
       },
       {
         "start": "06:15",
         "end": "07:15",
         "brand": "에이스바이옴",
-        "product": "[현대단독] 패밀리세트 비에날씬 프로 12박스+비에날퀸 1박스+비에날씬 플러스 1박스",
+        "product": "패밀리세트 비에날씬 프로 12박스 비에날퀸 1박스 비에날씬 플러스 1박스",
         "price": 699000,
-        "link": "https://www.hmall.com/p/2248968602"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248968602&preview=true",
+        "category": "건강식품"
       },
       {
         "start": "07:15",
         "end": "08:15",
         "brand": "매스티나",
-        "product": "최신상 시즌4 기미 앰플 3배UP 패키지 + 6월 단한번 토닝 크림",
+        "product": "최신상 시즌4 기미 앰플 3배UP 패키지 6월 단한번 토닝 크림",
         "price": 159000,
-        "link": "https://www.hmall.com/p/2251553138"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251553138&preview=true",
+        "category": "미용"
       },
       {
         "start": "08:15",
@@ -1100,7 +1212,8 @@
         "brand": "유로컬렉션",
         "product": "26FW 호주산 울 100% 퍼널넥 자켓",
         "price": 199000,
-        "link": "https://www.hmall.com/p/2251228173"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251228173&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "08:15",
@@ -1108,7 +1221,8 @@
         "brand": "프리마클라쎄",
         "product": "로고 프린트 윈드브레이커 1종",
         "price": 149000,
-        "link": "https://www.hmall.com/p/2249600435"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249600435&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "08:15",
@@ -1116,39 +1230,44 @@
         "brand": "올라카일리",
         "product": "26SS Japonica 나일론 웨더 롱점퍼 1종",
         "price": 159000,
-        "link": "https://www.hmall.com/p/2250460338"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250460338&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "12:35",
         "end": "13:35",
         "brand": "신한생명",
-        "product": " 신한라이프 케어받는 암보험",
+        "product": "신한라이프 케어받는 암보험",
         "price": 2105960,
-        "link": "https://www.hmall.com/p/2250652443"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250652443&preview=true",
+        "category": "보험"
       },
       {
         "start": "13:35",
         "end": "14:35",
         "brand": "누캐시미어",
-        "product": "[NU LINEN]누캐시미어 26SS 린넨블렌드 후드가디건 ",
+        "product": "누캐시미어 26SS 린넨블렌드 후드가디건",
         "price": 129000,
-        "link": "https://www.hmall.com/p/2248508057"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248508057&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "14:35",
         "end": "15:30",
         "brand": "종근당건강",
-        "product": "프로메가 rTG오메가3 비타민D 12개월+추가(4개월+저당밥솥1개)",
+        "product": "프로메가 rTG오메가3 비타민D",
         "price": 158000,
-        "link": "https://www.hmall.com/p/2230123988"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2230123988&preview=true",
+        "category": "건강식품"
       },
       {
         "start": "16:30",
         "end": "17:30",
         "brand": "에이스바이옴",
-        "product": "[현대단독] 패밀리세트 비에날씬 프로 12박스+비에날퀸 1박스+비에날씬 플러스 1박스",
+        "product": "패밀리세트 비에날씬 프로 12박스 비에날퀸 1박스 비에날씬 플러스 1박스",
         "price": 699000,
-        "link": "https://www.hmall.com/p/2248968602"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248968602&preview=true",
+        "category": "건강식품"
       },
       {
         "start": "17:30",
@@ -1156,15 +1275,17 @@
         "brand": "한일",
         "product": "무선 BLDC 듀얼팬 듀오에어 더블",
         "price": 326000,
-        "link": "https://www.hmall.com/p/2251580055"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251580055&preview=true",
+        "category": "소형가전"
       },
       {
         "start": "19:30",
         "end": "20:45",
         "brand": "락앤락",
-        "product": "비스프리 온더테이블 16종 + 세척솔 2종",
+        "product": "비스프리 온더테이블 16종 세척솔 2종",
         "price": 59000,
-        "link": "https://www.hmall.com/p/2228245266"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2228245266&preview=true",
+        "category": "주방용품"
       },
       {
         "start": "20:45",
@@ -1172,7 +1293,8 @@
         "brand": "이지듀",
         "product": "EGF 리프트 코어 앰플 한창서내돈내산패키지",
         "price": 389000,
-        "link": "https://www.hmall.com/p/2251342432"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251342432&preview=true",
+        "category": "미용"
       },
       {
         "start": "21:40",
@@ -1180,15 +1302,17 @@
         "brand": "니카사",
         "product": "진공흡착 스팀다리미 시즌2",
         "price": 198000,
-        "link": "https://www.hmall.com/p/2249071607"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249071607&preview=true",
+        "category": "소형가전"
       },
       {
         "start": "22:40",
         "end": "01:10",
         "brand": "페라가모",
-        "product": "선글라스(SF964/S)",
+        "product": "선글라스",
         "price": 168000,
-        "link": "https://www.hmall.com/p/2232480787"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2232480787&preview=true",
+        "category": "수입명품"
       }
     ],
     "2026-06-27": [
@@ -1196,9 +1320,10 @@
         "start": "02:00",
         "end": "02:40",
         "brand": "디오르드",
-        "product": "[NEW] [Diorde] 925 실버 인피티니 체인 목걸이",
+        "product": "925 실버 인피티니 체인 목걸이",
         "price": 199000,
-        "link": "https://www.hmall.com/p/2250139123"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250139123&preview=true",
+        "category": "패션잡화"
       },
       {
         "start": "03:00",
@@ -1206,31 +1331,35 @@
         "brand": "제이시글램",
         "product": "26SS 몸매커버 쉬폰 베스트 3종",
         "price": 39900,
-        "link": "https://www.hmall.com/p/2248265305"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248265305&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "05:20",
         "end": "06:20",
         "brand": "라씨엔토",
-        "product": "[론칭가 79900원]라씨엔토 26SS 컬러풀 나일론 터크 팬츠 3종",
+        "product": "라씨엔토 26SS 컬러풀 나일론 터크 팬츠 3종",
         "price": 59900,
-        "link": "https://www.hmall.com/p/2249688419"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249688419&preview=true",
+        "category": "패션의류"
       },
       {
         "start": "06:20",
         "end": "07:20",
         "brand": "두드림",
-        "product": "아이클타임 키성장 에프지오 FGO x 6박스(6개월분)+키즈 종합비타민 밸런스타임 4박스",
+        "product": "아이클타임 키성장 에프지오 FGO x 6박스 키즈 종합비타민 밸런스타임 4박스",
         "price": 956000,
-        "link": "https://www.hmall.com/p/2248549466"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248549466&preview=true",
+        "category": "건강식품"
       },
       {
         "start": "08:20",
         "end": "11:20",
         "brand": "폴바셋",
-        "product": "[왕톡단독] 폴바셋 프리미엄 아이스크림 NEW 패키지 총 24개",
+        "product": "폴바셋 프리미엄 아이스크림 NEW 패키지 총 24개",
         "price": 69900,
-        "link": "https://www.hmall.com/p/2236429018"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2236429018&preview=true",
+        "category": "일반식품"
       },
       {
         "start": "11:20",
@@ -1238,31 +1367,35 @@
         "brand": "멜라밀라",
         "product": "셀리 보닛햇",
         "price": 49900,
-        "link": "https://www.hmall.com/p/2250071771"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250071771&preview=true",
+        "category": "수입명품"
       },
       {
         "start": "14:55",
         "end": "16:05",
         "brand": "오제끄",
-        "product": "[싱글세트] 오제끄 빙쿨 프로즌 쿨링타월 50매+바디 미스트 1개",
+        "product": "오제끄 빙쿨 프로즌 쿨링타월 50매 바디 미스트 1개",
         "price": 79900,
-        "link": "https://www.hmall.com/p/2250657728"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250657728&preview=true",
+        "category": "생활용품"
       },
       {
         "start": "19:25",
         "end": "20:25",
         "brand": "흥국생명",
-        "product": "첫날부터 평생보장 1인실간병플랜 (흥국생명 오튼튼5.10.5 건강보험(해지환급금미지급형V2))",
+        "product": "첫날부터 평생보장 1인실간병플랜 흥국생명 오튼튼5.10.5 건강보험",
         "price": 1549100,
-        "link": "https://www.hmall.com/p/2250983486"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250983486&preview=true",
+        "category": "보험"
       },
       {
         "start": "21:30",
         "end": "22:30",
         "brand": "하이원리조트",
-        "product": "[2박 4인] 하이원리조트 썸머 99 패키지 (조식+워터월드+BIG10)",
+        "product": "하이원리조트 썸머 99 패키지",
         "price": 259000,
-        "link": "https://www.hmall.com/p/2251293102"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251293102&preview=true",
+        "category": "여행(결제)"
       },
       {
         "start": "23:30",
@@ -1270,7 +1403,8 @@
         "brand": "DB손해보험",
         "product": "나에게맞춘플러스간편건강보험",
         "price": 1268500,
-        "link": "https://www.hmall.com/p/2232380752"
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2232380752&preview=true",
+        "category": "보험"
       }
     ]
   }

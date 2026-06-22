@@ -217,16 +217,16 @@
         "start": "01:00",
         "end": "01:51",
         "brand": "",
-        "product": "LG 통돌이 세탁기 19KG T19MX7A 미드 블랙",
+        "product": "LG 통돌이 세탁기 T19MX7A 미드 블랙",
         "price": 0,
         "link": "",
-        "category": "디지털/가전"
+        "category": ""
       },
       {
         "start": "02:00",
         "end": "02:31",
         "brand": "",
-        "product": "스테파넬 26SS 썸머 쿨드레이프 팬츠[런칭 가격59,900원]",
+        "product": "스테파넬 26SS 썸머 쿨드레이프 팬츠",
         "price": 0,
         "link": "",
         "category": "패션의류"
@@ -244,10 +244,10 @@
         "start": "03:10",
         "end": "03:31",
         "brand": "",
-        "product": "코어 어센틱 26SS 플립플랍+클리어백 세트",
+        "product": "코어 어센틱 26SS 플립플랍 클리어백 세트",
         "price": 0,
         "link": "",
-        "category": "패션잡화"
+        "category": ""
       },
       {
         "start": "03:30",
@@ -265,7 +265,7 @@
         "product": "라포레 플레이팅팬 풀세트",
         "price": 0,
         "link": "",
-        "category": "생활/건강"
+        "category": "주방용품"
       },
       {
         "start": "05:00",
@@ -274,25 +274,25 @@
         "product": "지리산묵가 가벼운한끼 우무면 2종 총8팩 비빔4팩 소바4팩",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "일반식품"
       },
       {
         "start": "05:30",
         "end": "06:16",
         "brand": "",
-        "product": "닥터린 하이퍼셀 대마종자유 12박스(12개월)+방송에서만 6박스(6개월) 총 18박스",
+        "product": "닥터린 하이퍼셀 대마종자유 12박스 6박스 총 18박스",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "06:15",
         "end": "07:15",
         "brand": "",
-        "product": "[상담만 받아도 특별한 혜택] 나에게맞춘플러스간편건강보험(하이클래스암)",
+        "product": "나에게맞춘플러스간편건강보험",
         "price": 0,
         "link": "",
-        "category": ""
+        "category": "보험"
       },
       {
         "start": "07:15",
@@ -301,22 +301,22 @@
         "product": "2026 최신상 마데카크림 인 버블세럼 본품",
         "price": 0,
         "link": "",
-        "category": "화장품/미용"
+        "category": "미용"
       },
       {
         "start": "08:15",
         "end": "09:25",
         "brand": "",
-        "product": "이지듀 스킨핏 톤업기미선크림 30ml*8통 + 1통(리뷰시) + 무료체험분 2매 완벽더블패키지",
+        "product": "이지듀 스킨핏 톤업기미선크림 8통 1통 무료체험분 2매 완벽더블패키지",
         "price": 0,
         "link": "",
-        "category": "화장품/미용"
+        "category": "미용"
       },
       {
         "start": "09:25",
         "end": "10:25",
         "brand": "",
-        "product": "[상담만 받아도 특별한혜택] (무)원스톱프리미엄암보험_치료비플랜",
+        "product": "원스톱프리미엄암보험_치료비플랜",
         "price": 0,
         "link": "",
         "category": ""
@@ -325,19 +325,19 @@
         "start": "10:25",
         "end": "12:35",
         "brand": "",
-        "product": "비에날씬 프로 다이어트 유산균(6박스)",
+        "product": "비에날씬 프로 다이어트 유산균",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "12:35",
         "end": "13:35",
         "brand": "",
-        "product": "삼성 비스포크 AI 콤보(25kg+18kg) 그레이지 WD80H25BHY",
+        "product": "삼성 비스포크 AI 콤보 그레이지 WD80H25BHY",
         "price": 0,
         "link": "",
-        "category": "디지털/가전"
+        "category": ""
       },
       {
         "start": "13:35",
@@ -346,16 +346,16 @@
         "product": "웰라쥬 캡슐 앰플 시즌4 기본구성",
         "price": 0,
         "link": "",
-        "category": "화장품/미용"
+        "category": "미용"
       },
       {
         "start": "14:35",
         "end": "14:46",
         "brand": "",
-        "product": "[습기제로]NEW 200g 대용량 제습제 60종(제습제 40개+옷 보관커버 20개)",
+        "product": "NEW 대용량 제습제 60종",
         "price": 0,
         "link": "",
-        "category": "생활/건강"
+        "category": "생활용품"
       },
       {
         "start": "14:45",
@@ -364,34 +364,34 @@
         "product": "프로메가 알티지오메가3 비타민D 6박스",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "15:35",
         "end": "16:35",
         "brand": "",
-        "product": "(무)흥국생명다사랑암보험",
+        "product": "흥국생명다사랑암보험",
         "price": 0,
         "link": "",
-        "category": ""
+        "category": "보험"
       },
       {
         "start": "16:35",
         "end": "17:35",
         "brand": "",
-        "product": "덴프스 LGG 덴마크 유산균이야기 12개월분",
+        "product": "덴프스 LGG 덴마크 유산균이야기",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "17:35",
         "end": "18:35",
         "brand": "",
-        "product": "비트 캡슐세제 몬스터팟 10X 삶음파워 유칼립투스러쉬 25입 용기 1개 + 25입 파우치 4개 + 5입 2개 + 아이깨끗해 용기1(+리필2)",
+        "product": "비트 캡슐세제 몬스터팟 10X 삶음파워 유칼립투스러쉬 25입 용기 1개 25입 파우치 4개 5입 2개 아이깨끗해 용기1",
         "price": 0,
         "link": "",
-        "category": "생활/건강"
+        "category": "생활용품"
       },
       {
         "start": "18:35",
@@ -400,52 +400,52 @@
         "product": "스케쳐스 26SS 최신상 여성용 맥스쿠셔닝 엔데버 워킹화",
         "price": 0,
         "link": "",
-        "category": "스포츠/레저"
+        "category": "패션잡화"
       },
       {
         "start": "19:35",
         "end": "20:45",
         "brand": "",
-        "product": "닥터린 하이퍼셀 대마종자유 12박스(12개월)+방송에서만 6박스(6개월) 총 18박스",
+        "product": "닥터린 하이퍼셀 대마종자유 12박스 6박스 총 18박스",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "20:45",
         "end": "21:45",
         "brand": "",
-        "product": "관절엔 콘드로이친1200 4개월분 (900mg x 60정 x 4박스)",
+        "product": "관절엔 콘드로이친1200 주영 오메가",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "21:45",
         "end": "22:55",
         "brand": "",
-        "product": "[방송 중에만 상담예약 가능] (무)우리WON하는실속하나로암보험",
+        "product": "우리WON하는실속하나로암보험",
         "price": 0,
         "link": "",
-        "category": ""
+        "category": "보험"
       },
       {
         "start": "22:55",
         "end": "23:55",
         "brand": "",
-        "product": "이지듀 최신상 쿨링핏 기미쿠션 토닝 앰플 메쉬쿠션 본품 18g",
+        "product": "이지듀 최신상 쿨링핏 기미쿠션 본품18g 2개 리필18g 2개 시카겔패치1박스",
         "price": 0,
         "link": "",
-        "category": "화장품/미용"
+        "category": "미용"
       },
       {
         "start": "23:55",
         "end": "01:00",
         "brand": "",
-        "product": "라비앙 DNA에센스 더블 그이상 패키지 +전고객 코어크림2통 더",
+        "product": "라비앙 DNA에센스 기본구성 전고객 코어크림1통 더",
         "price": 0,
         "link": "",
-        "category": "화장품/미용"
+        "category": "미용"
       }
     ],
     "2026-06-23": [
@@ -453,19 +453,19 @@
         "start": "01:00",
         "end": "02:00",
         "brand": "",
-        "product": "유한양행 혈당유산균 HAC01 와이즈바이옴 당큐락 6개월",
+        "product": "혈당유산균 HAC01 와이즈바이옴 당큐락",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "02:00",
         "end": "03:00",
         "brand": "",
-        "product": "[아로마티카] 솔트 스크럽 샴푸 기본 패키지",
+        "product": "솔트 스크럽 샴푸 기본 패키지",
         "price": 0,
         "link": "",
-        "category": "화장품/미용"
+        "category": "미용"
       },
       {
         "start": "03:10",
@@ -489,7 +489,7 @@
         "start": "03:50",
         "end": "04:30",
         "brand": "",
-        "product": "쏘울 25FW 라쿤 이중직 니트 코트[런칭 가격259,900원]",
+        "product": "쏘울 25FW 핸드메이드 알파카 케이프 코트",
         "price": 0,
         "link": "",
         "category": "패션의류"
@@ -501,49 +501,49 @@
         "product": "이시형 박사의 두뇌엔 PS 진 8박스 포스파티딜세린",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "05:30",
         "end": "06:00",
         "brand": "",
-        "product": "순수한우 한우정육 3종 장조림200g 2팩 국거리200g 2팩 불고기200g 2팩 총6팩 1.2kg",
+        "product": "순수한우 한우정육 3종 장조림200g 2팩 국거리200g 2팩 불고기200g 2팩 총6팩",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "일반식품"
       },
       {
         "start": "06:00",
         "end": "07:15",
         "brand": "",
-        "product": "에버콜라겐 스킨앤헤어 6박스 헤어콜라겐 모발콜라겐",
+        "product": "에버콜라겐 스킨앤헤어 12박스 헤어콜라겐 모발콜라겐",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "07:15",
         "end": "08:15",
         "brand": "",
-        "product": "[매스티나] 최신상 시즌4 기미 앰플 1병",
+        "product": "최신상 시즌4 기미 앰플 1병",
         "price": 0,
         "link": "",
-        "category": "화장품/미용"
+        "category": "미용"
       },
       {
         "start": "08:15",
         "end": "09:25",
         "brand": "",
-        "product": "제메이스 SILVER 999.9 럭키 실버바 100g+100g+(방송 중)럭키 실버바 100g+포나인 실버 2종+스네이크 목걸이팔찌 세트",
+        "product": "제메이스 SILVER 925 이태리 총 24캐럿 테니스 목걸이 포나인 실버 2종 스네이크 목걸이팔찌 세트",
         "price": 0,
         "link": "",
-        "category": "패션잡화"
+        "category": "쥬얼리"
       },
       {
         "start": "09:25",
         "end": "10:25",
         "brand": "",
-        "product": "엘르 ELLE 솔텍스 선글라스 EL3006",
+        "product": "엘르 ELLE 티타늄 오픈 선글라스 EL3005",
         "price": 0,
         "link": "",
         "category": "패션잡화"
@@ -552,82 +552,82 @@
         "start": "10:25",
         "end": "11:35",
         "brand": "",
-        "product": "비에날씬 프로 다이어트 유산균(3박스)",
+        "product": "비에날씬 프로 다이어트 유산균",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "11:35",
         "end": "12:35",
         "brand": "",
-        "product": "AHC 2026 최신상 마스터즈 썬스틱 단품",
+        "product": "AHC 2026 최신상 마스터즈 썬스틱 더블구성",
         "price": 0,
         "link": "",
-        "category": "화장품/미용"
+        "category": "미용"
       },
       {
         "start": "12:35",
         "end": "13:35",
         "brand": "",
-        "product": "[상담만 받아도 특별한 혜택] 나에게맞춘플러스간편건강보험(하이클래스암)",
+        "product": "나에게맞춘플러스간편건강보험",
         "price": 0,
         "link": "",
-        "category": ""
+        "category": "보험"
       },
       {
         "start": "13:35",
         "end": "14:35",
         "brand": "",
-        "product": "[3개월분] 닥터파이토 파이토블락 코엔삼백초 삼백초추출물 LHF618",
+        "product": "닥터파이토 파이토블락 코엔삼백초 삼백초추출물 LHF618",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "14:35",
         "end": "15:35",
         "brand": "",
-        "product": "모란카노 프리미엄 냉각 핸디 써큘레이터 2대 (화이트+그레이)",
+        "product": "모란카노 프리미엄 냉각 핸디 써큘레이터 2대",
         "price": 0,
         "link": "",
-        "category": "디지털/가전"
+        "category": "소형가전"
       },
       {
         "start": "16:35",
         "end": "17:35",
         "brand": "",
-        "product": "[TV]하루틴 리포좀 멀티비타민 미네랄 6개월 병 패키지",
+        "product": "하루틴 리포좀 멀티비타민 미네랄 병 패키지",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "17:35",
         "end": "18:35",
         "brand": "",
-        "product": "L)카사베르디 와인비니거3",
+        "product": "L카사베르디 와인비니거3",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "18:35",
         "end": "19:35",
         "brand": "",
-        "product": "궁키친 이상민 블랙 타이거 새우 5팩 100미 + 갈릭 감바스소스 1병",
+        "product": "궁키친 이상민 블랙 타이거 새우 5팩 100미 갈릭 감바스소스 1병",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "일반식품"
       },
       {
         "start": "19:35",
         "end": "20:45",
         "brand": "",
-        "product": "코데즈컴바인 BB 라이크라 네모팬티 6종 세트",
+        "product": "코데즈컴바인 26Summer 스킨컬렉션 에어윈드 BB브라팬티 4세트",
         "price": 0,
         "link": "",
-        "category": "패션의류"
+        "category": "언더웨어"
       },
       {
         "start": "20:45",
@@ -636,7 +636,7 @@
         "product": "휴롬 착즙기 H420 원액기 주서기 녹즙기",
         "price": 0,
         "link": "",
-        "category": "디지털/가전"
+        "category": "소형가전"
       },
       {
         "start": "22:55",
@@ -645,7 +645,7 @@
         "product": "드리미 T16 올인원 물걸레청소기 25kPa 흡입력 건습식 겸용 9.85cm 초슬림 바디",
         "price": 0,
         "link": "",
-        "category": "디지털/가전"
+        "category": "소형가전"
       },
       {
         "start": "23:55",
@@ -654,7 +654,7 @@
         "product": "팬암 26SS 최신상 반팔 티셔츠 4종 여성용",
         "price": 0,
         "link": "",
-        "category": "패션의류"
+        "category": ""
       }
     ],
     "2026-06-24": [
@@ -662,25 +662,25 @@
         "start": "01:00",
         "end": "02:00",
         "brand": "",
-        "product": "[나에게맞는맞춤설계] FM에셋 무료보험상담",
+        "product": "FM에셋 무료보험상담",
         "price": 0,
         "link": "",
-        "category": ""
+        "category": "보험"
       },
       {
         "start": "02:00",
         "end": "03:00",
         "brand": "",
-        "product": "25년 최신상 쉘퍼 대용량 워셔블 음식물처리기 맥스 5.5L DFFP-MAX100",
+        "product": "25년 최신상 쉘퍼 대용량 워셔블 음식물처리기 맥스 DFFP-MAX100",
         "price": 0,
         "link": "",
-        "category": "디지털/가전"
+        "category": "소형가전"
       },
       {
         "start": "03:10",
         "end": "03:30",
         "brand": "",
-        "product": "SJ와니 25FW 헝가리 구스 롱다운 코트 1종(런칭 가격 219,900원)",
+        "product": "SJ와니 25FW 헝가리 구스 롱다운 코트 1종",
         "price": 0,
         "link": "",
         "category": "패션의류"
@@ -692,13 +692,13 @@
         "product": "메디니스 거북목 목디스크 치료기 MDM-3577",
         "price": 0,
         "link": "",
-        "category": "디지털/가전"
+        "category": "소형가전"
       },
       {
         "start": "04:30",
         "end": "05:00",
         "brand": "",
-        "product": "라플리 26SS 오블리크 플리츠 세트(재킷+블라우스 탑)",
+        "product": "라플리 26SS 오블리크 플리츠 세트",
         "price": 0,
         "link": "",
         "category": "패션의류"
@@ -707,19 +707,19 @@
         "start": "05:00",
         "end": "05:30",
         "brand": "",
-        "product": "[엘파마]건강 지압 슬리퍼 2종 세트",
+        "product": "건강 지압 슬리퍼 2종 세트",
         "price": 0,
         "link": "",
-        "category": "가구/인테리어"
+        "category": "패션잡화"
       },
       {
         "start": "05:30",
         "end": "06:15",
         "brand": "",
-        "product": "닥터린 하이퍼셀 알티지 오메가3 18박스(18개월)",
+        "product": "닥터린 하이퍼셀 알티지 오메가3 18박스",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "06:15",
@@ -728,70 +728,70 @@
         "product": "한일 대용량 레드 엣지 스텐 믹서기 NMF-3990WR",
         "price": 0,
         "link": "",
-        "category": "디지털/가전"
+        "category": "소형가전"
       },
       {
         "start": "07:15",
         "end": "08:15",
         "brand": "",
-        "product": "[체험분1박스] 프란츠 기미케어 EGF 투명썬패치 (더블구성)",
+        "product": "프란츠 기미케어 EGF 투명썬패치",
         "price": 0,
         "link": "",
-        "category": "화장품/미용"
+        "category": "미용"
       },
       {
         "start": "08:15",
         "end": "09:25",
         "brand": "",
-        "product": "닥터린 하이퍼셀 대마종자유 12박스(12개월)+방송에서만 6박스(6개월) 총 18박스",
+        "product": "닥터린 하이퍼셀 대마종자유 12박스 6박스 총 18박스",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "09:25",
         "end": "10:25",
         "brand": "",
-        "product": "[1조 열처리유산균]테라바이오틱스 6박스+체험분8포",
+        "product": "테라바이오틱스 6박스 체험분8포",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "10:25",
         "end": "11:35",
         "brand": "",
-        "product": "[퓨레어] 퍼퓸 탈취제 더블구성 20개(라벤더8+화이트머스크8+무향4)",
+        "product": "퍼퓸 탈취제 더블구성 20개",
         "price": 0,
         "link": "",
-        "category": "생활/건강"
+        "category": "생활용품"
       },
       {
         "start": "11:35",
         "end": "12:35",
         "brand": "",
-        "product": "비에날씬 프로 다이어트 유산균 9박스 + 플러스 60포",
+        "product": "비에날씬 프로 다이어트 유산균 9박스 플러스 60포",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "12:35",
         "end": "13:35",
         "brand": "",
-        "product": "프리메로 블루베리 리얼 100% 10박스+2박스(방송에서만) 총 12박스 (1박스 10포)",
+        "product": "프리메로 블루베리 리얼 100% 10박스 2박스 총 12박스",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "13:35",
         "end": "14:35",
         "brand": "",
-        "product": "디폰데 시그니처 멜라엔드 선블럭프로 (매니아구성)+전고객 버블에센스 더",
+        "product": "디폰데 시그니처 멜라엔드 선블럭프로 전고객 버블에센스 더",
         "price": 0,
         "link": "",
-        "category": "화장품/미용"
+        "category": "미용"
       },
       {
         "start": "14:35",
@@ -800,25 +800,25 @@
         "product": "정관장 홍삼정 마일드 센스 9박스",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "15:35",
         "end": "16:35",
         "brand": "",
-        "product": "레이델 폴리코사놀5 18박스 (총540정)",
+        "product": "레이델 폴리코사놀5 18박스",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "16:35",
         "end": "17:35",
         "brand": "",
-        "product": "위바이옴 하스카프베리 6박스 (84포)",
+        "product": "위바이옴 하스카프베리 6박스",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "17:35",
@@ -833,25 +833,25 @@
         "start": "18:35",
         "end": "19:35",
         "brand": "",
-        "product": "최현석 닭다리살스테이크 14팩(매콤바베큐 8팩, 오리엔탈갈릭 6팩)",
+        "product": "최현석 닭다리살스테이크 14팩",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "일반식품"
       },
       {
         "start": "19:35",
         "end": "20:45",
         "brand": "",
-        "product": "뉴트리코어 헤어그릭스 케라넷 6박스(24주)+샴푸2통",
+        "product": "뉴트리코어 헤어그릭스 케라넷 6박스 샴푸2통",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "21:45",
         "end": "23:55",
         "brand": "",
-        "product": "코어 어센틱 26SS 셔링 티셔츠 2종 [런칭 가격 79,900원]",
+        "product": "코어 어센틱 26SS 셔링 티셔츠 2종",
         "price": 0,
         "link": "",
         "category": "패션의류"
@@ -860,10 +860,10 @@
         "start": "23:55",
         "end": "01:00",
         "brand": "",
-        "product": "[최초공개] 최신상 하퍼스바자 멜라토닝 글로우크림 여배우패키지",
+        "product": "최신상 하퍼스바자 멜라토닝 글로우크림 여배우패키지",
         "price": 0,
         "link": "",
-        "category": "화장품/미용"
+        "category": "미용"
       }
     ],
     "2026-06-25": [
@@ -871,7 +871,7 @@
         "start": "02:00",
         "end": "03:00",
         "brand": "",
-        "product": "라삐아프  카울넥 블라우스 3종 [런칭 가격 69,900원]",
+        "product": "라삐아프 카울넥 블라우스 3종",
         "price": 0,
         "link": "",
         "category": "패션의류"
@@ -898,7 +898,7 @@
         "start": "04:00",
         "end": "04:30",
         "brand": "",
-        "product": "르네크루 26SS 에어리 셔링 원피스[런칭 가격 79,900원]",
+        "product": "르네크루 26SS 에어리 셔링 원피스",
         "price": 0,
         "link": "",
         "category": "패션의류"
@@ -916,28 +916,28 @@
         "start": "05:30",
         "end": "06:00",
         "brand": "",
-        "product": "쥬니파크 전주 12경 커피 드립백 총24팩 (10g x 12팩 x 2박스)",
+        "product": "쥬니파크 전주 12경 커피 드립백 총24팩",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "일반식품"
       },
       {
         "start": "06:00",
         "end": "07:15",
         "brand": "",
-        "product": "가히 최신상 캐비어 멀티밤 CV 기본구성(본품5+슬리핑마스크1)",
+        "product": "가히 최신상 캐비어 멀티밤 CV 기본구성",
         "price": 0,
         "link": "",
-        "category": "화장품/미용"
+        "category": "미용"
       },
       {
         "start": "07:15",
         "end": "08:15",
         "brand": "",
-        "product": "[종근당건강] 락토핏 19종유산균 맥스19 10통+30포 (총 630포)+추가사은품",
+        "product": "락토핏 19종유산균 맥스19 10통 30포 추가",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "08:15",
@@ -952,28 +952,28 @@
         "start": "09:25",
         "end": "10:25",
         "brand": "",
-        "product": "여에스더 리포좀 글루타치온 다이렉트 울트라12x 12박스+1박스(3X)",
+        "product": "여에스더 리포좀 글루타치온 다이렉트 울트라12x 12박스 1박스",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "10:25",
         "end": "11:35",
         "brand": "",
-        "product": "종가 중부식 포기김치 10.4kg (5.2kg*2)+갓김치 400g",
+        "product": "종가 중부식 포기김치 갓김치",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "일반식품"
       },
       {
         "start": "11:35",
         "end": "12:35",
         "brand": "",
-        "product": "에버콜라겐 레티놀A 19병 (76주분) 미니2병",
+        "product": "에버콜라겐 레티놀A 19병 미니2병",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "12:35",
@@ -982,43 +982,43 @@
         "product": "FILA 26SS 신상 라디온 경량 썸머운동화 여성용",
         "price": 0,
         "link": "",
-        "category": "스포츠/레저"
+        "category": "패션잡화"
       },
       {
         "start": "13:35",
         "end": "14:35",
         "brand": "",
-        "product": "주영엔에스 모발콜라겐 3270 24주분(6박스) + 식물성 오메가 600mg 1박스",
+        "product": "주영엔에스 모발콜라겐 3270 24주분 식물성 오메가 600mg 1박스",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "14:35",
         "end": "15:35",
         "brand": "",
-        "product": "뉴트리원 카무트 브랜드 밀 효소 골드 S 12+1박스",
+        "product": "뉴트리원 카무트 브랜드 밀 효소 골드 S 12 1박스",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "15:35",
         "end": "16:35",
         "brand": "",
-        "product": "비에날씬 프로 다이어트 유산균(6박스)",
+        "product": "비에날씬 프로 다이어트 유산균",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "16:35",
         "end": "17:35",
         "brand": "",
-        "product": "한일전기 헤드분리 통세척 워셔블 써큘레이터 2대구성 (화이트/그린/옐로우/화이트+옐로우)",
+        "product": "한일전기 헤드분리 통세척 워셔블 써큘레이터 2대구성",
         "price": 0,
         "link": "",
-        "category": "디지털/가전"
+        "category": "소형가전"
       },
       {
         "start": "17:35",
@@ -1027,31 +1027,31 @@
         "product": "게스 언더웨어 릴렉스핏 런닝형 브라탑 4종세트",
         "price": 0,
         "link": "",
-        "category": "패션의류"
+        "category": "언더웨어"
       },
       {
         "start": "19:35",
         "end": "20:45",
         "brand": "",
-        "product": "세포랩바이오제닉에센스 155ml 4병+100ml 1병+30ml 4병",
+        "product": "세포랩바이오제닉에센스 4병 1병 4병",
         "price": 0,
         "link": "",
-        "category": "화장품/미용"
+        "category": ""
       },
       {
         "start": "20:45",
         "end": "22:55",
         "brand": "",
-        "product": "알텐바흐 엑스쿠첸 통5중 저압냄비 7L",
+        "product": "알텐바흐 엑스쿠첸 통5중 저압냄비",
         "price": 0,
         "link": "",
-        "category": "생활/건강"
+        "category": "주방용품"
       },
       {
         "start": "22:55",
         "end": "23:55",
         "brand": "",
-        "product": "[상담만 받아도 특별한혜택] (무)원스톱프리미엄암보험_치료비플랜",
+        "product": "원스톱프리미엄암보험_치료비플랜",
         "price": 0,
         "link": "",
         "category": ""
@@ -1060,10 +1060,10 @@
         "start": "23:55",
         "end": "01:00",
         "brand": "",
-        "product": "[프라우카] 허벌겔 조윤주 패키지 (허벌겔 3개)",
+        "product": "허벌겔 조윤주 패키지",
         "price": 0,
         "link": "",
-        "category": "화장품/미용"
+        "category": "미용"
       }
     ],
     "2026-06-26": [
@@ -1074,13 +1074,13 @@
         "product": "삼성 Mini LED TV 55형 KU55MH80AFXKR",
         "price": 0,
         "link": "",
-        "category": "디지털/가전"
+        "category": ""
       },
       {
         "start": "02:00",
         "end": "02:30",
         "brand": "",
-        "product": "라삐아프 26SS 핀워시드 스트레이트 데님 1종(벨트포함)[런칭 가격 69,900원]",
+        "product": "라삐아프 26SS 핀워시드 스트레이트 데님 1종",
         "price": 0,
         "link": "",
         "category": "패션의류"
@@ -1098,7 +1098,7 @@
         "start": "03:00",
         "end": "03:30",
         "brand": "",
-        "product": "르네크루 26Summer limited 플라워 모티브 블라우스[런칭 가격 59,900원]",
+        "product": "르네크루 26Summer limited 플라워 모티브 블라우스",
         "price": 0,
         "link": "",
         "category": "패션의류"
@@ -1107,7 +1107,7 @@
         "start": "04:00",
         "end": "05:00",
         "brand": "",
-        "product": "[BEST] 베네통 시그니처 남녀공용 반팔티셔츠 5종세트",
+        "product": "베네통 시그니처 남녀공용 반팔티셔츠 5종세트",
         "price": 0,
         "link": "",
         "category": "패션의류"
@@ -1116,19 +1116,19 @@
         "start": "05:00",
         "end": "05:30",
         "brand": "",
-        "product": "(2개세트)욕실문에 걸리지 않는 신개념 욕실화 슬림퍼",
+        "product": "욕실문에 걸리지 않는 신개념 욕실화 슬림퍼",
         "price": 0,
         "link": "",
-        "category": "생활/건강"
+        "category": ""
       },
       {
         "start": "05:30",
         "end": "06:15",
         "brand": "",
-        "product": "뉴트리코어 하이퍼셀 코엔자임Q10 맥스 12박스+6박스 더(방송에서만) 총 18박스(18개월분)",
+        "product": "뉴트리코어 하이퍼셀 코엔자임Q10 맥스 12박스 6박스 더 총 18박스",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "06:15",
@@ -1137,34 +1137,34 @@
         "product": "울시 26SS 최신상 5부팬츠 3종 여성용",
         "price": 0,
         "link": "",
-        "category": "스포츠/레저"
+        "category": "레포츠의류"
       },
       {
         "start": "10:25",
         "end": "11:35",
         "brand": "",
-        "product": "[장윤정 PICK] 리에노 카멜리아 에어앰플미스트 기본구성",
+        "product": "리에노 카멜리아 에어앰플미스트 기본구성",
         "price": 0,
         "link": "",
-        "category": "화장품/미용"
+        "category": "미용"
       },
       {
         "start": "12:35",
         "end": "13:30",
         "brand": "",
-        "product": "하루틴 리포좀 비타민C 프로 12+ 3개월분(총 15개월분)+ 리포좀 글루타치온 10포 3박스",
+        "product": "하루틴 리포좀 비타민C 프로 리포좀 글루타치온 10포 3박스",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "13:30",
         "end": "14:30",
         "brand": "",
-        "product": "최신상 갱년기유산균YT1 메노락토 오리진 총9개월+양우산 추가증정",
+        "product": "최신상 갱년기유산균YT1 메노락토 오리진 총 추가증정",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "14:30",
@@ -1173,7 +1173,7 @@
         "product": "헤드스파 시즌5 트리트먼트 쿨 혼합 기본 세트",
         "price": 0,
         "link": "",
-        "category": "화장품/미용"
+        "category": "미용"
       },
       {
         "start": "15:30",
@@ -1182,34 +1182,34 @@
         "product": "쿠쿠 블랙스톤 전기압력밥솥 풀스텐 10인용 CRP-R1095FGW/FGB/R1015FBB",
         "price": 0,
         "link": "",
-        "category": "디지털/가전"
+        "category": "소형가전"
       },
       {
         "start": "16:30",
         "end": "17:30",
         "brand": "",
-        "product": "관절엔 콘드로이친1200 12개월분 + 주영 오메가 2개월분",
+        "product": "관절엔 콘드로이친1200 주영 오메가",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "18:30",
         "end": "19:30",
         "brand": "",
-        "product": "26년형 신일 써큘레이터 S11 퓨어 화이트 (SIF-DH09WH) 2대 구성",
+        "product": "26년형 신일 써큘레이터 S11 퓨어 화이트 2대 구성",
         "price": 0,
         "link": "",
-        "category": "디지털/가전"
+        "category": "소형가전"
       },
       {
         "start": "19:30",
         "end": "20:35",
         "brand": "",
-        "product": "[싱글세트] 경락괄사마사지 리파 카사M1 + 가히 바운싱크림 1개(50ml)",
+        "product": "경락괄사마사지 리파 카사M1 가히 바운싱크림 1개",
         "price": 0,
         "link": "",
-        "category": "디지털/가전"
+        "category": "미용"
       },
       {
         "start": "20:35",
@@ -1218,13 +1218,13 @@
         "product": "해밭제주 간편한 제주 야채찜 30팩",
         "price": 0,
         "link": "",
-        "category": "디지털/가전"
+        "category": "일반식품"
       },
       {
         "start": "22:45",
         "end": "01:05",
         "brand": "",
-        "product": "제이슨우 26SS Ayla 코튼 하프슬리브 셔츠 3종 (네이비,화이트 공통 2종 + 블루 or 민트 택1)",
+        "product": "제이슨우 26SS Ayla 코튼 하프슬리브 셔츠 3종",
         "price": 0,
         "link": "",
         "category": "패션의류"
@@ -1235,7 +1235,7 @@
         "start": "02:00",
         "end": "02:50",
         "brand": "",
-        "product": "라삐아프  카울넥 블라우스 3종 [런칭 가격 69,900원]",
+        "product": "라삐아프 카울넥 블라우스 3종",
         "price": 0,
         "link": "",
         "category": "패션의류"
@@ -1244,7 +1244,7 @@
         "start": "02:50",
         "end": "03:30",
         "brand": "",
-        "product": "SJ와니 26SS 백 밴딩 카프리 팬츠 1종 (골프/UV컷) [런칭 가격 79,900원]",
+        "product": "SJ와니 26SS 백 밴딩 카프리 팬츠 1종",
         "price": 0,
         "link": "",
         "category": "패션의류"
@@ -1253,16 +1253,16 @@
         "start": "03:30",
         "end": "04:00",
         "brand": "",
-        "product": "르네크루 26SS NEW컬러 시퀸 뷔스티에[런칭 가격 89,900원]",
+        "product": "르네크루 26SS NEW컬러 시퀸 뷔스티에",
         "price": 0,
         "link": "",
-        "category": "패션의류"
+        "category": ""
       },
       {
         "start": "04:00",
         "end": "04:30",
         "brand": "",
-        "product": "르네크루 26SS 에어리 핀턱 디테일 블라우스 2종[런칭 가격 69,900원]",
+        "product": "르네크루 26SS 에어리 핀턱 디테일 블라우스 2종",
         "price": 0,
         "link": "",
         "category": "패션의류"
@@ -1271,52 +1271,52 @@
         "start": "04:30",
         "end": "05:30",
         "brand": "",
-        "product": "이지스 자외선차단 무봉제 마스크 8종 (스포츠 4개+스타일 4개)",
+        "product": "이지스 자외선차단 무봉제 마스크 8종",
         "price": 0,
         "link": "",
-        "category": "생활/건강"
+        "category": "생활용품"
       },
       {
         "start": "05:30",
         "end": "06:00",
         "brand": "",
-        "product": "순수한우 한우정육 3종 장조림200g 2팩 국거리200g 2팩 불고기200g 2팩 총6팩 1.2kg",
+        "product": "순수한우 한우정육 3종 장조림200g 2팩 국거리200g 2팩 불고기200g 2팩 총6팩",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "일반식품"
       },
       {
         "start": "06:00",
         "end": "07:15",
         "brand": "",
-        "product": "[총48주분]갱년기엔 이알하나(ERr731) 28정x10박스 + 2박스 더",
+        "product": "갱년기엔 이알하나 28정x10박스 2박스 더",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "07:15",
         "end": "08:15",
         "brand": "",
-        "product": "비에날씬 프로 다이어트 유산균(9박스) + 슬림 3박스(30포)",
+        "product": "비에날씬 프로 다이어트 유산균 슬림 3박스",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "08:15",
         "end": "09:20",
         "brand": "",
-        "product": "[한지민 PICK] 에버콜라겐 레티놀A 19병 (76주분)",
+        "product": "에버콜라겐 레티놀A 19병",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "09:20",
         "end": "11:50",
         "brand": "",
-        "product": "쏘울 25FW 와이드 롱 팬츠 [런칭 가격 79,900원]",
+        "product": "쏘울 25FW 와이드 롱 팬츠",
         "price": 0,
         "link": "",
         "category": "패션의류"
@@ -1328,7 +1328,7 @@
         "product": "아이다 V콜라겐 파워리프팅 마스크 기본 패키지",
         "price": 0,
         "link": "",
-        "category": "화장품/미용"
+        "category": "미용"
       },
       {
         "start": "13:55",
@@ -1337,25 +1337,25 @@
         "product": "한일전기 듀오에어 무선 써큘레이터 1대구성",
         "price": 0,
         "link": "",
-        "category": "디지털/가전"
+        "category": "소형가전"
       },
       {
         "start": "15:05",
         "end": "16:10",
         "brand": "",
-        "product": "비트 실내건조 캡슐세제 28입x5팩+28입x1팩(체험분)",
+        "product": "비트 실내건조 캡슐세제 28입x5팩 28입x1팩",
         "price": 0,
         "link": "",
-        "category": "생활/건강"
+        "category": "생활용품"
       },
       {
         "start": "17:25",
         "end": "18:35",
         "brand": "",
-        "product": "[한지민 PICK] 에버콜라겐 레티놀A 19병 (76주분)",
+        "product": "에버콜라겐 레티놀A 19병",
         "price": 0,
         "link": "",
-        "category": "식품"
+        "category": "건강식품"
       },
       {
         "start": "19:25",
@@ -1364,25 +1364,25 @@
         "product": "셀폰즈 녹는실 리프팅 앰플 매니아 패키지",
         "price": 0,
         "link": "",
-        "category": "화장품/미용"
+        "category": "미용"
       },
       {
         "start": "20:30",
         "end": "21:35",
         "brand": "",
-        "product": "[아이스에디션]에이지투웨니스 앰플 팩트 본품2+리필3+메쉬백",
+        "product": "에이지투웨니스 앰플 팩트 본품2 리필3 메쉬백",
         "price": 0,
         "link": "",
-        "category": "화장품/미용"
+        "category": "미용"
       },
       {
         "start": "22:45",
         "end": "00:05",
         "brand": "",
-        "product": "분트로이 26SS 나이로프트 패커블 레인 점퍼 (여성용)",
+        "product": "분트로이 26SS 나이로프트 패커블 레인 점퍼",
         "price": 0,
         "link": "",
-        "category": "패션의류"
+        "category": ""
       }
     ]
   }
