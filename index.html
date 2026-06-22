@@ -569,14 +569,232 @@
     .day-stats { font-size: 9.5px; }
     .day-num { font-size: 11px; }
   }
+
+  /* ============ 홈쇼핑 탭 ============ */
+  #tabHomeshop {
+    --hd: #003C82;
+    --lt: #DA291C;
+    --cj: #4B286D;
+    --gs: #1AA663;
+    font-family: 'Pretendard', -apple-system, sans-serif;
+  }
+
+  .hs-controls {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .hs-toggle {
+    display: inline-flex;
+    background: var(--paper-dim);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    padding: 2px;
+  }
+  .hs-toggle-btn {
+    font-family: 'Pretendard', -apple-system, sans-serif;
+    font-size: 12.5px;
+    font-weight: 600;
+    border: none;
+    background: none;
+    color: var(--ink-soft);
+    padding: 6px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .hs-toggle-btn.active {
+    background: var(--ink);
+    color: var(--paper);
+  }
+
+  .hs-grid-wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 24px 60px;
+  }
+
+  .hs-scroll {
+    overflow: auto;
+    max-height: calc(100vh - 150px);
+    border-bottom: 1px solid var(--rule);
+  }
+
+  table.hs-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+
+  table.hs-table thead th {
+    position: sticky;
+    top: 0;
+    background: var(--paper);
+    z-index: 3;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 10px 4px 11px;
+    border-bottom: 2px solid var(--ink);
+    text-align: center;
+  }
+  table.hs-table thead th.hs-time-col {
+    width: 52px;
+    font-size: 10.5px;
+    color: var(--ink-soft);
+    font-weight: 600;
+  }
+  table.hs-table thead th.hd { color: var(--hd); border-bottom-color: var(--hd); }
+  table.hs-table thead th.lt { color: var(--lt); border-bottom-color: var(--lt); }
+  table.hs-table thead th.cj { color: var(--cj); border-bottom-color: var(--cj); }
+  table.hs-table thead th.gs { color: var(--gs); border-bottom-color: var(--gs); }
+
+  table.hs-table td {
+    border: 1px solid var(--rule);
+    vertical-align: top;
+    padding: 0;
+  }
+  td.hs-time-cell {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--ink-soft);
+    background: var(--paper);
+    vertical-align: top;
+    padding: 6px 0 0;
+    border-right: 1px solid var(--rule);
+  }
+
+  .hs-cell-inner { display: flex; flex-direction: column; }
+
+  .hs-prog {
+    display: block;
+    text-decoration: none;
+    color: var(--ink);
+    padding: 7px 9px 7px 11px;
+    border-bottom: 1px dotted var(--rule);
+    border-left: 4px solid var(--rule);
+    transition: background 0.12s;
+  }
+  .hs-prog:last-child { border-bottom: none; }
+  .hs-prog:hover { background: var(--now-bg); }
+  .hs-prog .hs-time {
+    font-size: 10px;
+    color: var(--ink-soft);
+    margin-bottom: 2px;
+  }
+  .hs-prog .hs-time.onair { color: var(--now-accent); font-weight: 700; }
+  .hs-prog .hs-onair-badge {
+    display: inline-block;
+    font-size: 8.5px;
+    font-weight: 700;
+    color: #fff;
+    background: var(--now-accent);
+    border-radius: 3px;
+    padding: 0 4px;
+    margin-left: 4px;
+  }
+  .hs-prog .hs-title {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: 3px;
+  }
+  .hs-prog .hs-brand {
+    color: #1B5E5A;
+  }
+  .hs-prog .hs-bottom-row {
+    display: flex;
+    align-items: baseline;
+    gap: 7px;
+  }
+  .hs-prog .hs-price {
+    font-size: 10.5px;
+    font-weight: 600;
+    color: var(--ink-soft);
+  }
+  .hs-prog .hs-price .won { font-size: 9.5px; font-weight: 500; color: var(--ink-soft); }
+  .hs-prog .hs-goto {
+    font-size: 10.5px;
+    font-weight: 600;
+    color: var(--ink-soft);
+    text-decoration: underline;
+  }
+  .hs-prog:hover .hs-goto { color: var(--now-accent); }
+
+  /* 카테고리별 좌측 컬러 바는 JS에서 인라인 style로 적용 (border-left-color) */
+
+  td.hs-empty-cell { background: var(--paper-dim); opacity: 0.4; }
+
+  .hs-cat-legend {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 10px 24px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 8px;
+    justify-content: center;
+  }
+  .hs-cat-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-family: 'Pretendard', -apple-system, sans-serif;
+    font-size: 10.5px;
+    color: var(--ink-soft);
+    background: #fff;
+    border: 1px solid var(--rule);
+    border-radius: 20px;
+    padding: 3px 10px;
+    cursor: pointer;
+    transition: background 0.12s, color 0.12s;
+  }
+  .hs-cat-chip:hover { background: var(--paper-dim); }
+  .hs-cat-chip i { width: 8px; height: 8px; border-radius: 2px; display: inline-block; }
+  .hs-cat-chip.active {
+    background: var(--ink);
+    color: var(--paper);
+    border-color: var(--ink);
+  }
+  .hs-cat-chip.hs-cat-reset {
+    font-weight: 700;
+    border-color: var(--now-accent);
+    color: var(--now-accent);
+  }
+  .hs-cat-chip.hs-cat-reset.active {
+    background: var(--now-accent);
+    color: #fff;
+    border-color: var(--now-accent);
+  }
+
+  /* 카테고리 필터링된 리스트뷰: 카드 사이 간격 없이 빈틈없이 쌓기 */
+  .hs-cell-list { gap: 0; }
+  .hs-cell-list .hs-prog { border-bottom: 1px solid var(--rule); }
+  table.hs-table-list td { vertical-align: top; }
+  table.hs-table-list .hs-time-cell { background: transparent; border-right: 1px solid var(--rule); }
+
+  @media (max-width: 700px) {
+    .hs-grid-wrap { padding: 0 8px 40px; }
+    table.hs-table thead th { font-size: 12px; }
+    table.hs-table thead th.hs-time-col { width: 38px; }
+    .hs-prog { padding: 5px 6px 5px 8px; }
+    .hs-prog .hs-title { font-size: 10.5px; }
+    .hs-prog .hs-price { font-size: 9.5px; }
+  }
 </style>
 </head>
 <body>
 
 <header class="masthead">
   <h1>📺🌤 시청환경 조회</h1>
-  <span class="sub">방송 편성 · 날씨</span>
+  <span class="sub">방송 편성 · 날씨 · 홈쇼핑</span>
   <div class="main-tabs">
+    <button id="tabBtnHomeshop">홈쇼핑</button>
     <button id="tabBtnSchedule" class="active">편성표</button>
     <button id="tabBtnWeather">날씨</button>
   </div>
@@ -639,6 +857,31 @@
 </div>
 
 <div class="cal-wrap" id="calWrap"></div>
+
+</div>
+
+<div id="tabHomeshop" class="tab-panel">
+
+<div class="hs-controls">
+  <div class="date-nav">
+    <button class="arrow" id="hsPrevDay" aria-label="이전 날짜">‹</button>
+    <div class="date-display" id="hsDateDisplay">
+      <span class="date-text" id="hsDateText">2026-06-21 (일)</span>
+      <i class="cal-icon">📅</i>
+      <input type="date" id="hsDatePicker">
+    </div>
+    <button class="arrow" id="hsNextDay" aria-label="다음 날짜">›</button>
+  </div>
+
+  <div class="hs-toggle" id="hsToggle">
+    <button class="hs-toggle-btn active" data-bc="live">라이브방송</button>
+    <button class="hs-toggle-btn" data-bc="data">데이터방송</button>
+  </div>
+</div>
+
+<div class="hs-cat-legend" id="hsCatLegend"></div>
+
+<div class="hs-grid-wrap" id="hsGridWrap"></div>
 
 </div>
 
@@ -841,6 +1084,20 @@ function renderGrid(data, dateStr) {
 
   html += '</tbody></table></div>';
   wrap.innerHTML = html;
+
+  // 오늘 날짜이고 ON-AIR 중인 방송이 있으면 그 시간대로 자동 스크롤
+  if (nowMin !== null) {
+    const nowBlock = wrap.querySelector('.prog-block.now');
+    if (nowBlock) {
+      const scrollContainer = wrap.querySelector('.scroll-x');
+      const row = nowBlock.closest('tr');
+      if (scrollContainer && row) {
+        // 현재 시간대가 화면 위쪽에서 적당히 보이도록 약간 위 여백을 두고 스크롤
+        const offset = row.offsetTop - 40;
+        scrollContainer.scrollTop = Math.max(0, offset);
+      }
+    }
+  }
 }
 
 function escapeHtml(str) {
@@ -998,6 +1255,253 @@ async function renderMonth(year, month) {
 let currentYear, currentMonth;
 let pickerPanelYear;
 let _weatherTabLoaded = false;
+let _homeshopTabLoaded = false;
+
+// ============ 홈쇼핑 탭 ============
+let hsCurrentDate = "2026-06-21";
+let hsCurrentBc = "live";  // 'live' | 'data'
+let hsCategoryFilter = null;  // null = 전체보기, 문자열 = 해당 카테고리만
+const HS_COMPANIES = [
+  { code: 'HD', name: 'HD', cls: 'hd' },
+  { code: 'GS', name: 'GS', cls: 'gs' },
+  { code: 'CJ', name: 'CJ', cls: 'cj' },
+  { code: 'LT', name: 'LT', cls: 'lt' },
+];
+const _hsCache = {};  // key: "HD_live_2026-06" -> month data
+
+async function hsLoadCompanyDate(code, bc, dateStr) {
+  const ym = dateStr.slice(0, 7);  // 'YYYY-MM'
+  const key = `${code}_${bc}_${ym}`;
+  if (!(key in _hsCache)) {
+    _hsCache[key] = await fetchJsonSafe(`./homeshopping/${code}_${bc}/${ym}.json`);
+  }
+  const monthData = _hsCache[key];
+  if (monthData && monthData.days && monthData.days[dateStr]) {
+    return { programs: monthData.days[dateStr] };
+  }
+  return null;
+}
+
+function hsNowMinutes(dateStr) {
+  const today = toLocalDateStr(new Date());
+  if (dateStr !== today) return null;
+  const now = new Date();
+  return now.getHours() * 60 + now.getMinutes();
+}
+
+function hsTimeToMin(t) {
+  const [h, m] = t.split(':').map(Number);
+  return h * 60 + m;
+}
+
+// 판매가를 한국식 축약 표기로: 39000 -> "39천원", 1200000 -> "120만원"
+function hsFormatPrice(won) {
+  if (!won || won <= 0) return '';
+  if (won >= 1000000) {
+    const man = Math.floor(won / 10000);  // 100만원 이상: 만원 단위 버림
+    return `<span class="hs-price">${man}만<span class="won">원</span></span>`;
+  }
+  if (won >= 1000) {
+    const cheon = Math.floor(won / 1000);  // 100만원 미만: 천원 단위 버림 (89,900원 -> 89천원)
+    return `<span class="hs-price">${cheon}천<span class="won">원</span></span>`;
+  }
+  return `<span class="hs-price">${won}<span class="won">원</span></span>`;
+}
+
+// 카테고리별 좌측 컬러 바 (학습 모델의 22개 클래스 기준)
+const HS_CATEGORY_COLORS = {
+  '의류': '#E07A5F', '잡화/주얼리': '#D88C9A', '언더웨어': '#F4A8B8',
+  '미용': '#C9ADA7', '건강식품': '#84A98C', '일반식품': '#A3B18A',
+  '가전': '#457B9D', '리빙/주방': '#BC6C25', '여행': '#4895EF',
+  '보험': '#6C757D', '일반렌탈': '#8D99AE', '문화/스포츠': '#F3722C',
+};
+function hsCategoryColor(category) {
+  return HS_CATEGORY_COLORS[category] || '#9C9486';  // 매핑 없는 기타 카테고리(GA 등)는 중립색
+}
+
+function hsRenderCategoryLegend() {
+  const el = document.getElementById('hsCatLegend');
+  if (!el) return;
+
+  let html = `<button type="button" class="hs-cat-chip hs-cat-reset${hsCategoryFilter === null ? ' active' : ''}" data-cat="">전체보기</button>`;
+  for (const [cat, color] of Object.entries(HS_CATEGORY_COLORS)) {
+    const active = hsCategoryFilter === cat ? ' active' : '';
+    html += `<button type="button" class="hs-cat-chip${active}" data-cat="${escapeHtml(cat)}">` +
+            `<i style="background:${color};"></i>${escapeHtml(cat)}</button>`;
+  }
+
+  el.innerHTML = html;
+
+  if (!el.dataset.bound) {
+    el.addEventListener('click', (e) => {
+      const btn = e.target.closest('.hs-cat-chip');
+      if (!btn) return;
+      const cat = btn.dataset.cat;
+      hsCategoryFilter = cat === '' ? null : cat;
+      hsRenderCategoryLegend();
+      hsRenderBody();
+    });
+    el.dataset.bound = '1';
+  }
+}
+
+function hsRenderProgram(p, nowMin) {
+  let onair = false;
+  if (nowMin !== null && p.start && p.end) {
+    let s = hsTimeToMin(p.start);
+    let e = hsTimeToMin(p.end);
+    if (e <= s) e += 24 * 60;
+    if (nowMin >= s && nowMin < e) onair = true;
+  }
+
+  // 방송 소요분 계산 (예: 60분 -> "60'")
+  let durationMin = null;
+  if (p.start && p.end) {
+    let s = hsTimeToMin(p.start);
+    let e = hsTimeToMin(p.end);
+    if (e <= s) e += 24 * 60;
+    durationMin = e - s;
+  }
+  const durationStr = durationMin !== null ? ` (${durationMin}')` : '';
+
+  // 브랜드와 상품명을 분리해서 각각 다른 색으로 표시
+  const brandHtml = p.brand ? `<span class="hs-brand">${escapeHtml(p.brand)}</span> ` : '';
+  const productText = p.product || (p.brand ? '' : '(정보 없음)');
+
+  const priceHtml = hsFormatPrice(p.price);
+  const color = hsCategoryColor(p.category);
+  const gotoHtml = p.link
+    ? `<a class="hs-goto" href="${p.link}" target="_blank" rel="noopener">바로가기</a>`
+    : '';
+
+  return `<div class="hs-prog" style="border-left-color:${color};">` +
+         `<div class="hs-time${onair ? ' onair' : ''}">${p.start}–${p.end}${durationStr}` +
+         (onair ? '<span class="hs-onair-badge">방송중</span>' : '') +
+         `</div>` +
+         `<div class="hs-title">${brandHtml}${escapeHtml(productText)}</div>` +
+         `<div class="hs-bottom-row">${priceHtml}${gotoHtml}</div>` +
+         `</div>`;
+}
+
+let _hsLastDatasets = null;  // 최근 로드된 4사 데이터 (필터만 바뀔 때 재사용)
+let _hsLastDateStr = null;
+
+async function hsRefresh(dateStr) {
+  hsRenderCategoryLegend();
+  document.getElementById('hsDateText').textContent = formatDateLabel(dateStr);
+  const wrap = document.getElementById('hsGridWrap');
+  wrap.innerHTML = '<div style="text-align:center;padding:30px;color:var(--ink-soft);font-size:12px;">불러오는 중…</div>';
+
+  // 4사 데이터 동시 로드
+  const datasets = await Promise.all(
+    HS_COMPANIES.map(c => hsLoadCompanyDate(c.code, hsCurrentBc, dateStr))
+  );
+  _hsLastDatasets = datasets;
+  _hsLastDateStr = dateStr;
+
+  hsRenderBody();
+}
+
+function hsMatchesFilter(p) {
+  if (hsCategoryFilter === null) return true;
+  return p.category === hsCategoryFilter;
+}
+
+function hsRenderBody() {
+  const wrap = document.getElementById('hsGridWrap');
+  const datasets = _hsLastDatasets;
+  const dateStr = _hsLastDateStr;
+  if (!datasets) return;
+
+  const nowMin = hsNowMinutes(dateStr);
+  const hasAny = datasets.some(d => d && d.programs && d.programs.length > 0);
+  if (!hasAny) {
+    wrap.innerHTML = '<div style="text-align:center;padding:40px;color:var(--ink-soft);font-size:13px;">이 날짜의 홈쇼핑 편성 데이터가 없습니다.</div>';
+    return;
+  }
+
+  if (hsCategoryFilter === null) {
+    wrap.innerHTML = hsRenderGridView(datasets, nowMin);
+  } else {
+    wrap.innerHTML = hsRenderListView(datasets, nowMin);
+  }
+}
+
+// 전체보기: 24시간 × 회사 그리드
+function hsRenderGridView(datasets, nowMin) {
+  const buckets = {};
+  for (let h = 0; h < 24; h++) buckets[h] = HS_COMPANIES.map(() => []);
+
+  datasets.forEach((data, ci) => {
+    const programs = (data && data.programs) ? data.programs : [];
+    for (const p of programs) {
+      if (!p.start) continue;
+      const hour = parseInt(p.start.split(':')[0], 10);
+      if (hour >= 0 && hour < 24) buckets[hour][ci].push(p);
+    }
+  });
+
+  let html = '<div class="hs-scroll"><table class="hs-table"><thead><tr>';
+  html += '<th class="hs-time-col">시간</th>';
+  HS_COMPANIES.forEach(c => {
+    html += `<th class="${c.cls}">${c.name}</th>`;
+  });
+  html += '</tr></thead><tbody>';
+
+  for (let h = 0; h < 24; h++) {
+    html += '<tr>';
+    html += `<td class="hs-time-cell">${String(h).padStart(2, '0')}시</td>`;
+    HS_COMPANIES.forEach((c, ci) => {
+      const progs = buckets[h][ci];
+      if (progs.length === 0) {
+        html += '<td class="hs-empty-cell"></td>';
+      } else {
+        let cell = '<td><div class="hs-cell-inner">';
+        for (const p of progs) cell += hsRenderProgram(p, nowMin);
+        cell += '</div></td>';
+        html += cell;
+      }
+    });
+    html += '</tr>';
+  }
+
+  html += '</tbody></table></div>';
+  return html;
+}
+
+// 카테고리 필터링: 시간 컬럼 공란, 회사별로 카드만 빈틈없이 쌓기
+function hsRenderListView(datasets, nowMin) {
+  const filtered = HS_COMPANIES.map((c, ci) => {
+    const programs = (datasets[ci] && datasets[ci].programs) ? datasets[ci].programs : [];
+    return programs.filter(hsMatchesFilter);
+  });
+
+  const anyMatch = filtered.some(arr => arr.length > 0);
+  if (!anyMatch) {
+    return '<div style="text-align:center;padding:40px;color:var(--ink-soft);font-size:13px;">해당 카테고리의 편성이 없습니다.</div>';
+  }
+
+  let html = '<div class="hs-scroll"><table class="hs-table hs-table-list"><thead><tr>';
+  html += '<th class="hs-time-col"></th>';
+  HS_COMPANIES.forEach(c => {
+    html += `<th class="${c.cls}">${c.name}</th>`;
+  });
+  html += '</tr></thead><tbody><tr>';
+  html += '<td class="hs-time-cell"></td>';
+  HS_COMPANIES.forEach((c, ci) => {
+    const progs = filtered[ci];
+    if (progs.length === 0) {
+      html += '<td class="hs-empty-cell"></td>';
+    } else {
+      let cell = '<td><div class="hs-cell-inner hs-cell-list">';
+      for (const p of progs) cell += hsRenderProgram(p, nowMin);
+      cell += '</div></td>';
+      html += cell;
+    }
+  });
+  html += '</tr></tbody></table></div>';
+  return html;
+}
 
 const MONTH_NAMES = ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'];
 const DATA_MIN_YEAR = 2023;
@@ -1036,15 +1540,21 @@ function renderMonthPickerPanel() {
 }
 
 function switchTab(tab) {
-  const isSchedule = tab === 'schedule';
-  document.getElementById('tabSchedule').classList.toggle('active', isSchedule);
-  document.getElementById('tabWeather').classList.toggle('active', !isSchedule);
-  document.getElementById('tabBtnSchedule').classList.toggle('active', isSchedule);
-  document.getElementById('tabBtnWeather').classList.toggle('active', !isSchedule);
+  const panels = { schedule: 'tabSchedule', weather: 'tabWeather', homeshop: 'tabHomeshop' };
+  const btns = { schedule: 'tabBtnSchedule', weather: 'tabBtnWeather', homeshop: 'tabBtnHomeshop' };
 
-  if (!isSchedule && !_weatherTabLoaded) {
+  for (const key in panels) {
+    document.getElementById(panels[key]).classList.toggle('active', key === tab);
+    document.getElementById(btns[key]).classList.toggle('active', key === tab);
+  }
+
+  if (tab === 'weather' && !_weatherTabLoaded) {
     _weatherTabLoaded = true;
     renderMonth(currentYear, currentMonth);
+  }
+  if (tab === 'homeshop' && !_homeshopTabLoaded) {
+    _homeshopTabLoaded = true;
+    hsRefresh(hsCurrentDate);
   }
 }
 
@@ -1053,9 +1563,10 @@ function switchTab(tab) {
   const now = new Date();
   currentYear = now.getFullYear();
   currentMonth = now.getMonth() + 1;
+  hsCurrentDate = toLocalDateStr(now);  // 홈쇼핑 탭 초기 날짜 = 오늘
 
   const picker = document.getElementById('datePicker');
-  picker.value = "2026-06-21"; // 초기 표시 날짜
+  picker.value = toLocalDateStr(now); // 초기 표시 날짜 = 오늘
 
   // 최초 1회는 바로 조회
   await refresh(picker.value);
@@ -1090,6 +1601,35 @@ function switchTab(tab) {
   // 탭 버튼
   document.getElementById('tabBtnSchedule').addEventListener('click', () => switchTab('schedule'));
   document.getElementById('tabBtnWeather').addEventListener('click', () => switchTab('weather'));
+  document.getElementById('tabBtnHomeshop').addEventListener('click', () => switchTab('homeshop'));
+
+  // 홈쇼핑 탭: 날짜 이동
+  const hsPicker = document.getElementById('hsDatePicker');
+  hsPicker.value = hsCurrentDate;
+  document.getElementById('hsPrevDay').addEventListener('click', () => {
+    hsCurrentDate = shiftDate(hsCurrentDate, -1);
+    hsPicker.value = hsCurrentDate;
+    hsRefresh(hsCurrentDate);
+  });
+  document.getElementById('hsNextDay').addEventListener('click', () => {
+    hsCurrentDate = shiftDate(hsCurrentDate, 1);
+    hsPicker.value = hsCurrentDate;
+    hsRefresh(hsCurrentDate);
+  });
+  hsPicker.addEventListener('change', () => {
+    hsCurrentDate = hsPicker.value;
+    hsRefresh(hsCurrentDate);
+  });
+
+  // 홈쇼핑 탭: 라이브/데이터 토글
+  document.querySelectorAll('#hsToggle .hs-toggle-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      hsCurrentBc = btn.dataset.bc;
+      document.querySelectorAll('#hsToggle .hs-toggle-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      hsRefresh(hsCurrentDate);
+    });
+  });
 
   // 날씨 탭 내 월 이동
   document.getElementById('prevMonth').addEventListener('click', () => {
