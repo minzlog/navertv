@@ -533,7 +533,7 @@
         "end": "02:45",
         "brand": "어드림오브씨드",
         "product": "26SS 코튼테리 셋업",
-        "price": 215000,
+        "price": 149000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250572980&preview=true",
         "category": "의류"
       },
@@ -542,7 +542,7 @@
         "end": "02:50",
         "brand": "어드림오브씨드",
         "product": "26SS 피그먼트린넨 셔켓",
-        "price": 159000,
+        "price": 149000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250952409&preview=true",
         "category": "의류"
       },
@@ -560,7 +560,7 @@
         "end": "03:00",
         "brand": "어드림오브씨드",
         "product": "26SS 코튼테리 셋업",
-        "price": 215000,
+        "price": 149000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250572980&preview=true",
         "category": "의류"
       },
@@ -569,7 +569,7 @@
         "end": "03:05",
         "brand": "어드림오브씨드",
         "product": "26SS 피그먼트린넨 셔켓",
-        "price": 159000,
+        "price": 149000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250952409&preview=true",
         "category": "의류"
       },
@@ -587,7 +587,7 @@
         "end": "03:15",
         "brand": "어드림오브씨드",
         "product": "26SS 코튼테리 셋업",
-        "price": 215000,
+        "price": 149000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250572980&preview=true",
         "category": "의류"
       },
@@ -596,7 +596,7 @@
         "end": "03:20",
         "brand": "어드림오브씨드",
         "product": "26SS 피그먼트린넨 셔켓",
-        "price": 159000,
+        "price": 149000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250952409&preview=true",
         "category": "의류"
       },
@@ -614,7 +614,7 @@
         "end": "03:30",
         "brand": "어드림오브씨드",
         "product": "26SS 코튼테리 셋업",
-        "price": 215000,
+        "price": 149000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250572980&preview=true",
         "category": "의류"
       },
@@ -623,7 +623,7 @@
         "end": "03:35",
         "brand": "어드림오브씨드",
         "product": "26SS 피그먼트린넨 셔켓",
-        "price": 159000,
+        "price": 149000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250952409&preview=true",
         "category": "의류"
       },
@@ -641,7 +641,7 @@
         "end": "03:45",
         "brand": "어드림오브씨드",
         "product": "26SS 코튼테리 셋업",
-        "price": 215000,
+        "price": 149000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250572980&preview=true",
         "category": "의류"
       },
@@ -659,7 +659,7 @@
         "end": "03:55",
         "brand": "어드림오브씨드",
         "product": "26SS 피그먼트린넨 셔켓",
-        "price": 159000,
+        "price": 149000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250952409&preview=true",
         "category": "의류"
       },
@@ -1108,12 +1108,21 @@
       },
       {
         "start": "11:40",
-        "end": "12:40",
+        "end": "12:00",
         "brand": "올바른",
         "product": "파로 효소 골드 5박스",
         "price": 29900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250238952&preview=true",
         "category": "건강식품"
+      },
+      {
+        "start": "12:00",
+        "end": "12:40",
+        "brand": "리바인",
+        "product": "BLDC 미니 손풍기 1 1 세트",
+        "price": 39800,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251586392&preview=true",
+        "category": "가전"
       },
       {
         "start": "12:40",
