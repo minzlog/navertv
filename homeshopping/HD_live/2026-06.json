@@ -900,9 +900,9 @@
         "start": "17:30",
         "end": "18:30",
         "brand": "비버리힐스폴로클럽",
-        "product": "비버리힐즈폴로클럽 26SS 여성 반팔 케이블니트 3종",
-        "price": 89900,
-        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250290372&preview=true",
+        "product": "비버리힐즈폴로클럽 26SS 여성 소로나 팬츠 2종",
+        "price": 49900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248853838&preview=true",
         "category": "의류"
       },
       {
@@ -1068,6 +1068,15 @@
         "price": 69800,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251358016&preview=true",
         "category": "잡화/주얼리"
+      },
+      {
+        "start": "13:15",
+        "end": "14:05",
+        "brand": "알레보",
+        "product": "알레보 AUBE 타월 시즌3",
+        "price": 89800,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2243269232&preview=true",
+        "category": "리빙/주방"
       },
       {
         "start": "14:55",
@@ -1273,7 +1282,7 @@
         "start": "17:30",
         "end": "18:30",
         "brand": "한일",
-        "product": "무선 BLDC 듀얼팬 듀오에어 더블",
+        "product": "한일 무선 BLDC 듀얼팬 듀얼헤드 더블",
         "price": 326000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251580055&preview=true",
         "category": "가전"
@@ -1333,6 +1342,15 @@
         "price": 39900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248265305&preview=true",
         "category": "의류"
+      },
+      {
+        "start": "03:40",
+        "end": "04:20",
+        "brand": "아이릴리",
+        "product": "아이릴리 여성 인견100 모로칸브리즈 민소매 쿨셋업 3세트 가방",
+        "price": 79900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250141504&preview=true",
+        "category": "언더웨어"
       },
       {
         "start": "05:20",
@@ -1398,6 +1416,15 @@
         "category": "여행"
       },
       {
+        "start": "22:30",
+        "end": "23:30",
+        "brand": "세르본",
+        "product": "튜닝 엑스 크림미스트 최현우패키지",
+        "price": 249000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251531077&preview=true",
+        "category": "미용"
+      },
+      {
         "start": "23:30",
         "end": "00:30",
         "brand": "DB손해보험",
@@ -1408,6 +1435,15 @@
       }
     ],
     "2026-06-28": [
+      {
+        "start": "01:30",
+        "end": "02:20",
+        "brand": "세인트프랑",
+        "product": "에스테틱 대용량 크림 매니아패키지",
+        "price": 249000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250139436&preview=true",
+        "category": "미용"
+      },
       {
         "start": "06:50",
         "end": "07:50",
@@ -1425,6 +1461,15 @@
         "price": 1590000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248862072&preview=true",
         "category": "가전"
+      },
+      {
+        "start": "10:00",
+        "end": "11:15",
+        "brand": "세인트프랑",
+        "product": "더마 스킨 에끌라 팩트 스페셜구성",
+        "price": 168000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251579211&preview=true",
+        "category": "미용"
       },
       {
         "start": "12:30",
@@ -1470,6 +1515,15 @@
         "price": 1590000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248862072&preview=true",
         "category": "가전"
+      },
+      {
+        "start": "20:25",
+        "end": "21:35",
+        "brand": "세인트프랑",
+        "product": "더마 스킨 에끌라 팩트 스페셜구성",
+        "price": 168000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251579211&preview=true",
+        "category": "미용"
       },
       {
         "start": "21:35",

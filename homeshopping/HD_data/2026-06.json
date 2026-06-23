@@ -1065,7 +1065,7 @@
         "start": "06:00",
         "end": "06:40",
         "brand": "테디크루",
-        "product": "테디크루 26SS 여성 나일론 윈드자켓 1종",
+        "product": "테디크루 26SS 여성 나일론 웨더자켓 1종",
         "price": 39900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249662119&preview=true",
         "category": "의류"
@@ -1153,11 +1153,20 @@
       },
       {
         "start": "15:20",
-        "end": "16:40",
+        "end": "16:00",
         "brand": "부르다문",
         "product": "화이트 26SS 마혼방 썸머 데님 팬츠",
         "price": 39900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250239797&preview=true",
+        "category": "의류"
+      },
+      {
+        "start": "16:00",
+        "end": "16:40",
+        "brand": "RCB폴로클럽",
+        "product": "26SS 여성 데님 셋업 2종",
+        "price": 59900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250265472&preview=true",
         "category": "의류"
       },
       {
@@ -1189,12 +1198,30 @@
       },
       {
         "start": "18:40",
-        "end": "22:40",
+        "end": "19:40",
         "brand": "알레보",
         "product": "디엣지 플러스 유리 밥용기 1 1세트_",
         "price": 59800,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244486431&preview=true",
         "category": "리빙/주방"
+      },
+      {
+        "start": "19:40",
+        "end": "21:40",
+        "brand": "인터쿡",
+        "product": "토마호크 로스돔 3종 세트",
+        "price": 109000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2247721571&preview=true",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "21:40",
+        "end": "22:40",
+        "brand": "삼성",
+        "product": "삼성 AI Q9000 에어컨 홈멀티형",
+        "price": 2299000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248932976&preview=true",
+        "category": "가전"
       },
       {
         "start": "22:40",
@@ -1643,12 +1670,21 @@
       },
       {
         "start": "18:20",
-        "end": "22:40",
+        "end": "19:40",
         "brand": "알레보",
         "product": "디엣지 플러스 유리 밥용기 1 1세트_",
         "price": 59800,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244486431&preview=true",
         "category": "리빙/주방"
+      },
+      {
+        "start": "19:40",
+        "end": "22:40",
+        "brand": "코지마",
+        "product": "코지마 안마의자 데코르 CMC-A35",
+        "price": 1980000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2232811904&preview=true",
+        "category": "가전"
       },
       {
         "start": "22:40",
@@ -1717,12 +1753,21 @@
       },
       {
         "start": "09:40",
-        "end": "14:40",
+        "end": "13:40",
         "brand": "라씨엔토",
         "product": "26SS 뉴빈티지 버뮤다 데님 2종",
         "price": 79900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248843690&preview=true",
         "category": "의류"
+      },
+      {
+        "start": "13:40",
+        "end": "14:40",
+        "brand": "땡스소윤",
+        "product": "냉동실전용 밀폐용기 착한세트 13종 마스킹테이프",
+        "price": 49000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2242939125&preview=true",
+        "category": "리빙/주방"
       },
       {
         "start": "14:40",
@@ -1863,12 +1908,21 @@
       },
       {
         "start": "19:40",
-        "end": "23:40",
+        "end": "21:40",
         "brand": "롯데관광",
         "product": "백두산 북파 서파 완전정복 4일",
         "price": 1126200,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251455859&preview=true",
         "category": "여행"
+      },
+      {
+        "start": "21:40",
+        "end": "23:40",
+        "brand": "휴렉",
+        "product": "휴렉 음식물처리기 지니",
+        "price": 1675200,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2226433369&preview=true",
+        "category": "가전"
       },
       {
         "start": "23:40",

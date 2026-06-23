@@ -505,15 +505,6 @@
         "category": "가전"
       },
       {
-        "start": "03:15",
-        "end": "03:25",
-        "brand": "T심야재방 4부",
-        "product": "펜슬워시 물청소기",
-        "price": 399000,
-        "link": "https://display.cjonstyle.com/p/item/2086571432?channelCode=30002002",
-        "category": "가전"
-      },
-      {
         "start": "03:25",
         "end": "03:35",
         "brand": "T심야재방 5부",
@@ -523,30 +514,12 @@
         "category": "가전"
       },
       {
-        "start": "03:35",
-        "end": "03:45",
-        "brand": "T심야재방 6부",
-        "product": "펜슬워시 물청소기",
-        "price": 399000,
-        "link": "https://display.cjonstyle.com/p/item/2086571432?channelCode=30002002",
-        "category": "가전"
-      },
-      {
         "start": "03:45",
         "end": "03:55",
         "brand": "T심야재방 7부",
         "product": "헤리티지 프리미엄 1995 마스터 무선 핸드블렌더",
         "price": 278000,
         "link": "https://display.cjonstyle.com/p/item/2087331025?channelCode=30002002",
-        "category": "가전"
-      },
-      {
-        "start": "03:55",
-        "end": "04:05",
-        "brand": "T심야재방 8부",
-        "product": "펜슬워시 물청소기",
-        "price": 399000,
-        "link": "https://display.cjonstyle.com/p/item/2086571432?channelCode=30002002",
         "category": "가전"
       },
       {
@@ -635,7 +608,7 @@
         "end": "11:45",
         "brand": "T더 지완스 2부",
         "product": "c'est moi PLUS 풀커버 레이스 V25 6세트",
-        "price": 110000,
+        "price": 108000,
         "link": "https://display.cjonstyle.com/p/item/2058911894?channelCode=30002002",
         "category": "언더웨어"
       },
@@ -858,6 +831,15 @@
         "category": "건강식품"
       },
       {
+        "start": "08:45",
+        "end": "09:45",
+        "brand": "T패션의류",
+        "product": "26S/S 프렌치 린넨혼방 레이어드 풀오버 3종",
+        "price": 59900,
+        "link": "https://display.cjonstyle.com/p/item/2080658406?channelCode=30002002",
+        "category": "의류"
+      },
+      {
         "start": "12:45",
         "end": "13:45",
         "brand": "T패션잡화 1부",
@@ -888,10 +870,19 @@
         "start": "16:45",
         "end": "17:45",
         "brand": "T레포츠의류 1부",
-        "product": "26SS 썸머 듀얼 남성 팬츠 2종",
-        "price": 159000,
-        "link": "https://display.cjonstyle.com/p/item/2081122947?channelCode=30002002",
+        "product": "ESCADA 26SS 썸머 샤이닝 셋업 SET",
+        "price": 239000,
+        "link": "https://display.cjonstyle.com/p/item/2082476702?channelCode=30002002",
         "category": "의류"
+      },
+      {
+        "start": "17:45",
+        "end": "18:45",
+        "brand": "T식품 1부",
+        "product": "조리기능장 의 진 삼계탕 x 8 2팩",
+        "price": 49900,
+        "link": "https://display.cjonstyle.com/p/item/2082078723?channelCode=30002002",
+        "category": "일반식품"
       },
       {
         "start": "18:45",
@@ -959,6 +950,15 @@
         "category": "의류"
       },
       {
+        "start": "06:45",
+        "end": "07:45",
+        "brand": "T건강 슈퍼히어로 1부",
+        "product": "다이어트 유산균 프로틴14포",
+        "price": 599000,
+        "link": "https://display.cjonstyle.com/p/item/2044279977?channelCode=30002002",
+        "category": "건강식품"
+      },
+      {
         "start": "07:45",
         "end": "08:45",
         "brand": "T건강식품 1부",
@@ -993,6 +993,15 @@
         "price": 289000,
         "link": "https://display.cjonstyle.com/p/item/2054810054?channelCode=30002002",
         "category": "건강식품"
+      },
+      {
+        "start": "16:45",
+        "end": "17:45",
+        "brand": "T Weekly Best 3부",
+        "product": "조리기능장의 한끗다른 포기김치",
+        "price": 39900,
+        "link": "https://display.cjonstyle.com/p/item/2082964779?channelCode=30002002",
+        "category": "일반식품"
       },
       {
         "start": "17:45",
@@ -1067,6 +1076,15 @@
         "price": 99000,
         "link": "https://display.cjonstyle.com/p/item/2076270011?channelCode=30002002",
         "category": "건강식품"
+      },
+      {
+        "start": "11:45",
+        "end": "12:45",
+        "brand": "T패션잡화 1부",
+        "product": "라피아 트라이앵글 숄더",
+        "price": 99000,
+        "link": "https://display.cjonstyle.com/p/item/2083353279?channelCode=30002002",
+        "category": "잡화/주얼리"
       },
       {
         "start": "13:45",
@@ -1150,6 +1168,15 @@
         "price": 699000,
         "link": "https://display.cjonstyle.com/p/item/2064475805?channelCode=30002002",
         "category": "의류"
+      },
+      {
+        "start": "15:45",
+        "end": "16:45",
+        "brand": "T인테리어 1부",
+        "product": "이지홈 인테리어",
+        "price": 0,
+        "link": "https://display.cjonstyle.com/p/item/64754606?channelCode=30002002",
+        "category": "잡화/주얼리"
       },
       {
         "start": "16:45",

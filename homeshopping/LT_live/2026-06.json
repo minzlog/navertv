@@ -539,7 +539,7 @@
         "end": "08:15",
         "brand": "트라이엄프",
         "product": "26SS 트라이엄프 쉐이핑 냉감 브라팬티 4세트",
-        "price": 98100,
+        "price": 109000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12901830",
         "category": "언더웨어"
       },
@@ -548,7 +548,7 @@
         "end": "09:25",
         "brand": "비버리힐스폴로클럽",
         "product": "■비버리힐스폴로클럽26SS 여성 코튼 반팔티셔츠 5종",
-        "price": 67300,
+        "price": 69900,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12896640",
         "category": "의류"
       },
@@ -861,6 +861,15 @@
         "category": "일반식품"
       },
       {
+        "start": "18:30",
+        "end": "19:35",
+        "brand": "란체티",
+        "product": "■ 란체티 26SS 남성 여름 아이스큐브 쿨 카라티셔츠 3종",
+        "price": 79900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906103",
+        "category": "의류"
+      },
+      {
         "start": "19:35",
         "end": "20:45",
         "brand": "에스더포뮬러",
@@ -1020,7 +1029,7 @@
         "end": "11:35",
         "brand": "에버콜라겐",
         "product": "● NEW 에버콜라겐 타임레티놀A",
-        "price": 316800,
+        "price": 396000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12841667",
         "category": "건강식품"
       },
@@ -1153,15 +1162,6 @@
         "category": "건강식품"
       },
       {
-        "start": "01:55",
-        "end": "02:25",
-        "brand": "지프",
-        "product": "JEEP 26SS 여성 소로나 반팔티셔츠 3종",
-        "price": 50150,
-        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12899935",
-        "category": "의류"
-      },
-      {
         "start": "02:25",
         "end": "02:55",
         "brand": "리오홈",
@@ -1219,7 +1219,7 @@
         "start": "07:15",
         "end": "08:15",
         "brand": "리더스",
-        "product": "★전체매진/즉각리프팅크림★ 리더스 PDRN 주름전용 크림 6 리뷰 작성 전고객 아이 페이스 리프팅 마사지기 증정",
+        "product": "★리뷰 시 하나 더!/즉각리프팅★ 리더스 PDRN 주름전용 크림 6 리뷰 작성 전고객 본품 아이 페이스 리프팅 마사지기 증정",
         "price": 109000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12901349",
         "category": "미용"
@@ -1268,6 +1268,15 @@
         "price": 50150,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12909717",
         "category": "의류"
+      },
+      {
+        "start": "15:30",
+        "end": "16:30",
+        "brand": "하나손해보험",
+        "product": "하나손보 하나더스마트 여성암하트플랜",
+        "price": 0,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12908070",
+        "category": "보험"
       },
       {
         "start": "16:30",
@@ -1450,6 +1459,15 @@
         "price": 79900,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910282",
         "category": "리빙/주방"
+      },
+      {
+        "start": "17:30",
+        "end": "18:35",
+        "brand": "로보락",
+        "product": "Q Revo C Pro 로봇청소기",
+        "price": 1290000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12904800",
+        "category": "가전"
       },
       {
         "start": "20:25",

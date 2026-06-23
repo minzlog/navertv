@@ -596,6 +596,15 @@
         "category": "보험"
       },
       {
+        "start": "17:30",
+        "end": "18:30",
+        "brand": "생활가전 2부",
+        "product": "펜슬워시 물청소기",
+        "price": 399000,
+        "link": "https://display.cjonstyle.com/p/item/2087135188?channelCode=30002002",
+        "category": "가전"
+      },
+      {
         "start": "18:30",
         "end": "19:35",
         "brand": "쿨더란제리",
@@ -668,6 +677,15 @@
         "price": 39900,
         "link": "https://display.cjonstyle.com/p/item/2052022735?channelCode=30002002",
         "category": "의류"
+      },
+      {
+        "start": "03:00",
+        "end": "03:30",
+        "brand": "심야재방 베스트 3부",
+        "product": "26SS 스킨핏 퍼펙트 실루엣 에어홀 브라",
+        "price": 179900,
+        "link": "https://display.cjonstyle.com/p/item/2081354302?channelCode=30002002",
+        "category": "언더웨어"
       },
       {
         "start": "03:30",
@@ -764,7 +782,7 @@
         "end": "16:30",
         "brand": "스튜디오B",
         "product": "배럴 커브드 데님",
-        "price": 49900,
+        "price": 39900,
         "link": "https://display.cjonstyle.com/p/item/2063562878?channelCode=30002002",
         "category": "의류"
       },
@@ -785,6 +803,15 @@
         "price": 0,
         "link": "https://display.cjonstyle.com/p/item/2073490212?channelCode=30002002",
         "category": "보험"
+      },
+      {
+        "start": "18:30",
+        "end": "19:35",
+        "brand": "생활용품 1부",
+        "product": "아치나인Arch-9 Flux기능성 슬리퍼_블랙",
+        "price": 79600,
+        "link": "https://display.cjonstyle.com/p/item/2064640263?channelCode=30002002",
+        "category": "잡화/주얼리"
       },
       {
         "start": "20:45",
@@ -819,10 +846,10 @@
         "start": "01:00",
         "end": "02:00",
         "brand": "Replay Best",
-        "product": "통닭다리 빠삭킹 순살치킨 총14팩",
-        "price": 59900,
-        "link": "https://display.cjonstyle.com/p/item/2078923436?channelCode=30002002",
-        "category": "일반식품"
+        "product": "유기농 레몬즙 20 10박스",
+        "price": 198000,
+        "link": "https://display.cjonstyle.com/p/item/2086734280?channelCode=30002002",
+        "category": "건강식품"
       },
       {
         "start": "02:00",
@@ -850,6 +877,15 @@
         "price": 139000,
         "link": "https://display.cjonstyle.com/p/item/2079705066?channelCode=30002002",
         "category": "잡화/주얼리"
+      },
+      {
+        "start": "03:30",
+        "end": "03:45",
+        "brand": "심야재방 베스트 4부",
+        "product": "26SS 뉴클래식 레이어드 가디건 3종",
+        "price": 69900,
+        "link": "https://display.cjonstyle.com/p/item/2076854034?channelCode=30002002",
+        "category": "의류"
       },
       {
         "start": "03:45",
@@ -1025,6 +1061,15 @@
         "category": "리빙/주방"
       },
       {
+        "start": "08:15",
+        "end": "09:20",
+        "brand": "이미용품 1부",
+        "product": "헤어샵전용 케라틴 VEG 마스크 수정 직수입 패키지 포토리뷰300ml",
+        "price": 209000,
+        "link": "https://display.cjonstyle.com/p/item/2080656921?channelCode=30002002",
+        "category": "미용"
+      },
+      {
         "start": "09:20",
         "end": "10:25",
         "brand": "건강식품 1부",
@@ -1059,6 +1104,15 @@
         "price": 89000,
         "link": "https://display.cjonstyle.com/p/item/2083734469?channelCode=30002002",
         "category": "건강식품"
+      },
+      {
+        "start": "13:35",
+        "end": "14:35",
+        "brand": "Replay Best 1부",
+        "product": "헤어샵전용 케라틴 VEG 마스크 수정 직수입 패키지 포토리뷰300ml",
+        "price": 209000,
+        "link": "https://display.cjonstyle.com/p/item/2080656921?channelCode=30002002",
+        "category": "미용"
       },
       {
         "start": "14:35",
@@ -1248,9 +1302,9 @@
         "start": "05:00",
         "end": "06:00",
         "brand": "Weekly Best 6부",
-        "product": "날개없는 BLDC 선풍기 BR-L270DC",
+        "product": "날개없는 BLDC 선풍기 BR-L270DC 퍼플",
         "price": 149000,
-        "link": "https://display.cjonstyle.com/p/item/2087190717?channelCode=30002002",
+        "link": "https://display.cjonstyle.com/p/item/2087499146?channelCode=30002002",
         "category": "가전"
       },
       {
@@ -1297,6 +1351,15 @@
         "price": 160000,
         "link": "https://display.cjonstyle.com/p/item/2030938716?channelCode=30002002",
         "category": "리빙/주방"
+      },
+      {
+        "start": "14:30",
+        "end": "15:30",
+        "brand": "화장품 2부",
+        "product": "D.N.A 에센스",
+        "price": 179000,
+        "link": "https://display.cjonstyle.com/p/item/2087339931?channelCode=30002002",
+        "category": "미용"
       },
       {
         "start": "16:30",
