@@ -116,7 +116,7 @@ def fetch_drama(page):
     page.goto(DRAMA_URL, wait_until="networkidle", timeout=30000)
     page.wait_for_selector("li.info_box", timeout=15000)
     html = page.content()
-    programs = parse_cards_from_html(html, "drama", min_rating=MIN_RATING_DRAMA)
+    programs = parse_cards_from_html(html, "drama", min_rating=MIN_RATING_DRAMA, base_url=DRAMA_URL)
     return dedupe_programs(programs)
 
 
@@ -186,7 +186,7 @@ def fetch_variety(page, max_pages: int = 30):
         paging_text = read_paging_text(page)
         cur, tot = parse_current_total(paging_text)
         html = page.content()
-        programs = parse_cards_from_html(html, "variety", min_rating=MIN_RATING_VARIETY)
+        programs = parse_cards_from_html(html, "variety", min_rating=MIN_RATING_VARIETY, base_url=VARIETY_URL)
         all_programs.extend(programs)
 
         total_cards = None

@@ -22,6 +22,7 @@ naver_parser.py
     2페이지 이상을 가져올 수 없다. Playwright 등으로 클릭하며 순회 필요.
 """
 import re
+from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 
 DAY_ORDER = ["월", "화", "수", "목", "금", "토", "일"]
@@ -49,13 +50,19 @@ def parse_schedule_text(schedule_text: str):
     return [{"days": expand_days(day_token), "time": time_token.strip()} for day_token, time_token in groups]
 
 
-def parse_card(li, category: str):
+def parse_card(li, category: str, base_url: str = ""):
     """li.info_box 하나 -> 방영 슬롯별로 펼쳐진 program dict 리스트 (시청률 필터링은 호출부에서)"""
     title_tag = li.select_one('strong.title a')
     if not title_tag:
         return []
     title = title_tag.get_text(strip=True)
     link = title_tag.get('href', '')
+    # 네이버 라이브 페이지에서는 href가 상대경로(예: '?where=nexearch&...')로
+    # 내려오는 경우가 있어, base_url 기준으로 항상 절대경로로 변환해둔다.
+    # (오프라인 저장 HTML은 브라우저가 저장 시 자동으로 절대경로로 바꿔주기 때문에
+    #  이 문제가 가려져 있었음 -> 실서비스에서는 반드시 필요한 처리)
+    if base_url and link:
+        link = urljoin(base_url, link)
 
     info_txt = li.select_one('div.main_info span.info_txt')
     if not info_txt:
@@ -101,12 +108,12 @@ def parse_card(li, category: str):
     return programs
 
 
-def parse_cards_from_html(html: str, category: str, min_rating: float = 5.0):
+def parse_cards_from_html(html: str, category: str, min_rating: float = 5.0, base_url: str = ""):
     """HTML 문자열 전체에서 li.info_box 를 모두 찾아 파싱 + 시청률 필터링"""
     soup = BeautifulSoup(html, 'lxml')
     results = []
     for li in soup.select('li.info_box'):
-        for p in parse_card(li, category):
+        for p in parse_card(li, category, base_url=base_url):
             if p["rating"] >= min_rating:
                 results.append(p)
     return results
