@@ -12,16 +12,15 @@ from datetime import datetime, timedelta, timezone
 
 from playwright.sync_api import sync_playwright
 
-# 실행 경로 문제 방지 (현재 파일 디렉토리와 작업 디렉토리 우선 탐색)
+# 실행 경로 문제 방지
 sys.path.insert(0, os.getcwd())
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from naver_parser import parse_cards_from_html, dedupe_programs
 
-# ⚠️ [핵심 수정] 드라마와 예능 모두 pkid=57 위젯 엔진에 &os=1(전체 탭) 파라미터를 주입하여 
-# 실행하는 요일과 무관하게 '전체 요일' 데이터를 강제로 불러옵니다.
+# ⚠️ [핵심 교정] 드라마는 pkid=491, 예능은 pkid=57을 사용해야 요일 잠금이 해제됩니다.
 DRAMA_URL = (
-    "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&pkid=57&os=1"
+    "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&pkid=491&os=1"
     "&query=%EB%B0%A9%EC%98%81%EC%A4%91%ED%95%9C%EA%B5%AD%EB%93%9C%EB%9D%BC%EB%A7%88"
 )
 VARIETY_URL = (
