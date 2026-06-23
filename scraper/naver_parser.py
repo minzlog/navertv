@@ -34,7 +34,6 @@ def expand_days(day_token: str):
 
 def parse_schedule_text(schedule_text: str):
     """'(월, 화) 오후 08:50' 등을 [{'days':[...], 'time': '...'}] 리스트로 변환"""
-    # 네이버 마크업 변화에 대응하기 위해 괄호 안의 요일 패턴 정규식 최적화
     groups = re.findall(r'\(([^)]+)\)\s*((?:오전|오후)\s*\d{1,2}:\d{2})', schedule_text)
     results = []
     for day_token, time_token in groups:
@@ -84,7 +83,6 @@ def parse_card(li, category: str, base_url: str = ""):
 
     programs = []
     for slot in slots:
-        # 고유 ID 생성 (중복 제거의 핵심 기준)
         programs.append({
             "id": f"{category}_{title}_{'-'.join(slot['days'])}_{slot['time']}",
             "category": category,
@@ -99,8 +97,8 @@ def parse_card(li, category: str, base_url: str = ""):
     return programs
 
 
-def parse_cards_from_html(html: str, category: str, min_rating: float = 5.0, base_url: str = ""):
-    """HTML 문자열 전체에서 li.info_box 를 모두 찾아 파싱 + 시청률 필터링"""
+def parse_cards_from_html(html: str, category: str, min_rating: float = 5.0, base_url: str = "", debug: bool = False):
+    """HTML 문자열 전체에서 li.info_box 를 모두 찾아 파싱 + 시청률 필터링 (debug 인자 추가)"""
     soup = BeautifulSoup(html, 'lxml')
     results = []
     for li in soup.select('li.info_box'):
