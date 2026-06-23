@@ -1,7 +1,7 @@
 """
 scrape_naver.py
 네이버 "방영중한국드라마" / "방영중한국예능" 검색 위젯을 수집해
-주차별(월~일) JSON 스냅샷으로 저장한다. (독립 실행형 통합 버전)
+'X월 X주차.json' 형식의 파일명으로 추적 및 정밀 누적 적재한다.
 """
 import argparse
 import json
@@ -13,22 +13,43 @@ from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
-# 가장 안정적이고 깨끗한 네이버 PC 공식 검색 URL 표준 규격
 DRAMA_URL = "https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EB%B0%A9%EC%98%81%EC%A4%91%ED%95%9C%EA%B5%AD%EB%93%9C%EB%9D%BC%EB%A7%88"
 VARIETY_URL = "https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EB%B0%A9%EC%98%81%EC%A4%91%ED%95%9C%EA%B5%AD%EC%98%88%EB%8A%A5"
 
-# 시청률 커트라인 기준 (드라마 5.0%, 예능 1.0%)
 MIN_RATING_DRAMA = 5.0
 MIN_RATING_VARIETY = 1.0
 KST = timezone(timedelta(hours=9))
 
-DAY_ORDER = ["월", "화", "수", "목", "금", "토", "일"]
-DAY_INDEX = {d: i for i, d in enumerate(DAY_ORDER)}
 DEBUG = False
 
 
-def monday_of(date_obj):
-    return date_obj - timedelta(days=date_obj.weekday())
+# ==========================================
+#        정밀 주차 계산 유틸리티 함수
+# ==========================================
+
+def get_week_of_month_string(date_obj):
+    """
+    날짜를 받아 'X월 X주차' 형태의 직관적인 문자열을 반환합니다.
+    그 달의 첫 번째 목요일이 포함된 주를 1주차로 계산하는 표준 방식을 따릅니다.
+    """
+    first_day = date_obj.replace(day=1)
+    # 첫 주 목요일 찾기
+    first_thursday = first_day + timedelta(days=(3 - first_day.weekday()) % 7)
+    
+    # 만약 해당 월의 첫 목요일보다 전이라면 이전 달의 마지막 주차로 편입
+    if date_obj < first_thursday - timedelta(days=3):
+        last_day_of_prev_month = first_day - timedelta(days=1)
+        return get_week_of_month_string(last_day_of_prev_month)
+        
+    # 만약 목요일 기준으로 다음 달 1주차에 해당한다면 다음 달로 편입
+    next_month_first = (date_obj.replace(day=28) + timedelta(days=5)).replace(day=1)
+    next_thursday = next_month_first + timedelta(days=(3 - next_month_first.weekday()) % 7)
+    if date_obj >= next_thursday - timedelta(days=3):
+        return f"{next_month_first.month}월 1주차"
+        
+    # 정상 범위 내 주차 계산
+    week_number = int((date_obj - (first_thursday - timedelta(days=3))).days / 7) + 1
+    return f"{date_obj.month}월 {week_number}주차"
 
 
 # ==========================================
@@ -36,6 +57,8 @@ def monday_of(date_obj):
 # ==========================================
 
 def expand_days(day_token: str):
+    day_order = ["월", "화", "수", "목", "금", "토", "일"]
+    day_index = {d: i for i, d in enumerate(day_order)}
     days = []
     clean_token = day_token.replace(" ", "").strip()
     for part in [p.strip() for p in clean_token.split(",")]:
@@ -44,12 +67,12 @@ def expand_days(day_token: str):
         if "~" in part:
             try:
                 start, end = [p.strip() for p in part.split("~")]
-                si, ei = DAY_INDEX[start], DAY_INDEX[end]
-                days.extend(DAY_ORDER[si:ei + 1])
+                si, ei = day_index[start], day_index[end]
+                days.extend(day_order[si:ei + 1])
             except KeyError:
                 continue
         else:
-            if part in DAY_INDEX:
+            if part in day_index:
                 days.append(part)
     return days
 
@@ -220,8 +243,6 @@ def click_next_and_wait(page, before_paging_text, before_visible_sig, timeout_s=
     return False
 
 
-# ---------- '전체' 요일 탭 마우스 제어 함수 ----------
-
 def click_all_days_tab(page, category):
     try:
         target_selector = "div.cm_tap_area ul > li > a > span.menu._text"
@@ -246,15 +267,8 @@ def click_all_days_tab(page, category):
 def fetch_drama(page):
     page.goto(DRAMA_URL, wait_until="networkidle", timeout=30000)
     click_all_days_tab(page, "drama")
-    
     html = page.content()
-    try:
-        raw_card_count = len(page.query_selector_all("li.info_box"))
-    except Exception:
-        raw_card_count = "?"
-    print(f"  [drama] 전체카드(보이는+숨김 포함)={raw_card_count}개")
-    programs = parse_cards_from_html(html, "drama", min_rating=MIN_RATING_DRAMA, base_url=DRAMA_URL)
-    return dedupe_programs(programs)
+    return parse_cards_from_html(html, "drama", min_rating=MIN_RATING_DRAMA, base_url=DRAMA_URL)
 
 
 def fetch_variety(page, max_pages: int = 30):
@@ -267,26 +281,16 @@ def fetch_variety(page, max_pages: int = 30):
 
     while page_num <= max_pages:
         page.wait_for_timeout(800)
-        
         paging_text = read_paging_text(page)
         cur, tot = parse_current_total(paging_text)
         html = page.content()
 
-        try:
-            raw_card_count = len(page.query_selector_all("li.info_box:visible"))
-        except Exception:
-            raw_card_count = "?"
-
         programs = parse_cards_from_html(html, "variety", min_rating=MIN_RATING_VARIETY, base_url=VARIETY_URL)
         all_programs.extend(programs)
 
-        print(
-            f"  [variety] page {page_num} (네이버 표시: 현재{cur}/전체{tot}) "
-            f"전체카드={raw_card_count}개 중 >= {MIN_RATING_VARIETY}%: {len(programs)}건"
-        )
+        print(f"  [variety] page {page_num} (네이버 표시: 현재{cur}/전체{tot}) 수집 중...")
 
         if cur is not None and tot is not None and cur >= tot:
-            print(f"  [variety] 네이버 페이지카운터 기준 마지막 페이지 도달 ({cur}/{tot})")
             break
 
         before_paging_text = paging_text
@@ -300,46 +304,78 @@ def fetch_variety(page, max_pages: int = 30):
             page.wait_for_timeout(1000)
 
         if not advanced:
-            print(f"  [variety] page {page_num}에서 수집 종료 혹은 단일 페이지 판정")
             break
-
         page_num += 1
 
-    return dedupe_programs(all_programs)
+    return all_programs
 
 
-# ---------- 저장/병합 ----------
+# ---------- 🎯 핵심 수정: 'X월 X주차.json' 기준 누적 적재 오케스트레이션 ----------
 
-def merge_into_week_file(out_path: str, new_programs: list, week_start: str, week_end: str):
-    if os.path.exists(out_path):
-        with open(out_path, encoding="utf-8") as f:
-            existing = json.load(f)
-        existing_programs = existing.get("programs", [])
-    else:
-        existing_programs = []
+def dispatch_and_merge_by_week_string(out_dir: str, programs: list):
+    """
+    수집된 프로그램들의 ratingDate를 기반으로 'X월 X주차'를 계산하여
+    해당 주차의 직관적인 명칭을 가진 JSON 파일에 정밀 누적 병합합니다.
+    """
+    current_year = datetime.now(KST).year
+    
+    # 1. 수집된 데이터를 실제 속해야 하는 'X월 X주차'별로 그룹화
+    buckets = {}
+    for p in programs:
+        r_date_str = p.get("ratingDate")
+        if not r_date_str:
+            week_name = get_week_of_month_string(datetime.now(KST).date())
+        else:
+            try:
+                month, day = map(int, r_date_str.split('.'))
+                actual_date = datetime(current_year, month, day).date()
+                week_name = get_week_of_month_string(actual_date)
+            except Exception:
+                week_name = get_week_of_month_string(datetime.now(KST).date())
+                
+        if week_name not in buckets:
+            buckets[week_name] = []
+        buckets[week_name].append(p)
 
-    by_id = {p["id"]: p for p in existing_programs}
-    for p in new_programs:
-        by_id[p["id"]] = p
-
-    merged = {
-        "weekStart": week_start,
-        "weekEnd": week_end,
-        "collectedAt": datetime.now(KST).isoformat(),
-        "programs": list(by_id.values()),
-    }
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(merged, f, ensure_ascii=False, indent=2)
-    return merged
+    # 2. 각 주차별 명칭으로 JSON 파일 바인딩 및 정밀 로드 수행
+    for week_name, p_list in buckets.items():
+        file_path = os.path.join(out_dir, f"{week_name}.json")
+        
+        # 기존 파일이 있으면 복원해서 합칩니다 (누적 보장)
+        if os.path.exists(file_path):
+            try:
+                with open(file_path, encoding="utf-8") as f:
+                    existing_data = json.load(f)
+                existing_programs = existing_data.get("programs", [])
+            except Exception:
+                existing_programs = []
+        else:
+            existing_programs = []
+            
+        # ID 기준 고유 맵 빌드를 통한 중복 완벽 제거 누적
+        by_id = {p["id"]: p for p in existing_programs}
+        for p in p_list:
+            by_id[p["id"]] = p
+            
+        merged_payload = {
+            "weekName": week_name,
+            "collectedAt": datetime.now(KST).isoformat(),
+            "programs": dedupe_programs(list(by_id.values())),
+        }
+        
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump(merged_payload, f, ensure_ascii=False, indent=2)
+            
+        print(f"  [Merge Success] {week_name} 파일에 {len(merged_payload['programs'])}개 프로그램 누적 완료 -> {file_path}")
 
 
 def main():
     global DEBUG
     parser = argparse.ArgumentParser()
     parser.add_argument("--out-dir", default="../data/dramavariety")
-    parser.add_argument("--max-pages", type=int, default=30, help="예능 위젯 최대 순회 페이지 수")
-    parser.add_argument("--debug", action="store_true", help="진행 상황 출력")
-    parser.add_argument("--headful", action="store_true", help="브라우저 활성화 실행")
+    parser.add_argument("--max-pages", type=int, default=30)
+    parser.add_argument("--debug", action="store_true")
+    parser.add_argument("--headful", action="store_true")
     args = parser.parse_args()
     DEBUG = args.debug
 
@@ -347,41 +383,26 @@ def main():
     final_out_dir = os.path.isabs(args.out_dir) and args.out_dir or os.path.normpath(os.path.join(CURRENT_FILE_DIR, args.out_dir))
     os.makedirs(final_out_dir, exist_ok=True)
 
-    today = datetime.now(KST).date()
-    week_start_date = monday_of(today)
-    week_end_date = week_start_date + timedelta(days=6)
-    week_start = week_start_date.isoformat()
-    week_end = week_end_date.isoformat()
-
     with sync_playwright() as pw:
-        browser = pw.chromium.launch(
-            headless=not args.headful,
-            args=["--disable-dev-shm-usage"],
-        )
+        browser = pw.chromium.launch(headless=not args.headful, args=["--disable-dev-shm-usage"])
         page = browser.new_page(
-            user_agent=(
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-            ),
-            locale="ko-KR",
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+            locale="ko-KR"
         )
         page.set_default_timeout(25000)
 
         print("collecting drama...")
         drama_programs = fetch_drama(page)
-        print(f"  drama total: {len(drama_programs)} programs >= {MIN_RATING_DRAMA}%")
+        print(f"  drama raw count: {len(drama_programs)}")
 
         print("collecting variety...")
         variety_programs = fetch_variety(page, max_pages=args.max_pages)
-        print(f"  variety total: {len(variety_programs)} programs >= {MIN_RATING_VARIETY}%")
+        print(f"  variety raw count: {len(variety_programs)}")
 
         browser.close()
 
-    all_programs = drama_programs + variety_programs
-    out_path = os.path.join(final_out_dir, f"{week_start}.json")
-    merged = merge_into_week_file(out_path, all_programs, week_start, week_end)
-
-    print(f"saved {len(merged['programs'])} programs -> {out_path}")
+    all_raw_programs = drama_programs + variety_programs
+    dispatch_and_merge_by_week_string(final_out_dir, all_raw_programs)
 
 
 if __name__ == "__main__":
