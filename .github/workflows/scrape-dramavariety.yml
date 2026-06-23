@@ -1,0 +1,41 @@
+name: 드라마예능 편성 수집
+
+on:
+  schedule:
+    # 매주 월요일 09:10 KST(=UTC 00:10)에 실행. 그 주의 편성/시청률 스냅샷 1회 수집.
+    - cron: "10 0 * * 1"
+  workflow_dispatch: {}  # 수동 실행 버튼
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Python 설치
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 의존성 설치
+        run: |
+          pip install playwright beautifulsoup4 lxml
+          python -m playwright install --with-deps chromium
+
+      - name: 스크래핑 실행
+        run: |
+          cd scraper
+          python scrape_naver.py --out-dir ../data/dramavariety --max-pages 30
+
+      - name: 변경사항 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/dramavariety/*.json
+          git diff --cached --quiet || git commit -m "chore: 드라마/예능 편성 데이터 갱신 ($(date -u +%Y-%m-%d))"
+          git push
