@@ -1,8 +1,7 @@
 """
 scrape_naver.py
-네이버 "방영중한국드라마" / "방영중한국예능" 검색 위젯을 수집해
-데이터의 실제 발생일(ratingDate)이 속한 주의 월요일 날짜('YYYY-MM-DD.json')를 추적하여
-해당 날짜 파일에 정밀 누적(Merge) 적재한다. (독립 실행형 통합 버전)
+네이버 "방영중한국드라마" / "방영중한국예능" 검색 위젯 수집
+중복 카드 자동 병합 및 요일 완전 복원 로직 탑재
 """
 import argparse
 import json
@@ -14,11 +13,9 @@ from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
-# 가장 안정적이고 깨끗한 네이버 PC 공식 검색 URL 표준 규격
 DRAMA_URL = "https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EB%B0%A9%EC%98%81%EC%A4%91%ED%95%9C%EA%B5%AD%EB%93%9C%EB%9D%BC%EB%A7%88"
 VARIETY_URL = "https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EB%B0%A9%EC%98%81%EC%A4%91%ED%95%9C%EA%B5%AD%EC%98%88%EB%8A%A5"
 
-# 시청률 커트라인 기준 (드라마 5.0%, 예능 1.0%)
 MIN_RATING_DRAMA = 5.0
 MIN_RATING_VARIETY = 1.0
 KST = timezone(timedelta(hours=9))
@@ -29,16 +26,15 @@ DEBUG = False
 
 
 def to_local_date_str(d):
-    return f"{d.getFullYear()}-{String(d.getMonth() + 1).padStart(2, '0')}-{String(d.getDate()).padStart(2, '0')}"
+    return f"{d.getFullYear()}-{str(d.getMonth() + 1).zfill(2)}-{str(d.getDate()).zfill(2)}"
 
 
 def monday_of(date_obj):
-    """기준 날짜가 속한 주의 월요일 날짜 객체를 반환합니다."""
     return date_obj - timedelta(days=date_obj.weekday())
 
 
 # ==========================================
-#              내장형 파서 로직
+#              파서 및 병합 로직
 # ==========================================
 
 def expand_days(day_token: str):
@@ -109,8 +105,9 @@ def parse_card(li, category: str, base_url: str = ""):
 
     programs = []
     for slot in slots:
+        # 🔥 핵심 수정: 식별자(ID)에서 요일과 시간을 빼버리고 오직 카테고리+제목+채널로만 고정
         programs.append({
-            "id": f"{category}_{title}_{channel}_{'-'.join(slot['days'])}_{slot['time']}",
+            "id": f"{category}_{title}_{channel}",
             "category": category,
             "channel": channel,
             "title": title,
@@ -123,6 +120,22 @@ def parse_card(li, category: str, base_url: str = ""):
     return programs
 
 
+def dedupe_programs(programs: list):
+    """중복 카드가 들어오면 요일(days)을 영리하게 합쳐버립니다."""
+    merged = {}
+    for p in programs:
+        key = p["id"]
+        if key not in merged:
+            merged[key] = p
+        else:
+            # 기존 카드와 새 카드의 요일을 합집합으로 묶음
+            existing_days = set(merged[key]["days"])
+            existing_days.update(p["days"])
+            # 요일 순서(월~일)에 맞게 재정렬
+            merged[key]["days"] = [d for d in DAY_ORDER if d in existing_days]
+    return list(merged.values())
+
+
 def parse_cards_from_html(html: str, category: str, min_rating: float = 5.0, base_url: str = ""):
     soup = BeautifulSoup(html, 'lxml')
     results = []
@@ -131,17 +144,6 @@ def parse_cards_from_html(html: str, category: str, min_rating: float = 5.0, bas
             if p["rating"] >= min_rating:
                 results.append(p)
     return results
-
-
-def dedupe_programs(programs: list):
-    seen = set()
-    out = []
-    for p in programs:
-        if p["id"] in seen:
-            continue
-        seen.add(p["id"])
-        out.append(p)
-    return out
 
 
 # ==========================================
@@ -168,17 +170,14 @@ PAGING_TEXT_JS = """
     }
 """
 
-
 def visible_signature(page):
     return page.evaluate(VISIBLE_SIG_JS)
-
 
 def read_paging_text(page):
     try:
         return page.evaluate(PAGING_TEXT_JS)
     except Exception:
         return None
-
 
 def parse_current_total(paging_text):
     if not paging_text:
@@ -187,7 +186,6 @@ def parse_current_total(paging_text):
     if not m:
         return None, None
     return int(m.group(1)), int(m.group(2))
-
 
 def click_next_and_wait(page, before_paging_text, before_visible_sig, timeout_s=12):
     next_btn = page.query_selector("a.pg_next._next")
@@ -202,46 +200,45 @@ def click_next_and_wait(page, before_paging_text, before_visible_sig, timeout_s=
     try:
         next_btn.scroll_into_view_if_needed(timeout=3000)
         page.wait_for_timeout(200)
-        next_btn.click(timeout=5000)
+        # JS 네이티브 클릭으로 강제 실행
+        next_btn.evaluate("node => node.click()")
     except Exception:
-        try:
-            next_btn.click(force=True, timeout=5000)
-        except Exception:
-            return False
+        return False
 
     steps = int(timeout_s / 0.5)
     for _ in range(steps):
         page.wait_for_timeout(500)
-
         after_paging_text = read_paging_text(page)
         cur, tot = parse_current_total(after_paging_text)
         before_cur, before_tot = parse_current_total(before_paging_text)
         if cur is not None and before_cur is not None and cur != before_cur:
             return True
-
         after_visible_sig = visible_signature(page)
         if after_visible_sig and before_visible_sig and after_visible_sig != before_visible_sig:
             return True
-
     return False
 
 
 def click_all_days_tab(page, category):
+    """
+    🔥 핵심 수정: 네이버가 겉핥기 클릭을 무시하지 못하도록 a 태그 심장부를 JS로 직접 때립니다.
+    """
     try:
         target_selector = "div.cm_tap_area ul > li > a > span.menu._text"
         page.wait_for_selector(target_selector, timeout=10000)
         tabs = page.query_selector_all(target_selector)
         
         for tab in tabs:
-            if tab.inner_text().strip() == "전체":
+            if "전체" in tab.inner_text().strip():
                 tab.scroll_into_view_if_needed(timeout=3000)
-                page.wait_for_timeout(200)
-                tab.click(force=True)
-                print(f"  [{category}] 🚀 '전체' 요일 탭 하이재킹 성공!")
-                page.wait_for_timeout(2000)
+                page.wait_for_timeout(500)
+                # Playwright의 click() 대신 DOM 객체(a)를 강제 호출하여 화면 갱신 100% 보장
+                tab.evaluate("node => { const link = node.closest('a') || node; link.click(); }")
+                print(f"  [{category}] 🚀 '전체' 요일 탭 뇌관 직접 타격 성공!")
+                page.wait_for_timeout(2500) # 네이버 비동기 렌더링 완충 시간
                 return True
     except Exception as e:
-        print(f"  [{category}] '전체' 탭 저격 실패 (기본 화면으로 계속 진행): {e}")
+        print(f"  [{category}] '전체' 탭 타격 실패 (기본 화면으로 계속 진행): {e}")
     return False
 
 
@@ -251,7 +248,8 @@ def fetch_drama(page):
     page.goto(DRAMA_URL, wait_until="networkidle", timeout=30000)
     click_all_days_tab(page, "drama")
     html = page.content()
-    return parse_cards_from_html(html, "drama", min_rating=MIN_RATING_DRAMA, base_url=DRAMA_URL)
+    programs = parse_cards_from_html(html, "drama", min_rating=MIN_RATING_DRAMA, base_url=DRAMA_URL)
+    return dedupe_programs(programs)
 
 
 def fetch_variety(page, max_pages: int = 30):
@@ -290,20 +288,15 @@ def fetch_variety(page, max_pages: int = 30):
             break
         page_num += 1
 
-    return all_programs
+    return dedupe_programs(all_programs)
 
 
-# ---------- 🎯 핵심 수정: 'YYYY-MM-DD.json' 기준 누적 적재 분배 처리기 ----------
+# ---------- 저장 분배 처리기 ----------
 
 def dispatch_and_merge_by_matching_week(out_dir: str, programs: list):
-    """
-    수집된 각 프로그램들의 ratingDate를 계산하여, 
-    기존 index.html이 요구하는 본연의 월요일 날짜('YYYY-MM-DD.json') 파일에 중복 없이 정밀 누적 머지합니다.
-    """
     current_year = datetime.now(KST).year
     buckets = {}
     
-    # 1. ratingDate 기반 해당 주차의 월요일(YYYY-MM-DD) 명칭 산출 및 버킷 분류
     for p in programs:
         r_date_str = p.get("ratingDate")
         if not r_date_str:
@@ -316,12 +309,11 @@ def dispatch_and_merge_by_matching_week(out_dir: str, programs: list):
             except Exception:
                 target_monday = monday_of(datetime.now(KST).date())
                 
-        file_name_key = target_monday.isoformat() # 'YYYY-MM-DD'
+        file_name_key = target_monday.isoformat() 
         if file_name_key not in buckets:
             buckets[file_name_key] = []
         buckets[file_name_key].append(p)
 
-    # 2. 산출된 YYYY-MM-DD.json 파일별 복원 및 완전 누적 실행
     for file_date, p_list in buckets.items():
         file_path = os.path.join(out_dir, f"{file_date}.json")
         week_start_date = datetime.fromisoformat(file_date).date()
@@ -337,16 +329,20 @@ def dispatch_and_merge_by_matching_week(out_dir: str, programs: list):
         else:
             existing_programs = []
             
-        # 고유 식별자(ID) 맵을 활용해 동일 프로그램 적재 시 완전 중복 제거 및 누적 보장
+        # 파일에 저장하기 전, 기존 데이터와 새 데이터 간의 중복도 완벽 차단 및 병합
         by_id = {p["id"]: p for p in existing_programs}
         for p in p_list:
+            if p["id"] in by_id:
+                existing_days = set(by_id[p["id"]]["days"])
+                existing_days.update(p["days"])
+                p["days"] = [d for d in DAY_ORDER if d in existing_days]
             by_id[p["id"]] = p
             
         merged_payload = {
             "weekStart": file_date,
             "weekEnd": week_end,
             "collectedAt": datetime.now(KST).isoformat(),
-            "programs": dedupe_programs(list(by_id.values())),
+            "programs": list(by_id.values()),
         }
         
         with open(file_path, "w", encoding="utf-8") as f:
@@ -379,11 +375,9 @@ def main():
 
         print("collecting drama...")
         drama_programs = fetch_drama(page)
-        print(f"  drama raw count: {len(drama_programs)}")
 
         print("collecting variety...")
         variety_programs = fetch_variety(page, max_pages=args.max_pages)
-        print(f"  variety raw count: {len(variety_programs)}")
 
         browser.close()
 
