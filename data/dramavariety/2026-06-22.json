@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-22",
   "weekEnd": "2026-06-28",
-  "collectedAt": "2026-06-23T14:35:29.111662+09:00",
+  "collectedAt": "2026-06-23T23:07:57.876236+09:00",
   "programs": [
     {
       "id": "drama_붉은 진주_월-화-수-목_오후 07:50",
@@ -103,6 +103,19 @@
       "rating": 2.9,
       "ratingDate": "06.16",
       "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=6017510&qvt=0&query=%EB%8F%99%EC%83%81%EC%9D%B4%EB%AA%BD%202%20%EB%84%88%EB%8A%94%20%EB%82%B4%20%EC%9A%B4%EB%AA%85"
+    },
+    {
+      "id": "variety_이호선 상담소_화_오후 08:00",
+      "category": "variety",
+      "channel": "tvN STORY",
+      "title": "이호선 상담소",
+      "days": [
+        "화"
+      ],
+      "time": "오후 08:00",
+      "rating": 1.2,
+      "ratingDate": "06.16",
+      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=38133047&qvt=0&query=%EC%9D%B4%ED%98%B8%EC%84%A0%20%EC%83%81%EB%8B%B4%EC%86%8C"
     }
   ]
 }
