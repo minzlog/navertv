@@ -592,6 +592,184 @@
     .day-num { font-size: 11px; }
   }
 
+  /* ============ 드라마/예능 탭 ============ */
+  #tabDramaVariety {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 24px 30px;
+  }
+
+  .dv-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 16px 0 14px;
+  }
+
+  .dv-week-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .dv-week-nav button.dv-chevron {
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    color: var(--ink-soft);
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: var(--shadow-sm);
+    transition: background 0.15s, color 0.15s;
+  }
+  .dv-week-nav button.dv-chevron:hover { background: var(--paper-dim); color: var(--ink); }
+
+  .dv-week-label {
+    background: #1B4965;
+    color: #fff;
+    font-weight: 700;
+    font-size: 13.5px;
+    letter-spacing: 0.01em;
+    padding: 9px 18px;
+    border-radius: 8px;
+    box-shadow: var(--shadow-sm);
+    white-space: nowrap;
+  }
+
+  .dv-slicer {
+    display: flex;
+    gap: 4px;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: 9px;
+    padding: 4px;
+    box-shadow: var(--shadow-sm);
+  }
+  .dv-slicer button {
+    font-family: 'Pretendard', -apple-system, sans-serif;
+    font-size: 12.5px;
+    font-weight: 600;
+    background: none;
+    border: none;
+    border-radius: 6px;
+    padding: 7px 14px;
+    color: var(--ink-soft);
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+  }
+  .dv-slicer button.active {
+    background: var(--brand-blue);
+    color: #fff;
+  }
+  .dv-slicer button:hover:not(.active) { background: var(--paper-dim); color: var(--ink); }
+
+  .dv-updated {
+    text-align: center;
+    font-size: 11px;
+    color: var(--ink-faint);
+    padding-bottom: 8px;
+  }
+
+  .dv-scroll {
+    overflow: auto;
+    background: var(--paper);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+  }
+
+  table.dv-table {
+    width: 100%;
+    min-width: 880px;
+    border-collapse: collapse;
+    font-family: 'Pretendard', -apple-system, sans-serif;
+  }
+
+  table.dv-table thead th {
+    position: sticky;
+    top: 0;
+    background: #1B4965;
+    color: #fff;
+    z-index: 3;
+    padding: 12px 6px;
+    font-size: 13.5px;
+    font-weight: 700;
+    text-align: left;
+    white-space: nowrap;
+  }
+  table.dv-table thead th.dv-genre-col { width: 64px; text-align: center; }
+
+  table.dv-table td.dv-genre-label {
+    background: var(--paper-dim2);
+    font-weight: 700;
+    font-size: 13px;
+    color: var(--ink);
+    text-align: center;
+    vertical-align: top;
+    padding: 14px 4px;
+    border-right: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    writing-mode: horizontal-tb;
+  }
+
+  table.dv-table td.dv-day-cell {
+    border-right: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    vertical-align: top;
+    padding: 6px;
+    min-width: 122px;
+    background: var(--paper-dim2);
+  }
+  table.dv-table td.dv-day-cell.has-card { background: var(--paper); }
+
+  .dv-card {
+    display: block;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: 7px;
+    padding: 8px 10px;
+    margin-bottom: 6px;
+    font-size: 12px;
+    line-height: 1.45;
+    text-decoration: none;
+    color: var(--ink);
+    box-shadow: var(--shadow-sm);
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .dv-card:last-child { margin-bottom: 0; }
+  .dv-card:hover { border-color: var(--brand-blue); box-shadow: var(--shadow-md); }
+  .dv-card .dv-title {
+    font-weight: 700;
+    font-size: 12.5px;
+    color: var(--ink);
+    margin-bottom: 2px;
+    display: block;
+  }
+  .dv-card .dv-meta {
+    color: var(--terrestrial);
+    font-size: 11px;
+    display: block;
+  }
+  .dv-card .dv-rating {
+    color: #DC2626;
+    font-weight: 700;
+    font-size: 11px;
+  }
+  .dv-card .dv-rating-date {
+    color: var(--ink-faint);
+    font-weight: 500;
+  }
+
+  .dv-empty-row td {
+    text-align: center;
+    color: var(--ink-faint);
+    font-size: 12.5px;
+    padding: 30px 0;
+  }
+
   /* ============ 홈쇼핑 탭 ============ */
   #tabHomeshop {
     --hd: #003C82;
@@ -830,6 +1008,7 @@
   <div class="main-tabs">
     <button id="tabBtnHomeshop" class="active">홈쇼핑</button>
     <button id="tabBtnSchedule">편성표</button>
+    <button id="tabBtnDramaVariety">드라마/예능</button>
     <button id="tabBtnWeather">날씨</button>
   </div>
 </header>
@@ -862,6 +1041,27 @@
   <p class="big">이 날짜의 편성 데이터가 없습니다</p>
   <p>수집된 날짜 범위 밖이거나, 아직 갱신 전일 수 있습니다.</p>
 </div>
+
+</div>
+
+<div id="tabDramaVariety" class="tab-panel">
+
+<div class="dv-controls">
+  <div class="dv-week-nav">
+    <button class="dv-chevron" id="dvPrevWeek" aria-label="이전 주">‹</button>
+    <div class="dv-week-label" id="dvWeekLabel">2026.06.22 ~ 2026.06.28</div>
+    <button class="dv-chevron" id="dvNextWeek" aria-label="다음 주">›</button>
+  </div>
+  <div class="dv-slicer">
+    <button class="dv-slicer-btn active" data-filter="all">전체</button>
+    <button class="dv-slicer-btn" data-filter="drama">드라마</button>
+    <button class="dv-slicer-btn" data-filter="variety">예능</button>
+  </div>
+</div>
+
+<div class="dv-updated" id="dvUpdated"></div>
+
+<div class="dv-scroll" id="dvGridWrap"></div>
 
 </div>
 
@@ -1290,6 +1490,118 @@ let currentYear, currentMonth;
 let pickerPanelYear;
 let _weatherTabLoaded = false;
 let _homeshopTabLoaded = false;
+let _dramaVarietyTabLoaded = false;
+
+// ============ 드라마/예능 탭 ============
+// 데이터 스키마 (주차 단위 스냅샷):
+// {
+//   "weekStart": "2026-06-22", "weekEnd": "2026-06-28",
+//   "collectedAt": "2026-06-22T09:00:00+09:00",
+//   "programs": [
+//     { "id": "...", "category": "drama"|"variety", "channel": "tvN",
+//       "title": "내일도 출근!", "days": ["월","화"], "time": "오후 08:50",
+//       "rating": 4.8, "ratingDate": "2026-06-22",
+//       "link": "https://search.naver.com/..." }
+//   ]
+// }
+let dvWeekStart = "2026-06-22";  // 항상 해당 주의 월요일 날짜
+let dvFilter = "all";            // 'all' | 'drama' | 'variety'
+let dvCache = {};                 // weekStart -> data
+const DV_DAYS = ["월", "화", "수", "목", "금", "토", "일"];
+const DV_GENRES = [
+  { key: "drama", label: "드라마" },
+  { key: "variety", label: "예능" }
+];
+
+function dvMondayOf(dateStr) {
+  // dateStr 기준 그 주의 월요일(YYYY-MM-DD)을 구한다
+  const d = new Date(dateStr + "T00:00:00");
+  const dow = d.getDay(); // 0=일 ... 6=토
+  const diff = (dow === 0) ? -6 : (1 - dow);
+  d.setDate(d.getDate() + diff);
+  return toLocalDateStr(d);
+}
+
+function dvShiftWeek(weekStart, deltaWeeks) {
+  const d = new Date(weekStart + "T00:00:00");
+  d.setDate(d.getDate() + deltaWeeks * 7);
+  return toLocalDateStr(d);
+}
+
+function dvWeekEnd(weekStart) {
+  const d = new Date(weekStart + "T00:00:00");
+  d.setDate(d.getDate() + 6);
+  return toLocalDateStr(d);
+}
+
+function dvFormatWeekLabel(weekStart) {
+  const fmt = (s) => s.replace(/-/g, ".");
+  return `${fmt(weekStart)} ~ ${fmt(dvWeekEnd(weekStart))}`;
+}
+
+async function dvLoadWeek(weekStart) {
+  if (dvCache[weekStart]) return dvCache[weekStart];
+  try {
+    const resp = await fetch(`./data/dramavariety/${weekStart}.json`);
+    if (!resp.ok) throw new Error("not found");
+    const data = await resp.json();
+    dvCache[weekStart] = data;
+    return data;
+  } catch (e) {
+    return null;
+  }
+}
+
+function dvRenderUpdated(data) {
+  const el = document.getElementById('dvUpdated');
+  if (!data || !data.collectedAt) { el.textContent = ""; return; }
+  const d = new Date(data.collectedAt);
+  const pad = (n) => String(n).padStart(2, "0");
+  el.textContent = `최종 수집: ${d.getFullYear()}.${pad(d.getMonth()+1)}.${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+}
+
+function dvRenderGrid(data) {
+  const wrap = document.getElementById('dvGridWrap');
+  const genres = dvFilter === "all" ? DV_GENRES : DV_GENRES.filter(g => g.key === dvFilter);
+  const programs = (data && data.programs) ? data.programs : [];
+
+  let html = '<table class="dv-table"><thead><tr><th class="dv-genre-col"></th>';
+  for (const day of DV_DAYS) html += `<th>${day}</th>`;
+  html += '</tr></thead><tbody>';
+
+  if (!programs.length) {
+    html += `<tr class="dv-empty-row"><td colspan="${DV_DAYS.length + 1}">이 주차의 수집 데이터가 없습니다</td></tr>`;
+  } else {
+    for (const genre of genres) {
+      const genrePrograms = programs.filter(p => p.category === genre.key);
+      html += `<tr><td class="dv-genre-label">${genre.label}</td>`;
+      for (const day of DV_DAYS) {
+        const dayPrograms = genrePrograms.filter(p => p.days.includes(day));
+        const cellClass = dayPrograms.length ? 'dv-day-cell has-card' : 'dv-day-cell';
+        html += `<td class="${cellClass}">`;
+        for (const p of dayPrograms) {
+          html += `<a class="dv-card" href="${p.link || '#'}" target="_blank" rel="noopener">`;
+          html += `<span class="dv-title">${p.title}</span>`;
+          html += `<span class="dv-meta">${p.channel} (${p.days.join(', ')}) ${p.time}</span>`;
+          html += `<span class="dv-rating">${p.rating}%</span> <span class="dv-rating-date">${p.ratingDate ? '(' + p.ratingDate.slice(5).replace('-', '.') + '.)' : ''}</span>`;
+          html += `</a>`;
+        }
+        html += `</td>`;
+      }
+      html += `</tr>`;
+    }
+  }
+
+  html += '</tbody></table>';
+  wrap.innerHTML = html;
+}
+
+async function dvRefresh(weekStart) {
+  document.getElementById('dvWeekLabel').textContent = dvFormatWeekLabel(weekStart);
+  const data = await dvLoadWeek(weekStart);
+  dvRenderUpdated(data);
+  dvRenderGrid(data);
+}
 
 // ============ 홈쇼핑 탭 ============
 let hsCurrentDate = "2026-06-21";
@@ -1588,8 +1900,8 @@ function renderMonthPickerPanel() {
 }
 
 function switchTab(tab) {
-  const panels = { schedule: 'tabSchedule', weather: 'tabWeather', homeshop: 'tabHomeshop' };
-  const btns = { schedule: 'tabBtnSchedule', weather: 'tabBtnWeather', homeshop: 'tabBtnHomeshop' };
+  const panels = { schedule: 'tabSchedule', weather: 'tabWeather', homeshop: 'tabHomeshop', dramavariety: 'tabDramaVariety' };
+  const btns = { schedule: 'tabBtnSchedule', weather: 'tabBtnWeather', homeshop: 'tabBtnHomeshop', dramavariety: 'tabBtnDramaVariety' };
 
   for (const key in panels) {
     document.getElementById(panels[key]).classList.toggle('active', key === tab);
@@ -1604,6 +1916,10 @@ function switchTab(tab) {
     _homeshopTabLoaded = true;
     hsRefresh(hsCurrentDate);
   }
+  if (tab === 'dramavariety' && !_dramaVarietyTabLoaded) {
+    _dramaVarietyTabLoaded = true;
+    dvRefresh(dvWeekStart);
+  }
 }
 
 // ============ 초기화 ============
@@ -1612,6 +1928,7 @@ function switchTab(tab) {
   currentYear = now.getFullYear();
   currentMonth = now.getMonth() + 1;
   hsCurrentDate = toLocalDateStr(now);  // 홈쇼핑 탭 초기 날짜 = 오늘
+  dvWeekStart = dvMondayOf(toLocalDateStr(now));  // 드라마/예능 탭 초기 주차
 
   const picker = document.getElementById('datePicker');
   picker.value = toLocalDateStr(now); // 초기 표시 날짜 = 오늘
@@ -1654,6 +1971,7 @@ function switchTab(tab) {
   document.getElementById('tabBtnSchedule').addEventListener('click', () => switchTab('schedule'));
   document.getElementById('tabBtnWeather').addEventListener('click', () => switchTab('weather'));
   document.getElementById('tabBtnHomeshop').addEventListener('click', () => switchTab('homeshop'));
+  document.getElementById('tabBtnDramaVariety').addEventListener('click', () => switchTab('dramavariety'));
 
   // 홈쇼핑 탭: 날짜 이동
   const hsPicker = document.getElementById('hsDatePicker');
@@ -1729,6 +2047,26 @@ function switchTab(tab) {
     e.stopPropagation();
     pickerPanelYear += 1;
     renderMonthPickerPanel();
+  });
+
+  // 드라마/예능 탭: 주차 이동
+  document.getElementById('dvPrevWeek').addEventListener('click', () => {
+    dvWeekStart = dvShiftWeek(dvWeekStart, -1);
+    dvRefresh(dvWeekStart);
+  });
+  document.getElementById('dvNextWeek').addEventListener('click', () => {
+    dvWeekStart = dvShiftWeek(dvWeekStart, 1);
+    dvRefresh(dvWeekStart);
+  });
+
+  // 드라마/예능 탭: 슬라이서 (전체/드라마/예능)
+  document.querySelectorAll('.dv-slicer-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      dvFilter = btn.dataset.filter;
+      document.querySelectorAll('.dv-slicer-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      dvRenderGrid(dvCache[dvWeekStart]);
+    });
   });
 })();
 </script>
