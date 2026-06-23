@@ -51,7 +51,7 @@ def parse_schedule_text(schedule_text: str):
     return [{"days": expand_days(day_token), "time": time_token.strip()} for day_token, time_token in groups]
 
 
-def parse_card(li, category: str, base_url: str = ""):
+def parse_card(li, category: str, base_url: str = "", debug: bool = False):
     """li.info_box 하나 -> 방영 슬롯별로 펼쳐진 program dict 리스트 (시청률 필터링은 호출부에서)"""
     title_tag = li.select_one('strong.title a')
     if not title_tag:
@@ -106,17 +106,31 @@ def parse_card(li, category: str, base_url: str = ""):
             "ratingDate": rating_date,
             "link": link,
         })
+    
+    if debug:
+        print(f"    [parsed] {title} ({channel}) rating={rating}% {slot['days']} {slot['time']}")
+    
     return programs
 
 
-def parse_cards_from_html(html: str, category: str, min_rating: float = 5.0, base_url: str = ""):
+def parse_cards_from_html(html: str, category: str, min_rating: float = 5.0, base_url: str = "", debug: bool = False):
     """HTML 문자열 전체에서 li.info_box 를 모두 찾아 파싱 + 시청률 필터링"""
     soup = BeautifulSoup(html, 'lxml')
     results = []
+    all_cards = []
+    
     for li in soup.select('li.info_box'):
-        for p in parse_card(li, category, base_url=base_url):
+        parsed = parse_card(li, category, base_url=base_url, debug=debug)
+        all_cards.extend(parsed)
+        for p in parsed:
             if p["rating"] >= min_rating:
                 results.append(p)
+    
+    if debug:
+        filtered_count = len(results)
+        total_count = len(all_cards)
+        print(f"    [{category}] 전체 {total_count}개 중 >= {min_rating}%: {filtered_count}개")
+    
     return results
 
 
