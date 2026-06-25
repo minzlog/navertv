@@ -608,8 +608,36 @@
     padding: 16px 0 14px;
   }
 
-  .dv-week-label-wrap .date-text {
+  .dv-week-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .dv-week-nav button.dv-chevron {
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    color: var(--ink-soft);
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: var(--shadow-sm);
+    transition: background 0.15s, color 0.15s;
+  }
+  .dv-week-nav button.dv-chevron:hover { background: var(--paper-dim); color: var(--ink); }
+
+  .dv-week-label {
+    background: var(--brand-blue);
+    color: #fff;
+    font-weight: 700;
     font-size: 13.5px;
+    letter-spacing: 0.01em;
+    padding: 9px 18px;
+    border-radius: 8px;
+    box-shadow: var(--shadow-sm);
+    white-space: nowrap;
   }
 
   .dv-slicer {
@@ -796,21 +824,12 @@
     max-width: 1400px;
     margin: 0 auto;
     padding: 14px 24px;
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    align-items: center;
-    gap: 20px;
-    background: var(--paper);
-    border-bottom: 1px solid var(--rule);
-  }
-
-  .hs-controls-center {
-    grid-column: 2;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    border-bottom: 1px solid var(--rule);
   }
 
   .hs-toggle {
@@ -834,14 +853,6 @@
   .hs-toggle-btn.active {
     background: var(--brand-blue);
     color: #fff;
-  }
-
-  .hs-time-note {
-    grid-column: 3;
-    justify-self: end;
-    font-size: 11px;
-    color: var(--ink-soft);
-    white-space: nowrap;
   }
 
   .hs-grid-wrap {
@@ -1021,9 +1032,6 @@
   table.hs-table-list .hs-time-cell { background: transparent; border-right: 1px solid var(--rule); }
 
   @media (max-width: 700px) {
-    .hs-controls { grid-template-columns: 1fr; }
-    .hs-controls-center { grid-column: 1; }
-    .hs-time-note { grid-column: 1; justify-self: center; }
     .hs-grid-wrap { padding: 0 8px 40px; }
     table.hs-table thead th { font-size: 12px; }
     table.hs-table thead th.hs-time-col { width: 38px; }
@@ -1036,7 +1044,8 @@
 <body>
 
 <header class="masthead">
-  <h1>📺 시청환경 조회</h1>
+  <h1>📺🌤 시청환경 조회</h1>
+  <span class="sub">방송 편성 · 날씨 · 홈쇼핑</span>
   <div class="main-tabs">
     <button id="tabBtnHomeshop" class="active">홈쇼핑</button>
     <button id="tabBtnSchedule">편성표</button>
@@ -1079,12 +1088,10 @@
 <div id="tabDramaVariety" class="tab-panel">
 
 <div class="dv-controls">
-  <div class="date-nav dv-week-nav">
-    <button class="arrow" id="dvPrevWeek" aria-label="이전 주">‹</button>
-    <div class="date-display dv-week-label-wrap">
-      <span class="date-text" id="dvWeekLabel">2026-06-22 (월) ~ 2026-06-28 (일)</span>
-    </div>
-    <button class="arrow" id="dvNextWeek" aria-label="다음 주">›</button>
+  <div class="dv-week-nav">
+    <button class="dv-chevron" id="dvPrevWeek" aria-label="이전 주">‹</button>
+    <div class="dv-week-label" id="dvWeekLabel">2026.06.22 ~ 2026.06.28</div>
+    <button class="dv-chevron" id="dvNextWeek" aria-label="다음 주">›</button>
   </div>
   <div class="dv-slicer">
     <button class="dv-slicer-btn active" data-filter="all">전체</button>
@@ -1134,30 +1141,20 @@
 <div id="tabHomeshop" class="tab-panel active">
 
 <div class="hs-controls">
-  <div class="hs-controls-center">
-    <div class="date-nav">
-      <button class="arrow" id="hsPrevDay" aria-label="이전 날짜">‹</button>
-      <div class="date-display" id="hsDateDisplay">
-        <span class="date-text" id="hsDateText">2026-06-21 (일)</span>
-        <i class="cal-icon">📅</i>
-        <input type="date" id="hsDatePicker">
-      </div>
-      <button class="arrow" id="hsNextDay" aria-label="다음 날짜">›</button>
+  <div class="date-nav">
+    <button class="arrow" id="hsPrevDay" aria-label="이전 날짜">‹</button>
+    <div class="date-display" id="hsDateDisplay">
+      <span class="date-text" id="hsDateText">2026-06-21 (일)</span>
+      <i class="cal-icon">📅</i>
+      <input type="date" id="hsDatePicker">
     </div>
-
-    <div class="hs-toggle" id="hsToggle">
-      <button class="hs-toggle-btn active" data-bc="live">라이브방송</button>
-      <button class="hs-toggle-btn" data-bc="data">데이터방송</button>
-    </div>
-
-    <div class="hs-toggle" id="hsTimeToggle">
-      <button class="hs-toggle-btn active" data-time="all">전체</button>
-      <button class="hs-toggle-btn" data-time="normal">정규</button>
-      <button class="hs-toggle-btn" data-time="night">심야</button>
-    </div>
+    <button class="arrow" id="hsNextDay" aria-label="다음 날짜">›</button>
   </div>
 
-  <span class="hs-time-note">※ 심야: 01:00~05:00</span>
+  <div class="hs-toggle" id="hsToggle">
+    <button class="hs-toggle-btn active" data-bc="live">라이브방송</button>
+    <button class="hs-toggle-btn" data-bc="data">데이터방송</button>
+  </div>
 </div>
 
 <div class="hs-cat-legend" id="hsCatLegend"></div>
@@ -1206,8 +1203,7 @@ const _weatherCache = { forecast: null, asosMonths: {} };
 
 async function fetchJsonSafe(path) {
   try {
-    const sep = path.includes('?') ? '&' : '?';
-    const resp = await fetch(`${path}${sep}t=${Date.now()}`);
+    const resp = await fetch(path);
     if (resp.ok) return await resp.json();
   } catch (e) { }
   return null;
@@ -1277,7 +1273,7 @@ async function getDataForDate(dateStr) {
 
   if (location.protocol !== 'file:') {
     try {
-      const resp = await fetch(`./data/${dateStr}.json?t=${Date.now()}`);
+      const resp = await fetch(`./data/${dateStr}.json`);
       if (resp.ok) return await resp.json();
     } catch (e) { }
   }
@@ -1553,13 +1549,14 @@ function dvWeekEnd(weekStart) {
 }
 
 function dvFormatWeekLabel(weekStart) {
-  return `${formatDateLabel(weekStart)} ~ ${formatDateLabel(dvWeekEnd(weekStart))}`;
+  const fmt = (s) => s.replace(/-/g, ".");
+  return `${fmt(weekStart)} ~ ${fmt(dvWeekEnd(weekStart))}`;
 }
 
 async function dvLoadWeek(weekStart) {
   if (dvCache[weekStart]) return dvCache[weekStart];
   try {
-    const resp = await fetch(`./data/dramavariety/${weekStart}.json?t=${Date.now()}`);
+    const resp = await fetch(`./data/dramavariety/${weekStart}.json`);
     if (!resp.ok) throw new Error("not found");
     const data = await resp.json();
     dvCache[weekStart] = data;
@@ -1669,18 +1666,6 @@ async function dvRefresh(weekStart) {
 let hsCurrentDate = "2026-06-21";
 let hsCurrentBc = "live";
 let hsCategoryFilter = null;
-let hsTimeFilter = "all"; // 'all' | 'normal' | 'night'
-
-function hsIsNightHour(hour) {
-  // 심야: 방송시작시각 01:00:00 이후 ~ 05:00:00 이전 → 1,2,3,4시
-  return hour >= 1 && hour < 5;
-}
-
-function hsHourMatchesTimeFilter(hour) {
-  if (hsTimeFilter === 'all') return true;
-  if (hsTimeFilter === 'night') return hsIsNightHour(hour);
-  return !hsIsNightHour(hour); // normal
-}
 const HS_COMPANIES = [
   { code: 'HD', name: 'HD', cls: 'hd' },
   { code: 'GS', name: 'GS', cls: 'gs' },
@@ -1818,12 +1803,8 @@ async function hsRefresh(dateStr) {
 }
 
 function hsMatchesFilter(p) {
-  if (hsCategoryFilter !== null && p.category !== hsCategoryFilter) return false;
-  if (p.start) {
-    const hour = parseInt(p.start.split(':')[0], 10);
-    if (!hsHourMatchesTimeFilter(hour)) return false;
-  }
-  return true;
+  if (hsCategoryFilter === null) return true;
+  return p.category === hsCategoryFilter;
 }
 
 function hsRenderBody() {
@@ -1841,7 +1822,7 @@ function hsRenderBody() {
 
   if (hsCategoryFilter === null) {
     wrap.innerHTML = hsRenderGridView(datasets, nowMin);
-    if (hsTimeFilter === 'all') hsScrollToCurrentHour(wrap, nowMin);
+    hsScrollToCurrentHour(wrap, nowMin);
   } else {
     wrap.innerHTML = hsRenderListView(datasets, nowMin);
   }
@@ -1880,7 +1861,6 @@ function hsRenderGridView(datasets, nowMin) {
   html += '</tr></thead><tbody>';
 
   for (let h = 0; h < 24; h++) {
-    if (!hsHourMatchesTimeFilter(h)) continue;
     html += '<tr>';
     html += `<td class="hs-time-cell">${String(h).padStart(2, '0')}시</td>`;
     HS_COMPANIES.forEach((c, ci) => {
@@ -2059,15 +2039,6 @@ function switchTab(tab) {
       document.querySelectorAll('#hsToggle .hs-toggle-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       hsRefresh(hsCurrentDate);
-    });
-  });
-
-  document.querySelectorAll('#hsTimeToggle .hs-toggle-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      hsTimeFilter = btn.dataset.time;
-      document.querySelectorAll('#hsTimeToggle .hs-toggle-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      hsRenderBody();
     });
   });
 
