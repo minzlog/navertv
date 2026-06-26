@@ -95,6 +95,15 @@
         "category": "의류"
       },
       {
+        "start": "10:25",
+        "end": "12:35",
+        "brand": "에스카다 스포츠",
+        "product": "에스카다 스포츠 26SS 와이드 버킷햇",
+        "price": 149000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250177500&preview=true",
+        "category": "의류"
+      },
+      {
         "start": "13:35",
         "end": "14:35",
         "brand": "KUMMEL",
@@ -102,6 +111,24 @@
         "price": 189000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251595761&preview=true",
         "category": "리빙/주방"
+      },
+      {
+        "start": "14:35",
+        "end": "15:30",
+        "brand": "루나앤슬립",
+        "product": "냉감 메쉬 소파패드 1",
+        "price": 69900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251674234&preview=true",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "15:30",
+        "end": "16:30",
+        "brand": "흥국화재",
+        "product": "흥Good 든든한 3N5 간편종합보험",
+        "price": 1281500,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248871590&preview=true",
+        "category": "보험"
       },
       {
         "start": "16:30",

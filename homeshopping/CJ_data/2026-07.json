@@ -14,6 +14,24 @@
         "category": "리빙/주방"
       },
       {
+        "start": "01:45",
+        "end": "02:00",
+        "brand": "드베로타",
+        "product": "26SS 플루이드 텐셀 벨티드 슬랙스",
+        "price": 69900,
+        "link": "https://display.cjonstyle.com/p/item/2077077043?channelCode=30002002",
+        "category": "의류"
+      },
+      {
+        "start": "02:00",
+        "end": "02:15",
+        "brand": "애드아보아",
+        "product": "26SS 캐시미어 울 블렌디드 이중직 커브드 니트팬츠",
+        "price": 99000,
+        "link": "https://display.cjonstyle.com/p/item/2079433732?channelCode=30002002",
+        "category": "의류"
+      },
+      {
         "start": "06:45",
         "end": "07:45",
         "brand": "아치나인",
@@ -26,9 +44,9 @@
         "start": "07:45",
         "end": "08:45",
         "brand": "주영엔에스",
-        "product": "관절엔 콘드로이친1200",
-        "price": 648000,
-        "link": "https://display.cjonstyle.com/p/item/2081328628?channelCode=30002002",
+        "product": "관절엔 콘드로이친 1200",
+        "price": 459000,
+        "link": "https://display.cjonstyle.com/p/item/2049674582?channelCode=30002002",
         "category": "건강식품"
       },
       {
@@ -44,10 +62,66 @@
         "start": "23:45",
         "end": "00:45",
         "brand": "임성근",
-        "product": "조리기능장의 한끗다른 포기김치",
-        "price": 39900,
-        "link": "https://display.cjonstyle.com/p/item/2082964779?channelCode=30002002",
+        "product": "정담식 의 특 소곱창전골 8 3팩",
+        "price": 49900,
+        "link": "https://display.cjonstyle.com/p/item/2087801106?channelCode=30002002",
         "category": "일반식품"
+      }
+    ],
+    "2026-07-02": [
+      {
+        "start": "07:45",
+        "end": "08:45",
+        "brand": "주영엔에스",
+        "product": "모발콜라겐 3270 24주분 오메가3",
+        "price": 205000,
+        "link": "https://display.cjonstyle.com/p/item/2086573356?channelCode=30002002",
+        "category": "건강식품"
+      },
+      {
+        "start": "09:45",
+        "end": "10:45",
+        "brand": "그레인온",
+        "product": "골드카무트 효소 파로5봉 저당밥솥",
+        "price": 198000,
+        "link": "https://display.cjonstyle.com/p/item/2087066445?channelCode=30002002",
+        "category": "건강식품"
+      },
+      {
+        "start": "13:45",
+        "end": "14:45",
+        "brand": "",
+        "product": "AIA 원스톱 프리미엄 암보험",
+        "price": 0,
+        "link": "https://display.cjonstyle.com/p/item/2076236358?channelCode=30002002",
+        "category": "보험"
+      },
+      {
+        "start": "16:45",
+        "end": "17:45",
+        "brand": "임성근",
+        "product": "조리기능장 의 진 삼계탕 x 8 2팩",
+        "price": 49900,
+        "link": "https://display.cjonstyle.com/p/item/2082078723?channelCode=30002002",
+        "category": "일반식품"
+      },
+      {
+        "start": "19:45",
+        "end": "20:45",
+        "brand": "휴렉",
+        "product": "백화점상품권10만원 1등 음식물처리기 지니 빌트인",
+        "price": 0,
+        "link": "https://display.cjonstyle.com/p/item/2073199149?channelCode=30002002",
+        "category": "가전"
+      },
+      {
+        "start": "22:45",
+        "end": "23:45",
+        "brand": "라이나생명",
+        "product": "전에없던치매간병보험",
+        "price": 0,
+        "link": "https://display.cjonstyle.com/p/item/2052347104?channelCode=30002002",
+        "category": "보험"
       }
     ]
   }

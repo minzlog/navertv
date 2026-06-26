@@ -14,6 +14,78 @@
         "category": "미용"
       },
       {
+        "start": "01:20",
+        "end": "02:00",
+        "brand": "질경이",
+        "product": "질경이 모닝폼워시 x",
+        "price": 59900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12889992",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "02:00",
+        "end": "02:05",
+        "brand": "태현",
+        "product": "알뜰 못난이 보조개 부사사과",
+        "price": 19900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910021",
+        "category": "일반식품"
+      },
+      {
+        "start": "02:05",
+        "end": "02:25",
+        "brand": "올리",
+        "product": "○ 트윙클 메리제인",
+        "price": 26400,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12903166",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "02:30",
+        "end": "02:35",
+        "brand": "쁠랑뜨",
+        "product": "클렌즈 주스 스무디 40팩",
+        "price": 248000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911640",
+        "category": "일반식품"
+      },
+      {
+        "start": "02:40",
+        "end": "02:45",
+        "brand": "쁠랑뜨",
+        "product": "클렌즈 주스 스무디 40팩",
+        "price": 248000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911641",
+        "category": "일반식품"
+      },
+      {
+        "start": "02:50",
+        "end": "02:55",
+        "brand": "쁠랑뜨",
+        "product": "클렌즈 주스 스무디 40팩",
+        "price": 248000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911643",
+        "category": "일반식품"
+      },
+      {
+        "start": "03:00",
+        "end": "03:05",
+        "brand": "쁠랑뜨",
+        "product": "클렌즈 주스 스무디 40팩",
+        "price": 248000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911641",
+        "category": "일반식품"
+      },
+      {
+        "start": "03:10",
+        "end": "03:15",
+        "brand": "쁠랑뜨",
+        "product": "클렌즈 주스 스무디 40팩",
+        "price": 248000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911641",
+        "category": "일반식품"
+      },
+      {
         "start": "03:45",
         "end": "03:50",
         "brand": "락앤락",
@@ -68,11 +140,20 @@
         "category": "가전"
       },
       {
+        "start": "08:40",
+        "end": "09:40",
+        "brand": "비버리힐스폴로클럽",
+        "product": "○비버리힐스폴로클럽 26SS 여성 냉감 베이스레이어",
+        "price": 59410,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12908724",
+        "category": "의류"
+      },
+      {
         "start": "09:40",
         "end": "10:40",
         "brand": "타린로즈",
         "product": "○ 미라클 8 에어 스니커즈",
-        "price": 169000,
+        "price": 139000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906432",
         "category": "잡화/주얼리"
       },
@@ -95,6 +176,15 @@
         "category": "건강식품"
       },
       {
+        "start": "19:40",
+        "end": "20:40",
+        "brand": "코웨이",
+        "product": "[상담예약] ★ 정수기 렌탈 ★",
+        "price": 0,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12870662",
+        "category": "일반렌탈"
+      },
+      {
         "start": "23:40",
         "end": "00:40",
         "brand": "바이브리짓",
@@ -102,6 +192,80 @@
         "price": 49900,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12892880",
         "category": "의류"
+      },
+      {
+        "start": "23:40",
+        "end": "00:40",
+        "brand": "힐링버드",
+        "product": "힐링버드 티트리 샴푸 두피 스케일러 휴대용 샴푸",
+        "price": 79000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906229",
+        "category": "미용"
+      }
+    ],
+    "2026-07-02": [
+      {
+        "start": "08:30",
+        "end": "08:35",
+        "brand": "태현",
+        "product": "알뜰 못난이 보조개 부사사과",
+        "price": 19900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910021",
+        "category": "일반식품"
+      },
+      {
+        "start": "11:35",
+        "end": "12:35",
+        "brand": "슈리오",
+        "product": "○ 소가죽 핸드메이드 스티치 샌들",
+        "price": 39800,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910121",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "15:40",
+        "end": "16:40",
+        "brand": "빨간스캔들",
+        "product": "빨간스캔들 RED 유기농 석류",
+        "price": 99000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906716",
+        "category": "건강식품"
+      },
+      {
+        "start": "16:40",
+        "end": "17:40",
+        "brand": "쿠쿠(가전)",
+        "product": "쿠쿠 화이트스톤 브라운스톤 압력 밥솥 전용 패킹 칼 3단 찜기",
+        "price": 268000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12832731",
+        "category": "가전"
+      },
+      {
+        "start": "17:40",
+        "end": "18:40",
+        "brand": "비비고",
+        "product": "비비고만두 총 17봉세트",
+        "price": 49960,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12839434",
+        "category": "일반식품"
+      },
+      {
+        "start": "19:40",
+        "end": "20:40",
+        "brand": "김영근",
+        "product": "김영근 명인 제주 메밀 순면 15팩 순 동치미육수 8팩 순 비빔장 7팩",
+        "price": 59900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12905971",
+        "category": "일반식품"
+      },
+      {
+        "start": "23:40",
+        "end": "00:40",
+        "brand": "힐링버드",
+        "product": "힐링버드 티트리 샴푸 두피 스케일러 휴대용 샴푸",
+        "price": 79000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906229",
+        "category": "미용"
       }
     ]
   }

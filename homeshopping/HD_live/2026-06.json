@@ -1484,24 +1484,6 @@
         "price": 74000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251233029&preview=true",
         "category": "잡화/주얼리"
-      },
-      {
-        "start": "22:40",
-        "end": "01:10",
-        "brand": "메타다이아몬드",
-        "product": "실버925 팬시 바게트컷 목걸이",
-        "price": 199000,
-        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251628959&preview=true",
-        "category": "잡화/주얼리"
-      },
-      {
-        "start": "22:40",
-        "end": "01:10",
-        "brand": "이네스 바이 이네스드라프레상쥬",
-        "product": "이네스 에뚜알 백",
-        "price": 74000,
-        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251486649&preview=true",
-        "category": "잡화/주얼리"
       }
     ],
     "2026-06-27": [
@@ -1578,6 +1560,15 @@
         "category": "건강식품"
       },
       {
+        "start": "07:20",
+        "end": "08:20",
+        "brand": "에스더포뮬러",
+        "product": "여에스더 리포좀 글루타치온 다이렉트 12X 알파 네트워크 셰퍼 무드등 날개 없는 선풍기",
+        "price": 548000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251648539&preview=true",
+        "category": "건강식품"
+      },
+      {
         "start": "08:20",
         "end": "11:20",
         "brand": "폴바셋",
@@ -1598,11 +1589,11 @@
       {
         "start": "13:45",
         "end": "14:55",
-        "brand": "리브이셀",
-        "product": "리브이셀 비타콜라겐 퍼밍 랩핑 마스크 조윤주 50장 패키지",
-        "price": 198500,
-        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251473806&preview=true",
-        "category": "미용"
+        "brand": "한국중앙금거래소",
+        "product": "99.9 24K 순금 글램 트리플 반지 트리플링 24K 순금 찬스",
+        "price": 899000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251678420&preview=true",
+        "category": "잡화/주얼리"
       },
       {
         "start": "14:55",
@@ -1973,7 +1964,7 @@
         "end": "09:25",
         "brand": "이상봉",
         "product": "이상봉에디션 26SS 소프트 코튼 헨리넥 슬리브리스",
-        "price": 69900,
+        "price": 49900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250947436&preview=true",
         "category": "의류"
       },
@@ -2044,9 +2035,9 @@
         "start": "16:05",
         "end": "17:00",
         "brand": "가히",
-        "product": "멀티밤 CV 본품x5 톤업 선세럼x2",
+        "product": "멀티밤 CV 본품x5 나이트 크림 50mlx1",
         "price": 165000,
-        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251615525&preview=true",
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2242768642&preview=true",
         "category": "미용"
       },
       {
@@ -2092,15 +2083,6 @@
         "product": "런던 체크 미디엄 토트백",
         "price": 1199000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251149426&preview=true",
-        "category": "잡화/주얼리"
-      },
-      {
-        "start": "20:45",
-        "end": "22:55",
-        "brand": "페라가모",
-        "product": "선글라스",
-        "price": 168000,
-        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2227782456&preview=true",
         "category": "잡화/주얼리"
       },
       {
@@ -2160,6 +2142,15 @@
         "category": "리빙/주방"
       },
       {
+        "start": "04:00",
+        "end": "04:50",
+        "brand": "홍쌍리",
+        "product": "홍쌍리 매실장아찌세트",
+        "price": 69900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2215831307&preview=true",
+        "category": "일반식품"
+      },
+      {
         "start": "04:50",
         "end": "05:20",
         "brand": "케이시박",
@@ -2172,9 +2163,9 @@
         "start": "05:20",
         "end": "06:15",
         "brand": "립밤",
-        "product": "립밤 리조트 쿨팬츠",
-        "price": 49000,
-        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2235221376&preview=true",
+        "product": "립밤 시그니처 쿨 원피스",
+        "price": 59000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2234098286&preview=true",
         "category": "의류"
       },
       {
@@ -2203,6 +2194,15 @@
         "price": 249000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244638897&preview=true",
         "category": "의류"
+      },
+      {
+        "start": "12:25",
+        "end": "13:25",
+        "brand": "도깨비방망이",
+        "product": "무선 파워 도깨비방망이 핸드블렌더",
+        "price": 139000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251674243&preview=true",
+        "category": "가전"
       },
       {
         "start": "13:25",
@@ -2250,6 +2250,24 @@
         "category": "건강식품"
       },
       {
+        "start": "17:30",
+        "end": "18:30",
+        "brand": "관절엔 콘드로이친",
+        "product": "1200",
+        "price": 268000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2147384288&preview=true",
+        "category": "건강식품"
+      },
+      {
+        "start": "18:30",
+        "end": "19:30",
+        "brand": "스타일리스",
+        "product": "미니 에어젯 핸디팬 트리플 구성",
+        "price": 79800,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251672801&preview=true",
+        "category": "미용"
+      },
+      {
         "start": "19:30",
         "end": "21:45",
         "brand": "까사무띠",
@@ -2261,11 +2279,29 @@
       {
         "start": "19:30",
         "end": "21:45",
+        "brand": "자담치킨",
+        "product": "자담치킨 맵쏘이킥 윙봉치킨 매콤간장맛 총10팩",
+        "price": 59900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251641700&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "19:30",
+        "end": "21:45",
         "brand": "컷코",
         "product": "컷코나이프 프리미엄 나이프 칼세트 풀세트",
         "price": 1290000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251430962&preview=true",
         "category": "리빙/주방"
+      },
+      {
+        "start": "19:30",
+        "end": "21:45",
+        "brand": "자담치킨",
+        "product": "맵쏘이킥 윙봉치킨 매콤간장맛 총10팩",
+        "price": 64900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251641752&preview=true",
+        "category": "일반식품"
       },
       {
         "start": "21:45",

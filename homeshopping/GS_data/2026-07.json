@@ -28,7 +28,7 @@
         "brand": "",
         "product": "르까프 26SS 남성 썸머 이지 조거팬츠",
         "price": 59000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126814121&brddate=20260701015500&pgmID=12502&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126814121&brddate=20260701033700&pgmID=12502&ordChannel=WE&tveshop=Y",
         "category": "의류"
       },
       {
@@ -64,7 +64,7 @@
         "brand": "",
         "product": "르까프 26SS 남성 썸머 이지 조거팬츠",
         "price": 59000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126814121&brddate=20260701015500&pgmID=12502&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126814121&brddate=20260701033700&pgmID=12502&ordChannel=WE&tveshop=Y",
         "category": "의류"
       },
       {
@@ -84,15 +84,6 @@
         "price": 40900,
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1120707935&brddate=20260701051500&pgmID=6997&ordChannel=WE&tveshop=Y",
         "category": "일반식품"
-      },
-      {
-        "start": "05:55",
-        "end": "06:35",
-        "brand": "",
-        "product": "르까프 액티브 쉴드",
-        "price": 49900,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1125495508&brddate=20260701055500&pgmID=6742&ordChannel=WE&tveshop=Y",
-        "category": "리빙/주방"
       },
       {
         "start": "06:36",
@@ -179,7 +170,7 @@
         "start": "16:38",
         "end": "17:38",
         "brand": "",
-        "product": "최유강의 불도장 삼계탕 8팩",
+        "product": "최유강의 불도장 삼계탕 8팩 100% 국내산 냉장닭 5호",
         "price": 59900,
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1125041100&brddate=20260701163800&pgmID=6997&ordChannel=WE&tveshop=Y",
         "category": "일반식품"
@@ -210,7 +201,17 @@
         "price": 59800,
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1127925682&brddate=20260701203800&pgmID=6736&ordChannel=WE&tveshop=Y",
         "category": "잡화/주얼리"
+      },
+      {
+        "start": "23:38",
+        "end": "00:38",
+        "brand": "",
+        "product": "Lipbbam 크레오라 프린티드 올데이 이지 롱 원피스",
+        "price": 59000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1110899102&brddate=20260701233800&pgmID=12557&ordChannel=WE&tveshop=Y",
+        "category": "의류"
       }
-    ]
+    ],
+    "2026-07-02": []
   }
 }

@@ -15,12 +15,21 @@
       },
       {
         "start": "02:20",
-        "end": "03:20",
+        "end": "03:00",
         "brand": "삭피엔스",
         "product": "삭피엔스 맥스쿠션 에어 기능성 양말",
         "price": 39900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2247827203&preview=true",
         "category": "잡화/주얼리"
+      },
+      {
+        "start": "03:00",
+        "end": "03:20",
+        "brand": "메종노아",
+        "product": "보타닉가든 썸머 스프레드",
+        "price": 99900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250454854&preview=true",
+        "category": "리빙/주방"
       },
       {
         "start": "03:20",
