@@ -15,10 +15,15 @@
 1) 명확한 키워드 규칙: 상품명에 "암보험", "치료비", "여행자보험" 등 의심의 여지가
    거의 없는 단어가 있으면 모델 판단 없이 바로 그 카테고리로 확정한다.
    (모델은 통계적 추정이라 이런 명백한 경우도 가끔 헷갈리므로, 규칙이 더 믿을만하다)
+   단, 검사 대상은 "본품"만이다 - 상품명이 "본품+사은품1+사은품2..." 구조일 때
+   '+' 뒤의 사은품/구성품 텍스트는 제외하고 첫 덩어리(본품)만 본다.
+   (예: 건강식품 본품에 "미니 냉장고" 사은품이 끼어 있어도 가전 규칙에 안 걸림)
 2) 브랜드 보강: 브랜드 필드가 비어있는 입력(GS, CJ 등)은 상품명 안에서 학습 데이터의
    브랜드 사전과 매칭되는 토큰("LG", "삼성" 등)을 찾아 브랜드로 채워 넣은 뒤 분류한다.
    브랜드가 핵심 신호인 모델 특성상, 이게 없으면 확신도가 크게 떨어진다.
 3) 모델 분류: 위 두 단계로 못 잡으면 학습 모델이 예측한 세분류를 그룹으로 합쳐서 반환.
+   (모델 입력은 상품명 전체를 그대로 사용 - 사은품 텍스트도 통계적 신호로는 유효하므로
+   1)과 달리 자르지 않는다)
 
 == 카테고리 그룹 ==
 가전       = 대형가전 + 소형가전 + 다이슨 + 로보락
@@ -93,6 +98,26 @@ def _to_group(raw_category: str) -> str:
     return GROUP_MAP.get(raw_category, raw_category)
 
 
+def _main_item_text(brand: str, product: str) -> str:
+    """
+    키워드 규칙 검사용 본품 텍스트만 추출.
+    - 사은품 제외: 홈쇼핑 상품명은 보통 "본품+사은품1+사은품2..." 구조라 사은품에
+      다른 카테고리 키워드(예: 건강식품 본품+냉장고 사은품)가 섞이면 키워드 규칙이
+      오발동할 수 있다. '+' 기준으로 첫 덩어리(본품)만 검사 대상으로 삼아 이를 방지한다.
+    - 브랜드 부기 제거: "노랑풍선(TV)", "여행박사(TV)"처럼 브랜드명에 TV홈쇼핑
+      채널 표기로 "(TV)"가 붙는 경우가 있는데, 이게 가전 규칙의 'TV\\b' 패턴에
+      잘못 매칭돼 여행 상품을 가전으로 오분류시킨다. 게다가 판매상품명도 보통
+      "노랑풍선(TV) 노랑풍선 ..." 식으로 브랜드 원본 표기가 맨 앞에 그대로
+      반복되므로, brand뿐 아니라 product 맨 앞의 동일 표기도 함께 제거한다.
+    """
+    main_part = str(product or "").split("+")[0].strip()
+    if brand and main_part.startswith(brand):
+        main_part = main_part[len(brand):].strip()
+
+    core_brand = extract_core_brand(brand) if brand else ""
+    return f"{core_brand} {main_part}".strip()
+
+
 def _rule_match(text: str) -> str:
     """명확한 키워드 규칙에 해당하면 확정 카테고리를 반환, 없으면 빈 문자열."""
     for pattern, category in KEYWORD_RULES:
@@ -140,8 +165,8 @@ def classify(brand: str, product: str) -> str:
     if not brand and not product:
         return ""
 
-    # 1) 명확한 키워드 규칙 우선 적용
-    rule_hit = _rule_match(f"{brand or ''} {product or ''}")
+    # 1) 명확한 키워드 규칙 우선 적용 (사은품 구성품 텍스트는 제외하고 본품만 검사)
+    rule_hit = _rule_match(_main_item_text(brand, product))
     if rule_hit:
         return rule_hit
 
@@ -168,7 +193,7 @@ def classify_batch(items: list) -> list:
         if not brand and not product:
             results[i] = ""
             continue
-        rule_hit = _rule_match(f"{brand or ''} {product or ''}")
+        rule_hit = _rule_match(_main_item_text(brand, product))
         if rule_hit:
             results[i] = rule_hit
             continue
