@@ -2369,8 +2369,11 @@ function fpEscapeHtml(s) {
 function fpRenderCard(slot, compact) {
   const co = slot.company.toLowerCase();
   const link = slot.detail_link || '#';
+  // 이미지가 없거나 로드에 실패해도 카드 자체(회사 배지, 제목, 편성시각)는
+  // 항상 그대로 보여야 한다. onerror는 img 태그 자신만 숨기고, 부모인
+  // thumb-wrap은 빈 배경(placeholder) 상태로 남아 카드 레이아웃을 유지한다.
   const thumb = (!compact && slot.thumbnail)
-    ? `<img src="${fpEscapeHtml(slot.thumbnail)}" alt="${fpEscapeHtml(slot.title)}" loading="lazy" onerror="this.parentElement.style.display='none'">`
+    ? `<img src="${fpEscapeHtml(slot.thumbnail)}" alt="${fpEscapeHtml(slot.title)}" loading="lazy" onerror="this.style.display='none'">`
     : '';
 
   const thumbBlock = compact
