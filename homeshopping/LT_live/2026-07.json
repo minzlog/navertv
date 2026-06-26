@@ -9,7 +9,7 @@
         "end": "01:30",
         "brand": "메종비오비(BOB)",
         "product": "BOB 26SS 여성 반팔 카라티셔츠",
-        "price": 101150,
+        "price": 119000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12897718",
         "category": "의류"
       },
@@ -29,6 +29,15 @@
         "product": "매직핸즈 스테인리스 스틸 화이트골드 에디션 8P 세트",
         "price": 259000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12868650",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "02:30",
+        "end": "03:00",
+        "brand": "르플렉스",
+        "product": "입는 자외선 차단 쿨마스크 핑크 마스크, 베이지 선바이저 팔토시",
+        "price": 54900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12909027",
         "category": "리빙/주방"
       },
       {
@@ -86,6 +95,24 @@
         "category": "잡화/주얼리"
       },
       {
+        "start": "11:35",
+        "end": "11:55",
+        "brand": "삼성화재",
+        "product": "무배당 삼성화재 우리집행복지킴이",
+        "price": 0,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12908162",
+        "category": "GA"
+      },
+      {
+        "start": "11:55",
+        "end": "12:35",
+        "brand": "삼성화재",
+        "product": "삼성화재 고고 새로고침",
+        "price": 0,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12880232",
+        "category": "보험"
+      },
+      {
         "start": "12:35",
         "end": "13:35",
         "brand": "나에노",
@@ -120,6 +147,15 @@
         "price": 53910,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906719",
         "category": "일반식품"
+      },
+      {
+        "start": "20:45",
+        "end": "21:45",
+        "brand": "골드카무트",
+        "product": "골드카무트 효소 그레인온 파로 5봉 세퍼 무선 텀블러 믹서기",
+        "price": 198000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12908344",
+        "category": "건강식품"
       },
       {
         "start": "21:45",

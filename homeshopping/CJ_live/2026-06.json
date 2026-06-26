@@ -1199,10 +1199,10 @@
         "start": "11:35",
         "end": "12:35",
         "brand": "마이크로킥보드",
-        "product": "미니 투고 디럭스 플러스 LED 푸쉬바 세트",
-        "price": 249000,
-        "link": "https://display.cjonstyle.com/p/item/2033295460?channelCode=30002002",
-        "category": "문화/스포츠"
+        "product": "맥시T 디럭스 LED",
+        "price": 202400,
+        "link": "https://display.cjonstyle.com/p/item/2085649680?channelCode=30002002",
+        "category": "가전"
       },
       {
         "start": "12:35",
@@ -1318,7 +1318,7 @@
         "start": "03:15",
         "end": "03:45",
         "brand": "까사리빙",
-        "product": "SK_국내 100% 냉감풀세트",
+        "product": "SK_아이스블랑 국내100% 냉감 풀세트",
         "price": 249900,
         "link": "https://display.cjonstyle.com/p/item/2082089290?channelCode=30002002",
         "category": "리빙/주방"
@@ -1551,15 +1551,6 @@
         "category": "리빙/주방"
       },
       {
-        "start": "05:00",
-        "end": "06:00",
-        "brand": "보랄",
-        "product": "날개없는 BLDC 선풍기 BR-L270DC 퍼플",
-        "price": 149000,
-        "link": "https://display.cjonstyle.com/p/item/2087499146?channelCode=30002002",
-        "category": "가전"
-      },
-      {
         "start": "06:00",
         "end": "06:50",
         "brand": "오스템",
@@ -1644,9 +1635,9 @@
         "start": "15:30",
         "end": "16:30",
         "brand": "넛세린",
-        "product": "시카 선스틱 시즌2",
-        "price": 69000,
-        "link": "https://display.cjonstyle.com/p/item/2056317168?channelCode=30002002",
+        "product": "시카밤 선스틱 8 시카 앰플 1 시카 패드 1",
+        "price": 119000,
+        "link": "https://display.cjonstyle.com/p/item/2087619066?channelCode=30002002",
         "category": "미용"
       },
       {
@@ -1657,6 +1648,15 @@
         "price": 349000,
         "link": "https://display.cjonstyle.com/p/item/2066743163?channelCode=30002002",
         "category": "의류"
+      },
+      {
+        "start": "19:25",
+        "end": "20:30",
+        "brand": "까사리빙",
+        "product": "SK_아이스블랑 국내100% 냉감 풀세트",
+        "price": 249900,
+        "link": "https://display.cjonstyle.com/p/item/2082089290?channelCode=30002002",
+        "category": "리빙/주방"
       },
       {
         "start": "20:30",
@@ -1700,9 +1700,27 @@
         "start": "01:30",
         "end": "02:00",
         "brand": "셀렙샵에디션",
-        "product": "양모컬리카라 볼륨다운",
-        "price": 69000,
-        "link": "https://display.cjonstyle.com/p/item/2069273932?channelCode=30002002",
+        "product": "프렌치 린넨 펄니트",
+        "price": 29900,
+        "link": "https://display.cjonstyle.com/p/item/2052022735?channelCode=30002002",
+        "category": "의류"
+      },
+      {
+        "start": "02:30",
+        "end": "02:45",
+        "brand": "지스튜디오",
+        "product": "25FW 크림프울100 핸드메이드 베스트",
+        "price": 77900,
+        "link": "https://display.cjonstyle.com/p/item/2061250134?channelCode=30002002",
+        "category": "의류"
+      },
+      {
+        "start": "02:45",
+        "end": "03:00",
+        "brand": "지스튜디오",
+        "product": "25FW 톨레뇨 하모니 풀오버 숄",
+        "price": 129000,
+        "link": "https://display.cjonstyle.com/p/item/2060609455?channelCode=30002002",
         "category": "의류"
       },
       {
@@ -1712,6 +1730,24 @@
         "product": "26SS 크래프트 아티장 니트 베스트",
         "price": 99000,
         "link": "https://display.cjonstyle.com/p/item/2076501558?channelCode=30002002",
+        "category": "의류"
+      },
+      {
+        "start": "03:15",
+        "end": "03:45",
+        "brand": "지스튜디오",
+        "product": "26SS 램스킨 클라우드 썸머 슬라이드",
+        "price": 238000,
+        "link": "https://display.cjonstyle.com/p/item/2082918566?channelCode=30002002",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "03:45",
+        "end": "04:00",
+        "brand": "지스튜디오",
+        "product": "25FW 지 위켄드 헝가리구스다운 버뮤다 쇼츠",
+        "price": 99000,
+        "link": "https://display.cjonstyle.com/p/item/2061774680?channelCode=30002002",
         "category": "의류"
       },
       {
@@ -1832,6 +1868,15 @@
         "category": "일반식품"
       },
       {
+        "start": "18:30",
+        "end": "19:35",
+        "brand": "까사리빙",
+        "product": "SK_슈퍼쿨 냉감 5종세트",
+        "price": 129900,
+        "link": "https://display.cjonstyle.com/p/item/2085512207?channelCode=30002002",
+        "category": "리빙/주방"
+      },
+      {
         "start": "19:35",
         "end": "21:45",
         "brand": "쿠진아트",
@@ -1844,7 +1889,7 @@
         "start": "21:45",
         "end": "22:55",
         "brand": "볼빅(BALLVIC)",
-        "product": "스칼프 앤 헤어팩 매니아패키지",
+        "product": "두피 헤어팩 매니아패키지",
         "price": 198000,
         "link": "https://display.cjonstyle.com/p/item/2087064878?channelCode=30002002",
         "category": "미용"
@@ -1882,18 +1927,9 @@
         "start": "02:00",
         "end": "02:30",
         "brand": "셀렙샵에디션",
-        "product": "양모컬리카라 볼륨다운",
-        "price": 69000,
-        "link": "https://display.cjonstyle.com/p/item/2069273932?channelCode=30002002",
-        "category": "의류"
-      },
-      {
-        "start": "02:45",
-        "end": "03:00",
-        "brand": "지스튜디오",
-        "product": "25FW 콘밀 실크 플레어 데님팬츠",
-        "price": 35900,
-        "link": "https://display.cjonstyle.com/p/item/2061618935?channelCode=30002002",
+        "product": "알파카 헤어리니트재킷",
+        "price": 49000,
+        "link": "https://display.cjonstyle.com/p/item/2062639168?channelCode=30002002",
         "category": "의류"
       },
       {

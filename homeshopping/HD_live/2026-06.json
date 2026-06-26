@@ -1757,7 +1757,7 @@
         "product": "비에날씬 프로 비에날퀸 플러스",
         "price": 699000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2219131187&preview=true",
-        "category": "가전"
+        "category": "건강식품"
       },
       {
         "start": "07:50",
@@ -1785,6 +1785,15 @@
         "price": 168000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251579211&preview=true",
         "category": "미용"
+      },
+      {
+        "start": "11:15",
+        "end": "12:30",
+        "brand": "서포트라이트",
+        "product": "레나 라운드 변색 선글라스",
+        "price": 99000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248339572&preview=true",
+        "category": "잡화/주얼리"
       },
       {
         "start": "12:30",
@@ -1951,6 +1960,15 @@
         "category": "건강식품"
       },
       {
+        "start": "06:15",
+        "end": "07:15",
+        "brand": "칼만",
+        "product": "칼만 통3중 스텐 저압냄비 풀세트",
+        "price": 109000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250719497&preview=true",
+        "category": "리빙/주방"
+      },
+      {
         "start": "07:15",
         "end": "09:25",
         "brand": "이상봉",
@@ -1975,7 +1993,7 @@
         "product": "비에날씬 프로 비에날퀸 플러스",
         "price": 699000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251476504&preview=true",
-        "category": "가전"
+        "category": "건강식품"
       },
       {
         "start": "11:35",
@@ -1984,7 +2002,7 @@
         "product": "비에날씬 프로 비에날퀸 플러스",
         "price": 699000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2219131187&preview=true",
-        "category": "가전"
+        "category": "건강식품"
       },
       {
         "start": "12:35",
@@ -1994,6 +2012,24 @@
         "price": 69000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244974638&preview=true",
         "category": "리빙/주방"
+      },
+      {
+        "start": "13:35",
+        "end": "14:25",
+        "brand": "동양생명",
+        "product": "우리WON하는실속플러스하나로암보험",
+        "price": 1044000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250744876&preview=true",
+        "category": "보험"
+      },
+      {
+        "start": "14:25",
+        "end": "15:15",
+        "brand": "베스트하임",
+        "product": "제스톰 보냉 스텐무선텀블러 믹서기 플러스 1",
+        "price": 109000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250600859&preview=true",
+        "category": "가전"
       },
       {
         "start": "15:15",
@@ -2012,6 +2048,24 @@
         "price": 165000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251615525&preview=true",
         "category": "미용"
+      },
+      {
+        "start": "17:00",
+        "end": "18:30",
+        "brand": "오늘따온",
+        "product": "프리미엄 햇 대극천 복숭아 / x",
+        "price": 38900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2236149129&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "17:00",
+        "end": "18:30",
+        "brand": "안유성명장",
+        "product": "양념장어구이 세트",
+        "price": 69900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250449485&preview=true",
+        "category": "일반식품"
       },
       {
         "start": "18:30",
@@ -2034,6 +2088,15 @@
       {
         "start": "20:45",
         "end": "22:55",
+        "brand": "버버리",
+        "product": "런던 체크 미디엄 토트백",
+        "price": 1199000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251149426&preview=true",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "20:45",
+        "end": "22:55",
         "brand": "페라가모",
         "product": "선글라스",
         "price": 168000,
@@ -2048,6 +2111,15 @@
         "price": 79900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251626852&preview=true",
         "category": "일반식품"
+      },
+      {
+        "start": "23:55",
+        "end": "01:00",
+        "brand": "신한생명",
+        "product": "신한라이프 케어받는 암보험",
+        "price": 2041161,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250652443&preview=true",
+        "category": "보험"
       }
     ],
     "2026-06-30": [
@@ -2133,6 +2205,15 @@
         "category": "의류"
       },
       {
+        "start": "13:25",
+        "end": "14:05",
+        "brand": "DB손해보험",
+        "product": "나에게맞춘플러스간편건강보험",
+        "price": 1247000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2232380752&preview=true",
+        "category": "보험"
+      },
+      {
         "start": "14:05",
         "end": "14:55",
         "brand": "헬스베버리지",
@@ -2149,6 +2230,15 @@
         "price": 69900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251091824&preview=true",
         "category": "의류"
+      },
+      {
+        "start": "15:55",
+        "end": "16:35",
+        "brand": "AIA생명",
+        "product": "원스톱프리미엄암보험",
+        "price": 1127890,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244486170&preview=true",
+        "category": "보험"
       },
       {
         "start": "16:35",
@@ -2176,6 +2266,15 @@
         "price": 1290000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251430962&preview=true",
         "category": "리빙/주방"
+      },
+      {
+        "start": "21:45",
+        "end": "22:55",
+        "brand": "룩스몬즈",
+        "product": "24K 골드브릭 쌍지세트 14K팬던트 목걸이 14K 귀걸이 퀼팅뱅글 24K 금박키링",
+        "price": 799000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251582837&preview=true",
+        "category": "잡화/주얼리"
       },
       {
         "start": "22:55",

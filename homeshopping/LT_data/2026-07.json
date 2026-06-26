@@ -77,6 +77,15 @@
         "category": "잡화/주얼리"
       },
       {
+        "start": "13:40",
+        "end": "14:40",
+        "brand": "디비손보",
+        "product": "DB손해보험 나에게맞춘 플러스 간편건강보험_ONE",
+        "price": 0,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12903161",
+        "category": "보험"
+      },
+      {
         "start": "14:40",
         "end": "15:20",
         "brand": "리얼닥터",
@@ -84,6 +93,15 @@
         "price": 47900,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12877064",
         "category": "건강식품"
+      },
+      {
+        "start": "23:40",
+        "end": "00:40",
+        "brand": "바이브리짓",
+        "product": "○ 26SS 시퀸 니트 뷔스티에",
+        "price": 49900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12892880",
+        "category": "의류"
       }
     ]
   }

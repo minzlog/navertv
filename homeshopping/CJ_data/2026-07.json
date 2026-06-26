@@ -5,6 +5,15 @@
   "days": {
     "2026-07-01": [
       {
+        "start": "00:45",
+        "end": "01:45",
+        "brand": "수면공감",
+        "product": "우유베개 하이브리드 더블세트",
+        "price": 99000,
+        "link": "https://display.cjonstyle.com/p/item/2074972460?channelCode=30002002",
+        "category": "리빙/주방"
+      },
+      {
         "start": "06:45",
         "end": "07:45",
         "brand": "아치나인",

@@ -1900,7 +1900,7 @@
         "product": "삼성 AI Q9000 에어컨 홈멀티형",
         "price": 2299000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248932976&preview=true",
-        "category": "가전"
+        "category": "일반식품"
       },
       {
         "start": "21:40",
@@ -2059,11 +2059,20 @@
       },
       {
         "start": "09:40",
-        "end": "11:40",
+        "end": "10:40",
         "brand": "라씨엔토",
         "product": "26SS 뉴빈티지 버뮤다 데님",
         "price": 79900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248843690&preview=true",
+        "category": "의류"
+      },
+      {
+        "start": "10:40",
+        "end": "11:40",
+        "brand": "USPA",
+        "product": "USPA 26SS 남성 코튼 반팔니트",
+        "price": 129000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249258779&preview=true",
         "category": "의류"
       },
       {
@@ -2145,7 +2154,7 @@
         "product": "삼성 AI Q9000 에어컨 홈멀티형",
         "price": 2299000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248932976&preview=true",
-        "category": "가전"
+        "category": "일반식품"
       },
       {
         "start": "19:40",
@@ -2358,12 +2367,21 @@
       },
       {
         "start": "04:35",
-        "end": "05:20",
+        "end": "04:40",
         "brand": "올라카일리",
         "product": "26SS 웨더 양우산",
         "price": 49000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251585501&preview=true",
         "category": "리빙/주방"
+      },
+      {
+        "start": "04:40",
+        "end": "05:20",
+        "brand": "김오곤",
+        "product": "원장의 한방 다이어트환 4",
+        "price": 99000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2233363992&preview=true",
+        "category": "건강식품"
       },
       {
         "start": "05:20",
@@ -2525,7 +2543,7 @@
         "product": "삼성 AI Q9000 에어컨 홈멀티형",
         "price": 2299000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248932976&preview=true",
-        "category": "가전"
+        "category": "일반식품"
       },
       {
         "start": "23:40",
@@ -2657,12 +2675,21 @@
       },
       {
         "start": "10:20",
-        "end": "12:20",
+        "end": "11:40",
         "brand": "제주가마당",
         "product": "大사이즈 제주고등어살 필렛 22팩",
         "price": 39900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2152802783&preview=true",
         "category": "일반식품"
+      },
+      {
+        "start": "11:40",
+        "end": "12:20",
+        "brand": "루니툰",
+        "product": "루니툰 26SS 시어 패커블 점퍼",
+        "price": 59900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249547532&preview=true",
+        "category": "의류"
       },
       {
         "start": "12:20",
@@ -2770,7 +2797,7 @@
         "product": "삼성 AI Q9000 에어컨 홈멀티형",
         "price": 2299000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248932976&preview=true",
-        "category": "가전"
+        "category": "일반식품"
       },
       {
         "start": "22:20",
@@ -2997,7 +3024,7 @@
         "product": "삼성 AI Q9000 에어컨 홈멀티형",
         "price": 2299000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248932976&preview=true",
-        "category": "가전"
+        "category": "일반식품"
       },
       {
         "start": "20:40",

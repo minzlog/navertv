@@ -8,9 +8,9 @@
         "start": "01:00",
         "end": "02:00",
         "brand": "삼성",
-        "product": "삼성 Mini LED TV 65형 KU65MH80AFXKR",
-        "price": 2140000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1120324661&brddate=20260701010000&pgmID=6589&ordChannel=WE&tveshop=Y",
+        "product": "삼성 Mini LED TV 75형 KU75MH80AFXKR",
+        "price": 2540000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1120324969&brddate=20260701010000&pgmID=6589&ordChannel=WE&tveshop=Y",
         "category": "가전"
       },
       {
@@ -63,8 +63,8 @@
         "end": "07:15",
         "brand": "닥터린",
         "product": "닥터린 하이퍼셀 알티지 오메가3",
-        "price": 169000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1064548874&brddate=20260701061500&pgmID=13352&ordChannel=WE&tveshop=Y",
+        "price": 259000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1073026023&brddate=20260701061500&pgmID=13352&ordChannel=WE&tveshop=Y",
         "category": "건강식품"
       },
       {
@@ -80,9 +80,9 @@
         "start": "08:15",
         "end": "09:25",
         "brand": "뉴트리코어",
-        "product": "뉴트리코어 하이퍼셀 멜라토닌 앰플 기본 패키지",
-        "price": 169000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1109633252&brddate=20260701081500&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "product": "뉴트리코어 하이퍼셀 멜라토닌 앰플 더블 패키지",
+        "price": 298000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1115765935&brddate=20260701081500&pgmID=6737&ordChannel=WE&tveshop=Y",
         "category": "미용"
       },
       {
@@ -134,54 +134,63 @@
         "start": "16:35",
         "end": "17:35",
         "brand": "코이",
-        "product": "코이 고현정 NEW 단백질 리프팅앰플 최대용량 헤어 퍼퓸 미스트 매니아세트",
-        "price": 159000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1127897560&brddate=20260701163500&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "product": "코이 NEW 고현정 뿌리는 헤어 퍼퓸 워터 에센스",
+        "price": 65000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1125333870&brddate=20260701163500&pgmID=6737&ordChannel=WE&tveshop=Y",
         "category": "미용"
+      },
+      {
+        "start": "17:35",
+        "end": "18:35",
+        "brand": "산지애",
+        "product": "산지애 자두",
+        "price": 69900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=60204358&brddate=20260701173500&pgmID=6997&ordChannel=WE&tveshop=Y",
+        "category": "일반식품"
       },
       {
         "start": "18:35",
         "end": "19:35",
         "brand": "스케쳐스",
-        "product": "스케쳐스 26SS 여성용 고워크 애니웨어 슬립인스",
+        "product": "스케쳐스 26SS 남성용 고워크 애니웨어 슬립인스",
         "price": 179000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126992004&brddate=20260701183500&pgmID=12502&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126993945&brddate=20260701183500&pgmID=12502&ordChannel=WE&tveshop=Y",
         "category": "잡화/주얼리"
       },
       {
         "start": "19:35",
         "end": "20:45",
         "brand": "에코스라인",
-        "product": "에코스라인 케라틴 VEG 헤어마스크팩 더블패키지",
-        "price": 368000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1109602270&brddate=20260701193500&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "product": "에코스라인 케라틴 VEG 헤어마스크팩 이수정패키지",
+        "price": 209000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1104375847&brddate=20260701193500&pgmID=6737&ordChannel=WE&tveshop=Y",
         "category": "미용"
       },
       {
         "start": "20:45",
         "end": "21:45",
         "brand": "밀레골프",
-        "product": "밀레골프 썸머-에어 트리코트 반팔 티셔츠",
+        "product": "밀레골프 26SS 신상 썸머-에어 트리코트 기능성 7부 팬츠 남성용",
         "price": 69000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1124460976&brddate=20260701204500&pgmID=12502&ordChannel=WE&tveshop=Y",
-        "category": "의류"
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1122453418&brddate=20260701204500&pgmID=12502&ordChannel=WE&tveshop=Y",
+        "category": "가전"
       },
       {
         "start": "21:45",
         "end": "23:55",
         "brand": "코어",
-        "product": "코어 어센틱 26SS 기자면 링거 티셔츠",
-        "price": 69900,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1103683106&brddate=20260701214500&pgmID=13392&ordChannel=WE&tveshop=Y",
+        "product": "코어 어센틱 26SS 레이어드 크로쉐 원피스",
+        "price": 79900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1103614635&brddate=20260701214500&pgmID=13392&ordChannel=WE&tveshop=Y",
         "category": "의류"
       },
       {
         "start": "23:55",
         "end": "01:00",
         "brand": "이지듀",
-        "product": "이지듀 쿨링핏 기미쿠션 멜라 비 토닝 앰플 메쉬쿠션 리필",
-        "price": 29800,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126291873&brddate=20260701235500&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "product": "이지듀 쿨링핏 기미쿠션 토닝 앰플 메쉬쿠션 본품",
+        "price": 49800,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1126283301&brddate=20260701235500&pgmID=6737&ordChannel=WE&tveshop=Y",
         "category": "미용"
       }
     ]

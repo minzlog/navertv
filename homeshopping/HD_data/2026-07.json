@@ -5,6 +5,15 @@
   "days": {
     "2026-07-01": [
       {
+        "start": "01:40",
+        "end": "02:20",
+        "brand": "안국약품",
+        "product": "토비콤 루테인지아잔틴 아스타잔틴",
+        "price": 298000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2237484960&preview=true",
+        "category": "건강식품"
+      },
+      {
         "start": "02:20",
         "end": "03:20",
         "brand": "삭피엔스",
@@ -24,12 +33,21 @@
       },
       {
         "start": "04:20",
-        "end": "12:40",
+        "end": "05:20",
         "brand": "인테로",
         "product": "골드 카무트 효소 프리미엄",
         "price": 99000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251247593&preview=true",
         "category": "건강식품"
+      },
+      {
+        "start": "05:20",
+        "end": "12:40",
+        "brand": "젬마",
+        "product": "26SS 여성 플리츠 스커트",
+        "price": 49900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251246895&preview=true",
+        "category": "의류"
       },
       {
         "start": "12:40",

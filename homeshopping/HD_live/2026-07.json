@@ -113,6 +113,33 @@
         "category": "일반식품"
       },
       {
+        "start": "17:30",
+        "end": "18:30",
+        "brand": "에이스바이옴",
+        "product": "패밀리세트 비에날씬 프로 비에날퀸 비에날씬 플러스",
+        "price": 699000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248968602&preview=true",
+        "category": "건강식품"
+      },
+      {
+        "start": "18:30",
+        "end": "19:30",
+        "brand": "신한생명",
+        "product": "신한라이프 케어받는 암보험",
+        "price": 2041161,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250652443&preview=true",
+        "category": "보험"
+      },
+      {
+        "start": "19:30",
+        "end": "21:45",
+        "brand": "아이그너",
+        "product": "아이그너 26SS 심볼 프린트 티셔츠",
+        "price": 99000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249206353&preview=true",
+        "category": "의류"
+      },
+      {
         "start": "21:45",
         "end": "22:55",
         "brand": "노르딕슬립",
@@ -129,6 +156,15 @@
         "price": 99000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251104646&preview=true",
         "category": "의류"
+      },
+      {
+        "start": "23:55",
+        "end": "01:00",
+        "brand": "DB손해보험",
+        "product": "나에게맞춘플러스간편건강보험",
+        "price": 1247000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2232380752&preview=true",
+        "category": "보험"
       }
     ]
   }
