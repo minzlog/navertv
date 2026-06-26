@@ -215,18 +215,12 @@ def build_slots_and_unscheduled(company: str, programs: list) -> tuple:
         if not norm or not norm["title"]:
             continue
 
-        # HD는 스크래퍼 단계에서 이미 day(요일 한 글자)/time(HH:MM)을
-        # 파싱해서 내려준다. 이 값이 있으면 재파싱보다 우선 신뢰한다
-        # (schedule_raw가 여러 요일을 담은 자유 텍스트라도, day/time은
-        # 그 중 첫 번째 요일만 가리키는 경우가 있어 재파싱과 결과가
-        # 다를 수 있기 때문).
-        pre_day = raw_program.get("day") if company == "HD" else None
-        pre_time = raw_program.get("time") if company == "HD" else None
-
-        if pre_day and pre_time:
-            pairs = [(pre_day, pre_time)]
-        else:
-            pairs = parse_day_time_pairs(norm["schedule_raw"])
+        # HD 스크래퍼(hd_fixed_programs.py)도 day(요일 한 글자)/time(HH:MM)을
+        # 함께 내려주지만, 그 파싱은 schedule_raw에서 "첫 번째 요일"만 뽑는
+        # 방식이라 "매주 수요일 19시 30분 | 토요일 11시 20분"처럼 여러 요일이
+        # 있는 경우 두 번째 이후 요일이 누락된다. 따라서 모든 회사 동일하게
+        # schedule_raw를 직접 재파싱해 다중 요일 슬롯을 빠짐없이 추출한다.
+        pairs = parse_day_time_pairs(norm["schedule_raw"])
 
         if not pairs:
             unscheduled.append({
