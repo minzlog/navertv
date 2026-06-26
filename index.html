@@ -1013,6 +1013,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
     height: 100%;
     min-height: 44px;
     padding: 7px 9px;
@@ -1020,6 +1022,7 @@
     font-style: italic;
     font-weight: 600;
     color: var(--ink-soft);
+    text-align: center;
     border-left: 4px solid var(--rule);
     border-bottom: 1px dotted var(--rule);
     opacity: 0.6;
@@ -2175,6 +2178,10 @@ function hsRenderProgram(p, nowMin) {
          `</div>`;
 }
 
+function hsRenderHitBest() {
+  return `<div class="hs-hitbest">Hit &amp; Best</div>`;
+}
+
 let _hsLastDatasets = null;
 let _hsLastDateStr = null;
 
@@ -2236,16 +2243,47 @@ function hsScrollToCurrentHour(wrap, nowMin) {
   }
 }
 
+function hsBuildTimelineWithGaps(programs) {
+  // programs: 같은 날 같은 회사의 방송 목록 (start/end는 'HH:MM' 문자열,
+  // 자정을 넘기는 경우 end <= start 일 수 있음)
+  const items = programs
+    .filter(p => p.start && p.end)
+    .map(p => {
+      let s = hsTimeToMin(p.start);
+      let e = hsTimeToMin(p.end);
+      if (e <= s) e += 24 * 60; // 자정 넘김 보정
+      return { s, e, p };
+    })
+    .sort((a, b) => a.s - b.s);
+
+  const timeline = [];
+  let cursor = null; // 지금까지 채워진 시각(분), null이면 아직 시작 전
+  for (const item of items) {
+    if (cursor !== null && item.s > cursor) {
+      // cursor ~ item.s 사이가 진짜 빈 시간(Hit & Best 구간)
+      timeline.push({ isGap: true, s: cursor, e: item.s });
+    }
+    timeline.push({ isGap: false, s: item.s, e: item.e, p: item.p });
+    cursor = cursor === null ? item.e : Math.max(cursor, item.e);
+  }
+  return timeline;
+}
+
 function hsRenderGridView(datasets, nowMin) {
   const buckets = {};
   for (let h = 0; h < 24; h++) buckets[h] = HS_COMPANIES.map(() => []);
 
   datasets.forEach((data, ci) => {
     const programs = (data && data.programs) ? data.programs : [];
-    for (const p of programs) {
-      if (!p.start) continue;
-      const hour = parseInt(p.start.split(':')[0], 10);
-      if (hour >= 0 && hour < 24) buckets[hour][ci].push(p);
+    const timeline = hsBuildTimelineWithGaps(programs);
+    for (const item of timeline) {
+      // item.s ~ item.e 구간이 걸쳐 있는 모든 hour 줄에 같은 항목을 넣는다
+      // (방송이든 갭이든, 24시 이후로 넘어가는 부분은 그 날짜 그리드에선 보여줄 곳이 없으므로 잘라낸다)
+      const startHour = Math.floor(item.s / 60);
+      const endHourExclusive = Math.ceil(item.e / 60);
+      for (let h = Math.max(0, startHour); h < Math.min(24, endHourExclusive); h++) {
+        buckets[h][ci].push(item);
+      }
     }
   });
 
@@ -2261,12 +2299,16 @@ function hsRenderGridView(datasets, nowMin) {
     html += '<tr>';
     html += `<td class="hs-time-cell">${String(h).padStart(2, '0')}시</td>`;
     HS_COMPANIES.forEach((c, ci) => {
-      const progs = buckets[h][ci];
-      if (progs.length === 0) {
-        html += `<td class="hs-empty-cell hs-co-cell ${c.cls}"><div class="hs-hitbest">Hit &amp; Best</div></td>`;
+      const items = buckets[h][ci];
+      if (items.length === 0) {
+        // 그 시간대에 데이터 자체가 전혀 없는 경우(타임라인이 비어있어 gap도 못 만든 경우,
+        // 예: 그날 편성 정보를 통째로 못 가져온 경우) -> 표시 없는 빈 칸으로 둔다.
+        html += `<td class="hs-empty-cell hs-co-cell ${c.cls}"></td>`;
       } else {
         let cell = `<td class="hs-co-cell ${c.cls}"><div class="hs-cell-inner">`;
-        for (const p of progs) cell += hsRenderProgram(p, nowMin);
+        for (const item of items) {
+          cell += item.isGap ? hsRenderHitBest() : hsRenderProgram(item.p, nowMin);
+        }
         cell += '</div></td>';
         html += cell;
       }
