@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-06-26T21:38:10.898422+09:00",
+  "collectedAt": "2026-06-26T22:43:40.075515+09:00",
   "companies": [
     "HD",
     "CJ",
@@ -32,7 +32,7 @@
     {
       "company": "LT",
       "day": "화",
-      "time": "07:00",
+      "time": "19:00",
       "title": "GET SHOW",
       "schedule_raw": "매주 화요일 저녁 7시",
       "thumbnail": "https://image.lotteimall.com/upload/display/conts_tmpl/base/1193_11_20260309141937.png/dims/resizemc/1200x430/cropcenter/1200x430/optimize",
@@ -82,29 +82,6 @@
           "price": 99000,
           "image": "https://image.hmall.com/2250601336_0.jpg",
           "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250601336"
-        }
-      ]
-    },
-    {
-      "company": "CJ",
-      "day": "수",
-      "time": "08:45",
-      "title": "최화정쇼",
-      "schedule_raw": "수요일 밤 8시 45분",
-      "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202306/01/5549815/756debea2b4d2a1ec3b9d56f256c67474c4a5d97.png",
-      "detail_link": "https://display.cjonstyle.com/m/pgmShop/100027",
-      "upcoming_products": [
-        {
-          "name": "[역대최저가/백화점가73%OFF] 루나스톤 프라이팬 풀세트",
-          "price": 329000,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/306/2087721306L.jpg?timestamp=20260625101530",
-          "link": "https://display.cjonstyle.com/m/item/2087721306?channelCode=30002002"
-        },
-        {
-          "name": "[최화정쇼]초강력세트 자석밀대+워터포 리필4통+일렉포 리필2통",
-          "price": 89900,
-          "image": "https://itemimage.cjonstyle.net/goods_images/20/297/2084943297L.jpg?timestamp=20260624205003",
-          "link": "https://display.cjonstyle.com/m/item/2084943297?channelCode=30002002"
         }
       ]
     },
@@ -167,6 +144,29 @@
           "price": 429000,
           "image": "https://image2.lotteimall.com/goods/74/17/91/12911774_3.jpg/dims/resizemc/640x360/optimize",
           "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911774"
+        }
+      ]
+    },
+    {
+      "company": "CJ",
+      "day": "수",
+      "time": "20:45",
+      "title": "최화정쇼",
+      "schedule_raw": "수요일 밤 8시 45분",
+      "thumbnail": "https://image.cjonstyle.net/public/confirm/assets/tdp_cate_cont/202306/01/5549815/756debea2b4d2a1ec3b9d56f256c67474c4a5d97.png",
+      "detail_link": "https://display.cjonstyle.com/m/pgmShop/100027",
+      "upcoming_products": [
+        {
+          "name": "[역대최저가/백화점가73%OFF] 루나스톤 프라이팬 풀세트",
+          "price": 329000,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/306/2087721306L.jpg?timestamp=20260625101530",
+          "link": "https://display.cjonstyle.com/m/item/2087721306?channelCode=30002002"
+        },
+        {
+          "name": "[최화정쇼]초강력세트 자석밀대+워터포 리필4통+일렉포 리필2통",
+          "price": 89900,
+          "image": "https://itemimage.cjonstyle.net/goods_images/20/297/2084943297L.jpg?timestamp=20260624205003",
+          "link": "https://display.cjonstyle.com/m/item/2084943297?channelCode=30002002"
         }
       ]
     },
@@ -772,16 +772,6 @@
     {
       "company": "LT",
       "day": "토",
-      "time": "10:30",
-      "title": "L.SHOW",
-      "schedule_raw": "매주 토요일 밤 10시 30분",
-      "thumbnail": "https://image.lotteimall.com/upload/display/conts_tmpl/base/1169_11_20260212180400.jpg/dims/resizemc/1200x430/cropcenter/1200x430/optimize",
-      "detail_link": "https://www.lotteimall.com/contstmpl/viewContsTmplDetail.lotte?conts_no=1169",
-      "upcoming_products": []
-    },
-    {
-      "company": "LT",
-      "day": "토",
       "time": "11:40",
       "title": "뷰티사장유민",
       "schedule_raw": "매주 토 11시40분",
@@ -865,6 +855,16 @@
           "link": "https://display.cjonstyle.com/m/item/2082192657?channelCode=30002002"
         }
       ]
+    },
+    {
+      "company": "LT",
+      "day": "토",
+      "time": "22:30",
+      "title": "L.SHOW",
+      "schedule_raw": "매주 토요일 밤 10시 30분",
+      "thumbnail": "https://image.lotteimall.com/upload/display/conts_tmpl/base/1169_11_20260212180400.jpg/dims/resizemc/1200x430/cropcenter/1200x430/optimize",
+      "detail_link": "https://www.lotteimall.com/contstmpl/viewContsTmplDetail.lotte?conts_no=1169",
+      "upcoming_products": []
     },
     {
       "company": "LT",
@@ -1029,7 +1029,7 @@
     },
     {
       "company": "LT",
-      "title": "미숙씨 X 가전 LIVE",
+      "title": "섭PD의 어섭쇼!",
       "schedule_raw": ""
     },
     {
@@ -1039,12 +1039,17 @@
     },
     {
       "company": "LT",
-      "title": "Sell love",
+      "title": "미숙씨 X 가전 LIVE",
       "schedule_raw": ""
     },
     {
       "company": "LT",
-      "title": "섭PD의 어섭쇼!",
+      "title": "가전패스",
+      "schedule_raw": "6월 매주 목요일"
+    },
+    {
+      "company": "LT",
+      "title": "Sell love",
       "schedule_raw": ""
     },
     {
@@ -1056,11 +1061,6 @@
       "company": "LT",
       "title": "태윤맘과 맘심톡톡!",
       "schedule_raw": ""
-    },
-    {
-      "company": "LT",
-      "title": "가전패스",
-      "schedule_raw": "6월 매주 목요일"
     }
   ]
 }
