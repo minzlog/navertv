@@ -104,7 +104,12 @@ def find_time_after(text: str, start_idx: int) -> str:
     못 찾으면 None."""
     window = text[start_idx:start_idx + 20]  # 요일 글자 바로 다음 20자 내에서만 탐색
 
-    is_pm = bool(re.search(r'^\s*오후', window))
+    # '오후' 외에도 '저녁'/'밤'은 관용적으로 오후~심야 시각을 가리킨다
+    # (예: '저녁 8시 45분' = 20:45, '밤 9시 35분' = 21:35).
+    # '낮'은 정오 근처(오전~초오후)를 가리키는 모호한 표현이라 보정하지
+    # 않는다 - 대부분 오전 11시~오후 1시 사이로 쓰이고, 이미 12시간제
+    # 입력 자체가 그 범위 안에 있어 추가 보정이 오히려 틀릴 수 있다.
+    is_pm = bool(re.search(r'^\s*(오후|저녁|밤)', window))
     is_am = bool(re.search(r'^\s*오전', window))
 
     m = TIME_COLON_RE.search(window)
