@@ -1,0 +1,54 @@
+name: 홈쇼핑 편성 수집 (HD/LT/CJ/GS)
+
+on:
+  schedule:
+    # 매일 한국시간(KST) 06:20 = UTC 21:20 (전날). 편성표·날씨와 겹치지 않도록 뒤에 배치.
+    - cron: "20 21 * * *"
+  workflow_dispatch: {}  # 수동 실행 버튼
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Python 설치
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 패키지 설치
+        run: pip install requests beautifulsoup4 scikit-learn joblib pandas openpyxl
+
+      - name: 홈쇼핑 스크래퍼 실행 - 현대(HD)
+        continue-on-error: true
+        run: python hd_scraper.py
+
+      - name: 홈쇼핑 스크래퍼 실행 - 롯데(LT)
+        continue-on-error: true
+        run: python lt_scraper.py
+
+      - name: 홈쇼핑 스크래퍼 실행 - CJ온스타일(CJ)
+        continue-on-error: true
+        run: python cj_scraper.py
+
+      - name: 홈쇼핑 스크래퍼 실행 - GS(라방바 경유)
+        continue-on-error: true
+        run: python gs_scraper.py
+
+      - name: 결과 커밋 & 푸시
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add homeshopping/HD_live/*.json homeshopping/HD_data/*.json \
+                  homeshopping/LT_live/*.json homeshopping/LT_data/*.json \
+                  homeshopping/CJ_live/*.json homeshopping/CJ_data/*.json \
+                  homeshopping/GS_live/*.json homeshopping/GS_data/*.json
+          git diff --staged --quiet || git commit -m "chore: 홈쇼핑 편성 자동 갱신 $(date -u +%Y-%m-%d)"
+          git pull --rebase --autostash origin main
+          git push
