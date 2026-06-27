@@ -104,9 +104,12 @@ def parse_card(li, category: str, base_url: str = ""):
 
     programs = []
     for slot in slots:
-        # 식별자(ID)는 요일만 제외하고 시간까지 포함합니다.
-        # (title+channel만 쓰면 같은 프로그램의 재방송 등 '다른 시간대' 편성이
-        #  같은 id로 묶여 시간 정보가 사라지거나 중복 표시되는 문제가 있었음)
+        # 식별자(ID)에는 title을 포함한다. 채널+시간대만으로는 같은
+        # 채널/시간에 요일마다 전혀 다른 프로그램이 편성되는 경우를
+        # 구분할 수 없다(예: KBS2 오후 10시는 요일마다 다른 예능).
+        # 말줄임("...")으로 갈리는 제목 중복 문제는 아래 dedupe 단계에서
+        # 같은 (category, channel, days, time) 그룹 내 제목을 정규화해
+        # 별도로 처리한다.
         programs.append({
             "id": f"{category}_{title}_{channel}_{slot['time']}",
             "category": category,
@@ -121,8 +124,48 @@ def parse_card(li, category: str, base_url: str = ""):
     return programs
 
 
+def normalize_truncated_titles(programs: list):
+    """네이버 위젯은 카드 레이아웃 상태에 따라 같은 프로그램의 제목을
+    풀텍스트로 줄 때와, CSS 말줄임으로 끝을 "..."으로 잘라서 줄 때가
+    섞여 있다(예: "콩콩팜팜 (...동물농장)" vs "콩콩팜팜 (...동...").
+    title이 id에 포함되어 있어 이 차이만으로 같은 편성이 두 건으로
+    갈라져 중복 표시되는 문제가 있었으므로, 같은 (category, channel,
+    days, time) 조합 안에서는 말줄임 제목을 그 그룹의 가장 긴(풀)
+    제목으로 통일한다."""
+    groups = {}
+    for p in programs:
+        key = (p["category"], p["channel"], tuple(p["days"]), p["time"])
+        groups.setdefault(key, []).append(p)
+
+    for key, group in groups.items():
+        if len(group) <= 1:
+            continue
+        titles = [p["title"] for p in group]
+        # "..."으로 끝나는(말줄임된) 제목들을 후보에서 제외하고,
+        # 남은 것 중 가장 긴 제목을 그 그룹의 대표 제목으로 삼는다.
+        full_candidates = [t for t in titles if not t.endswith("...")]
+        if not full_candidates:
+            continue
+        canonical = max(full_candidates, key=len)
+        # 말줄임 제목이 대표 제목의 접두사일 때만(=정말 같은 프로그램이
+        # 잘려서 생긴 텍스트일 때만) 치환한다. 우연히 같은 시간/채널에
+        # 편성된 서로 다른 프로그램까지 잘못 합치지 않기 위한 방어.
+        truncated_prefix_len = len(canonical) - 3
+        for p in group:
+            t = p["title"]
+            if t == canonical or not t.endswith("..."):
+                continue
+            if truncated_prefix_len > 0 and canonical.startswith(t[:-3]):
+                p["title"] = canonical
+
+
 def dedupe_programs(programs: list):
     """동일한 프로그램의 쪼개진 요일 카드들을 하나로 합칩니다."""
+    normalize_truncated_titles(programs)
+    # 제목을 정규화했으므로 id도 그에 맞춰 다시 계산한다.
+    for p in programs:
+        p["id"] = f"{p['category']}_{p['title']}_{p['channel']}_{p['time']}"
+
     merged = {}
     for p in programs:
         key = p["id"]
@@ -391,7 +434,22 @@ def dispatch_to_current_week(out_dir: str, programs: list):
             existing_days.update(p["days"])
             p["days"] = [d for d in DAY_ORDER if d in existing_days]
         by_id[p["id"]] = p
-        
+
+    # 기존에 누적 저장된 데이터(과거 회차에 말줄임으로 박혀있을 수 있음)와
+    # 이번에 새로 수집한 데이터를 합친 전체 집합에 대해 다시 한 번
+    # 말줄임 정규화 + id 재계산을 적용해, 주 단위로 쌓이는 과정에서도
+    # 같은 프로그램이 풀제목/말줄임제목으로 갈려 중복되지 않게 한다.
+    all_merged = list(by_id.values())
+    normalize_truncated_titles(all_merged)
+    by_id = {}
+    for p in all_merged:
+        p["id"] = f"{p['category']}_{p['title']}_{p['channel']}_{p['time']}"
+        if p["id"] in by_id:
+            existing_days = set(by_id[p["id"]]["days"])
+            existing_days.update(p["days"])
+            p["days"] = [d for d in DAY_ORDER if d in existing_days]
+        by_id[p["id"]] = p
+
     merged_payload = {
         "weekStart": file_date,
         "weekEnd": week_end,
