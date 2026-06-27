@@ -1,0 +1,59 @@
+name: 홈쇼핑 편성 수집 (기타7개사)
+
+on:
+  schedule:
+    # 매일 한국시간(KST) 06:30 = UTC 21:30 (전날). homeshopping.yml(06:20)과 겹치지 않게 10분 뒤.
+    - cron: "30 21 * * *"
+  workflow_dispatch: {}  # 수동 실행 버튼
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Python 설치
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 패키지 설치
+        run: pip install requests beautifulsoup4 scikit-learn joblib pandas openpyxl
+
+      - name: 홈쇼핑 스크래퍼 실행 - 기타7개사(공영/홈앤/K쇼핑/신세계/NS/쇼핑엔티/SK스토아, 라방바 경유)
+        continue-on-error: true
+        run: python etc_scraper.py
+
+      - name: 결과 커밋 & 푸시
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # 위 스크래퍼 스텝이 continue-on-error: true라서 실패해도 여기까지 온다.
+          # 그 경우 디렉토리 자체가 안 만들어져 git add -A -- {경로}가
+          # "did not match any files"로 fatal 종료할 수 있으므로, mkdir -p로
+          # 대상 디렉토리 존재를 먼저 보장한다 (빈 디렉토리는 git add -A가 안전하게 무시).
+          mkdir -p homeshopping/PUBLIC_live \
+                   homeshopping/HNS_live \
+                   homeshopping/KTALPHA_live \
+                   homeshopping/SHINSEGAE_live \
+                   homeshopping/NS_live \
+                   homeshopping/NS_plus \
+                   homeshopping/SHOPPINGNT_live \
+                   homeshopping/SKSTOA_live
+          git add -A -- \
+                  homeshopping/PUBLIC_live \
+                  homeshopping/HNS_live \
+                  homeshopping/KTALPHA_live \
+                  homeshopping/SHINSEGAE_live \
+                  homeshopping/NS_live \
+                  homeshopping/NS_plus \
+                  homeshopping/SHOPPINGNT_live \
+                  homeshopping/SKSTOA_live
+          git diff --staged --quiet || git commit -m "chore: 기타7개사 편성 자동 갱신 $(date -u +%Y-%m-%d)"
+          git pull --rebase --autostash origin main
+          git push
