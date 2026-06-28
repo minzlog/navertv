@@ -18,7 +18,7 @@
         "end": "02:00",
         "brand": "드베로타",
         "product": "26SS 플루이드 텐셀 벨티드 슬랙스",
-        "price": 69900,
+        "price": 89900,
         "link": "https://display.cjonstyle.com/p/item/2077077043?channelCode=30002002",
         "category": "의류"
       },
@@ -151,6 +151,62 @@
         "price": 159900,
         "link": "https://display.cjonstyle.com/p/item/2085134063?channelCode=30002002",
         "category": "리빙/주방"
+      }
+    ],
+    "2026-07-04": [
+      {
+        "start": "00:45",
+        "end": "01:45",
+        "brand": "유에스피에이",
+        "product": "1-2. 26SS 썸머 코튼 반팔니트 남성",
+        "price": 129000,
+        "link": "https://display.cjonstyle.com/p/item/2084401066?channelCode=30002002",
+        "category": "의류"
+      },
+      {
+        "start": "07:45",
+        "end": "08:45",
+        "brand": "그레인온",
+        "product": "카사베르디 유기농 와인비니거 레드6 2병 디스펜서",
+        "price": 129000,
+        "link": "https://display.cjonstyle.com/p/item/2082414390?channelCode=30002002",
+        "category": "건강식품"
+      },
+      {
+        "start": "09:45",
+        "end": "10:45",
+        "brand": "그레인온",
+        "product": "골드파로효소 캡슐레이션 30포 X 무선텀블러믹서기",
+        "price": 209000,
+        "link": "https://display.cjonstyle.com/p/item/2086075634?channelCode=30002002",
+        "category": "건강식품"
+      },
+      {
+        "start": "19:45",
+        "end": "20:45",
+        "brand": "바디프랜드",
+        "product": "뉴팔콘 안마의자",
+        "price": 0,
+        "link": "https://display.cjonstyle.com/p/item/2074452679?channelCode=30002002",
+        "category": "일반렌탈"
+      },
+      {
+        "start": "22:45",
+        "end": "23:45",
+        "brand": "카빌리지",
+        "product": "카빌리지 신차장기렌터카 비교견적",
+        "price": 0,
+        "link": "https://display.cjonstyle.com/p/item/2020150458?channelCode=30002002",
+        "category": "일반식품"
+      },
+      {
+        "start": "23:45",
+        "end": "00:45",
+        "brand": "더마유스",
+        "product": "더마유스 90초크림",
+        "price": 139000,
+        "link": "https://display.cjonstyle.com/p/item/2058434452?channelCode=30002002",
+        "category": "미용"
       }
     ]
   }

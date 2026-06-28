@@ -315,6 +315,15 @@
         "category": "보험"
       },
       {
+        "start": "15:20",
+        "end": "16:00",
+        "brand": "더턴",
+        "product": "☆더턴 드림파워 건강팔찌 클래식 블랑 테니스 주얼리 3종세트",
+        "price": 139000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12862194",
+        "category": "잡화/주얼리"
+      },
+      {
         "start": "16:00",
         "end": "16:40",
         "brand": "순수식품",
@@ -331,6 +340,17 @@
         "price": 59900,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12903742",
         "category": "일반식품"
+      }
+    ],
+    "2026-07-04": [
+      {
+        "start": "03:20",
+        "end": "03:25",
+        "brand": "플랜잇",
+        "product": "플랜잇 에어로 BLDC 드라이기",
+        "price": 39900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12902150",
+        "category": "가전"
       }
     ]
   }

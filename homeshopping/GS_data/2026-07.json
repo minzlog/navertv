@@ -334,7 +334,7 @@
         "brand": "넛세린",
         "product": "넛세린 선스틱 상호검증 패키지",
         "price": 79000,
-        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1121327929&brddate=20260703005800&pgmID=13454&ordChannel=WE&tveshop=Y",
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1121327929&brddate=20260704133700&pgmID=6737&ordChannel=WE&tveshop=Y",
         "category": "미용",
         "lavangba_category": "화장품/미용"
       },
@@ -407,6 +407,48 @@
         "link": "https://www.gsshop.com/prd/prd.gs?prdid=1125832668&brddate=20260703223800&pgmID=13403&ordChannel=WE&tveshop=Y",
         "category": "잡화/주얼리",
         "lavangba_category": "패션잡화"
+      }
+    ],
+    "2026-07-04": [
+      {
+        "start": "10:36",
+        "end": "11:36",
+        "brand": "도미나스",
+        "product": "트라넥삼산 크림 4세대 크림 VIP단독 패키지",
+        "price": 159000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1103205044&brddate=20260704103600&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "12:36",
+        "end": "13:36",
+        "brand": "스튜디오디페",
+        "product": "스튜디오디페 26SS 레이스 니트",
+        "price": 59900,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1102039017&brddate=20260704123600&pgmID=13307&ordChannel=WE&tveshop=Y",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "13:37",
+        "end": "14:37",
+        "brand": "넛세린",
+        "product": "넛세린 선스틱 상호검증 패키지",
+        "price": 79000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1121327929&brddate=20260704133700&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "16:38",
+        "end": "17:38",
+        "brand": "리에노",
+        "product": "리에노 수분 듬뿍 빅선쿠션",
+        "price": 89000,
+        "link": "https://www.gsshop.com/prd/prd.gs?prdid=1079415068&brddate=20260704163800&pgmID=6737&ordChannel=WE&tveshop=Y",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
       }
     ]
   }

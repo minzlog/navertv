@@ -395,6 +395,71 @@
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250177500&preview=true",
         "category": "의류"
       }
+    ],
+    "2026-07-04": [
+      {
+        "start": "05:20",
+        "end": "06:20",
+        "brand": "바네사리찌",
+        "product": "아트 티블라우스5종",
+        "price": 39900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249984173&preview=true",
+        "category": "의류"
+      },
+      {
+        "start": "06:20",
+        "end": "07:20",
+        "brand": "아임고트",
+        "product": "뉴질랜드 프리미엄 산양유 x 산양유 츄어블 요거트맛",
+        "price": 198000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2247797797&preview=true",
+        "category": "건강식품"
+      },
+      {
+        "start": "07:20",
+        "end": "08:20",
+        "brand": "신영와코루",
+        "product": "2026 감각미 인견100% 쿨 파자마 2SET",
+        "price": 79900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250779722&preview=true",
+        "category": "언더웨어"
+      },
+      {
+        "start": "08:20",
+        "end": "11:20",
+        "brand": "샤크닌자",
+        "product": "샤크 프리미엄선풍기 터보블레이드팬",
+        "price": 299900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250317899&preview=true",
+        "category": "가전"
+      },
+      {
+        "start": "08:20",
+        "end": "11:20",
+        "brand": "조선호텔",
+        "product": "한우사골 眞 삼계탕 8팩",
+        "price": 79900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2236376059&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "13:45",
+        "end": "14:55",
+        "brand": "리터니티",
+        "product": "리터니티 율무팩 역대급 구성",
+        "price": 189000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250915855&preview=true",
+        "category": "미용"
+      },
+      {
+        "start": "19:25",
+        "end": "20:25",
+        "brand": "알레보",
+        "product": "디엣지 플러스 유리 밥용기 1 1세트_",
+        "price": 59800,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250158734&preview=true",
+        "category": "리빙/주방"
+      }
     ]
   }
 }

@@ -188,6 +188,71 @@
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2227334680&preview=true",
         "category": "일반렌탈"
       }
+    ],
+    "2026-07-04": [
+      {
+        "start": "03:20",
+        "end": "03:40",
+        "brand": "김가연",
+        "product": "돈까스 16팩",
+        "price": 54900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251604821&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "03:40",
+        "end": "03:50",
+        "brand": "김가연",
+        "product": "돈까스 16팩",
+        "price": 54900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251604821&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "03:50",
+        "end": "04:00",
+        "brand": "김가연",
+        "product": "돈까스 16팩",
+        "price": 54900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251604821&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "04:00",
+        "end": "04:10",
+        "brand": "김가연",
+        "product": "돈까스 16팩",
+        "price": 54900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251604821&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "04:10",
+        "end": "07:20",
+        "brand": "김가연",
+        "product": "돈까스 16팩",
+        "price": 54900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251604821&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "07:20",
+        "end": "10:40",
+        "brand": "블라우풍트",
+        "product": "스마트워치",
+        "price": 79800,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2247845528&preview=true",
+        "category": "가전"
+      },
+      {
+        "start": "10:40",
+        "end": "11:39",
+        "brand": "크린바바",
+        "product": "한번에 싹 버블왕 플러스",
+        "price": 59800,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244970364&preview=true",
+        "category": "리빙/주방"
+      }
     ]
   }
 }

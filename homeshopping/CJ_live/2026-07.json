@@ -36,7 +36,7 @@
         "end": "04:00",
         "brand": "지스튜디오",
         "product": "25FW 캐시미어 울블렌드 니트케이프가디건 베스트2종",
-        "price": 50900,
+        "price": 109000,
         "link": "https://display.cjonstyle.com/p/item/2066523991?channelCode=30002002",
         "category": "의류"
       },
@@ -187,6 +187,15 @@
     ],
     "2026-07-02": [
       {
+        "start": "05:00",
+        "end": "06:00",
+        "brand": "신한라이프",
+        "product": "신한 라이프 케어받는 암보험",
+        "price": 0,
+        "link": "https://display.cjonstyle.com/p/item/2064509744?channelCode=30002002",
+        "category": "보험"
+      },
+      {
         "start": "06:00",
         "end": "07:15",
         "brand": "비에날씬",
@@ -200,7 +209,7 @@
         "end": "08:15",
         "brand": "신영와코루",
         "product": "26썸머 라이크라 시스루 올인원 바디수트",
-        "price": 179900,
+        "price": 89950,
         "link": "https://display.cjonstyle.com/p/item/2082314707?channelCode=30002002",
         "category": "언더웨어"
       },
@@ -412,6 +421,107 @@
         "price": 132000,
         "link": "https://display.cjonstyle.com/p/item/2056576927?channelCode=30002002",
         "category": "미용"
+      }
+    ],
+    "2026-07-04": [
+      {
+        "start": "01:10",
+        "end": "02:10",
+        "brand": "한경희생활과학",
+        "product": "한경희 무선 폴딩 에어써큘레이터",
+        "price": 248000,
+        "link": "https://display.cjonstyle.com/p/item/2083788194?channelCode=30002002",
+        "category": "가전"
+      },
+      {
+        "start": "05:00",
+        "end": "06:00",
+        "brand": "닥터블릿",
+        "product": "푸응 파비플로라",
+        "price": 356000,
+        "link": "https://display.cjonstyle.com/p/item/2087494422?channelCode=30002002",
+        "category": "건강식품"
+      },
+      {
+        "start": "06:00",
+        "end": "06:10",
+        "brand": "",
+        "product": "통닭다리 빠삭킹 순살치킨 총14팩",
+        "price": 59900,
+        "link": "https://display.cjonstyle.com/p/item/2078923436?channelCode=30002002",
+        "category": "일반식품"
+      },
+      {
+        "start": "08:20",
+        "end": "10:20",
+        "brand": "휘슬러",
+        "product": "1845 노바쿼트로 압력솥 풀세트",
+        "price": 699000,
+        "link": "https://display.cjonstyle.com/p/item/2087721793?channelCode=30002002",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "10:20",
+        "end": "12:30",
+        "brand": "더엣지",
+        "product": "X데이즈데이즈 26SS 크로셰 블라우스 이너탑2종",
+        "price": 49900,
+        "link": "https://display.cjonstyle.com/p/item/2082566757?channelCode=30002002",
+        "category": "의류"
+      },
+      {
+        "start": "12:30",
+        "end": "13:40",
+        "brand": "에어룸",
+        "product": "라지킹_텐셀모달100 냉감침구 풀패키지",
+        "price": 179900,
+        "link": "https://display.cjonstyle.com/p/item/2083039134?channelCode=30002002",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "13:40",
+        "end": "14:40",
+        "brand": "",
+        "product": "멜라필크림 마스크 브러쉬",
+        "price": 158000,
+        "link": "https://display.cjonstyle.com/p/item/2087801947?channelCode=30002002",
+        "category": "미용"
+      },
+      {
+        "start": "15:40",
+        "end": "16:30",
+        "brand": "위프",
+        "product": "WHIFF 다용도 탈취제 본품3개 슬림1개",
+        "price": 81500,
+        "link": "https://display.cjonstyle.com/p/item/2073211190?channelCode=30002002",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "17:30",
+        "end": "18:40",
+        "brand": "자코모",
+        "product": "토파즈 4인 기능성 피아나 이태리 통가죽 천연면피 소가죽 소파 스툴",
+        "price": 3200000,
+        "link": "https://display.cjonstyle.com/p/item/2067689638?channelCode=30002002",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "20:30",
+        "end": "21:35",
+        "brand": "꼬달리",
+        "product": "2번 싱글비노퍼펙트세럼 세럼 세트",
+        "price": 169000,
+        "link": "https://display.cjonstyle.com/p/item/2079050655?channelCode=30002002",
+        "category": "미용"
+      },
+      {
+        "start": "22:30",
+        "end": "01:00",
+        "brand": "셀렙샵에디션",
+        "product": "26SS 루즈핏 멀티 스트라이프 아사셔츠",
+        "price": 69900,
+        "link": "https://display.cjonstyle.com/p/item/2082077114?channelCode=30002002",
+        "category": "의류"
       }
     ]
   }

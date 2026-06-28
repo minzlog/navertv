@@ -218,7 +218,7 @@
         "end": "02:00",
         "brand": "엠유스포츠",
         "product": "26SS 여성 반팔 라운드 니트",
-        "price": 67150,
+        "price": 79000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12897914",
         "category": "의류"
       },
@@ -245,7 +245,7 @@
         "end": "03:45",
         "brand": "바이브리짓",
         "product": "26SS 썸머 와이드 스트링 데님팬츠",
-        "price": 69900,
+        "price": 55920,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12907173",
         "category": "의류"
       },
@@ -427,7 +427,7 @@
         "end": "10:25",
         "brand": "베네통",
         "product": "샤인스톤 쥬얼 샌들",
-        "price": 71100,
+        "price": 63200,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906155",
         "category": "잡화/주얼리"
       },
@@ -484,6 +484,116 @@
         "price": 298000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906140",
         "category": "미용"
+      }
+    ],
+    "2026-07-04": [
+      {
+        "start": "02:25",
+        "end": "02:55",
+        "brand": "탐즈",
+        "product": "탐즈 샴푸 트리트먼트 탐즈 샴푸 파우치",
+        "price": 159000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911870",
+        "category": "미용"
+      },
+      {
+        "start": "03:35",
+        "end": "04:05",
+        "brand": "홀베리",
+        "product": "1일1레몬 유기농 레몬즙 20gx14포x12박스, 총168포",
+        "price": 199800,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12866173",
+        "category": "건강식품"
+      },
+      {
+        "start": "04:05",
+        "end": "04:35",
+        "brand": "해피콜",
+        "product": "스텔라 다이아몬드 IH프라이팬",
+        "price": 69900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12907158",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "04:35",
+        "end": "05:15",
+        "brand": "3.1 필립림 스튜디오",
+        "product": "26SS 뉴욕 데님 플레어 팬츠",
+        "price": 69000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12896748",
+        "category": "의류"
+      },
+      {
+        "start": "07:20",
+        "end": "08:20",
+        "brand": "에버콜라겐",
+        "product": "♥전고객 선풍기♥ 에버콜라겐 레티놀 A 19병 미니 2병 휴라이프 날개없는 선풍기",
+        "price": 599000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12910289",
+        "category": "건강식품"
+      },
+      {
+        "start": "08:20",
+        "end": "10:35",
+        "brand": "그래비티",
+        "product": "그래비티 PDRN 헤어 리커버리 샴푸",
+        "price": 159000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12911872",
+        "category": "미용"
+      },
+      {
+        "start": "10:35",
+        "end": "11:40",
+        "brand": "나인웨스트",
+        "product": "9X9 양가죽 인트레치아토 뮬",
+        "price": 115000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12908058",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "12:45",
+        "end": "13:55",
+        "brand": "오제끄",
+        "product": "오제끄 빙쿨 체취감소 쿨링 프로즌 바디시트 5매입 10봉",
+        "price": 69900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12857435",
+        "category": "미용"
+      },
+      {
+        "start": "13:55",
+        "end": "15:10",
+        "brand": "김영근",
+        "product": "김영근 명인 제주 메밀 순면 15팩 순 동치미육수 8팩 순 비빔장 7팩",
+        "price": 59900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12903617",
+        "category": "일반식품"
+      },
+      {
+        "start": "15:10",
+        "end": "16:25",
+        "brand": "유피토스",
+        "product": "유피토스 트리트먼트 분 꼬리빗",
+        "price": 299000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12893847",
+        "category": "미용"
+      },
+      {
+        "start": "19:25",
+        "end": "20:25",
+        "brand": "리치 프리미엄 골드",
+        "product": "24K 순금 나비 트리플 반지 24K 순금 골드 14K 골드볼 천연석 팔찌",
+        "price": 854050,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12909876",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "21:35",
+        "end": "22:30",
+        "brand": "세라젬",
+        "product": "세라젬 마스터 의료기기 구독 ★",
+        "price": 0,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12863085",
+        "category": "일반렌탈"
       }
     ]
   }
