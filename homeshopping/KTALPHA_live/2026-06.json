@@ -742,7 +742,7 @@
     "2026-06-29": [
       {
         "start": "00:40",
-        "end": "01:40",
+        "end": "01:43",
         "brand": "라이나생명",
         "product": "라이나생명_간편건강보험",
         "price": 0,
@@ -752,17 +752,17 @@
       },
       {
         "start": "01:40",
-        "end": "02:40",
+        "end": "02:43",
         "brand": "신세계푸드",
         "product": "신세계푸드_삼계탕",
-        "price": 35900,
-        "link": "https://m.kshop.co.kr/display/product/7916812",
+        "price": 34900,
+        "link": "https://m.kshop.co.kr/display/product/7916799",
         "category": "일반식품",
         "lavangba_category": "식품"
       },
       {
         "start": "02:41",
-        "end": "03:41",
+        "end": "03:43",
         "brand": "",
         "product": "티니올_팩트",
         "price": 89900,
@@ -772,7 +772,7 @@
       },
       {
         "start": "03:44",
-        "end": "04:14",
+        "end": "04:18",
         "brand": "메이페어",
         "product": "메이페어_디너세트",
         "price": 278000,
@@ -782,7 +782,7 @@
       },
       {
         "start": "04:14",
-        "end": "04:34",
+        "end": "04:38",
         "brand": "메이페어",
         "product": "메이페어_밀폐용기",
         "price": 178000,
@@ -792,7 +792,7 @@
       },
       {
         "start": "04:35",
-        "end": "05:35",
+        "end": "05:37",
         "brand": "",
         "product": "꾸띄르_새치샴푸",
         "price": 69900,
@@ -802,7 +802,7 @@
       },
       {
         "start": "05:35",
-        "end": "06:35",
+        "end": "06:38",
         "brand": "",
         "product": "NNF_셋업",
         "price": 49900,
@@ -812,7 +812,7 @@
       },
       {
         "start": "06:35",
-        "end": "07:35",
+        "end": "07:37",
         "brand": "비에날씬",
         "product": "비에날씬_다이어트유산균",
         "price": 198000,
@@ -835,8 +835,8 @@
         "end": "09:35",
         "brand": "알레스버",
         "product": "알레스버_탈모샴푸",
-        "price": 119000,
-        "link": "https://m.kshop.co.kr/display/product/9090708",
+        "price": 199000,
+        "link": "https://m.kshop.co.kr/display/product/9280295",
         "category": "미용",
         "lavangba_category": "화장품/미용"
       },
@@ -855,8 +855,8 @@
         "end": "11:36",
         "brand": "",
         "product": "샤론느_브라탑",
-        "price": 49900,
-        "link": "https://m.kshop.co.kr/display/product/9277425",
+        "price": 59900,
+        "link": "https://m.kshop.co.kr/display/product/9277421",
         "category": "언더웨어",
         "lavangba_category": "패션의류"
       },
@@ -915,8 +915,8 @@
         "end": "16:37",
         "brand": "닥터린",
         "product": "닥터린_콘드로이친",
-        "price": 164500,
-        "link": "https://m.kshop.co.kr/display/product/8757042",
+        "price": 99500,
+        "link": "https://m.kshop.co.kr/display/product/8757043",
         "category": "건강식품",
         "lavangba_category": "식품"
       },
@@ -935,8 +935,8 @@
         "end": "18:38",
         "brand": "",
         "product": "산방포유_대마종자유",
-        "price": 84000,
-        "link": "https://m.kshop.co.kr/display/product/8621344",
+        "price": 158000,
+        "link": "https://m.kshop.co.kr/display/product/8621343",
         "category": "건강식품",
         "lavangba_category": "식품"
       },
@@ -946,7 +946,7 @@
         "brand": "RCBPC",
         "product": "RCBPC_자켓 팬츠",
         "price": 59900,
-        "link": "https://m.kshop.co.kr/display/product/9125382",
+        "link": "https://m.kshop.co.kr/display/product/9125373",
         "category": "의류",
         "lavangba_category": "패션의류"
       },
@@ -955,8 +955,8 @@
         "end": "20:38",
         "brand": "",
         "product": "신미사_족저근막지지슬리퍼",
-        "price": 139000,
-        "link": "https://m.kshop.co.kr/display/product/8503394",
+        "price": 39000,
+        "link": "https://m.kshop.co.kr/display/product/8916981",
         "category": "잡화/주얼리",
         "lavangba_category": "생활/건강"
       },
@@ -985,8 +985,8 @@
         "end": "23:38",
         "brand": "",
         "product": "쏜데이_워터건",
-        "price": 45000,
-        "link": "https://m.kshop.co.kr/display/product/9108152",
+        "price": 39800,
+        "link": "https://m.kshop.co.kr/display/product/9537669",
         "category": "일반식품",
         "lavangba_category": "생활/건강"
       },
@@ -1097,8 +1097,8 @@
         "end": "23:37",
         "brand": "카무트",
         "product": "카무트_견과바",
-        "price": 59900,
-        "link": "https://m.kshop.co.kr/display/product/7916836",
+        "price": 39900,
+        "link": "https://m.kshop.co.kr/display/product/6793045",
         "category": "건강식품",
         "lavangba_category": "식품"
       },

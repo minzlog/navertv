@@ -377,6 +377,16 @@
         "lavangba_category": "식품"
       },
       {
+        "start": "20:45",
+        "end": "21:45",
+        "brand": "비에날씬",
+        "product": "다이어트유산균BNR17 비에날씬프로 24주분",
+        "price": 376000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=62368854",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
         "start": "21:45",
         "end": "22:55",
         "brand": "",
@@ -526,6 +536,108 @@
         "price": 35000,
         "link": "http://www.hnsmall.com/display/goods.do?goods_code=81040557",
         "category": "의류",
+        "lavangba_category": "패션의류"
+      }
+    ],
+    "2026-07-04": [
+      {
+        "start": "01:00",
+        "end": "02:00",
+        "brand": "제주가마당",
+        "product": "가시제거고등어 x 20팩",
+        "price": 54900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=57665786",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "02:00",
+        "end": "03:05",
+        "brand": "꼼빠니아",
+        "product": "26SS 루미에르 레이스 후드 점퍼",
+        "price": 59900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=77512038",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "03:05",
+        "end": "04:20",
+        "brand": "올가힐링스",
+        "product": "퍼퓸 바디미스트 바디미스트1종 더",
+        "price": 59900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=65126146",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "04:20",
+        "end": "04:50",
+        "brand": "",
+        "product": "일품 왕 갈비찜 7팩",
+        "price": 76900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=54794361",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "08:20",
+        "end": "09:20",
+        "brand": "비에날씬",
+        "product": "다이어트유산균BNR17 비에날씬프로 24주분",
+        "price": 376000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=62368854",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "09:20",
+        "end": "10:20",
+        "brand": "꾸띄르헤어",
+        "product": "꾸띄르헤어 컬러체인지 샴푸 헤어고데기",
+        "price": 109800,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=72009245",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "12:40",
+        "end": "13:50",
+        "brand": "타파웨어",
+        "product": "2026 NEW 타파웨어 베스트픽 용기 세트",
+        "price": 189000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=78930980",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "13:50",
+        "end": "14:55",
+        "brand": "푸마",
+        "product": "26SS 남여공용 드라이셀 고기능성 5부 팬츠",
+        "price": 59900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=77827937",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "15:50",
+        "end": "16:45",
+        "brand": "안방",
+        "product": "안방그릴 맥스 보관가방, 필터 , 스텐트레이, 소스볼",
+        "price": 219000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=71633745",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "23:50",
+        "end": "01:00",
+        "brand": "신영와코루",
+        "product": "26SS 신영와코루 라이크라쉐이핏 인견 레이스프리컷 브라팬티 패키지-F62",
+        "price": 109000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=74638476",
+        "category": "언더웨어",
         "lavangba_category": "패션의류"
       }
     ]

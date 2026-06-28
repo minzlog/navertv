@@ -388,6 +388,78 @@
         "category": "미용",
         "lavangba_category": "화장품/미용"
       }
+    ],
+    "2026-07-04": [
+      {
+        "start": "05:00",
+        "end": "05:40",
+        "brand": "",
+        "product": "닥터픽멀티비타민",
+        "price": 47900,
+        "link": "https://m.nsmall.com/goods/35967870",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "06:30",
+        "end": "07:20",
+        "brand": "닥터파이토",
+        "product": "닥터파이토파이토블락",
+        "price": 189000,
+        "link": "https://m.nsmall.com/goods/35964796",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "07:20",
+        "end": "08:20",
+        "brand": "원데이",
+        "product": "원데이알파시클로덱스트린",
+        "price": 188000,
+        "link": "https://m.nsmall.com/goods/35962578",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "10:20",
+        "end": "11:20",
+        "brand": "",
+        "product": "상황버섯쌀",
+        "price": 109000,
+        "link": "https://m.nsmall.com/goods/35680212",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "11:20",
+        "end": "12:20",
+        "brand": "비에날씬",
+        "product": "비에날씬프로",
+        "price": 376000,
+        "link": "https://m.nsmall.com/goods/35803115",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "17:15",
+        "end": "18:15",
+        "brand": "보넬드",
+        "product": "보넬드그린주스",
+        "price": 64900,
+        "link": "https://m.nsmall.com/goods/35567459",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "20:40",
+        "end": "21:45",
+        "brand": "블랑로더",
+        "product": "블랑로더립타투",
+        "price": 48000,
+        "link": "https://m.nsmall.com/goods/35950461",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      }
     ]
   }
 }
