@@ -1074,7 +1074,7 @@
     "2026-06-30": [
       {
         "start": "01:00",
-        "end": "02:00",
+        "end": "02:01",
         "brand": "",
         "product": "히트상품 앵콜방송1부",
         "price": 29900,
@@ -1084,17 +1084,17 @@
       },
       {
         "start": "02:00",
-        "end": "02:40",
+        "end": "02:41",
         "brand": "",
         "product": "히트상품 앵콜방송 2부",
-        "price": 79900,
-        "link": "https://m.nsmall.com/goods/35836608",
+        "price": 62900,
+        "link": "https://m.nsmall.com/goods/36018878",
         "category": "일반식품",
         "lavangba_category": "식품"
       },
       {
         "start": "03:20",
-        "end": "04:00",
+        "end": "04:01",
         "brand": "",
         "product": "히트상품 앵콜방송3부",
         "price": 396000,
@@ -1104,7 +1104,7 @@
       },
       {
         "start": "04:00",
-        "end": "05:00",
+        "end": "05:01",
         "brand": "",
         "product": "히트상품 앵콜방송4부",
         "price": 49900,
@@ -1114,7 +1114,7 @@
       },
       {
         "start": "05:00",
-        "end": "05:40",
+        "end": "05:41",
         "brand": "",
         "product": "올라이브올리브오일",
         "price": 99000,
@@ -1124,7 +1124,7 @@
       },
       {
         "start": "05:40",
-        "end": "06:30",
+        "end": "06:31",
         "brand": "",
         "product": "미쁨블루베리콜라겐",
         "price": 129000,
@@ -1238,7 +1238,7 @@
         "brand": "",
         "product": "동강깐다슬기",
         "price": 39900,
-        "link": "https://m.nsmall.com/goods/36020337",
+        "link": "https://m.nsmall.com/goods/36020338",
         "category": "가전",
         "lavangba_category": "생활/건강"
       },
@@ -1297,10 +1297,10 @@
         "end": "22:45",
         "brand": "",
         "product": "am저압냄비",
-        "price": 79900,
-        "link": "https://m.nsmall.com/goods/35873184",
+        "price": 179000,
+        "link": "https://m.nsmall.com/goods/35866928",
         "category": "리빙/주방",
-        "lavangba_category": "디지털/가전"
+        "lavangba_category": "생활/건강"
       },
       {
         "start": "22:45",
@@ -1318,9 +1318,9 @@
         "brand": "",
         "product": "보험",
         "price": 0,
-        "link": "https://m.nsmall.com/goods/35735246",
+        "link": "https://m.nsmall.com/goods/36019264",
         "category": "보험",
-        "lavangba_category": "여가/생활편의"
+        "lavangba_category": "생활/건강"
       }
     ]
   }

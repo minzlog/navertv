@@ -75,6 +75,16 @@
         "lavangba_category": "생활/건강"
       },
       {
+        "start": "05:36",
+        "end": "06:36",
+        "brand": "",
+        "product": "26SS 밀라 아트웍 티셔츠",
+        "price": 39900,
+        "link": "https://www.shoppingntmall.com/display/goods/28312444",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
         "start": "06:36",
         "end": "07:36",
         "brand": "슈리오",
@@ -155,12 +165,32 @@
         "lavangba_category": "패션의류"
       },
       {
+        "start": "15:33",
+        "end": "16:33",
+        "brand": "",
+        "product": "25SS 젬마 인견 이지셋업",
+        "price": 49900,
+        "link": "https://www.shoppingntmall.com/display/goods/21829581",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
         "start": "16:33",
         "end": "17:32",
         "brand": "임성근",
         "product": "임성근 한끗다른 냉면 30인분",
         "price": 39900,
         "link": "https://www.shoppingntmall.com/display/goods/28268335",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "17:32",
+        "end": "18:32",
+        "brand": "사대부집곳간",
+        "product": "사대부집곳간 녹두삼계탕 × 8팩",
+        "price": 65900,
+        "link": "https://www.shoppingntmall.com/display/goods/21476462",
         "category": "일반식품",
         "lavangba_category": "식품"
       },
@@ -245,6 +275,16 @@
         "link": "https://www.shoppingntmall.com/display/goods/27949771",
         "category": "리빙/주방",
         "lavangba_category": "패션의류"
+      },
+      {
+        "start": "03:57",
+        "end": "04:37",
+        "brand": "리더스",
+        "product": "리더스 아이백 크림 상품평 시 전고객 아이 리프팅 괄사",
+        "price": 99000,
+        "link": "https://www.shoppingntmall.com/display/goods/27981203",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
       },
       {
         "start": "04:37",
@@ -428,6 +468,7 @@
       }
     ],
     "2026-07-03": [],
-    "2026-07-04": []
+    "2026-07-04": [],
+    "2026-07-05": []
   }
 }

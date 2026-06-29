@@ -1036,9 +1036,9 @@
         "start": "08:15",
         "end": "09:25",
         "brand": "올가힐링스",
-        "product": "퍼퓸 바디미스트 바디미스트1종 더",
+        "product": "올가힐링스 퍼퓸 바디미스트 패키지",
         "price": 59900,
-        "link": "http://www.hnsmall.com/display/goods.do?goods_code=65126146",
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81213662",
         "category": "미용",
         "lavangba_category": "화장품/미용"
       },
@@ -1163,6 +1163,16 @@
         "lavangba_category": "화장품/미용"
       },
       {
+        "start": "21:45",
+        "end": "22:55",
+        "brand": "",
+        "product": "1등매장 / 수면냉감 쿨드론 냉감패드",
+        "price": 159900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81096905",
+        "category": "리빙/주방",
+        "lavangba_category": "가구/인테리어"
+      },
+      {
         "start": "22:55",
         "end": "23:55",
         "brand": "비버리힐즈폴로클럽",
@@ -1175,10 +1185,10 @@
       {
         "start": "23:55",
         "end": "01:00",
-        "brand": "데일리블루",
-        "product": "26SS 볼레로 원피스 셋업",
-        "price": 55000,
-        "link": "http://www.hnsmall.com/display/goods.do?goods_code=77807607",
+        "brand": "",
+        "product": "26SS 시어 크링클 셔츠",
+        "price": 49900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=72800495",
         "category": "의류",
         "lavangba_category": "패션의류"
       }

@@ -5,6 +5,76 @@
   "days": {
     "2026-07-01": [
       {
+        "start": "00:37",
+        "end": "01:37",
+        "brand": "라이나생명",
+        "product": "라이나생명_암보험",
+        "price": 0,
+        "link": "https://m.kshop.co.kr/display/product/8125502",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "01:37",
+        "end": "02:37",
+        "brand": "메종프라질",
+        "product": "메종프라질_커트러리",
+        "price": 159000,
+        "link": "https://m.kshop.co.kr/display/product/7832466",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "02:37",
+        "end": "03:37",
+        "brand": "슈리오",
+        "product": "슈리오_샌들스니커즈",
+        "price": 59800,
+        "link": "https://m.kshop.co.kr/display/product/8757619",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
+      },
+      {
+        "start": "03:38",
+        "end": "04:08",
+        "brand": "닥터린",
+        "product": "닥터린_콘드로이친",
+        "price": 199000,
+        "link": "https://m.kshop.co.kr/display/product/8744655",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "04:08",
+        "end": "04:28",
+        "brand": "",
+        "product": "세라_가방",
+        "price": 99900,
+        "link": "https://m.kshop.co.kr/display/product/9382750",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
+      },
+      {
+        "start": "06:29",
+        "end": "07:29",
+        "brand": "",
+        "product": "샤론느_브라탑",
+        "price": 49900,
+        "link": "https://m.kshop.co.kr/display/product/9277425",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "08:30",
+        "end": "09:30",
+        "brand": "레드캠프",
+        "product": "레드캠프_냉감팬츠",
+        "price": 59900,
+        "link": "https://m.kshop.co.kr/display/product/10001263",
+        "category": "의류",
+        "lavangba_category": "스포츠/레저"
+      },
+      {
         "start": "09:30",
         "end": "10:30",
         "brand": "라라츄",
@@ -13,6 +83,26 @@
         "link": "https://m.kshop.co.kr/display/product/8759756",
         "category": "미용",
         "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "13:31",
+        "end": "14:31",
+        "brand": "슈리오",
+        "product": "슈리오_메시컴포트화",
+        "price": 49800,
+        "link": "https://m.kshop.co.kr/display/product/8738235",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
+      },
+      {
+        "start": "14:31",
+        "end": "15:31",
+        "brand": "",
+        "product": "코몽트_메쉬자켓",
+        "price": 49900,
+        "link": "https://m.kshop.co.kr/display/product/9689138",
+        "category": "의류",
+        "lavangba_category": "패션의류"
       },
       {
         "start": "18:33",
@@ -29,14 +119,76 @@
         "end": "21:33",
         "brand": "동국제약",
         "product": "동국제약_마데카크림",
-        "price": 99900,
-        "link": "https://m.kshop.co.kr/display/product/9340945",
+        "price": 109000,
+        "link": "https://m.kshop.co.kr/display/product/8758529",
         "category": "미용",
         "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "21:33",
+        "end": "22:33",
+        "brand": "DB손해보험",
+        "product": "DB손해보험_운전자보험",
+        "price": 0,
+        "link": "https://m.kshop.co.kr/display/product/9674795",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "23:34",
+        "end": "00:34",
+        "brand": "청호나이스",
+        "product": "청호나이스_정수기",
+        "price": 0,
+        "link": "https://m.kshop.co.kr/display/product/9466287",
+        "category": "일반렌탈",
+        "lavangba_category": "여가/생활편의"
       }
     ],
-    "2026-07-02": [],
+    "2026-07-02": [
+      {
+        "start": "00:34",
+        "end": "01:34",
+        "brand": "",
+        "product": "엘레강스스포츠_티셔츠",
+        "price": 49000,
+        "link": "https://m.kshop.co.kr/display/product/9309838",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "12:31",
+        "end": "13:31",
+        "brand": "",
+        "product": "한일_서큘레이터",
+        "price": 79000,
+        "link": "https://m.kshop.co.kr/display/product/9291842",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "16:32",
+        "end": "17:32",
+        "brand": "닥터린",
+        "product": "닥터린_콘드로이친K2",
+        "price": 99500,
+        "link": "https://m.kshop.co.kr/display/product/8738929",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "20:33",
+        "end": "21:33",
+        "brand": "비에날씬",
+        "product": "비에날씬_다이어트유산균",
+        "price": 198000,
+        "link": "https://m.kshop.co.kr/display/product/5215469",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      }
+    ],
     "2026-07-03": [],
-    "2026-07-04": []
+    "2026-07-04": [],
+    "2026-07-05": []
   }
 }

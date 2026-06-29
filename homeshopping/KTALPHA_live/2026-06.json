@@ -1004,13 +1004,73 @@
     "2026-06-30": [
       {
         "start": "00:39",
-        "end": "01:39",
+        "end": "01:43",
         "brand": "라이나생명",
         "product": "라이나생명_치아보험",
         "price": 0,
         "link": "https://m.kshop.co.kr/display/product/8024333",
         "category": "보험",
         "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "01:39",
+        "end": "02:43",
+        "brand": "밀레골프",
+        "product": "밀레골프_팬츠",
+        "price": 79900,
+        "link": "https://m.kshop.co.kr/display/product/5217746",
+        "category": "의류",
+        "lavangba_category": "스포츠/레저"
+      },
+      {
+        "start": "02:40",
+        "end": "03:43",
+        "brand": "레드닥터",
+        "product": "레드닥터_의료기기",
+        "price": 69800,
+        "link": "https://m.kshop.co.kr/display/product/7975189",
+        "category": "문화/스포츠",
+        "lavangba_category": "패션잡화"
+      },
+      {
+        "start": "03:42",
+        "end": "04:13",
+        "brand": "닥터린",
+        "product": "닥터린_콘드로이친K2",
+        "price": 199000,
+        "link": "https://m.kshop.co.kr/display/product/8757821",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "04:12",
+        "end": "04:33",
+        "brand": "아스타",
+        "product": "안국약품_루테인아스타잔틴",
+        "price": 298000,
+        "link": "https://m.kshop.co.kr/display/product/5723980",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "04:32",
+        "end": "05:33",
+        "brand": "",
+        "product": "몬테밀라노_티블라우스",
+        "price": 49900,
+        "link": "https://m.kshop.co.kr/display/product/8748424",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "05:32",
+        "end": "06:33",
+        "brand": "비에날씬",
+        "product": "비에날씬_다이어트유산균",
+        "price": 548000,
+        "link": "https://m.kshop.co.kr/display/product/8755344",
+        "category": "건강식품",
+        "lavangba_category": "식품"
       },
       {
         "start": "06:33",
@@ -1031,6 +1091,46 @@
         "link": "https://m.kshop.co.kr/display/product/8744651",
         "category": "가전",
         "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "08:33",
+        "end": "08:53",
+        "brand": "베네통",
+        "product": "베네통_메리제인 샌들",
+        "price": 79000,
+        "link": "https://m.kshop.co.kr/display/product/9702974",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
+      },
+      {
+        "start": "08:53",
+        "end": "09:33",
+        "brand": "베네통",
+        "product": "베네통_메리제인 샌들",
+        "price": 79000,
+        "link": "https://m.kshop.co.kr/display/product/9664147",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
+      },
+      {
+        "start": "09:33",
+        "end": "10:33",
+        "brand": "",
+        "product": "네일마스터_손톱관리기",
+        "price": 34800,
+        "link": "https://m.kshop.co.kr/display/product/9277999",
+        "category": "가전",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "10:33",
+        "end": "11:33",
+        "brand": "",
+        "product": "한식단_순살조기",
+        "price": 39900,
+        "link": "https://m.kshop.co.kr/display/product/6490690",
+        "category": "가전",
+        "lavangba_category": "식품"
       },
       {
         "start": "11:33",
@@ -1055,12 +1155,32 @@
       {
         "start": "13:34",
         "end": "14:34",
-        "brand": "닥터슈퍼칸",
-        "product": "닥터슈퍼칸_알부민",
+        "brand": "닥터루템",
+        "product": "닥터루템_알부민",
         "price": 198000,
-        "link": "https://m.kshop.co.kr/display/product/8526414",
+        "link": "https://m.kshop.co.kr/display/product/9278148",
         "category": "건강식품",
         "lavangba_category": "식품"
+      },
+      {
+        "start": "14:34",
+        "end": "15:34",
+        "brand": "AGK",
+        "product": "AGK_무엽서큘레이터",
+        "price": 109000,
+        "link": "https://m.kshop.co.kr/display/product/9483485",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "15:35",
+        "end": "16:35",
+        "brand": "펠틱스",
+        "product": "펠틱스_5부팬츠",
+        "price": 39900,
+        "link": "https://m.kshop.co.kr/display/product/5409690",
+        "category": "의류",
+        "lavangba_category": "패션의류"
       },
       {
         "start": "16:35",
@@ -1073,6 +1193,16 @@
         "lavangba_category": "식품"
       },
       {
+        "start": "17:35",
+        "end": "18:35",
+        "brand": "비버리힐즈폴로클럽",
+        "product": "비버리힐즈폴로클럽_샌들",
+        "price": 39800,
+        "link": "https://m.kshop.co.kr/display/product/8874658",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
+      },
+      {
         "start": "18:36",
         "end": "19:36",
         "brand": "",
@@ -1083,6 +1213,16 @@
         "lavangba_category": "여가/생활편의"
       },
       {
+        "start": "19:36",
+        "end": "20:36",
+        "brand": "",
+        "product": "험머_셋업",
+        "price": 59000,
+        "link": "https://m.kshop.co.kr/display/product/8753094",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
         "start": "20:36",
         "end": "21:36",
         "brand": "DB손해보험",
@@ -1091,6 +1231,16 @@
         "link": "https://m.kshop.co.kr/display/product/9674795",
         "category": "보험",
         "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "21:36",
+        "end": "22:36",
+        "brand": "",
+        "product": "로젠토_트레킹화",
+        "price": 49800,
+        "link": "https://m.kshop.co.kr/display/product/9303381",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
       },
       {
         "start": "22:37",
@@ -1107,8 +1257,8 @@
         "end": "00:37",
         "brand": "이지듀",
         "product": "이지듀_기미쿠션",
-        "price": 49800,
-        "link": "https://m.kshop.co.kr/display/product/4766583",
+        "price": 99000,
+        "link": "https://m.kshop.co.kr/display/product/9465005",
         "category": "미용",
         "lavangba_category": "화장품/미용"
       }
