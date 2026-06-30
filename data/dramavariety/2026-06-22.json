@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-22",
   "weekEnd": "2026-06-28",
-  "collectedAt": "2026-06-30T16:03:07.723066+09:00",
+  "collectedAt": "2026-07-01T03:29:51.415887+09:00",
   "programs": [
     {
       "id": "drama_붉은 진주_KBS2_오후 07:50",
@@ -340,19 +340,6 @@
       "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=24764585&qvt=0&query=%EA%BC%AC%EB%A6%AC%EC%97%90%20%EA%BC%AC%EB%A6%AC%EB%A5%BC%20%EB%AC%B4%EB%8A%94%20%EA%B7%B8%EB%82%A0%20%EC%9D%B4%EC%95%BC%EA%B8%B0"
     },
     {
-      "id": "variety_나는 SOLO, 그 후 사랑은 계속된다(나솔사계)_SBS Plus_오후 10:30",
-      "category": "variety",
-      "channel": "SBS Plus",
-      "title": "나는 SOLO, 그 후 사랑은 계속된다(나솔사계)",
-      "days": [
-        "목"
-      ],
-      "time": "오후 10:30",
-      "rating": 1.2,
-      "ratingDate": "06.25",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=28613338&qvt=0&query=%EB%82%98%EB%8A%94%20%EC%86%94%EB%A1%9C%20%EA%B7%B8%20%ED%9B%84%20%EC%82%AC%EB%9E%91%EC%9D%80%20%EA%B3%84%EC%86%8D%EB%90%9C%EB%8B%A4%20%EB%82%98%EC%86%94%EC%82%AC%EA%B3%84"
-    },
-    {
       "id": "variety_콩콩팜팜 (콩 심은 데 콩 나는 가고팜 하고팜 동물농장)_tvN_오후 08:35",
       "category": "variety",
       "channel": "tvN",
@@ -546,19 +533,6 @@
       "rating": 3.2,
       "ratingDate": "06.28",
       "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=9329702&qvt=0&query=%EC%82%AC%EC%9E%A5%EB%8B%98%20%EA%B7%80%EB%8A%94%20%EB%8B%B9%EB%82%98%EA%B7%80%20%EA%B7%80"
-    },
-    {
-      "id": "variety_열린음악회_KBS1_오후 06:00",
-      "category": "variety",
-      "channel": "KBS1",
-      "title": "열린음악회",
-      "days": [
-        "일"
-      ],
-      "time": "오후 06:00",
-      "rating": 2.1,
-      "ratingDate": "06.28",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=659723&qvt=0&query=%EC%97%B4%EB%A6%B0%EC%9D%8C%EC%95%85%ED%9A%8C"
     },
     {
       "id": "variety_최우수산_MBC_오후 06:00",
@@ -886,6 +860,32 @@
       "rating": 2.0,
       "ratingDate": "06.24",
       "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=18896551&qvt=0&query=%EB%82%98%EB%8A%94%20%EC%86%94%EB%A1%9C"
+    },
+    {
+      "id": "variety_나는 SOLO, 그 후 사랑은 계속된다(나솔사계)_ENA_오후 10:30",
+      "category": "variety",
+      "channel": "ENA",
+      "title": "나는 SOLO, 그 후 사랑은 계속된다(나솔사계)",
+      "days": [
+        "목"
+      ],
+      "time": "오후 10:30",
+      "rating": 1.2,
+      "ratingDate": "06.25",
+      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=28613338&qvt=0&query=%EB%82%98%EB%8A%94%20%EC%86%94%EB%A1%9C%20%EA%B7%B8%20%ED%9B%84%20%EC%82%AC%EB%9E%91%EC%9D%80%20%EA%B3%84%EC%86%8D%EB%90%9C%EB%8B%A4%20%EB%82%98%EC%86%94%EC%82%AC%EA%B3%84"
+    },
+    {
+      "id": "variety_열린음악회_KBS1_오후 05:40",
+      "category": "variety",
+      "channel": "KBS1",
+      "title": "열린음악회",
+      "days": [
+        "일"
+      ],
+      "time": "오후 05:40",
+      "rating": 2.1,
+      "ratingDate": "06.28",
+      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=659723&qvt=0&query=%EC%97%B4%EB%A6%B0%EC%9D%8C%EC%95%85%ED%9A%8C"
     }
   ]
 }
