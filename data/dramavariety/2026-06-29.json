@@ -1,61 +1,35 @@
 {
   "weekStart": "2026-06-29",
   "weekEnd": "2026-07-05",
-  "collectedAt": "2026-06-29T16:56:02.525812+09:00",
+  "collectedAt": "2026-06-30T16:03:07.722418+09:00",
   "programs": [
     {
-      "id": "drama_김부장_SBS_오후 09:50",
+      "id": "drama_첫 번째 남자_MBC_오후 07:05",
       "category": "drama",
-      "channel": "SBS",
-      "title": "김부장",
+      "channel": "MBC",
+      "title": "첫 번째 남자",
       "days": [
-        "금",
-        "토"
+        "월",
+        "화",
+        "수"
       ],
-      "time": "오후 09:50",
-      "rating": 15.7,
-      "ratingDate": "06.27",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=40491304&qvt=0&query=%EA%B9%80%EB%B6%80%EC%9E%A5"
+      "time": "오후 07:05",
+      "rating": 5.8,
+      "ratingDate": "06.29",
+      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=39834874&qvt=0&query=%EC%B2%AB%20%EB%B2%88%EC%A7%B8%20%EB%82%A8%EC%9E%90"
     },
     {
-      "id": "drama_사랑을 처방해 드립니다_KBS2_오후 08:00",
+      "id": "drama_첫 번째 남자_MBC_오후 07:10",
       "category": "drama",
-      "channel": "KBS2",
-      "title": "사랑을 처방해 드립니다",
+      "channel": "MBC",
+      "title": "첫 번째 남자",
       "days": [
-        "토",
-        "일"
+        "목"
       ],
-      "time": "오후 08:00",
-      "rating": 15.9,
-      "ratingDate": "06.28",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=39949898&qvt=0&query=%EC%82%AC%EB%9E%91%EC%9D%84%20%EC%B2%98%EB%B0%A9%ED%95%B4%20%EB%93%9C%EB%A6%BD%EB%8B%88%EB%8B%A4"
-    },
-    {
-      "id": "drama_신입사원 강회장_JTBC_오후 10:40",
-      "category": "drama",
-      "channel": "JTBC",
-      "title": "신입사원 강회장",
-      "days": [
-        "토"
-      ],
-      "time": "오후 10:40",
-      "rating": 11.1,
-      "ratingDate": "06.28",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=37590014&qvt=0&query=%EC%8B%A0%EC%9E%85%EC%82%AC%EC%9B%90%20%EA%B0%95%ED%9A%8C%EC%9E%A5"
-    },
-    {
-      "id": "drama_신입사원 강회장_JTBC_오후 10:30",
-      "category": "drama",
-      "channel": "JTBC",
-      "title": "신입사원 강회장",
-      "days": [
-        "일"
-      ],
-      "time": "오후 10:30",
-      "rating": 11.1,
-      "ratingDate": "06.28",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=37590014&qvt=0&query=%EC%8B%A0%EC%9E%85%EC%82%AC%EC%9B%90%20%EA%B0%95%ED%9A%8C%EC%9E%A5"
+      "time": "오후 07:10",
+      "rating": 5.8,
+      "ratingDate": "06.29",
+      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=39834874&qvt=0&query=%EC%B2%AB%20%EB%B2%88%EC%A7%B8%20%EB%82%A8%EC%9E%90"
     },
     {
       "id": "drama_붉은 진주_KBS2_오후 07:50",
@@ -69,38 +43,9 @@
         "목"
       ],
       "time": "오후 07:50",
-      "rating": 7.2,
-      "ratingDate": "06.24",
+      "rating": 7.0,
+      "ratingDate": "06.29",
       "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=40528849&qvt=0&query=%EB%B6%89%EC%9D%80%20%EC%A7%84%EC%A3%BC"
-    },
-    {
-      "id": "drama_첫 번째 남자_MBC_오후 07:05",
-      "category": "drama",
-      "channel": "MBC",
-      "title": "첫 번째 남자",
-      "days": [
-        "월",
-        "화",
-        "수",
-        "금"
-      ],
-      "time": "오후 07:05",
-      "rating": 6.0,
-      "ratingDate": "06.26",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=39834874&qvt=0&query=%EC%B2%AB%20%EB%B2%88%EC%A7%B8%20%EB%82%A8%EC%9E%90"
-    },
-    {
-      "id": "drama_첫 번째 남자_MBC_오후 07:10",
-      "category": "drama",
-      "channel": "MBC",
-      "title": "첫 번째 남자",
-      "days": [
-        "목"
-      ],
-      "time": "오후 07:10",
-      "rating": 6.0,
-      "ratingDate": "06.26",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=39834874&qvt=0&query=%EC%B2%AB%20%EB%B2%88%EC%A7%B8%20%EB%82%A8%EC%9E%90"
     },
     {
       "id": "drama_기쁜 우리 좋은 날_KBS1_오후 08:30",
@@ -115,22 +60,9 @@
         "금"
       ],
       "time": "오후 08:30",
-      "rating": 9.7,
-      "ratingDate": "06.26",
+      "rating": 11.0,
+      "ratingDate": "06.29",
       "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=40757232&qvt=0&query=%EA%B8%B0%EC%81%9C%20%EC%9A%B0%EB%A6%AC%20%EC%A2%8B%EC%9D%80%20%EB%82%A0"
-    },
-    {
-      "id": "variety_톡파원 25시_JTBC_오후 08:50",
-      "category": "variety",
-      "channel": "JTBC",
-      "title": "톡파원 25시",
-      "days": [
-        "월"
-      ],
-      "time": "오후 08:50",
-      "rating": 2.2,
-      "ratingDate": "06.22",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=25674283&qvt=0&query=%ED%86%A1%ED%8C%8C%EC%9B%90%2025%EC%8B%9C"
     },
     {
       "id": "variety_오은영 리포트 - 결혼 지옥_MBC_오후 09:00",
@@ -141,9 +73,22 @@
         "월"
       ],
       "time": "오후 09:00",
-      "rating": 3.1,
-      "ratingDate": "06.22",
+      "rating": 2.7,
+      "ratingDate": "06.29",
       "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=26141194&qvt=0&query=%EC%98%A4%EC%9D%80%EC%98%81%20%EB%A6%AC%ED%8F%AC%ED%8A%B8%20%EA%B2%B0%ED%98%BC%20%EC%A7%80%EC%98%A5"
+    },
+    {
+      "id": "variety_말자쇼_KBS2_오후 09:30",
+      "category": "variety",
+      "channel": "KBS2",
+      "title": "말자쇼",
+      "days": [
+        "월"
+      ],
+      "time": "오후 09:30",
+      "rating": 2.9,
+      "ratingDate": "06.29",
+      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=40281127&qvt=0&query=%EB%A7%90%EC%9E%90%EC%87%BC"
     },
     {
       "id": "variety_가요무대_KBS1_오후 10:00",
@@ -154,22 +99,9 @@
         "월"
       ],
       "time": "오후 10:00",
-      "rating": 5.4,
-      "ratingDate": "06.22",
+      "rating": 5.1,
+      "ratingDate": "06.29",
       "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=659651&qvt=0&query=%EA%B0%80%EC%9A%94%EB%AC%B4%EB%8C%80"
-    },
-    {
-      "id": "variety_말자쇼_KBS2_오후 10:00",
-      "category": "variety",
-      "channel": "KBS2",
-      "title": "말자쇼",
-      "days": [
-        "월"
-      ],
-      "time": "오후 10:00",
-      "rating": 2.1,
-      "ratingDate": "06.22",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=40281127&qvt=0&query=%EB%A7%90%EC%9E%90%EC%87%BC"
     },
     {
       "id": "variety_조선의 사랑꾼_TV조선_오후 10:00",
@@ -180,8 +112,8 @@
         "월"
       ],
       "time": "오후 10:00",
-      "rating": 2.6,
-      "ratingDate": "06.22",
+      "rating": 2.5,
+      "ratingDate": "06.29",
       "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=29545231&qvt=0&query=%EC%A1%B0%EC%84%A0%EC%9D%98%20%EC%82%AC%EB%9E%91%EA%BE%BC"
     },
     {
@@ -193,8 +125,8 @@
         "월"
       ],
       "time": "오후 10:00",
-      "rating": 2.6,
-      "ratingDate": "06.22",
+      "rating": 2.1,
+      "ratingDate": "06.29",
       "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=33545463&qvt=0&query=%ED%83%90%EC%A0%95%EB%93%A4%EC%9D%98%20%EC%98%81%EC%97%85%EB%B9%84%EB%B0%80"
     },
     {
@@ -206,8 +138,8 @@
         "월"
       ],
       "time": "오후 10:10",
-      "rating": 1.8,
-      "ratingDate": "06.22",
+      "rating": 1.6,
+      "ratingDate": "06.29",
       "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=16938229&qvt=0&query=%EB%B2%8C%EA%B1%B0%EB%B2%97%EC%9D%80%20%EC%84%B8%EA%B3%84%EC%82%AC"
     },
     {
@@ -219,8 +151,8 @@
         "월"
       ],
       "time": "오후 10:10",
-      "rating": 1.8,
-      "ratingDate": "06.22",
+      "rating": 2.5,
+      "ratingDate": "06.29",
       "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=40623923&qvt=0&query=%EC%95%84%EB%8B%88%20%EA%B7%BC%EB%8D%B0%20%EC%A7%84%EC%A7%9C"
     },
     {
@@ -232,789 +164,9 @@
         "월"
       ],
       "time": "오후 10:50",
-      "rating": 1.5,
-      "ratingDate": "06.22",
+      "rating": 1.6,
+      "ratingDate": "06.29",
       "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=41451464&qvt=0&query=%EC%8B%AC%EC%95%BC%EA%B4%B4%EB%8B%B4%ED%9A%8C%20%EC%8B%9C%EC%A6%8C6"
-    },
-    {
-      "id": "variety_이호선 상담소_tvN STORY_오후 08:00",
-      "category": "variety",
-      "channel": "tvN STORY",
-      "title": "이호선 상담소",
-      "days": [
-        "화"
-      ],
-      "time": "오후 08:00",
-      "rating": 1.5,
-      "ratingDate": "06.23",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=38133047&qvt=0&query=%EC%9D%B4%ED%98%B8%EC%84%A0%20%EC%83%81%EB%8B%B4%EC%86%8C"
-    },
-    {
-      "id": "variety_위대한 가이드3_MBC every1_오후 08:30",
-      "category": "variety",
-      "channel": "MBC every1",
-      "title": "위대한 가이드3",
-      "days": [
-        "화"
-      ],
-      "time": "오후 08:30",
-      "rating": 1.0,
-      "ratingDate": "06.23",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=40968104&qvt=0&query=%EC%9C%84%EB%8C%80%ED%95%9C%20%EA%B0%80%EC%9D%B4%EB%93%9C3"
-    },
-    {
-      "id": "variety_연애전쟁_JTBC_오후 08:50",
-      "category": "variety",
-      "channel": "JTBC",
-      "title": "연애전쟁",
-      "days": [
-        "화"
-      ],
-      "time": "오후 08:50",
-      "rating": 1.8,
-      "ratingDate": "06.23",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=40893402&qvt=0&query=%EC%97%B0%EC%95%A0%EC%A0%84%EC%9F%81"
-    },
-    {
-      "id": "variety_산골총각 영웅 (High Valley, Top Hero)_SBS_오후 09:00",
-      "category": "variety",
-      "channel": "SBS",
-      "title": "산골총각 영웅 (High Valley, Top Hero)",
-      "days": [
-        "화"
-      ],
-      "time": "오후 09:00",
-      "rating": 4.7,
-      "ratingDate": "06.23",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=41437215&qvt=0&query=%EC%82%B0%EA%B3%A8%EC%B4%9D%EA%B0%81%20%EC%98%81%EC%9B%85%20%ED%95%98%EC%9D%B4%20%EB%B0%B8%EB%A6%AC%20%ED%83%91%20%ED%9E%88%EC%96%B4%EB%A1%9C"
-    },
-    {
-      "id": "variety_남의 집 귀한 가족_MBN_오후 09:50",
-      "category": "variety",
-      "channel": "MBN",
-      "title": "남의 집 귀한 가족",
-      "days": [
-        "화"
-      ],
-      "time": "오후 09:50",
-      "rating": 2.1,
-      "ratingDate": "06.23",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=41104576&qvt=0&query=%EB%82%A8%EC%9D%98%20%EC%A7%91%20%EA%B7%80%ED%95%9C%20%EA%B0%80%EC%A1%B1"
-    },
-    {
-      "id": "variety_셀럽병사의 비밀_KBS2_오후 10:00",
-      "category": "variety",
-      "channel": "KBS2",
-      "title": "셀럽병사의 비밀",
-      "days": [
-        "화"
-      ],
-      "time": "오후 10:00",
-      "rating": 2.2,
-      "ratingDate": "06.16",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=35657189&qvt=0&query=%EC%85%80%EB%9F%BD%EB%B3%91%EC%82%AC%EC%9D%98%20%EB%B9%84%EB%B0%80"
-    },
-    {
-      "id": "variety_동상이몽 2 - 너는 내 운명_SBS_오후 10:40",
-      "category": "variety",
-      "channel": "SBS",
-      "title": "동상이몽 2 - 너는 내 운명",
-      "days": [
-        "화"
-      ],
-      "time": "오후 10:40",
-      "rating": 3.3,
-      "ratingDate": "06.23",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=6017510&qvt=0&query=%EB%8F%99%EC%83%81%EC%9D%B4%EB%AA%BD%202%20%EB%84%88%EB%8A%94%20%EB%82%B4%20%EC%9A%B4%EB%AA%85"
-    },
-    {
-      "id": "variety_황신혜의 같이 삽시다_KBS1_오후 07:40",
-      "category": "variety",
-      "channel": "KBS1",
-      "title": "황신혜의 같이 삽시다",
-      "days": [
-        "수"
-      ],
-      "time": "오후 07:40",
-      "rating": 2.4,
-      "ratingDate": "06.24",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=40444740&qvt=0&query=%ED%99%A9%EC%8B%A0%ED%98%9C%EC%9D%98%20%EA%B0%99%EC%9D%B4%20%EC%82%BD%EC%8B%9C%EB%8B%A4"
-    },
-    {
-      "id": "variety_유 퀴즈 온 더 블럭_tvN_오후 08:45",
-      "category": "variety",
-      "channel": "tvN",
-      "title": "유 퀴즈 온 더 블럭",
-      "days": [
-        "수"
-      ],
-      "time": "오후 08:45",
-      "rating": 4.6,
-      "ratingDate": "06.24",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=8663378&qvt=0&query=%EC%9C%A0%20%ED%80%B4%EC%A6%88%20%EC%98%A8%20%EB%8D%94%20%EB%B8%94%EB%9F%AD"
-    },
-    {
-      "id": "variety_골 때리는 그녀들_SBS_오후 09:00",
-      "category": "variety",
-      "channel": "SBS",
-      "title": "골 때리는 그녀들",
-      "days": [
-        "수"
-      ],
-      "time": "오후 09:00",
-      "rating": 2.4,
-      "ratingDate": "06.24",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=17762395&qvt=0&query=%EA%B3%A8%20%EB%95%8C%EB%A6%AC%EB%8A%94%20%EA%B7%B8%EB%85%80%EB%93%A4"
-    },
-    {
-      "id": "variety_개와 늑대의 시간 시즌2_채널A_오후 10:00",
-      "category": "variety",
-      "channel": "채널A",
-      "title": "개와 늑대의 시간 시즌2",
-      "days": [
-        "수"
-      ],
-      "time": "오후 10:00",
-      "rating": 1.3,
-      "ratingDate": "06.24",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=40439813&qvt=0&query=%EA%B0%9C%EC%99%80%20%EB%8A%91%EB%8C%80%EC%9D%98%20%EC%8B%9C%EA%B0%84%20%EC%8B%9C%EC%A6%8C2"
-    },
-    {
-      "id": "variety_슈퍼맨이 돌아왔다_KBS2_오후 10:00",
-      "category": "variety",
-      "channel": "KBS2",
-      "title": "슈퍼맨이 돌아왔다",
-      "days": [
-        "수"
-      ],
-      "time": "오후 10:00",
-      "rating": 1.9,
-      "ratingDate": "06.24",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=675566&qvt=0&query=%EC%8A%88%ED%8D%BC%EB%A7%A8%EC%9D%B4%20%EB%8F%8C%EC%95%84%EC%99%94%EB%8B%A4"
-    },
-    {
-      "id": "variety_나는 SOLO <나는 솔로>_ENA_오후 10:30",
-      "category": "variety",
-      "channel": "ENA",
-      "title": "나는 SOLO <나는 솔로>",
-      "days": [
-        "수"
-      ],
-      "time": "오후 10:30",
-      "rating": 2.0,
-      "ratingDate": "06.24",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=18896551&qvt=0&query=%EB%82%98%EB%8A%94%20%EC%86%94%EB%A1%9C"
-    },
-    {
-      "id": "variety_라디오스타_MBC_오후 10:30",
-      "category": "variety",
-      "channel": "MBC",
-      "title": "라디오스타",
-      "days": [
-        "수"
-      ],
-      "time": "오후 10:30",
-      "rating": 3.5,
-      "ratingDate": "06.24",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=672403&qvt=0&query=%EB%9D%BC%EB%94%94%EC%98%A4%EC%8A%A4%ED%83%80"
-    },
-    {
-      "id": "variety_어서와 한국은 처음이지_MBC every1_오후 08:30",
-      "category": "variety",
-      "channel": "MBC every1",
-      "title": "어서와 한국은 처음이지",
-      "days": [
-        "목"
-      ],
-      "time": "오후 08:30",
-      "rating": 1.3,
-      "ratingDate": "06.25",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=6012815&qvt=0&query=%EC%96%B4%EC%84%9C%EC%99%80%20%ED%95%9C%EA%B5%AD%EC%9D%80%20%EC%B2%98%EC%9D%8C%EC%9D%B4%EC%A7%80"
-    },
-    {
-      "id": "variety_언더커버 셰프_tvN_오후 08:40",
-      "category": "variety",
-      "channel": "tvN",
-      "title": "언더커버 셰프",
-      "days": [
-        "목"
-      ],
-      "time": "오후 08:40",
-      "rating": 4.5,
-      "ratingDate": "06.25",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=41064652&qvt=0&query=%EC%96%B8%EB%8D%94%EC%BB%A4%EB%B2%84%20%EC%85%B0%ED%94%84"
-    },
-    {
-      "id": "variety_자식방생프로젝트 합숙 맞선2_SBS_오후 09:00",
-      "category": "variety",
-      "channel": "SBS",
-      "title": "자식방생프로젝트 합숙 맞선2",
-      "days": [
-        "목"
-      ],
-      "time": "오후 09:00",
-      "rating": 1.8,
-      "ratingDate": "06.25",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=41457024&qvt=0&query=%EC%9E%90%EC%8B%9D%EB%B0%A9%EC%83%9D%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%ED%95%A9%EC%88%99%20%EB%A7%9E%EC%84%A02"
-    },
-    {
-      "id": "variety_구해줘! 홈즈_MBC_오후 10:00",
-      "category": "variety",
-      "channel": "MBC",
-      "title": "구해줘! 홈즈",
-      "days": [
-        "목"
-      ],
-      "time": "오후 10:00",
-      "rating": 3.0,
-      "ratingDate": "06.25",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=9264919&qvt=0&query=%EA%B5%AC%ED%95%B4%EC%A4%98%20%ED%99%88%EC%A6%88"
-    },
-    {
-      "id": "variety_미스트롯 포유_TV조선_오후 10:00",
-      "category": "variety",
-      "channel": "TV조선",
-      "title": "미스트롯 포유",
-      "days": [
-        "목"
-      ],
-      "time": "오후 10:00",
-      "rating": 3.5,
-      "ratingDate": "06.25",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=41164883&qvt=0&query=%EB%AF%B8%EC%8A%A4%ED%8A%B8%EB%A1%AF%20%ED%8F%AC%EC%9C%A0"
-    },
-    {
-      "id": "variety_신상출시 편스토랑_KBS2_오후 10:00",
-      "category": "variety",
-      "channel": "KBS2",
-      "title": "신상출시 편스토랑",
-      "days": [
-        "목"
-      ],
-      "time": "오후 10:00",
-      "rating": 1.9,
-      "ratingDate": "06.18",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=10229879&qvt=0&query=%EC%8B%A0%EC%83%81%EC%B6%9C%EC%8B%9C%20%ED%8E%B8%EC%8A%A4%ED%86%A0%EB%9E%91"
-    },
-    {
-      "id": "variety_웰컴 투 수근스쿨_KBS2_오후 10:00",
-      "category": "variety",
-      "channel": "KBS2",
-      "title": "웰컴 투 수근스쿨",
-      "days": [
-        "목"
-      ],
-      "time": "오후 10:00",
-      "rating": 1.1,
-      "ratingDate": "06.25",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=41339470&qvt=0&query=%EC%9B%B0%EC%BB%B4%20%ED%88%AC%20%EC%88%98%EA%B7%BC%EC%8A%A4%EC%BF%A8"
-    },
-    {
-      "id": "variety_이혼숙려캠프_JTBC_오후 10:00",
-      "category": "variety",
-      "channel": "JTBC",
-      "title": "이혼숙려캠프",
-      "days": [
-        "목"
-      ],
-      "time": "오후 10:00",
-      "rating": 2.3,
-      "ratingDate": "06.25",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=35063971&qvt=0&query=%EC%9D%B4%ED%98%BC%EC%88%99%EB%A0%A4%EC%BA%A0%ED%94%84"
-    },
-    {
-      "id": "variety_꼬리에 꼬리를 무는 그날 이야기_SBS_오후 10:20",
-      "category": "variety",
-      "channel": "SBS",
-      "title": "꼬리에 꼬리를 무는 그날 이야기",
-      "days": [
-        "목"
-      ],
-      "time": "오후 10:20",
-      "rating": 2.7,
-      "ratingDate": "06.25",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=24764585&qvt=0&query=%EA%BC%AC%EB%A6%AC%EC%97%90%20%EA%BC%AC%EB%A6%AC%EB%A5%BC%20%EB%AC%B4%EB%8A%94%20%EA%B7%B8%EB%82%A0%20%EC%9D%B4%EC%95%BC%EA%B8%B0"
-    },
-    {
-      "id": "variety_나는 SOLO, 그 후 사랑은 계속된다(나솔사계)_SBS Plus_오후 10:30",
-      "category": "variety",
-      "channel": "SBS Plus",
-      "title": "나는 SOLO, 그 후 사랑은 계속된다(나솔사계)",
-      "days": [
-        "목"
-      ],
-      "time": "오후 10:30",
-      "rating": 1.2,
-      "ratingDate": "06.25",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=28613338&qvt=0&query=%EB%82%98%EB%8A%94%20%EC%86%94%EB%A1%9C%20%EA%B7%B8%20%ED%9B%84%20%EC%82%AC%EB%9E%91%EC%9D%80%20%EA%B3%84%EC%86%8D%EB%90%9C%EB%8B%A4%20%EB%82%98%EC%86%94%EC%82%AC%EA%B3%84"
-    },
-    {
-      "id": "variety_콩콩팜팜 (콩 심은 데 콩 나는 가고팜 하고팜 동물농장)_tvN_오후 08:35",
-      "category": "variety",
-      "channel": "tvN",
-      "title": "콩콩팜팜 (콩 심은 데 콩 나는 가고팜 하고팜 동물농장)",
-      "days": [
-        "금"
-      ],
-      "time": "오후 08:35",
-      "rating": 2.9,
-      "ratingDate": "06.26",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=41394615&qvt=0&query=%EC%BD%A9%EC%BD%A9%ED%8C%9C%ED%8C%9C%20%EC%BD%A9%20%EC%8B%AC%EC%9D%80%20%EB%8D%B0%20%EC%BD%A9%20%EB%82%98%EB%8A%94%20%EA%B0%80%EA%B3%A0%ED%8C%9C%20%ED%95%98%EA%B3%A0%ED%8C%9C%20%EB%8F%99%EB%AC%BC%EB%86%8D%EC%9E%A5"
-    },
-    {
-      "id": "variety_신랑수업2_채널A_오후 09:00",
-      "category": "variety",
-      "channel": "채널A",
-      "title": "신랑수업2",
-      "days": [
-        "금"
-      ],
-      "time": "오후 09:00",
-      "rating": 1.3,
-      "ratingDate": "06.25",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=40803780&qvt=0&query=%EC%8B%A0%EB%9E%91%EC%88%98%EC%97%852"
-    },
-    {
-      "id": "variety_금타는 금요일_TV조선_오후 10:00",
-      "category": "variety",
-      "channel": "TV조선",
-      "title": "금타는 금요일",
-      "days": [
-        "금"
-      ],
-      "time": "오후 10:00",
-      "rating": 3.6,
-      "ratingDate": "06.26",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=40344530&qvt=0&query=%EA%B8%88%ED%83%80%EB%8A%94%20%EA%B8%88%EC%9A%94%EC%9D%BC"
-    },
-    {
-      "id": "variety_옥탑방의 문제아들_KBS2_오후 10:00",
-      "category": "variety",
-      "channel": "KBS2",
-      "title": "옥탑방의 문제아들",
-      "days": [
-        "금"
-      ],
-      "time": "오후 10:00",
-      "rating": 2.0,
-      "ratingDate": "06.26",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=8724190&qvt=0&query=%EC%98%A5%ED%83%91%EB%B0%A9%EC%9D%98%20%EB%AC%B8%EC%A0%9C%EC%95%84%EB%93%A4"
-    },
-    {
-      "id": "variety_나 혼자 산다_MBC_오후 11:10",
-      "category": "variety",
-      "channel": "MBC",
-      "title": "나 혼자 산다",
-      "days": [
-        "금"
-      ],
-      "time": "오후 11:10",
-      "rating": 6.0,
-      "ratingDate": "06.26",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=673019&qvt=0&query=%EB%82%98%20%ED%98%BC%EC%9E%90%20%EC%82%B0%EB%8B%A4"
-    },
-    {
-      "id": "variety_접속! 무비월드_SBS_오전 11:00",
-      "category": "variety",
-      "channel": "SBS",
-      "title": "접속! 무비월드",
-      "days": [
-        "토"
-      ],
-      "time": "오전 11:00",
-      "rating": 1.1,
-      "ratingDate": "06.27",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=658891&qvt=0&query=%EC%A0%91%EC%86%8D%20%EB%AC%B4%EB%B9%84%EC%9B%94%EB%93%9C"
-    },
-    {
-      "id": "variety_영화가 좋다_KBS2_오후 02:15",
-      "category": "variety",
-      "channel": "KBS2",
-      "title": "영화가 좋다",
-      "days": [
-        "토"
-      ],
-      "time": "오후 02:15",
-      "rating": 1.0,
-      "ratingDate": "06.27",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=660621&qvt=0&query=%EC%98%81%ED%99%94%EA%B0%80%20%EC%A2%8B%EB%8B%A4"
-    },
-    {
-      "id": "variety_불후의 명곡_KBS2_오후 06:05",
-      "category": "variety",
-      "channel": "KBS2",
-      "title": "불후의 명곡",
-      "days": [
-        "토"
-      ],
-      "time": "오후 06:05",
-      "rating": 4.7,
-      "ratingDate": "06.27",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=670142&qvt=0&query=%EB%B6%88%ED%9B%84%EC%9D%98%20%EB%AA%85%EA%B3%A1"
-    },
-    {
-      "id": "variety_놀면 뭐하니?_MBC_오후 06:30",
-      "category": "variety",
-      "channel": "MBC",
-      "title": "놀면 뭐하니?",
-      "days": [
-        "토"
-      ],
-      "time": "오후 06:30",
-      "rating": 3.7,
-      "ratingDate": "06.27",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=9904885&qvt=0&query=%EB%86%80%EB%A9%B4%20%EB%AD%90%ED%95%98%EB%8B%88"
-    },
-    {
-      "id": "variety_놀라운 토요일_tvN_오후 07:40",
-      "category": "variety",
-      "channel": "tvN",
-      "title": "놀라운 토요일",
-      "days": [
-        "토"
-      ],
-      "time": "오후 07:40",
-      "rating": 1.9,
-      "ratingDate": "06.27",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=7682370&qvt=0&query=%EB%86%80%EB%9D%BC%EC%9A%B4%20%ED%86%A0%EC%9A%94%EC%9D%BC"
-    },
-    {
-      "id": "variety_쯔양몇끼_ENA_오후 07:50",
-      "category": "variety",
-      "channel": "ENA",
-      "title": "쯔양몇끼",
-      "days": [
-        "토"
-      ],
-      "time": "오후 07:50",
-      "rating": 1.0,
-      "ratingDate": "06.27",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=41090335&qvt=0&query=%EC%AF%94%EC%96%91%EB%AA%87%EB%81%BC"
-    },
-    {
-      "id": "variety_아는 형님_JTBC_오후 09:00",
-      "category": "variety",
-      "channel": "JTBC",
-      "title": "아는 형님",
-      "days": [
-        "토"
-      ],
-      "time": "오후 09:00",
-      "rating": 1.4,
-      "ratingDate": "06.27",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=3052901&qvt=0&query=%EC%95%84%EB%8A%94%20%ED%98%95%EB%8B%98"
-    },
-    {
-      "id": "variety_살림하는 남자들 시즌2_KBS2_오후 09:20",
-      "category": "variety",
-      "channel": "KBS2",
-      "title": "살림하는 남자들 시즌2",
-      "days": [
-        "토"
-      ],
-      "time": "오후 09:20",
-      "rating": 4.6,
-      "ratingDate": "06.27",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=5382630&qvt=0&query=%EC%82%B4%EB%A6%BC%ED%95%98%EB%8A%94%20%EB%82%A8%EC%9E%90%EB%93%A4%20%EC%8B%9C%EC%A6%8C2"
-    },
-    {
-      "id": "variety_김주하의 데이앤나잇_MBN_오후 09:40",
-      "category": "variety",
-      "channel": "MBN",
-      "title": "김주하의 데이앤나잇",
-      "days": [
-        "토"
-      ],
-      "time": "오후 09:40",
-      "rating": 1.0,
-      "ratingDate": "06.27",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=40256502&qvt=0&query=%EA%B9%80%EC%A3%BC%ED%95%98%EC%9D%98%20%EB%8D%B0%EC%9D%B4%EC%95%A4%EB%82%98%EC%9E%87"
-    },
-    {
-      "id": "variety_속풀이쇼 동치미_MBN_오후 11:00",
-      "category": "variety",
-      "channel": "MBN",
-      "title": "속풀이쇼 동치미",
-      "days": [
-        "토"
-      ],
-      "time": "오후 11:00",
-      "rating": 1.8,
-      "ratingDate": "06.27",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=672063&qvt=0&query=%EC%86%8D%ED%92%80%EC%9D%B4%EC%87%BC%20%EB%8F%99%EC%B9%98%EB%AF%B8"
-    },
-    {
-      "id": "variety_전지적 참견 시점_MBC_오후 11:10",
-      "category": "variety",
-      "channel": "MBC",
-      "title": "전지적 참견 시점",
-      "days": [
-        "토"
-      ],
-      "time": "오후 11:10",
-      "rating": 3.0,
-      "ratingDate": "06.27",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=6272014&qvt=0&query=%EC%A0%84%EC%A7%80%EC%A0%81%20%EC%B0%B8%EA%B2%AC%20%EC%8B%9C%EC%A0%90"
-    },
-    {
-      "id": "variety_세 개의 시선_SBS_오전 08:35",
-      "category": "variety",
-      "channel": "SBS",
-      "title": "세 개의 시선",
-      "days": [
-        "일"
-      ],
-      "time": "오전 08:35",
-      "rating": 1.0,
-      "ratingDate": "06.21",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=36848866&qvt=0&query=%EC%84%B8%20%EA%B0%9C%EC%9D%98%20%EC%8B%9C%EC%84%A0"
-    },
-    {
-      "id": "variety_서프라이즈 미스터리 살롱_MBC_오전 10:40",
-      "category": "variety",
-      "channel": "MBC",
-      "title": "서프라이즈 미스터리 살롱",
-      "days": [
-        "일"
-      ],
-      "time": "오전 10:40",
-      "rating": 2.2,
-      "ratingDate": "06.28",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=40586676&qvt=0&query=%EC%84%9C%ED%94%84%EB%9D%BC%EC%9D%B4%EC%A6%88%20%EB%AF%B8%EC%8A%A4%ED%84%B0%EB%A6%AC%20%EC%82%B4%EB%A1%B1"
-    },
-    {
-      "id": "variety_사장님 귀는 당나귀 귀_KBS2_오후 04:40",
-      "category": "variety",
-      "channel": "KBS2",
-      "title": "사장님 귀는 당나귀 귀",
-      "days": [
-        "일"
-      ],
-      "time": "오후 04:40",
-      "rating": 3.2,
-      "ratingDate": "06.28",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=9329702&qvt=0&query=%EC%82%AC%EC%9E%A5%EB%8B%98%20%EA%B7%80%EB%8A%94%20%EB%8B%B9%EB%82%98%EA%B7%80%20%EA%B7%80"
-    },
-    {
-      "id": "variety_열린음악회_KBS1_오후 06:00",
-      "category": "variety",
-      "channel": "KBS1",
-      "title": "열린음악회",
-      "days": [
-        "일"
-      ],
-      "time": "오후 06:00",
-      "rating": 2.1,
-      "ratingDate": "06.28",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=659723&qvt=0&query=%EC%97%B4%EB%A6%B0%EC%9D%8C%EC%95%85%ED%9A%8C"
-    },
-    {
-      "id": "variety_최우수산_MBC_오후 06:00",
-      "category": "variety",
-      "channel": "MBC",
-      "title": "최우수산",
-      "days": [
-        "일"
-      ],
-      "time": "오후 06:00",
-      "rating": 1.1,
-      "ratingDate": "06.28",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=41049350&qvt=0&query=%EC%B5%9C%EC%9A%B0%EC%88%98%EC%82%B0"
-    },
-    {
-      "id": "variety_1박 2일 시즌4_KBS2_오후 06:10",
-      "category": "variety",
-      "channel": "KBS2",
-      "title": "1박 2일 시즌4",
-      "days": [
-        "일"
-      ],
-      "time": "오후 06:10",
-      "rating": 6.0,
-      "ratingDate": "06.28",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=10420003&qvt=0&query=1%EB%B0%95%202%EC%9D%BC%20%EC%8B%9C%EC%A6%8C4"
-    },
-    {
-      "id": "variety_런닝맨_SBS_오후 06:10",
-      "category": "variety",
-      "channel": "SBS",
-      "title": "런닝맨",
-      "days": [
-        "일"
-      ],
-      "time": "오후 06:10",
-      "rating": 2.6,
-      "ratingDate": "06.28",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=674981&qvt=0&query=%EB%9F%B0%EB%8B%9D%EB%A7%A8"
-    },
-    {
-      "id": "variety_스트릿 레스토랑 파이터_tvN_오후 07:40",
-      "category": "variety",
-      "channel": "tvN",
-      "title": "스트릿 레스토랑 파이터",
-      "days": [
-        "일"
-      ],
-      "time": "오후 07:40",
-      "rating": 2.0,
-      "ratingDate": "06.28",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=41197294&qvt=0&query=%EC%8A%A4%ED%8A%B8%EB%A6%BF%20%EB%A0%88%EC%8A%A4%ED%86%A0%EB%9E%91%20%ED%8C%8C%EC%9D%B4%ED%84%B0"
-    },
-    {
-      "id": "variety_냉장고를 부탁해 since 2014_JTBC_오후 08:50",
-      "category": "variety",
-      "channel": "JTBC",
-      "title": "냉장고를 부탁해 since 2014",
-      "days": [
-        "일"
-      ],
-      "time": "오후 08:50",
-      "rating": 2.6,
-      "ratingDate": "06.28",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=35470956&qvt=0&query=%EB%83%89%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B6%80%ED%83%81%ED%95%B4%20%EC%8B%A0%EC%8A%A4%202014"
-    },
-    {
-      "id": "variety_이제 만나러 갑니다_채널A_오후 08:50",
-      "category": "variety",
-      "channel": "채널A",
-      "title": "이제 만나러 갑니다",
-      "days": [
-        "일"
-      ],
-      "time": "오후 08:50",
-      "rating": 2.0,
-      "ratingDate": "06.28",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=669103&qvt=0&query=%EC%9D%B4%EC%A0%9C%20%EB%A7%8C%EB%82%98%EB%9F%AC%20%EA%B0%91%EB%8B%88%EB%8B%A4"
-    },
-    {
-      "id": "variety_미운 우리 새끼_SBS_오후 09:00",
-      "category": "variety",
-      "channel": "SBS",
-      "title": "미운 우리 새끼",
-      "days": [
-        "일"
-      ],
-      "time": "오후 09:00",
-      "rating": 10.7,
-      "ratingDate": "06.28",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=3612946&qvt=0&query=%EB%AF%B8%EC%9A%B4%20%EC%9A%B0%EB%A6%AC%20%EC%83%88%EB%81%BC"
-    },
-    {
-      "id": "variety_놀러코스터_MBC_오후 09:10",
-      "category": "variety",
-      "channel": "MBC",
-      "title": "놀러코스터",
-      "days": [
-        "일"
-      ],
-      "time": "오후 09:10",
-      "rating": 1.8,
-      "ratingDate": "06.28",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=41279349&qvt=0&query=%EB%86%80%EB%9F%AC%EC%BD%94%EC%8A%A4%ED%84%B0"
-    },
-    {
-      "id": "variety_우리동네 야구대장_KBS2_오후 09:20",
-      "category": "variety",
-      "channel": "KBS2",
-      "title": "우리동네 야구대장",
-      "days": [
-        "일"
-      ],
-      "time": "오후 09:20",
-      "rating": 1.1,
-      "ratingDate": "06.21",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=40771091&qvt=0&query=%EC%9A%B0%EB%A6%AC%EB%8F%99%EB%84%A4%20%EC%95%BC%EA%B5%AC%EB%8C%80%EC%9E%A5"
-    },
-    {
-      "id": "variety_개그콘서트_KBS2_오후 11:00",
-      "category": "variety",
-      "channel": "KBS2",
-      "title": "개그콘서트",
-      "days": [
-        "일"
-      ],
-      "time": "오후 11:00",
-      "rating": 1.4,
-      "ratingDate": "06.28",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=659653&qvt=0&query=%EA%B0%9C%EA%B7%B8%EC%BD%98%EC%84%9C%ED%8A%B8"
-    },
-    {
-      "id": "variety_말자쇼_KBS2_오후 09:30",
-      "category": "variety",
-      "channel": "KBS2",
-      "title": "말자쇼",
-      "days": [
-        "월"
-      ],
-      "time": "오후 09:30",
-      "rating": 2.1,
-      "ratingDate": "06.22",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=40281127&qvt=0&query=%EB%A7%90%EC%9E%90%EC%87%BC"
-    },
-    {
-      "id": "variety_셀럽병사의 비밀_KBS2_오후 08:30",
-      "category": "variety",
-      "channel": "KBS2",
-      "title": "셀럽병사의 비밀",
-      "days": [
-        "화"
-      ],
-      "time": "오후 08:30",
-      "rating": 2.2,
-      "ratingDate": "06.16",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=35657189&qvt=0&query=%EC%85%80%EB%9F%BD%EB%B3%91%EC%82%AC%EC%9D%98%20%EB%B9%84%EB%B0%80"
-    },
-    {
-      "id": "variety_슈퍼맨이 돌아왔다_KBS2_오후 08:30",
-      "category": "variety",
-      "channel": "KBS2",
-      "title": "슈퍼맨이 돌아왔다",
-      "days": [
-        "수"
-      ],
-      "time": "오후 08:30",
-      "rating": 1.9,
-      "ratingDate": "06.24",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=675566&qvt=0&query=%EC%8A%88%ED%8D%BC%EB%A7%A8%EC%9D%B4%20%EB%8F%8C%EC%95%84%EC%99%94%EB%8B%A4"
-    },
-    {
-      "id": "variety_신상출시 편스토랑_KBS2_오후 08:30",
-      "category": "variety",
-      "channel": "KBS2",
-      "title": "신상출시 편스토랑",
-      "days": [
-        "목"
-      ],
-      "time": "오후 08:30",
-      "rating": 1.9,
-      "ratingDate": "06.18",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=10229879&qvt=0&query=%EC%8B%A0%EC%83%81%EC%B6%9C%EC%8B%9C%20%ED%8E%B8%EC%8A%A4%ED%86%A0%EB%9E%91"
-    },
-    {
-      "id": "variety_영화가 좋다_KBS2_오후 01:45",
-      "category": "variety",
-      "channel": "KBS2",
-      "title": "영화가 좋다",
-      "days": [
-        "토"
-      ],
-      "time": "오후 01:45",
-      "rating": 1.0,
-      "ratingDate": "06.27",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=660621&qvt=0&query=%EC%98%81%ED%99%94%EA%B0%80%20%EC%A2%8B%EB%8B%A4"
-    },
-    {
-      "id": "variety_살림하는 남자들 시즌2_KBS2_오후 10:35",
-      "category": "variety",
-      "channel": "KBS2",
-      "title": "살림하는 남자들 시즌2",
-      "days": [
-        "토"
-      ],
-      "time": "오후 10:35",
-      "rating": 4.6,
-      "ratingDate": "06.27",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=5382630&qvt=0&query=%EC%82%B4%EB%A6%BC%ED%95%98%EB%8A%94%20%EB%82%A8%EC%9E%90%EB%93%A4%20%EC%8B%9C%EC%A6%8C2"
     }
   ]
 }

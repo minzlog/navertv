@@ -1,7 +1,7 @@
 {
   "weekStart": "2026-06-22",
   "weekEnd": "2026-06-28",
-  "collectedAt": "2026-06-30T07:57:45.195026+09:00",
+  "collectedAt": "2026-06-30T16:03:07.723066+09:00",
   "programs": [
     {
       "id": "drama_붉은 진주_KBS2_오후 07:50",
@@ -247,19 +247,6 @@
       "rating": 1.3,
       "ratingDate": "06.24",
       "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=40439813&qvt=0&query=%EA%B0%9C%EC%99%80%20%EB%8A%91%EB%8C%80%EC%9D%98%20%EC%8B%9C%EA%B0%84%20%EC%8B%9C%EC%A6%8C2"
-    },
-    {
-      "id": "variety_나는 SOLO <나는 솔로>_ENA_오후 10:30",
-      "category": "variety",
-      "channel": "ENA",
-      "title": "나는 SOLO <나는 솔로>",
-      "days": [
-        "수"
-      ],
-      "time": "오후 10:30",
-      "rating": 2.0,
-      "ratingDate": "06.24",
-      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=18896551&qvt=0&query=%EB%82%98%EB%8A%94%20%EC%86%94%EB%A1%9C"
     },
     {
       "id": "variety_라디오스타_MBC_오후 10:30",
@@ -886,6 +873,19 @@
       "rating": 11.1,
       "ratingDate": "06.28",
       "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=37590014&qvt=0&query=%EC%8B%A0%EC%9E%85%EC%82%AC%EC%9B%90%20%EA%B0%95%ED%9A%8C%EC%9E%A5"
+    },
+    {
+      "id": "variety_나는 SOLO <나는 솔로>_SBS Plus_오후 10:30",
+      "category": "variety",
+      "channel": "SBS Plus",
+      "title": "나는 SOLO <나는 솔로>",
+      "days": [
+        "수"
+      ],
+      "time": "오후 10:30",
+      "rating": 2.0,
+      "ratingDate": "06.24",
+      "link": "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bjkw&pkid=57&os=18896551&qvt=0&query=%EB%82%98%EB%8A%94%20%EC%86%94%EB%A1%9C"
     }
   ]
 }
