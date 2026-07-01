@@ -407,6 +407,16 @@
         "lavangba_category": "식품"
       },
       {
+        "start": "16:50",
+        "end": "17:40",
+        "brand": "",
+        "product": "사랑채포기김치5kg 열무김치2kg 오이통김치1kg 왕자총각김치2kg 파김치1Kg",
+        "price": 59900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80539617",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
         "start": "17:40",
         "end": "18:40",
         "brand": "보넬드",
@@ -546,7 +556,7 @@
         "price": 59900,
         "link": "http://www.hnsmall.com/display/goods.do?goods_code=81119741",
         "category": "언더웨어",
-        "lavangba_category": ""
+        "lavangba_category": "패션의류"
       },
       {
         "start": "08:15",
@@ -626,7 +636,7 @@
         "price": 31500,
         "link": "http://www.hnsmall.com/display/goods.do?goods_code=81095272",
         "category": "일반식품",
-        "lavangba_category": ""
+        "lavangba_category": "식품"
       },
       {
         "start": "16:00",
@@ -849,6 +859,16 @@
         "link": "http://www.hnsmall.com/display/goods.do?goods_code=81265326",
         "category": "언더웨어",
         "lavangba_category": "패션의류"
+      },
+      {
+        "start": "14:55",
+        "end": "15:50",
+        "brand": "",
+        "product": "아르데코 퍼펙트 틴트 파운데이션 쿠션케이스",
+        "price": 109000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81139684",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
       },
       {
         "start": "15:50",
@@ -1253,6 +1273,158 @@
         "link": "http://www.hnsmall.com/display/goods.do?goods_code=80793236",
         "category": "리빙/주방",
         "lavangba_category": "가구/인테리어"
+      }
+    ],
+    "2026-07-07": [
+      {
+        "start": "01:00",
+        "end": "02:00",
+        "brand": "데이즈온",
+        "product": "데이즈온 파라다이스 그레인 버닝 12주분 더",
+        "price": 248000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=79437946",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "02:00",
+        "end": "03:05",
+        "brand": "",
+        "product": "26SS 썸머 컬러블럭 레이어드 니트 풀오버",
+        "price": 77000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=76387355",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "03:05",
+        "end": "04:10",
+        "brand": "",
+        "product": "레몬버베나 다이어트 애사비",
+        "price": 199900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=79573055",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "04:10",
+        "end": "05:10",
+        "brand": "마이어",
+        "product": "무선 텀블렌더 무선 블렌더 스텐 텀블러 전용 파우치 세트",
+        "price": 69900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80131551",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "05:10",
+        "end": "06:00",
+        "brand": "",
+        "product": "26SS 크로쉐 코디셋업",
+        "price": 59900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=72956500",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "06:00",
+        "end": "07:15",
+        "brand": "신영와코루",
+        "product": "26SS 신영와코루 아네타 여성 시어서커 파자마",
+        "price": 59900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81136382",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "09:25",
+        "end": "10:25",
+        "brand": "박술녀",
+        "product": "10%앱할인 /26SS 호주산 100% 워셔블 삶은 양모 스프레드 2장 베개커버2장",
+        "price": 259000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=78655623",
+        "category": "리빙/주방",
+        "lavangba_category": "가구/인테리어"
+      },
+      {
+        "start": "10:25",
+        "end": "11:35",
+        "brand": "",
+        "product": "26SS 시에라 라운드 벨티드 썸머 원피스 벨트",
+        "price": 59900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81053252",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "14:20",
+        "end": "15:10",
+        "brand": "",
+        "product": "프리미엄 수제 칸 한우육포 x",
+        "price": 32900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81176752",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "15:10",
+        "end": "16:00",
+        "brand": "",
+        "product": "정준호 양심참기름 200mlx5개 참깨박",
+        "price": 43900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=60229190",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "17:40",
+        "end": "18:40",
+        "brand": "",
+        "product": "100% 제주산 메밀순면세트",
+        "price": 59900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80565613",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "18:40",
+        "end": "19:35",
+        "brand": "코모도",
+        "product": "26SS 여성 썸머 팬츠",
+        "price": 59000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=79386414",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "19:35",
+        "end": "20:45",
+        "brand": "무드매쳐",
+        "product": "NEW 무드매쳐 립아우라 기본구성",
+        "price": 69900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=78494345",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "21:45",
+        "end": "22:55",
+        "brand": "유로컬렉션",
+        "product": "26FW 호주산 양모100% 볼륨소매 스탠카라 자켓",
+        "price": 109000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81384181",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "23:55",
+        "end": "01:00",
+        "brand": "루나코어스",
+        "product": "컬리 호주산 양모 100% 롱코트",
+        "price": 99000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=79961448",
+        "category": "의류",
+        "lavangba_category": "패션의류"
       }
     ]
   }

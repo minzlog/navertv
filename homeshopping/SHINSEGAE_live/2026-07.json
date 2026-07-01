@@ -308,7 +308,7 @@
       },
       {
         "start": "01:38",
-        "end": "02:38",
+        "end": "02:39",
         "brand": "",
         "product": "블루핏 26SS 에어로 팬츠",
         "price": 59900,
@@ -368,7 +368,7 @@
       },
       {
         "start": "05:30",
-        "end": "06:30",
+        "end": "06:31",
         "brand": "",
         "product": "26SS 르까프 남성 에브리데이 조거팬츠 4종세트",
         "price": 59000,
@@ -679,6 +679,16 @@
         "lavangba_category": "식품"
       },
       {
+        "start": "07:31",
+        "end": "08:31",
+        "brand": "",
+        "product": "최대용량/본품7통 NEW 성분에디터 2중 녹는실 리프팅 앰플 세트",
+        "price": 109000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/1001350853",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
         "start": "08:31",
         "end": "09:32",
         "brand": "",
@@ -839,6 +849,16 @@
         "link": "https://www.shinsegaetvshopping.com/display/detail/1002449573",
         "category": "건강식품",
         "lavangba_category": "식품"
+      },
+      {
+        "start": "06:20",
+        "end": "07:20",
+        "brand": "",
+        "product": "브이컷 26SS 썸머 인견 블라우스",
+        "price": 59900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/20071962",
+        "category": "의류",
+        "lavangba_category": "패션의류"
       },
       {
         "start": "07:20",
@@ -1165,10 +1185,10 @@
       {
         "start": "20:25",
         "end": "21:25",
-        "brand": "리브이셀",
-        "product": "리브이셀 콜라겐 투명 랩핑 마스크 x 총 최저가 패키지",
-        "price": 139000,
-        "link": "https://www.shinsegaetvshopping.com/display/detail/20068374",
+        "brand": "",
+        "product": "최대용량/본품7통 NEW 성분에디터 2중 녹는실 리프팅 앰플 세트",
+        "price": 109000,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/1001350854",
         "category": "미용",
         "lavangba_category": "화장품/미용"
       },
@@ -1213,7 +1233,18 @@
         "link": "https://www.shinsegaetvshopping.com/display/detail/20071455",
         "category": "언더웨어",
         "lavangba_category": "패션의류"
+      },
+      {
+        "start": "08:31",
+        "end": "09:32",
+        "brand": "마미케어",
+        "product": "3만원 SALE 마미케어 율무영양크림 기본세트",
+        "price": 69900,
+        "link": "https://www.shinsegaetvshopping.com/display/detail/1000196356",
+        "category": "미용",
+        "lavangba_category": "출산/육아"
       }
-    ]
+    ],
+    "2026-07-07": []
   }
 }

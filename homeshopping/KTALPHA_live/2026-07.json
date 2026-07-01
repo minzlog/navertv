@@ -268,7 +268,7 @@
     "2026-07-02": [
       {
         "start": "00:34",
-        "end": "01:34",
+        "end": "01:38",
         "brand": "",
         "product": "엘레강스스포츠_티셔츠",
         "price": 49000,
@@ -278,7 +278,7 @@
       },
       {
         "start": "01:34",
-        "end": "02:34",
+        "end": "02:38",
         "brand": "DB손해보험",
         "product": "DB손해보험_운전자보험",
         "price": 0,
@@ -288,17 +288,17 @@
       },
       {
         "start": "02:35",
-        "end": "03:35",
+        "end": "03:38",
         "brand": "비버리힐즈폴로클럽",
         "product": "비버리힐즈폴로클럽_티셔츠",
-        "price": 69900,
-        "link": "https://m.kshop.co.kr/display/product/8586958",
+        "price": 39900,
+        "link": "https://m.kshop.co.kr/display/product/8586957",
         "category": "의류",
         "lavangba_category": "패션의류"
       },
       {
         "start": "03:39",
-        "end": "04:09",
+        "end": "04:13",
         "brand": "에넥스",
         "product": "에넥스_프리미엄침대",
         "price": 3198000,
@@ -308,7 +308,7 @@
       },
       {
         "start": "04:09",
-        "end": "04:29",
+        "end": "04:33",
         "brand": "코지마",
         "product": "코지마_데코르",
         "price": 2980000,
@@ -318,27 +318,27 @@
       },
       {
         "start": "04:30",
-        "end": "05:30",
+        "end": "05:33",
         "brand": "테이핑테크",
         "product": "테이핑테크_무릎보호대",
-        "price": 29800,
-        "link": "https://m.kshop.co.kr/display/product/7914382",
+        "price": 39800,
+        "link": "https://m.kshop.co.kr/display/product/7914383",
         "category": "가전",
         "lavangba_category": "스포츠/레저"
       },
       {
         "start": "05:30",
-        "end": "06:30",
+        "end": "06:33",
         "brand": "펠틱스",
         "product": "펠틱스_올인원자켓",
         "price": 59900,
-        "link": "https://m.kshop.co.kr/display/product/8621951",
+        "link": "https://m.kshop.co.kr/display/product/8621952",
         "category": "의류",
         "lavangba_category": "패션의류"
       },
       {
         "start": "06:30",
-        "end": "07:30",
+        "end": "07:31",
         "brand": "",
         "product": "네스트_의료기기",
         "price": 0,
@@ -371,8 +371,8 @@
         "end": "10:10",
         "brand": "클로리에",
         "product": "클로리에_은컬렉션",
-        "price": 269000,
-        "link": "https://m.kshop.co.kr/display/product/9490909",
+        "price": 348000,
+        "link": "https://m.kshop.co.kr/display/product/9490969",
         "category": "잡화/주얼리",
         "lavangba_category": "패션잡화"
       },
@@ -381,8 +381,8 @@
         "end": "10:31",
         "brand": "클로리에",
         "product": "클로리에_은컬렉션",
-        "price": 279000,
-        "link": "https://m.kshop.co.kr/display/product/9067785",
+        "price": 169000,
+        "link": "https://m.kshop.co.kr/display/product/9067784",
         "category": "잡화/주얼리",
         "lavangba_category": "패션잡화"
       },
@@ -442,7 +442,7 @@
         "brand": "트렉스타",
         "product": "트렉스타_8부팬츠",
         "price": 59900,
-        "link": "https://m.kshop.co.kr/display/product/8739554",
+        "link": "https://m.kshop.co.kr/display/product/8739555",
         "category": "의류",
         "lavangba_category": "패션의류"
       },
@@ -451,8 +451,8 @@
         "end": "17:32",
         "brand": "닥터린",
         "product": "닥터린_콘드로이친K2",
-        "price": 99500,
-        "link": "https://m.kshop.co.kr/display/product/8738929",
+        "price": 164500,
+        "link": "https://m.kshop.co.kr/display/product/8738930",
         "category": "건강식품",
         "lavangba_category": "식품"
       },
@@ -491,8 +491,8 @@
         "end": "21:33",
         "brand": "비에날씬",
         "product": "비에날씬_다이어트유산균",
-        "price": 376000,
-        "link": "https://m.kshop.co.kr/display/product/5215468",
+        "price": 198000,
+        "link": "https://m.kshop.co.kr/display/product/5215469",
         "category": "건강식품",
         "lavangba_category": "식품"
       },
@@ -533,8 +533,8 @@
         "end": "01:34",
         "brand": "라라츄",
         "product": "라라츄_헤어커버",
-        "price": 79900,
-        "link": "https://m.kshop.co.kr/display/product/8936490",
+        "price": 89900,
+        "link": "https://m.kshop.co.kr/display/product/4100605",
         "category": "미용",
         "lavangba_category": "화장품/미용"
       },
@@ -583,8 +583,8 @@
         "end": "07:32",
         "brand": "일동후디스",
         "product": "일동후디스_하이뮨",
-        "price": 169000,
-        "link": "https://m.kshop.co.kr/display/product/7204944",
+        "price": 318000,
+        "link": "https://m.kshop.co.kr/display/product/8910002",
         "category": "건강식품",
         "lavangba_category": "식품"
       },
@@ -603,8 +603,8 @@
         "end": "09:33",
         "brand": "크린위즈",
         "product": "크린위즈_방수왕",
-        "price": 49800,
-        "link": "https://m.kshop.co.kr/display/product/6378778",
+        "price": 79800,
+        "link": "https://m.kshop.co.kr/display/product/6378758",
         "category": "리빙/주방",
         "lavangba_category": "생활/건강"
       },
@@ -643,8 +643,8 @@
         "end": "14:34",
         "brand": "",
         "product": "한일_서큘레이터",
-        "price": 148000,
-        "link": "https://m.kshop.co.kr/display/product/9706648",
+        "price": 79000,
+        "link": "https://m.kshop.co.kr/display/product/9706647",
         "category": "가전",
         "lavangba_category": "디지털/가전"
       },
@@ -653,8 +653,8 @@
         "end": "15:35",
         "brand": "프라이",
         "product": "테팔_프라이팬세트",
-        "price": 68000,
-        "link": "https://m.kshop.co.kr/display/product/2540797",
+        "price": 53000,
+        "link": "https://m.kshop.co.kr/display/product/2540795",
         "category": "잡화/주얼리",
         "lavangba_category": "생활/건강"
       },
@@ -683,8 +683,8 @@
         "end": "18:35",
         "brand": "",
         "product": "오늘제주_은갈치",
-        "price": 69900,
-        "link": "https://m.kshop.co.kr/display/product/5908733",
+        "price": 59900,
+        "link": "https://m.kshop.co.kr/display/product/5908732",
         "category": "일반식품",
         "lavangba_category": "식품"
       },
@@ -721,6 +721,7 @@
     ],
     "2026-07-04": [],
     "2026-07-05": [],
-    "2026-07-06": []
+    "2026-07-06": [],
+    "2026-07-07": []
   }
 }
