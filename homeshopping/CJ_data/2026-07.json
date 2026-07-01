@@ -362,7 +362,7 @@
         "end": "02:05",
         "brand": "오메가아르떼",
         "product": "925실버 이태리 트위스트 볼 2줄 목걸이",
-        "price": 299000,
+        "price": 269000,
         "link": "https://display.cjonstyle.com/p/item/2087664407?channelCode=30002002",
         "category": "잡화/주얼리"
       },
@@ -389,7 +389,7 @@
         "end": "02:35",
         "brand": "오메가아르떼",
         "product": "925실버 이태리 트위스트 볼 2줄 목걸이",
-        "price": 299000,
+        "price": 269000,
         "link": "https://display.cjonstyle.com/p/item/2087664407?channelCode=30002002",
         "category": "잡화/주얼리"
       },
@@ -416,7 +416,7 @@
         "end": "03:05",
         "brand": "오메가아르떼",
         "product": "925실버 이태리 트위스트 볼 2줄 목걸이",
-        "price": 299000,
+        "price": 269000,
         "link": "https://display.cjonstyle.com/p/item/2087664407?channelCode=30002002",
         "category": "잡화/주얼리"
       },
@@ -443,7 +443,7 @@
         "end": "03:35",
         "brand": "오메가아르떼",
         "product": "925실버 이태리 트위스트 볼 2줄 목걸이",
-        "price": 299000,
+        "price": 269000,
         "link": "https://display.cjonstyle.com/p/item/2087664407?channelCode=30002002",
         "category": "잡화/주얼리"
       },
@@ -470,7 +470,7 @@
         "end": "04:05",
         "brand": "오메가아르떼",
         "product": "925실버 이태리 트위스트 볼 2줄 목걸이",
-        "price": 299000,
+        "price": 269000,
         "link": "https://display.cjonstyle.com/p/item/2087664407?channelCode=30002002",
         "category": "잡화/주얼리"
       },
@@ -897,7 +897,7 @@
         "end": "04:45",
         "brand": "신영와코루",
         "product": "26썸머 라이크라 시스루 올인원 바디수트",
-        "price": 179900,
+        "price": 89950,
         "link": "https://display.cjonstyle.com/p/item/2082314707?channelCode=30002002",
         "category": "언더웨어"
       },
@@ -975,6 +975,15 @@
       }
     ],
     "2026-07-05": [
+      {
+        "start": "00:45",
+        "end": "01:45",
+        "brand": "",
+        "product": "녹는실 리프팅 앰플",
+        "price": 199800,
+        "link": "https://display.cjonstyle.com/p/item/2087628899?channelCode=30002002",
+        "category": "미용"
+      },
       {
         "start": "01:45",
         "end": "02:15",
@@ -1075,6 +1084,15 @@
         "category": "미용"
       },
       {
+        "start": "21:45",
+        "end": "22:45",
+        "brand": "세인트프랑",
+        "product": "링클크림 브러쉬 링클크림",
+        "price": 249000,
+        "link": "https://display.cjonstyle.com/p/item/2087727105?channelCode=30002002",
+        "category": "미용"
+      },
+      {
         "start": "23:45",
         "end": "00:30",
         "brand": "그레인온",
@@ -1084,6 +1102,7 @@
         "category": "건강식품"
       }
     ],
-    "2026-07-06": []
+    "2026-07-06": [],
+    "2026-07-07": []
   }
 }

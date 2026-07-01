@@ -958,6 +958,15 @@
         "category": "건강식품"
       },
       {
+        "start": "06:50",
+        "end": "07:50",
+        "brand": "위바이옴",
+        "product": "위바이옴 두뇌엔 닥터 PS 맥스",
+        "price": 729000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2245064746&preview=true",
+        "category": "건강식품"
+      },
+      {
         "start": "07:50",
         "end": "08:50",
         "brand": "에바큐브",
@@ -1037,6 +1046,15 @@
         "price": 2041161,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250652443&preview=true",
         "category": "보험"
+      },
+      {
+        "start": "20:25",
+        "end": "21:35",
+        "brand": "셀리뉴",
+        "product": "리얼테인 셀리뉴 에센스 조윤주패키지",
+        "price": 299000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251321140&preview=true",
+        "category": "미용"
       },
       {
         "start": "22:45",
@@ -1131,6 +1149,15 @@
         "category": "미용"
       },
       {
+        "start": "11:35",
+        "end": "12:35",
+        "brand": "라우라비아조띠",
+        "product": "라우라비아조티 26SS 썸머 울 블렌디드 랩가디건 탑 세트",
+        "price": 139000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250824676&preview=true",
+        "category": "의류"
+      },
+      {
         "start": "12:35",
         "end": "13:35",
         "brand": "동양생명",
@@ -1219,6 +1246,71 @@
         "price": 208000,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251342156&preview=true",
         "category": "미용"
+      }
+    ],
+    "2026-07-07": [
+      {
+        "start": "05:20",
+        "end": "06:15",
+        "brand": "닥터린",
+        "product": "닥터린 하이퍼셀 대마종자유",
+        "price": 298000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2247060956&preview=true",
+        "category": "건강식품"
+      },
+      {
+        "start": "07:15",
+        "end": "08:15",
+        "brand": "베지톨로지",
+        "product": "베지톨로지 비니페린 앰플 현대단독 슬림구성",
+        "price": 168000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251668029&preview=true",
+        "category": "미용"
+      },
+      {
+        "start": "09:25",
+        "end": "10:25",
+        "brand": "벨라오로라",
+        "product": "벨라오로라 바이오텐 시카 선크림 유난희패키지",
+        "price": 159000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250238533&preview=true",
+        "category": "미용"
+      },
+      {
+        "start": "11:35",
+        "end": "13:20",
+        "brand": "아이그너",
+        "product": "26SS 썸머 시어 점퍼",
+        "price": 179000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250270134&preview=true",
+        "category": "의류"
+      },
+      {
+        "start": "13:20",
+        "end": "14:00",
+        "brand": "AIA생명",
+        "product": "원스톱프리미엄암보험",
+        "price": 1127890,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244486170&preview=true",
+        "category": "보험"
+      },
+      {
+        "start": "21:45",
+        "end": "22:55",
+        "brand": "안나수이",
+        "product": "안나수이 변색 안경 AS5162-1",
+        "price": 99000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2244872081&preview=true",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "23:55",
+        "end": "01:20",
+        "brand": "흥국화재",
+        "product": "흥Good 든든한 3N5 간편종합보험",
+        "price": 1281500,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248871590&preview=true",
+        "category": "보험"
       }
     ]
   }

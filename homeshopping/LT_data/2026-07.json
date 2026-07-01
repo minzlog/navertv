@@ -713,7 +713,7 @@
         "end": "18:40",
         "brand": "청도",
         "product": "특등급 백도 햇복숭아 x",
-        "price": 53910,
+        "price": 59900,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12735135",
         "category": "일반식품"
       },
@@ -722,7 +722,7 @@
         "end": "19:40",
         "brand": "비버리힐스폴로클럽",
         "product": "●비버리힐스폴로클럽 26SS 소로나 핀턱 여성 팬츠",
-        "price": 42410,
+        "price": 49900,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12900205",
         "category": "의류"
       },
@@ -758,7 +758,7 @@
         "end": "23:40",
         "brand": "맥스튜어트",
         "product": "O 맥스튜어트 26SS 여성 배럴 커브드핏 데님 팬츠",
-        "price": 53550,
+        "price": 63000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12893716",
         "category": "의류"
       },
@@ -1015,6 +1015,15 @@
         "price": 2140000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12896479",
         "category": "리빙/주방"
+      },
+      {
+        "start": "20:40",
+        "end": "21:40",
+        "brand": "비버리힐스폴로클럽",
+        "product": "●비버리힐스폴로클럽 26SS 여성 코튼 케이블 반팔니트",
+        "price": 76410,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12906548",
+        "category": "의류"
       },
       {
         "start": "21:40",
@@ -1300,6 +1309,15 @@
         "category": "언더웨어"
       },
       {
+        "start": "11:40",
+        "end": "12:40",
+        "brand": "다연화 ",
+        "product": "다연화 진주 기미 커버쿠션 본품 리필",
+        "price": 49900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12909194",
+        "category": "미용"
+      },
+      {
         "start": "14:40",
         "end": "15:40",
         "brand": "사대부집 곳간",
@@ -1381,6 +1399,44 @@
         "price": 69000,
         "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12909271",
         "category": "리빙/주방"
+      }
+    ],
+    "2026-07-07": [
+      {
+        "start": "07:40",
+        "end": "08:40",
+        "brand": "이경제",
+        "product": "○이경제 흑염소진액 眞 x",
+        "price": 469000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12837380",
+        "category": "건강식품"
+      },
+      {
+        "start": "13:40",
+        "end": "14:20",
+        "brand": "삼육두유",
+        "product": "삼육두유 검은콩과 칼슘 60팩 검은콩과 우리22곡 40팩, 총100팩",
+        "price": 49900,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12868742",
+        "category": "일반식품"
+      },
+      {
+        "start": "17:40",
+        "end": "18:40",
+        "brand": "비비고",
+        "product": "비비고만두 총 17봉세트",
+        "price": 49960,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12839434",
+        "category": "일반식품"
+      },
+      {
+        "start": "20:40",
+        "end": "21:40",
+        "brand": "뉴케어",
+        "product": "●T뉴케어 당플랜코어 144팩 한입 영양 안심바 2봉",
+        "price": 263000,
+        "link": "https://www.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=12898563",
+        "category": "건강식품"
       }
     ]
   }

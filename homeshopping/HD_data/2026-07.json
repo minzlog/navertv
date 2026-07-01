@@ -694,12 +694,21 @@
       },
       {
         "start": "14:20",
-        "end": "15:40",
+        "end": "15:00",
         "brand": "피에라벨라",
         "product": "피에라벨라 26 Summer 크레이프 플리츠 볼륨 블라우스",
         "price": 39900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2250716594&preview=true",
         "category": "의류"
+      },
+      {
+        "start": "15:00",
+        "end": "15:40",
+        "brand": "홀라이프",
+        "product": "신정애 원장의 싹빼 다이어트 환 4",
+        "price": 99000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251617323&preview=true",
+        "category": "건강식품"
       },
       {
         "start": "15:40",
@@ -849,11 +858,20 @@
       },
       {
         "start": "06:00",
-        "end": "07:20",
+        "end": "06:20",
         "brand": "올바른",
         "product": "파로 효소 골드",
         "price": 29900,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2248992980&preview=true",
+        "category": "건강식품"
+      },
+      {
+        "start": "06:20",
+        "end": "07:20",
+        "brand": "닥터린",
+        "product": "50%세일_ 콘드로이친 1200 콘레이티 MBP K2",
+        "price": 164500,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2227179203&preview=true",
         "category": "건강식품"
       },
       {
@@ -1210,6 +1228,80 @@
         "price": 1549100,
         "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2247367545&preview=true",
         "category": "보험"
+      }
+    ],
+    "2026-07-07": [
+      {
+        "start": "07:00",
+        "end": "07:40",
+        "brand": "루니툰",
+        "product": "루니툰 26SS 시어 패커블 점퍼",
+        "price": 59900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249547532&preview=true",
+        "category": "의류"
+      },
+      {
+        "start": "07:40",
+        "end": "12:00",
+        "brand": "솔솔랩",
+        "product": "냉감 국산 편백 베개 세트",
+        "price": 64900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251274929&preview=true",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "12:00",
+        "end": "13:20",
+        "brand": "브로킹",
+        "product": "냉감 방수 소파매트 1",
+        "price": 64900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2235372903&preview=true",
+        "category": "리빙/주방"
+      },
+      {
+        "start": "13:20",
+        "end": "14:00",
+        "brand": "마크제이콥스",
+        "product": "미디움 백팩",
+        "price": 379000,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251578983&preview=true",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "14:00",
+        "end": "14:40",
+        "brand": "로라파커",
+        "product": "소가죽 스퀘어 크로스백",
+        "price": 49900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249325742&preview=true",
+        "category": "잡화/주얼리"
+      },
+      {
+        "start": "14:40",
+        "end": "17:20",
+        "brand": "흙이음",
+        "product": "100% 국내산 햇 찰 옥수수",
+        "price": 29900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251597854&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "17:20",
+        "end": "22:40",
+        "brand": "박준면",
+        "product": "의 김치이야기 포기김치4kg 총각김치1kg",
+        "price": 45900,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2251290001&preview=true",
+        "category": "일반식품"
+      },
+      {
+        "start": "22:40",
+        "end": "23:39",
+        "brand": "엠베스트",
+        "product": "엠베스트 중등학습 상담예약",
+        "price": 2585442,
+        "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2108902665&preview=true",
+        "category": "일반렌탈"
       }
     ]
   }
