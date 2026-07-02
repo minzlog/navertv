@@ -358,7 +358,7 @@
       },
       {
         "start": "07:41",
-        "end": "08:41",
+        "end": "08:43",
         "brand": "",
         "product": "에이치라이프양우산1",
         "price": 37900,
@@ -368,7 +368,7 @@
       },
       {
         "start": "08:41",
-        "end": "09:41",
+        "end": "09:42",
         "brand": "오리지날리",
         "product": "오리지날리1",
         "price": 39900,
@@ -378,7 +378,7 @@
       },
       {
         "start": "09:41",
-        "end": "10:41",
+        "end": "10:42",
         "brand": "",
         "product": "메밀베개1",
         "price": 49900,
@@ -388,7 +388,7 @@
       },
       {
         "start": "10:41",
-        "end": "11:41",
+        "end": "11:42",
         "brand": "삼성금거래소",
         "product": "삼성금거래소1",
         "price": 10759000,
@@ -398,7 +398,7 @@
       },
       {
         "start": "11:41",
-        "end": "12:41",
+        "end": "12:42",
         "brand": "에콕스",
         "product": "에콕스1",
         "price": 69900,
@@ -408,7 +408,7 @@
       },
       {
         "start": "12:41",
-        "end": "13:41",
+        "end": "13:43",
         "brand": "",
         "product": "마데카크림1",
         "price": 79000,
@@ -418,7 +418,7 @@
       },
       {
         "start": "13:41",
-        "end": "14:41",
+        "end": "14:43",
         "brand": "",
         "product": "백명란1",
         "price": 39900,
@@ -428,7 +428,7 @@
       },
       {
         "start": "14:41",
-        "end": "15:41",
+        "end": "15:42",
         "brand": "",
         "product": "복숭아1",
         "price": 32900,
@@ -579,6 +579,16 @@
         "lavangba_category": "식품"
       },
       {
+        "start": "04:00",
+        "end": "04:40",
+        "brand": "키리아",
+        "product": "키리아호텔수건1",
+        "price": 39900,
+        "link": "https://m.nsmall.com/goods/35753741",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
         "start": "04:40",
         "end": "05:40",
         "brand": "",
@@ -621,10 +631,10 @@
       {
         "start": "08:40",
         "end": "09:40",
-        "brand": "GGPX",
-        "product": "GGPX4",
+        "brand": "오리지날리",
+        "product": "오리지날리1",
         "price": 49900,
-        "link": "https://m.nsmall.com/goods/35983082",
+        "link": "https://m.nsmall.com/goods/35990134",
         "category": "의류",
         "lavangba_category": "패션의류"
       },
@@ -637,6 +647,16 @@
         "link": "https://m.nsmall.com/goods/35924722",
         "category": "가전",
         "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "10:40",
+        "end": "11:40",
+        "brand": "삼성금거래소",
+        "product": "삼성금거래소1",
+        "price": 10759000,
+        "link": "https://m.nsmall.com/goods/36026998",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
       },
       {
         "start": "11:40",
@@ -675,6 +695,16 @@
         "product": "임성근해장국1",
         "price": 40900,
         "link": "https://m.nsmall.com/goods/34974859",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "15:40",
+        "end": "16:40",
+        "brand": "완도활전복",
+        "product": "완도 활전복 1",
+        "price": 59900,
+        "link": "https://m.nsmall.com/goods/36020784",
         "category": "일반식품",
         "lavangba_category": "식품"
       },
@@ -730,19 +760,9 @@
       },
       {
         "start": "21:40",
-        "end": "22:00",
-        "brand": "헬시온",
-        "product": "헬시온슈즈1",
-        "price": 59000,
-        "link": "https://m.nsmall.com/goods/35928600",
-        "category": "잡화/주얼리",
-        "lavangba_category": "패션잡화"
-      },
-      {
-        "start": "22:00",
         "end": "22:40",
         "brand": "헬시온",
-        "product": "헬시온슈즈2",
+        "product": "헬시온슈즈1",
         "price": 59000,
         "link": "https://m.nsmall.com/goods/35928600",
         "category": "잡화/주얼리",
@@ -775,8 +795,8 @@
         "end": "01:40",
         "brand": "",
         "product": "마데카크림1",
-        "price": 99000,
-        "link": "https://m.nsmall.com/goods/35868573",
+        "price": 79000,
+        "link": "https://m.nsmall.com/goods/35715003",
         "category": "미용",
         "lavangba_category": "화장품/미용"
       },
@@ -811,6 +831,26 @@
         "lavangba_category": "식품"
       },
       {
+        "start": "04:40",
+        "end": "05:40",
+        "brand": "밀레골프",
+        "product": "밀레골프1",
+        "price": 59000,
+        "link": "https://m.nsmall.com/goods/35987750",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "05:40",
+        "end": "06:40",
+        "brand": "밀레골프",
+        "product": "밀레골프4",
+        "price": 49000,
+        "link": "https://m.nsmall.com/goods/35983734",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
         "start": "07:40",
         "end": "08:40",
         "brand": "",
@@ -818,16 +858,6 @@
         "price": 49900,
         "link": "https://m.nsmall.com/goods/35850872",
         "category": "리빙/주방",
-        "lavangba_category": "생활/건강"
-      },
-      {
-        "start": "08:40",
-        "end": "09:40",
-        "brand": "메디칼드림",
-        "product": "메디칼드림마사지기1",
-        "price": 59800,
-        "link": "https://m.nsmall.com/goods/35988527",
-        "category": "가전",
         "lavangba_category": "생활/건강"
       },
       {
@@ -851,6 +881,26 @@
         "lavangba_category": "식품"
       },
       {
+        "start": "20:40",
+        "end": "21:40",
+        "brand": "코지마",
+        "product": "코지마1",
+        "price": 1980000,
+        "link": "https://m.nsmall.com/goods/35546744",
+        "category": "가전",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "22:40",
+        "end": "23:40",
+        "brand": "",
+        "product": "보루네오가구1",
+        "price": 299000,
+        "link": "https://m.nsmall.com/goods/31922964",
+        "category": "가전",
+        "lavangba_category": "가구/인테리어"
+      },
+      {
         "start": "23:40",
         "end": "00:40",
         "brand": "정호영",
@@ -862,26 +912,6 @@
       }
     ],
     "2026-07-05": [
-      {
-        "start": "01:40",
-        "end": "02:00",
-        "brand": "",
-        "product": "보람상조1",
-        "price": 0,
-        "link": "https://m.nsmall.com/goods/35670727",
-        "category": "가전",
-        "lavangba_category": "여가/생활편의"
-      },
-      {
-        "start": "02:00",
-        "end": "02:40",
-        "brand": "",
-        "product": "보람상조2",
-        "price": 0,
-        "link": "https://m.nsmall.com/goods/35670727",
-        "category": "가전",
-        "lavangba_category": "여가/생활편의"
-      },
       {
         "start": "02:40",
         "end": "03:20",
@@ -917,10 +947,10 @@
         "end": "09:40",
         "brand": "",
         "product": "마데카크림1",
-        "price": 99000,
-        "link": "https://m.nsmall.com/goods/35987094",
+        "price": 79000,
+        "link": "https://m.nsmall.com/goods/35715003",
         "category": "미용",
-        "lavangba_category": "생활/건강"
+        "lavangba_category": "화장품/미용"
       },
       {
         "start": "09:40",
@@ -961,6 +991,16 @@
         "link": "https://m.nsmall.com/goods/35924478",
         "category": "가전",
         "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "22:40",
+        "end": "23:40",
+        "brand": "",
+        "product": "여행상품1",
+        "price": 0,
+        "link": "https://m.nsmall.com/goods/35965468",
+        "category": "여행",
+        "lavangba_category": "여가/생활편의"
       },
       {
         "start": "23:40",
@@ -1073,16 +1113,6 @@
         "link": "https://m.nsmall.com/goods/35772596",
         "category": "언더웨어",
         "lavangba_category": "패션의류"
-      },
-      {
-        "start": "23:40",
-        "end": "00:40",
-        "brand": "동국제약",
-        "product": "동국제약마스크팩1",
-        "price": 89000,
-        "link": "https://m.nsmall.com/goods/35887454",
-        "category": "미용",
-        "lavangba_category": "화장품/미용"
       }
     ],
     "2026-07-07": [

@@ -348,7 +348,7 @@
       },
       {
         "start": "07:31",
-        "end": "08:31",
+        "end": "08:33",
         "brand": "블라우풍트",
         "product": "블라우풍트_음성증폭기",
         "price": 199500,
@@ -358,7 +358,7 @@
       },
       {
         "start": "08:31",
-        "end": "09:31",
+        "end": "09:33",
         "brand": "베네통",
         "product": "베네통_샌들",
         "price": 79000,
@@ -368,21 +368,21 @@
       },
       {
         "start": "09:31",
-        "end": "10:10",
+        "end": "10:13",
         "brand": "클로리에",
         "product": "클로리에_은컬렉션",
-        "price": 348000,
-        "link": "https://m.kshop.co.kr/display/product/9490969",
+        "price": 149000,
+        "link": "https://m.kshop.co.kr/display/product/9490872",
         "category": "잡화/주얼리",
         "lavangba_category": "패션잡화"
       },
       {
         "start": "10:10",
-        "end": "10:31",
+        "end": "10:33",
         "brand": "클로리에",
         "product": "클로리에_은컬렉션",
-        "price": 169000,
-        "link": "https://m.kshop.co.kr/display/product/9067784",
+        "price": 348000,
+        "link": "https://m.kshop.co.kr/display/product/9067791",
         "category": "잡화/주얼리",
         "lavangba_category": "패션잡화"
       },
@@ -401,14 +401,14 @@
         "end": "12:31",
         "brand": "임성근",
         "product": "임성근_뼈없는갈비탕",
-        "price": 49900,
-        "link": "https://m.kshop.co.kr/display/product/3282523",
+        "price": 59900,
+        "link": "https://m.kshop.co.kr/display/product/3360294",
         "category": "일반식품",
         "lavangba_category": "식품"
       },
       {
         "start": "12:31",
-        "end": "13:31",
+        "end": "13:33",
         "brand": "",
         "product": "한일_서큘레이터",
         "price": 79000,
@@ -418,7 +418,7 @@
       },
       {
         "start": "13:31",
-        "end": "14:31",
+        "end": "14:33",
         "brand": "",
         "product": "참진한_서리태콩물",
         "price": 71900,
@@ -491,8 +491,8 @@
         "end": "21:33",
         "brand": "비에날씬",
         "product": "비에날씬_다이어트유산균",
-        "price": 198000,
-        "link": "https://m.kshop.co.kr/display/product/5215469",
+        "price": 376000,
+        "link": "https://m.kshop.co.kr/display/product/5215468",
         "category": "건강식품",
         "lavangba_category": "식품"
       },
@@ -539,6 +539,26 @@
         "lavangba_category": "화장품/미용"
       },
       {
+        "start": "01:34",
+        "end": "02:34",
+        "brand": "알레스버",
+        "product": "알레스버_탈모샴푸",
+        "price": 119000,
+        "link": "https://m.kshop.co.kr/display/product/9282603",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "02:34",
+        "end": "03:34",
+        "brand": "",
+        "product": "마디에데_패치",
+        "price": 49900,
+        "link": "https://m.kshop.co.kr/display/product/8502425",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
         "start": "03:39",
         "end": "04:09",
         "brand": "메이페어",
@@ -563,8 +583,8 @@
         "end": "05:31",
         "brand": "",
         "product": "성분에디터_녹는실앰플",
-        "price": 79900,
-        "link": "https://m.kshop.co.kr/display/product/5319777",
+        "price": 109000,
+        "link": "https://m.kshop.co.kr/display/product/8116999",
         "category": "미용",
         "lavangba_category": "화장품/미용"
       },
@@ -583,8 +603,8 @@
         "end": "07:32",
         "brand": "일동후디스",
         "product": "일동후디스_하이뮨",
-        "price": 318000,
-        "link": "https://m.kshop.co.kr/display/product/8910002",
+        "price": 169000,
+        "link": "https://m.kshop.co.kr/display/product/7204944",
         "category": "건강식품",
         "lavangba_category": "식품"
       },
@@ -603,8 +623,8 @@
         "end": "09:33",
         "brand": "크린위즈",
         "product": "크린위즈_방수왕",
-        "price": 79800,
-        "link": "https://m.kshop.co.kr/display/product/6378758",
+        "price": 49800,
+        "link": "https://m.kshop.co.kr/display/product/6378778",
         "category": "리빙/주방",
         "lavangba_category": "생활/건강"
       },
@@ -639,6 +659,16 @@
         "lavangba_category": "식품"
       },
       {
+        "start": "12:34",
+        "end": "13:34",
+        "brand": "빈트릴",
+        "product": "빈트릴_데님셋업",
+        "price": 59000,
+        "link": "https://m.kshop.co.kr/display/product/9484343",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
         "start": "13:34",
         "end": "14:34",
         "brand": "",
@@ -653,8 +683,8 @@
         "end": "15:35",
         "brand": "프라이",
         "product": "테팔_프라이팬세트",
-        "price": 53000,
-        "link": "https://m.kshop.co.kr/display/product/2540795",
+        "price": 68000,
+        "link": "https://m.kshop.co.kr/display/product/2540797",
         "category": "잡화/주얼리",
         "lavangba_category": "생활/건강"
       },
@@ -683,10 +713,20 @@
         "end": "18:35",
         "brand": "",
         "product": "오늘제주_은갈치",
-        "price": 59900,
-        "link": "https://m.kshop.co.kr/display/product/5908732",
+        "price": 69900,
+        "link": "https://m.kshop.co.kr/display/product/5908733",
         "category": "일반식품",
         "lavangba_category": "식품"
+      },
+      {
+        "start": "18:35",
+        "end": "19:35",
+        "brand": "",
+        "product": "잭필드_여름숨쉬는바지",
+        "price": 69800,
+        "link": "https://m.kshop.co.kr/display/product/8693802",
+        "category": "일반식품",
+        "lavangba_category": "패션의류"
       },
       {
         "start": "19:36",
@@ -697,6 +737,36 @@
         "link": "https://m.kshop.co.kr/display/product/7998774",
         "category": "잡화/주얼리",
         "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "20:36",
+        "end": "21:36",
+        "brand": "베네통",
+        "product": "베네통_샌들",
+        "price": 79000,
+        "link": "https://m.kshop.co.kr/display/product/10011174",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
+      },
+      {
+        "start": "21:36",
+        "end": "22:16",
+        "brand": "란체티",
+        "product": "란체티_카라티셔츠",
+        "price": 79900,
+        "link": "https://m.kshop.co.kr/display/product/8755510",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "22:16",
+        "end": "22:36",
+        "brand": "란체티",
+        "product": "란체티_카라티셔츠",
+        "price": 79900,
+        "link": "https://m.kshop.co.kr/display/product/9690407",
+        "category": "의류",
+        "lavangba_category": "패션의류"
       },
       {
         "start": "22:36",
@@ -719,9 +789,102 @@
         "lavangba_category": "여가/생활편의"
       }
     ],
-    "2026-07-04": [],
-    "2026-07-05": [],
-    "2026-07-06": [],
+    "2026-07-04": [
+      {
+        "start": "03:38",
+        "end": "04:08",
+        "brand": "",
+        "product": "코렐_테이블웨어",
+        "price": 399000,
+        "link": "https://m.kshop.co.kr/display/product/6869828",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "04:28",
+        "end": "05:28",
+        "brand": "",
+        "product": "도티_썸머배럴밴딩팬츠",
+        "price": 59900,
+        "link": "https://m.kshop.co.kr/display/product/8869487",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "17:31",
+        "end": "18:11",
+        "brand": "",
+        "product": "체르니바이PAT_카라티셔츠",
+        "price": 69900,
+        "link": "https://m.kshop.co.kr/display/product/9689148",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "18:11",
+        "end": "18:31",
+        "brand": "",
+        "product": "체르니바이PAT_카라티셔츠",
+        "price": 69900,
+        "link": "https://m.kshop.co.kr/display/product/9047827",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      }
+    ],
+    "2026-07-05": [
+      {
+        "start": "13:37",
+        "end": "14:37",
+        "brand": "",
+        "product": "아이넥스_식기건조대",
+        "price": 126000,
+        "link": "https://m.kshop.co.kr/display/product/9065783",
+        "category": "미용",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "16:38",
+        "end": "17:38",
+        "brand": "프라이",
+        "product": "테팔_프라이팬세트",
+        "price": 79000,
+        "link": "https://m.kshop.co.kr/display/product/5870909",
+        "category": "잡화/주얼리",
+        "lavangba_category": "생활/건강"
+      },
+      {
+        "start": "19:38",
+        "end": "20:38",
+        "brand": "비비안",
+        "product": "비비안_여성언더웨어",
+        "price": 119900,
+        "link": "https://m.kshop.co.kr/display/product/9119462",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "23:39",
+        "end": "00:39",
+        "brand": "라클라우드",
+        "product": "라클라우드_침대/매트리스",
+        "price": 0,
+        "link": "https://m.kshop.co.kr/display/product/9382046",
+        "category": "리빙/주방",
+        "lavangba_category": "여가/생활편의"
+      }
+    ],
+    "2026-07-06": [
+      {
+        "start": "04:34",
+        "end": "05:34",
+        "brand": "메이페어",
+        "product": "메이페어_밀폐용기",
+        "price": 89000,
+        "link": "https://m.kshop.co.kr/display/product/7228961",
+        "category": "리빙/주방",
+        "lavangba_category": "생활/건강"
+      }
+    ],
     "2026-07-07": []
   }
 }

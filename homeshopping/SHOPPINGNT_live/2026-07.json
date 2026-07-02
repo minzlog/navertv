@@ -368,7 +368,7 @@
       },
       {
         "start": "09:35",
-        "end": "10:34",
+        "end": "10:35",
         "brand": "",
         "product": "김오곤 원장의 한방 다이어트 환",
         "price": 99000,
@@ -378,7 +378,7 @@
       },
       {
         "start": "10:35",
-        "end": "11:34",
+        "end": "11:35",
         "brand": "정호영셰프",
         "product": "정호영셰프의 맛좋은 백명란 x 비빔용 백명란 x",
         "price": 57900,
@@ -408,7 +408,7 @@
       },
       {
         "start": "13:34",
-        "end": "14:33",
+        "end": "14:34",
         "brand": "한일",
         "product": "한일 올인원 블렌더",
         "price": 79800,
@@ -569,6 +569,16 @@
         "lavangba_category": "패션의류"
       },
       {
+        "start": "05:36",
+        "end": "06:36",
+        "brand": "",
+        "product": "26SS 밀라 아트웍 티셔츠",
+        "price": 39900,
+        "link": "https://www.shoppingntmall.com/display/goods/28312444",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
         "start": "06:36",
         "end": "07:36",
         "brand": "에콕스",
@@ -689,6 +699,16 @@
         "lavangba_category": "패션의류"
       },
       {
+        "start": "18:32",
+        "end": "19:32",
+        "brand": "카무트",
+        "product": "골드 카무트 효소 파로 5봉 복부마사지기",
+        "price": 198000,
+        "link": "https://www.shoppingntmall.com/display/goods/28268026",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
         "start": "19:32",
         "end": "20:32",
         "brand": "대원제약",
@@ -769,6 +789,16 @@
         "link": "https://www.shoppingntmall.com/display/goods/28134110",
         "category": "언더웨어",
         "lavangba_category": "패션의류"
+      },
+      {
+        "start": "03:37",
+        "end": "04:37",
+        "brand": "",
+        "product": "26년 햇 찰보리 x 16팩",
+        "price": 39900,
+        "link": "https://www.shoppingntmall.com/display/goods/28268286",
+        "category": "일반식품",
+        "lavangba_category": "식품"
       },
       {
         "start": "04:37",
@@ -1073,6 +1103,16 @@
         "lavangba_category": "패션잡화"
       },
       {
+        "start": "15:33",
+        "end": "16:33",
+        "brand": "",
+        "product": "잭필드 26SS 린넨라이크 반팔 셔츠",
+        "price": 59800,
+        "link": "https://www.shoppingntmall.com/display/goods/27834320",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
         "start": "16:33",
         "end": "17:33",
         "brand": "정호영셰프",
@@ -1153,7 +1193,198 @@
         "lavangba_category": "여가/생활편의"
       }
     ],
-    "2026-07-06": [],
+    "2026-07-06": [
+      {
+        "start": "00:32",
+        "end": "01:32",
+        "brand": "라이나생명",
+        "product": "라이나생명 첫날부터 암보험",
+        "price": 0,
+        "link": "https://www.shoppingntmall.com/display/goods/22172390",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "01:32",
+        "end": "02:31",
+        "brand": "",
+        "product": "르까프 26SS 에어리 조거팬츠 , 남성",
+        "price": 59000,
+        "link": "https://www.shoppingntmall.com/display/goods/27794201",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "02:31",
+        "end": "03:31",
+        "brand": "",
+        "product": "보람피플 스마트299",
+        "price": 0,
+        "link": "https://www.shoppingntmall.com/display/goods/27587064",
+        "category": "가전",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "03:37",
+        "end": "03:57",
+        "brand": "토비콤",
+        "product": "안국약품 토비콤 루테인 지아잔틴 아스타잔틴",
+        "price": 298000,
+        "link": "https://www.shoppingntmall.com/display/goods/23539693",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "03:57",
+        "end": "04:17",
+        "brand": "팔레오",
+        "product": "팔레오 콘드로이친 PLUS MBP",
+        "price": 178000,
+        "link": "https://www.shoppingntmall.com/display/goods/28047386",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "04:17",
+        "end": "04:37",
+        "brand": "토비콤",
+        "product": "안국약품 토비콤 루테인 지아잔틴",
+        "price": 258000,
+        "link": "https://www.shoppingntmall.com/display/goods/27967738",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "04:37",
+        "end": "05:36",
+        "brand": "닥터린",
+        "product": "닥터린 콘드로이친1200 콘레이티 MBP",
+        "price": 164500,
+        "link": "https://www.shoppingntmall.com/display/goods/14271913",
+        "category": "건강식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "05:36",
+        "end": "06:36",
+        "brand": "예가",
+        "product": "예가 안전가드 서랍형 흙침대 카우치",
+        "price": 899000,
+        "link": "https://www.shoppingntmall.com/display/goods/28082250",
+        "category": "리빙/주방",
+        "lavangba_category": "가구/인테리어"
+      },
+      {
+        "start": "06:36",
+        "end": "07:36",
+        "brand": "",
+        "product": "26SS 여성 레인부츠 슬라이드",
+        "price": 29900,
+        "link": "https://www.shoppingntmall.com/display/goods/28001976",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
+      },
+      {
+        "start": "12:34",
+        "end": "13:34",
+        "brand": "AK앤클라인",
+        "product": "26SS AK앤클라인 NC 썸머 볼륨 블라우스",
+        "price": 69900,
+        "link": "https://www.shoppingntmall.com/display/goods/28081193",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "14:34",
+        "end": "15:33",
+        "brand": "",
+        "product": "26SS 여성 썸머 쿨 팬츠",
+        "price": 49900,
+        "link": "https://www.shoppingntmall.com/display/goods/27966315",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "15:33",
+        "end": "16:33",
+        "brand": "헤르젠",
+        "product": "최고급 헤르젠 쌀냉장고AICARE",
+        "price": 298000,
+        "link": "https://www.shoppingntmall.com/display/goods/28077506",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "16:33",
+        "end": "17:32",
+        "brand": "정호영셰프",
+        "product": "정호영셰프의 기운센 민물장어구이 x 7팩 1팩 / 총8팩",
+        "price": 59900,
+        "link": "https://www.shoppingntmall.com/display/goods/27976803",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
+        "start": "18:32",
+        "end": "19:32",
+        "brand": "슈리오",
+        "product": "슈리오 소가죽 에스닉 키높이 샌들",
+        "price": 49000,
+        "link": "https://www.shoppingntmall.com/display/goods/28326374",
+        "category": "잡화/주얼리",
+        "lavangba_category": "패션잡화"
+      },
+      {
+        "start": "19:33",
+        "end": "20:32",
+        "brand": "블라우풍트",
+        "product": "블라우풍트 스마트워치 톰슨 무선이어폰",
+        "price": 79800,
+        "link": "https://www.shoppingntmall.com/display/goods/28357153",
+        "category": "가전",
+        "lavangba_category": "디지털/가전"
+      },
+      {
+        "start": "20:33",
+        "end": "21:32",
+        "brand": "란체티",
+        "product": "26SS 란체티 냉감 카라티",
+        "price": 79900,
+        "link": "https://www.shoppingntmall.com/display/goods/27949771",
+        "category": "의류",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "21:33",
+        "end": "22:33",
+        "brand": "바디프랜드",
+        "product": "바디프랜드NEW팔콘",
+        "price": 0,
+        "link": "https://www.shoppingntmall.com/display/goods/28265097",
+        "category": "일반렌탈",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "22:33",
+        "end": "23:32",
+        "brand": "라이나생명",
+        "product": "라이나생명 새로담는간편건강보험",
+        "price": 0,
+        "link": "https://www.shoppingntmall.com/display/goods/28403851",
+        "category": "보험",
+        "lavangba_category": "여가/생활편의"
+      },
+      {
+        "start": "23:32",
+        "end": "00:32",
+        "brand": "",
+        "product": "하라즈 결고운 때필링 대용량 실리콘바디타월",
+        "price": 69900,
+        "link": "https://www.shoppingntmall.com/display/goods/27755967",
+        "category": "리빙/주방",
+        "lavangba_category": "디지털/가전"
+      }
+    ],
     "2026-07-07": []
   }
 }

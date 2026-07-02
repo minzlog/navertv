@@ -854,9 +854,9 @@
         "start": "13:50",
         "end": "14:55",
         "brand": "푸마",
-        "product": "26SS 여성 소로나 반팔티셔츠 민소매 패키지",
+        "product": "26SS 남여공용 드라이셀 고기능성 7부 팬츠",
         "price": 59900,
-        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81265326",
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81211529",
         "category": "언더웨어",
         "lavangba_category": "패션의류"
       },
@@ -1199,10 +1199,30 @@
         "end": "12:40",
         "brand": "홀베리",
         "product": "유기농 레몬자몽즙",
-        "price": 99900,
-        "link": "http://www.hnsmall.com/display/goods.do?goods_code=64027323",
+        "price": 99000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81439003",
         "category": "건강식품",
         "lavangba_category": "식품"
+      },
+      {
+        "start": "12:40",
+        "end": "13:30",
+        "brand": "수려한",
+        "product": "수려한 효 녹용 기초세트 썸머바캉스패키지",
+        "price": 168000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81349975",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "13:30",
+        "end": "14:20",
+        "brand": "",
+        "product": "26SS 인견 블렌디드 니트",
+        "price": 49900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=72797703",
+        "category": "의류",
+        "lavangba_category": "패션의류"
       },
       {
         "start": "14:20",
@@ -1273,6 +1293,36 @@
         "link": "http://www.hnsmall.com/display/goods.do?goods_code=80793236",
         "category": "리빙/주방",
         "lavangba_category": "가구/인테리어"
+      },
+      {
+        "start": "21:45",
+        "end": "22:55",
+        "brand": "수려한",
+        "product": "수려한 효 녹용 기초세트 썸머바캉스패키지",
+        "price": 168000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81349990",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
+      },
+      {
+        "start": "22:55",
+        "end": "23:55",
+        "brand": "휠라",
+        "product": "26SS 남여공용 에센셜 기능성 7부 팬츠",
+        "price": 69900,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81384282",
+        "category": "언더웨어",
+        "lavangba_category": "패션의류"
+      },
+      {
+        "start": "23:55",
+        "end": "01:00",
+        "brand": "맥스클리닉",
+        "product": "맥스클리닉 더블트러플 오일폼 썸머한정패키지",
+        "price": 119800,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=81403369",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
       }
     ],
     "2026-07-07": [
@@ -1377,6 +1427,16 @@
         "lavangba_category": "식품"
       },
       {
+        "start": "16:00",
+        "end": "16:50",
+        "brand": "",
+        "product": "시골잡곡 제주 찰보리 x 10팩",
+        "price": 31500,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80362603",
+        "category": "일반식품",
+        "lavangba_category": "식품"
+      },
+      {
         "start": "17:40",
         "end": "18:40",
         "brand": "",
@@ -1415,6 +1475,16 @@
         "link": "http://www.hnsmall.com/display/goods.do?goods_code=81384181",
         "category": "의류",
         "lavangba_category": "패션의류"
+      },
+      {
+        "start": "22:55",
+        "end": "23:55",
+        "brand": "",
+        "product": "프로 엑소볼륨 스칼프 두피 앰플 세트 포토상품평시 앰플 더",
+        "price": 99000,
+        "link": "http://www.hnsmall.com/display/goods.do?goods_code=80523613",
+        "category": "미용",
+        "lavangba_category": "화장품/미용"
       },
       {
         "start": "23:55",
