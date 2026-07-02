@@ -377,6 +377,15 @@
   .main-tabs button:hover { color: var(--ink); background: var(--paper-dim); }
   .main-tabs button.active:hover { color: var(--brand-blue); background: var(--brand-blue-soft); }
 
+  @media (max-width: 700px) {
+    .main-tabs { gap: 0; }
+    .main-tabs button {
+      font-size: 10.4px; /* 13px 기준 0.8배 */
+      padding: 6px 7px 5px;
+      white-space: nowrap;
+    }
+  }
+
   .tab-panel { display: none; }
   .tab-panel.active { display: block; }
 
@@ -1289,6 +1298,7 @@
     .hs-time-note { grid-column: 1; justify-self: center; }
     .hs-grid-wrap { padding: 0 8px 40px; }
     table.hs-table thead th { font-size: 12px; }
+    table.hs-table thead th .hs-co-tag { font-size: 11px; padding: 3px 10px; }
     table.hs-table thead th.hs-time-col { width: 38px; }
     .hs-prog { padding: 5px 6px 5px 8px; }
     .hs-prog .hs-title { font-size: 10.5px; }
@@ -2432,12 +2442,12 @@ const HS_COMPANIES_MAIN = [
 const HS_COMPANIES_ETC = [
   { code: 'PUBLIC',     name: '공영',     cls: 'public',     bc: 'live' },
   { code: 'HNS',        name: '홈앤',     cls: 'hns',         bc: 'live' },
-  { code: 'KTALPHA',    name: 'K쇼핑',    cls: 'ktalpha',     bc: 'live' },
-  { code: 'SHINSEGAE',  name: '신세계',   cls: 'shinsegae',   bc: 'live' },
+  { code: 'KTALPHA',    name: 'KT',       cls: 'ktalpha',     bc: 'live' },
+  { code: 'SHINSEGAE',  name: 'SSG',      cls: 'shinsegae',   bc: 'live' },
   { code: 'NS',         name: 'NS',       cls: 'ns',          bc: 'live' },
   { code: 'NS',         name: 'NS+',      cls: 'nsplus',      bc: 'plus' },
-  { code: 'SHOPPINGNT', name: '쇼핑엔티', cls: 'shoppingnt',  bc: 'live' },
-  { code: 'SKSTOA',     name: 'SK스토아', cls: 'skstoa',      bc: 'live' },
+  { code: 'SHOPPINGNT', name: 'NT',       cls: 'shoppingnt',  bc: 'live' },
+  { code: 'SKSTOA',     name: 'SK',       cls: 'skstoa',      bc: 'live' },
 ];
 
 function hsActiveCompanies() {
