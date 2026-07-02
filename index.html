@@ -1381,28 +1381,18 @@
     table-layout: fixed;
   }
 
-  /* 헤더 테이블을 감싸는 sticky wrapper. 본문(tbody) 테이블과 분리된
-     별도 <table>이라서, 크로미움에서 table-layout:fixed + thead의
-     position:sticky가 서로 충돌해 sticky가 무시되는 버그를 피해간다.
-     두 테이블 모두 동일한 width(고정 시간대 컬럼 60px + 나머지 균등)를
-     쓰므로 컬럼이 어긋나지 않는다. */
-  .fp-sticky-head {
+  /* 헤더(thead)와 본문(tbody)을 하나의 <table> 안에 두고, thead th에
+     직접 position:sticky를 건다 (홈쇼핑 탭 table.hs-table과 동일한 방식).
+     예전에 헤더/본문을 별도 <table> + sticky wrapper(.fp-sticky-head)로
+     분리했던 적이 있는데, 그 wrapper가 가로 스크롤 컨테이너
+     (.fp-hscroll, overflow-x:auto) 안에 있다 보니 sticky 기준점이
+     페이지가 아니라 그 컨테이너로 잡혀 헤더가 본문 위에 겹쳐 보이는
+     버그가 있었다. thead th에 직접 sticky를 걸면 같은 스크롤 컨테이너
+     안에서도 표준적으로 잘 동작해 이 문제를 피한다. */
+  table.fp-table thead th {
     position: sticky;
     top: 110px;
     z-index: 4;
-    background: var(--paper);
-  }
-  .fp-sticky-head table.fp-table {
-    margin-bottom: 0;
-  }
-  /* 헤더 테이블 바로 아래 본문 테이블이 위쪽 테두리를 또 그리면
-     헤더와 본문 사이에 선이 두 줄로 겹쳐 보이므로, 본문 테이블의
-     맨 위 행에서만 위쪽 테두리를 생략한다. */
-  .fp-sticky-head + table.fp-table tr:first-child td {
-    border-top: none;
-  }
-
-  table.fp-table thead th {
     background: var(--paper);
     padding: 10px 4px 12px;
     border-bottom: 1px solid var(--rule);
@@ -1581,7 +1571,7 @@
     .fp-day-tabs { width: 100%; justify-content: space-between; }
     .fp-day-btn { padding: 7px 8px; font-size: 12px; flex: 1; }
     .fp-scroll { padding: 0 8px 40px; }
-    .fp-sticky-head { top: 95px; }
+    table.fp-table thead th { top: 95px; }
     table.fp-table thead th.fp-time-col { width: 40px; font-size: 9.5px; white-space: nowrap; }
     td.fp-time-cell { width: 40px; }
     table.fp-table thead th .hs-co-tag { font-size: 11px; padding: 3px 8px; }
@@ -2393,7 +2383,7 @@ function rkRenderList(data) {
     html += `<span class="rk-rank">${it.rank ?? ''}${rkRenderRankChange(it.rank_change)}</span>`;
     html += `<img class="rk-thumb" src="${escapeHtml(p.image || '')}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">`;
     html += `<span class="rk-info">`;
-    html += `<span class="rk-badge-row">${badgeHtml}<span class="rk-channel">${escapeHtml(b.channel_name || '')}</span><span class="rk-time">${escapeHtml(b.start_time || '')}~${escapeHtml(b.end_time || '')}</span></span>`;
+    html += `<span class="rk-badge-row">${badgeHtml}<span class="rk-channel">${escapeHtml(b.channel_name || '')}</span></span>`;
     html += `<span class="rk-name">${p.brand ? `<span class="rk-brand">[${escapeHtml(p.brand)}]</span>` : ''}${escapeHtml(p.name || '')}</span>`;
     html += `</span>`;
     html += `<span class="rk-price">${priceHtml}</span>`;
@@ -2896,39 +2886,34 @@ function fpBuildTableHtml(daySlots, compact) {
     cellMap[key].push(s);
   }
 
-  // 헤더와 본문을 별도의 <table>로 분리한다. 같은 <table> 안에서
-  // thead에 position:sticky를 걸면(table-layout:fixed와 함께 쓸 때)
-  // 크로미움에서 sticky가 동작하지 않는 버그가 있어, 헤더 테이블을
-  // 별도의 sticky wrapper(div)에 넣고 본문 테이블과 컬럼 너비만
-  // table-layout:fixed로 동일하게 맞춘다.
+  // 헤더(thead)와 본문(tbody)을 하나의 <table>에 두고, thead th에 직접
+  // position:sticky를 건다 (홈쇼핑 탭과 동일한 검증된 방식).
   const tableCls = `fp-table ${compact ? 'fp-table-compact' : ''}`;
 
-  let headerHtml = `<table class="${tableCls}"><thead><tr>`;
-  headerHtml += '<th class="fp-time-col">시간대</th>';
+  let html = `<table class="${tableCls}"><thead><tr>`;
+  html += '<th class="fp-time-col">시간대</th>';
   for (const co of FP_COMPANIES) {
-    headerHtml += `<th class="${co.toLowerCase()}"><span class="hs-co-tag" style="background:var(--${co.toLowerCase()})">${co}</span></th>`;
+    html += `<th class="${co.toLowerCase()}"><span class="hs-co-tag" style="background:var(--${co.toLowerCase()})">${co}</span></th>`;
   }
-  headerHtml += '</tr></thead></table>';
-
-  let bodyHtml = `<table class="${tableCls}"><tbody>`;
+  html += '</tr></thead><tbody>';
   for (const time of times) {
-    bodyHtml += `<tr><td class="fp-time-cell">${fpEscapeHtml(time)}</td>`;
+    html += `<tr><td class="fp-time-cell">${fpEscapeHtml(time)}</td>`;
     for (const co of FP_COMPANIES) {
       const key = `${time}__${co}`;
       const cellSlots = cellMap[key];
       if (cellSlots && cellSlots.length) {
-        bodyHtml += `<td class="fp-co-cell ${co.toLowerCase()}">` +
+        html += `<td class="fp-co-cell ${co.toLowerCase()}">` +
           cellSlots.map(s => fpRenderCard(s, compact)).join('') +
           `</td>`;
       } else {
-        bodyHtml += `<td class="fp-empty-cell"></td>`;
+        html += `<td class="fp-empty-cell"></td>`;
       }
     }
-    bodyHtml += '</tr>';
+    html += '</tr>';
   }
-  bodyHtml += '</tbody></table>';
+  html += '</tbody></table>';
 
-  return `<div class="fp-hscroll"><div class="fp-sticky-head">${headerHtml}</div>${bodyHtml}</div>`;
+  return `<div class="fp-hscroll">${html}</div>`;
 }
 
 function fpBuildAllDaysTableHtml(allSlots) {
@@ -2947,34 +2932,32 @@ function fpBuildAllDaysTableHtml(allSlots) {
     cellMap[key].push(s);
   }
 
-  let headerHtml = '<table class="fp-table fp-table-allday"><thead><tr>';
-  headerHtml += '<th class="fp-time-col">시간대</th>';
+  let html = '<table class="fp-table fp-table-allday"><thead><tr>';
+  html += '<th class="fp-time-col">시간대</th>';
   for (const day of FP_DAYS) {
-    headerHtml += `<th>${fpEscapeHtml(day)}</th>`;
+    html += `<th>${fpEscapeHtml(day)}</th>`;
   }
-  headerHtml += '</tr></thead></table>';
-
-  let bodyHtml = '<table class="fp-table fp-table-allday"><tbody>';
+  html += '</tr></thead><tbody>';
   for (const time of times) {
-    bodyHtml += `<tr><td class="fp-time-cell">${fpEscapeHtml(time)}</td>`;
+    html += `<tr><td class="fp-time-cell">${fpEscapeHtml(time)}</td>`;
     for (const day of FP_DAYS) {
       const key = `${time}__${day}`;
       const cellSlots = cellMap[key];
       if (cellSlots && cellSlots.length) {
-        bodyHtml += `<td class="fp-co-cell">` +
+        html += `<td class="fp-co-cell">` +
           `<div class="fp-cell-row">` +
           cellSlots.map(s => fpRenderCard(s, true)).join('') +
           `</div>` +
           `</td>`;
       } else {
-        bodyHtml += `<td class="fp-empty-cell"></td>`;
+        html += `<td class="fp-empty-cell"></td>`;
       }
     }
-    bodyHtml += '</tr>';
+    html += '</tr>';
   }
-  bodyHtml += '</tbody></table>';
+  html += '</tbody></table>';
 
-  return `<div class="fp-hscroll"><div class="fp-sticky-head">${headerHtml}</div>${bodyHtml}</div>`;
+  return `<div class="fp-hscroll">${html}</div>`;
 }
 
 function fpRenderGrid(data) {
